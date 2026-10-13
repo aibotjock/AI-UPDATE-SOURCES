@@ -11,5 +11,9 @@
 
 Generate or obtain authorized narration before finalizing scene timing. Align animation, effects, cuts and captions to its actual durations. Initial timing is provisional. A complete narrated export and full watch-and-listen review are required before an episode is complete.
 
+## Runway narration retrieval recovery
+
+For a multi-cue stock-voice job, persist the returned task ID for each cue immediately. Generation and retrieval are separate operations; never submit a new generation merely because an asset download fails. After tasks succeed, retrieve each result URL, download to a deterministic cue filename, and verify every asset with `ffprobe` plus a checksum. A batch transfer may partly complete and then hit a transient network-policy or transport error. Count the existing verified files, identify only missing cue IDs, and retry those individually with bounded backoff and a timeout. Refresh the task URL with `get_task` if its signed URL expired. Keep signed URLs and workspace identifiers out of the public manifest and repository. Measure decoded PCM sample counts after retrieval; those actual durations govern captions, slide timing, and the video. Preserve the cue-to-task IDs and file hashes for future recovery without incurring generation charges. This procedure recovered seven missing cues from an interrupted 134-cue Episode 01 download on 2026-10-13.
+
 Current reusable tools and their limits: [episode-production](../tools/episode-production/README.md).
 
