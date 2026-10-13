@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-10-13",
+  "timezone": "America/New_York",
+  "status": "Research preparation complete for checked scopes. Required show comparison missing. Final script and episode not complete.",
+  "source_library_reused": [
+    "library/reproducibility/benchmarks-2026-10-13/README.md",
+    "library/reproducibility/benchmarks-2026-10-13/data/sources.json",
+    "library/reproducibility/benchmarks-2026-10-13/data/artificial-analysis.json",
+    "library/reproducibility/benchmarks-2026-10-13/data/arena.json"
+  ],
+  "sources": [
+    {
+      "id": "aa-index",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "citation_refs": [
+        "turn0view0"
+      ],
+      "type": "Primary independent evaluator, maintained leaderboard",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "source_version": "v4.3.2",
+      "content_claims_reviewed": true,
+      "verified_scope": "Rendered headline leaders and named configurations matched repository's dated parsed numeric cohort. Not all model rows independently rechecked.",
+      "freshness": "Methodology version history says September 2026 to current. Individual score measurement dates not supplied.",
+      "word_limit": 200
+    },
+    {
+      "id": "aa-methodology",
+      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+      "citation_refs": [
+        "turn1view4",
+        "turn17view0",
+        "turn27view2"
+      ],
+      "type": "Primary evaluator, maintained methodology with version history",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": "Version 4.3.2: September 2026 to current",
+      "measurement_date": null,
+      "source_version": "v4.3.2",
+      "content_claims_reviewed": true,
+      "verified_scope": "Category weights, composition, general settings, retired benchmarks, version history, scoring details.",
+      "word_limit": 200
+    },
+    {
+      "id": "arena-text",
+      "url": "https://arena.ai/leaderboard/chat/text",
+      "citation_refs": [
+        "turn0view1",
+        "turn1view0"
+      ],
+      "type": "Primary maintainer, maintained leaderboard",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": "Displayed date October 8 2026",
+      "measurement_date": "Repository pinned cutoff 2026-10-08T14:00:00.000Z",
+      "source_version": "Text / overall / style control enabled",
+      "content_claims_reviewed": true,
+      "verified_scope": "Rendered top scores, intervals, votes, selected provider rows matched pinned repository dataset. Adjustment verified by repository selection provenance, not inferred from UI.",
+      "word_limit": 200
+    },
+    {
+      "id": "arena-ranking",
+      "url": "https://arena.ai/blog/ranking-method",
+      "citation_refs": [
+        "turn20view1"
+      ],
+      "type": "Primary methodology reference; evergreen explanation",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": "2025-11-14; last updated 2026-02-28",
+      "measurement_date": null,
+      "content_claims_reviewed": true,
+      "verified_scope": "Raw rank and rank spread definitions, dependence on confidence intervals.",
+      "word_limit": 200
+    },
+    {
+      "id": "arena-rank",
+      "url": "https://arena.ai/blog/arena-rank",
+      "citation_refs": [
+        "turn20view0"
+      ],
+      "type": "Primary methodology reference; evergreen explanation",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": "2025-12-18; last updated 2026-02-21",
+      "measurement_date": null,
+      "content_claims_reviewed": true,
+      "verified_scope": "Bradley-Terry methodology and open package. Generic 95% CI example does not establish exact interval procedure for today's style-controlled capture.",
+      "word_limit": 200
+    },
+    {
+      "id": "arena-changelog",
+      "url": "https://arena.ai/company/leaderboard-changelog",
+      "citation_refs": [
+        "turn20view2",
+        "turn27view4"
+      ],
+      "type": "Primary maintainer, actively maintained update feed",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": "Latest observed entry 2026-10-12",
+      "measurement_date": null,
+      "content_claims_reviewed": true,
+      "verified_scope": "Bash Recovery renamed Bash Reliability with judge and denominator changes; no new measured model result established by that entry.",
+      "word_limit": 200
+    },
+    {
+      "id": "swe-verified",
+      "url": "https://www.swebench.com/verified.html",
+      "citation_refs": [
+        "turn17view1"
+      ],
+      "type": "Primary benchmark maintainer methodology reference",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "content_claims_reviewed": true,
+      "verified_scope": "500 human-filtered issues; arbitrary agent systems versus bash-only model comparison; release 1.x and 2.x caveat.",
+      "word_limit": 200
+    },
+    {
+      "id": "swe-leaderboard",
+      "url": "https://www.swebench.com/",
+      "citation_refs": [
+        "turn1view1"
+      ],
+      "type": "Primary benchmark maintainer, monitored leaderboard",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "content_claims_reviewed": true,
+      "verified_scope": "Metric %Resolved and benchmark family counts. Dynamic result rows absent from text extraction; no current coding winner verified.",
+      "word_limit": 200
+    },
+    {
+      "id": "aa-terminal",
+      "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+      "citation_refs": [
+        "turn44view0"
+      ],
+      "type": "Primary evaluator, maintained evaluation leaderboard",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "source_version": "Terminal-Bench 4.0",
+      "content_claims_reviewed": true,
+      "verified_scope": "66 tasks, mini-SWE-agent, pass@1 averaged over 3 repeats; rendered leaders matched repository scores.",
+      "word_limit": 200
+    },
+    {
+      "id": "aa-omniscience",
+      "url": "https://artificialanalysis.ai/evaluations/omniscience",
+      "citation_refs": [
+        "turn44view1",
+        "turn45view0"
+      ],
+      "type": "Primary evaluator, maintained evaluation leaderboard",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "content_claims_reviewed": true,
+      "verified_scope": "Index scale/abstention, accuracy denominator, hallucination denominator; rendered point leaders.",
+      "word_limit": 200
+    },
+    {
+      "id": "aa-lcr",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-long-context-reasoning",
+      "citation_refs": [
+        "turn44view2",
+        "turn45view2"
+      ],
+      "type": "Primary evaluator, maintained evaluation leaderboard",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "source_version": "AA-LCR v1.1",
+      "content_claims_reviewed": true,
+      "verified_scope": "100 questions, 10k-100k cl100k_base tokens, synthesis not just extraction, model-judge grading.",
+      "word_limit": 200
+    },
+    {
+      "id": "aa-effort-cost",
+      "url": "https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-claude-opus-5-5-xhigh",
+      "citation_refs": [
+        "turn33view0"
+      ],
+      "type": "Primary evaluator maintained comparison page",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "source_version": "Intelligence Index v4.3.2",
+      "content_claims_reviewed": true,
+      "verified_scope": "58 vs56 Index, $4/$20 input/output token rates for both, weighted cost/task5.98 vs3.46. Do not use variable live speed fields without separate scope verification.",
+      "word_limit": 200
+    },
+    {
+      "id": "aa-gemini",
+      "url": "https://artificialanalysis.ai/models/gemini-4-argon",
+      "citation_refs": [
+        "turn33view1"
+      ],
+      "type": "Primary evaluator model page",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "source_version": "Intelligence Index v4.3.2",
+      "content_claims_reviewed": true,
+      "verified_scope": "High53 and cost/task1.99. Availability page has inconsistent generic API wording; first-party Google required before recommendation.",
+      "word_limit": 200
+    },
+    {
+      "id": "aa-sol",
+      "url": "https://artificialanalysis.ai/models/comparisons/gpt-6-1-sol-vs-gpt-6-sol",
+      "citation_refs": [
+        "turn33view2"
+      ],
+      "type": "Primary evaluator comparison page",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "source_version": "Intelligence Index v4.3.2",
+      "content_claims_reviewed": true,
+      "verified_scope": "Max configuration52 vs prior Max48; compatible same Index. Different unrelated submetric scales not merged.",
+      "word_limit": 200
+    },
+    {
+      "id": "aa-argon-analysis",
+      "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+      "citation_refs": [
+        "turn33view4"
+      ],
+      "type": "Primary independent evaluator article; advisory availability claims require first-party recheck",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "content_claims_reviewed": true,
+      "verified_scope": "Article says selected-user rollout and promotional pricing; contradictory generic model FAQ means first-party verification needed.",
+      "word_limit": 200
+    }
+  ],
+  "selected_families": [
+    {
+      "name": "Human preference",
+      "benchmark": "Arena Text",
+      "measures": "Pairwise user preferences aggregated into a rating.",
+      "limits": "Preference and style are distinct from factual correctness. Exact category/adjustment, dated vote cutoff, interval and votes matter.",
+      "practical_implication": "Use for candidate assistant experience; test correctness and your tasks separately.",
+      "sources": [
+        "arena-text",
+        "arena-ranking",
+        "arena-rank"
+      ]
+    },
+    {
+      "name": "General capability composite",
+      "benchmark": "Artificial Analysis Intelligence Index v4.3.2",
+      "measures": "Weighted combination of ten evaluations. Categories: Agents30%, Coding20%, Scientific Reasoning20%, General30%.",
+      "limits": "Primarily English and text; different metrics transformed for a composite, weights reflect evaluator priorities. Not universal IQ; do not compare across index versions without recomputation.",
+      "practical_implication": "A shortlist signal, followed by task-specific evaluation and cost.",
+      "sources": [
+        "aa-index",
+        "aa-methodology"
+      ]
+    },
+    {
+      "name": "Coding and terminal execution",
+      "benchmark": "SWE-bench Verified / Terminal-Bench 4.0",
+      "measures": "Whether agents complete repository/terminal tasks under checked test criteria.",
+      "limits": "Model plus agent environment; compare harness/version/tools/budget. SWE bash-only1.x vs2.x are not automatically compatible.",
+      "practical_implication": "Closer to repair/engineering workflows than a chat coding preference score, but not a guarantee of shipping a whole app.",
+      "sources": [
+        "swe-verified",
+        "swe-leaderboard",
+        "aa-terminal"
+      ]
+    },
+    {
+      "name": "Factual reliability and abstention",
+      "benchmark": "AA-Omniscience",
+      "measures": "Recall and calibrated refusal over 6,000 questions. Accuracy is correct/all questions; published hallucination rate is incorrect/(incorrect+partial+not-attempted), not incorrect/all answers.",
+      "limits": "Benchmark-specific denominator and synthetic question-generation/judge dependencies; lower hallucination alone can coexist with more abstention.",
+      "practical_implication": "Look for correct answers and appropriate admissions of uncertainty, separately.",
+      "sources": [
+        "aa-omniscience"
+      ]
+    },
+    {
+      "name": "Document synthesis",
+      "benchmark": "AA-LCR v1.1",
+      "measures": "Find, connect and reason over100 questions with long documents(10k\u2013100k tokens).",
+      "limits": "Grader uses LLM equality checking; context-window capacity alone says nothing about successful synthesis.",
+      "practical_implication": "Evaluate actual long documents and evidence integration at your required length.",
+      "sources": [
+        "aa-lcr"
+      ]
+    }
+  ],
+  "coverage_and_freshness_gaps": [
+    "Publication date, measurement date, retrieval date and capture date are separate fields; missing dates remain null.",
+    "Repository AA cohort is source-selected 32 configurations, not full universe.",
+    "Arena style-control selection verified from repository provenance; generic \u00b1 notation alone does not verify95% or interval method for this snapshot.",
+    "Current SWE-bench model score rows could not be extracted. No current SWE winner claimed.",
+    "LiveBench June25 CSV is historical evidence. Retrieved maintainer changelog latest listed Jan 8 does not establish monthly updates through Oct 2026.",
+    "BFCL V4 landing page updatedApr12; not fresh October standings; weighting wording inconsistent with detailed V4 blog.",
+    "GPQA/IFEval/RULER static papers support evergreen methods only; not current news feed sources.",
+    "API availability and promotional rates require first-party provider checks; independent benchmark page may contain stale generic FAQ copy.",
+    "Model test outputs, observed timing/usage and actual task cost are absent. Essential identical-prompt comparison remains a production blocker.",
+    "Default Fallback qualifiers are preserved exactly; this research did not establish the fallback policy, so do not drop the qualifier or invent its meaning."
+  ],
+  "active_feed_policy": {
+    "retained": [
+      "Artificial Analysis maintained evaluation pages with current version history",
+      "Arena dated leaderboards and active changelog",
+      "SWE-bench monitored maintainer leaderboard only after extracting dated score/configuration evidence"
+    ],
+    "support_only": [
+      "Static methodology papers",
+      "Pinned archival repository score captures",
+      "LiveBench June 25 CSV",
+      "BFCL April 12 snapshot"
+    ],
+    "review_triggers": [
+      "Before each episode, recheck selected leaderboard date/version and configuration against current primary page.",
+      "Version/harness/weights/guardrail/scoring changes require chart recalculation and editorial review.",
+      "If cadence cannot be demonstrated or dated score data unavailable, quarantine as current-news evidence and use only explicitly dated historical/methodology material."
+    ],
+    "guarantee": "No source is promised universally fresh; retrieval never becomes a fabricated measurement date."
+  },
+  "review_completed_at": "2026-10-13T02:23:34.627589-04:00",
+  "canonical_numeric_data": "numeric-data.json"
+}

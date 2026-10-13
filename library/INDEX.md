@@ -1114,3 +1114,11 @@ Templates require verified episode data. Diagrams simplify concepts. Brand marks
 | [Cost stack build](sound-effects/data-motion/cost-stack-build.wav) | Build input, output, tools, and retries into total task cost. |
 | [Savings link](sound-effects/data-motion/savings-link.wav) | Connect the named baseline to a lower-cost qualifying alternative. |
 | [Release nodes connect](sound-effects/data-motion/release-nodes-connect.wav) | Connect four verified developments on a release timeline. |
+
+## Episode production records
+
+- [Episode 01 October 13 preparation and blockers](reproducibility/episodes/01-2026-10-13/README.md)
+- [Reusable comparison and narration assembly](../tools/episode-production/README.md)
+
+These entries are research and production tools. No completed episode or channel-run comparison is claimed.
+

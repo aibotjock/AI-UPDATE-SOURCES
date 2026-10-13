@@ -1,0 +1,139 @@
+{
+  "review_date_et": "2026-10-13",
+  "role": "Supporting methodology only. Static publications and dated snapshots are excluded from the current-news feed.",
+  "families": [
+    {
+      "name": "GPQA / GPQA Diamond",
+      "measures": "Multiple-choice performance on expert-written graduate-level biology, chemistry and physics questions. Main GPQA has 448 questions; Diamond is a higher-quality 198-question subset filtered using expert/non-expert validation.",
+      "usefulness_inference": "A useful signal for difficult specialized scientific question answering and reasoning; it is not a complete test of general assistant quality or research competence.",
+      "limitations": "Small and specialized; the paper disclaims representativeness of scientific questions and notes limited statistical power for small accuracy differences. Do not compare main-set and Diamond percentages as the same test.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2311.12022v1",
+          "citation_ref": "turn12view0",
+          "publication_date": "2023-11-20",
+          "relevant_lines": "79-85, 165-199, 257-260, 320-331"
+        },
+        {
+          "url": "https://arxiv.org/abs/2311.12022",
+          "citation_ref": "turn11view0",
+          "publication_date": "2023-11-20"
+        }
+      ]
+    },
+    {
+      "name": "IFEval",
+      "measures": "Adherence to verifiable output constraints such as word limits, keyword inclusion, response language and JSON formatting. Original set contains 541 prompts and 25 instruction types.",
+      "usefulness_inference": "A practical signal for workflows that require specific format and constraint compliance; compliance scores do not independently validate whether the requested content is true or useful.",
+      "limitations": "Four metrics exist: prompt-level or instruction-level, each strict or loose. Prompt-level requires all constraints in a prompt. Loose scoring transforms responses to reduce false negatives and can introduce false positives. Authors acknowledge limited instruction diversity and need for more realistic and multimodal tasks.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2311.07911v1",
+          "citation_ref": "turn21view0",
+          "publication_date": "2023-11-14",
+          "relevant_lines": "45-49, 96-147, 149-162"
+        },
+        {
+          "url": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/README.md",
+          "citation_ref": "turn16view1",
+          "publication_date": "not established"
+        }
+      ]
+    },
+    {
+      "name": "LiveBench",
+      "measures": "A broad suite with objective ground-truth scoring across math, coding, reasoning, language, instruction following and data analysis, designed to use refreshed recent source material.",
+      "usefulness_inference": "Helps triangulate abilities across categories while reducing dependence on an LLM judge; category scores are more informative for a specific task than an aggregate alone.",
+      "limitations": "Release and harness changes affect comparability. Changelog documents coding-agent replacement and increased step limit in October 2025, illustrating that scores can change with the environment. Latest rendered changelog entry retrieved today is 2026-01-08, so monthly updates through October 2026 were not established.",
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/e4a46394ba5378b3f9a186a5b4c650d1-Abstract-Conference.html",
+          "citation_ref": "turn16view3",
+          "publication_date": "2025 conference",
+          "relevant_lines": "0, 8-11"
+        },
+        {
+          "url": "https://github.com/LiveBench/LiveBench",
+          "citation_ref": "turn16view2",
+          "publication_date": "not established",
+          "relevant_lines": "236-241, 273-280, 323-330"
+        },
+        {
+          "url": "https://github.com/LiveBench/LiveBench/blob/main/changelog.md",
+          "citation_ref": "turn21view2",
+          "publication_date": "latest listed entry 2026-01-08",
+          "relevant_lines": "190-224"
+        }
+      ]
+    },
+    {
+      "name": "Berkeley Function Calling Leaderboard (BFCL)",
+      "measures": "Tool/function calling correctness: selection, arguments and relevance, with version-specific single-turn, multi-turn and agentic tests. V4 extends evaluation with web search, memory and format sensitivity.",
+      "usefulness_inference": "Relevant to assistants that interact with APIs and take multiple steps; a tool-calling score is not certification that a deployed agent is dependable in every environment.",
+      "limitations": "Version and category matter. AST evaluation checks call structure; multi-turn evaluations inspect states and required result paths. Real application behavior also depends on tool definitions, orchestration and environment. Avoid treating all BFCL versions as one identical metric.",
+      "sources": [
+        {
+          "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+          "citation_ref": "turn11view3",
+          "publication_date": "last updated 2026-04-12",
+          "relevant_lines": "1-17"
+        },
+        {
+          "url": "https://gorilla.cs.berkeley.edu/blogs/15_bfcl_v4_web_search.html",
+          "citation_ref": "turn12view1",
+          "publication_date": "2025-07-17, updated 2025-07-20",
+          "relevant_lines": "22-59"
+        },
+        {
+          "url": "https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html",
+          "citation_ref": "turn21view3",
+          "publication_date": "not established",
+          "relevant_lines": "244-289"
+        },
+        {
+          "url": "https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html",
+          "citation_ref": "turn12view2",
+          "publication_date": "not established",
+          "relevant_lines": "120-175"
+        }
+      ]
+    },
+    {
+      "name": "Long context: NIAH / RULER / LongBench v2",
+      "measures": "Needle-in-a-haystack checks retrieval of specific embedded information. RULER broadens synthetic checks to multiple retrieval variants, multi-hop tracing, aggregation and question answering while varying input length and complexity. LongBench v2 uses realistic long-context multiple-choice problems across six domains.",
+      "usefulness_inference": "Distinguishes the advertised input window from successful use of content. Long-document work requires understanding and combining evidence beyond finding one fact.",
+      "limitations": "RULER authors explicitly say synthetic behavioral checks should not be preferred over realistic tasks; they did not establish real-task correlation and comprehensive prompt robustness. LongBench v2 multiple-choice scoring does not independently test every aspect of free-form synthesis.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2404.06654v3",
+          "citation_ref": "turn21view1",
+          "publication_date": "2024-08-06 revision",
+          "relevant_lines": "373-391"
+        },
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "citation_ref": "turn16view4",
+          "publication_date": "2024-04-09 initial, 2024-08-06 revision",
+          "relevant_lines": "16-19"
+        },
+        {
+          "url": "https://github.com/NVIDIA/RULER",
+          "citation_ref": "turn16view5",
+          "publication_date": "not established"
+        },
+        {
+          "url": "https://aclanthology.org/2025.acl-long.183/",
+          "citation_ref": "turn43view0",
+          "publication_date": "2025-07",
+          "relevant_lines": "57-68"
+        },
+        {
+          "url": "https://github.com/THUDM/LongBench",
+          "citation_ref": "turn43view1",
+          "publication_date": "not established",
+          "relevant_lines": "210-218"
+        }
+      ]
+    }
+  ]
+}

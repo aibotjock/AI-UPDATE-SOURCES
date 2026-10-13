@@ -1,0 +1,57 @@
+{
+  "reviewed_asset_index": true,
+  "reused_source_registry": true,
+  "categories": [
+    {
+      "category": "sources_and_benchmarks",
+      "plan": "Reuse IDs and source records, verify original sources on actual finalization day"
+    },
+    {
+      "category": "logos_and_icons",
+      "plan": "Use authentic company marks after owner-rule review; repository community marks remain review-required"
+    },
+    {
+      "category": "images_and_backgrounds",
+      "plan": "Existing original matrix background selected; no additional decorative generation needed"
+    },
+    {
+      "category": "graphics_and_diagrams",
+      "plan": "Existing evidence-origin, uncertainty, cost and comparison components selected as design references"
+    },
+    {
+      "category": "motion_and_presentation_components",
+      "plan": "Controlled highlights and native reveals after actual narration timing"
+    },
+    {
+      "category": "sound_effects",
+      "plan": "Existing original brief reveal/click cues; keep separate levels and stems"
+    },
+    {
+      "category": "screenshots_and_demonstrations",
+      "plan": "Capture original benchmark or provider evidence only where permitted; no manufactured UI output"
+    },
+    {
+      "category": "evergreen",
+      "plan": "Populate methods notes from inspected primary methodology with review triggers"
+    },
+    {
+      "category": "reproducibility",
+      "plan": "Store predeclared test, raw responses, settings, usage, cost basis and timing"
+    },
+    {
+      "category": "corrections",
+      "plan": "Record dated source conflict without rewriting historical evidence"
+    }
+  ],
+  "candidate_asset_ids": [
+    "cmp-001-evidence-duel",
+    "cmp-048-three-evidence-origins",
+    "cmp-056-overlapping-uncertainty-bands",
+    "cmp-156-verification-timestamp-card",
+    "cmp-167-measured-task-cost-equation",
+    "cmp-176-cost-per-successful-task",
+    "bm-ba-matrix-01"
+  ],
+  "actual_episode_uses": [],
+  "note": "Planning references only. No final episode asset use is claimed."
+}

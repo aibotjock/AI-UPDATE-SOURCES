@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+tools/episode-production/fixtures/*.wav
+tools/episode-production/fixtures/*.png
+tools/episode-production/smoke-test/

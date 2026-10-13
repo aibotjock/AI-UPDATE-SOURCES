@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-13",
+  "status": "Published benchmark observations and provider coverage. No channel-run task comparison or value recommendation.",
+  "platform_coverage": [
+    {
+      "provider": "OpenAI",
+      "checked_sources": [
+        "https://openai.com/index/gpt-6-for-everyone/",
+        "https://developers.openai.com/api/docs/pricing",
+        "https://openai.com/index/introducing-gpt-6-1-sol/"
+      ],
+      "status": "GPT-6 Chat rollout; GPT-6.1 Sol documented available in API and Work/Codex, not yet Chat on launch page.",
+      "channel_test_completed": false,
+      "task_quality": null,
+      "task_cost_usd": null,
+      "limits": [
+        "GPT-6.1 Sol introduction page did not expose an explicit publication date in the retrieved text; report current documentation availability, do not invent release date.",
+        "Pricing page contains Standard/Batch/Flex/Fast/Ultrafast and short/long context; choose standard short context explicitly. Long-context prices differ.",
+        "Provider's performance charts are vendor-reported, not independently tested by us."
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "checked_sources": [
+        "https://www.anthropic.com/claude-haiku-5-5",
+        "https://platform.claude.com/docs/en/about-claude/pricing",
+        "https://www.anthropic.com/claude-sonnet-5-5"
+      ],
+      "status": "Available, distinct from Sep28 Sonnet article's then-future Haiku statement.",
+      "channel_test_completed": false,
+      "task_quality": null,
+      "task_cost_usd": null,
+      "limits": [
+        "Do not repeat outdated Sonnet cache read price from launch article.",
+        "Higher long-prompt Haiku tier affects complete request, including cache counts.",
+        "Max/Team API credits introduced separately; do not equate subscription price with usage-token price."
+      ]
+    },
+    {
+      "provider": "Google",
+      "checked_sources": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+        "https://ai.google.dev/gemini-api/docs/pricing"
+      ],
+      "status": "3.8 Flash available; Argon restricted rollout, broader release prospective.",
+      "channel_test_completed": false,
+      "task_quality": null,
+      "task_cost_usd": null,
+      "limits": [
+        "Do not market Argon as generally usable today.",
+        "Price output includes thinking tokens.",
+        "Vendor article says 3.8 Flash may use more tokens on difficult tasks; token price alone is not cost per task.",
+        "Argon introductory expiry not stated in retrieved extract; avoid assumption."
+      ]
+    },
+    {
+      "provider": "Microsoft",
+      "checked_sources": [
+        "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
+        "https://ai.azure.com/catalog"
+      ],
+      "status": "Platform availability depends on specific model/feature/deployment, not one global status.",
+      "channel_test_completed": false,
+      "task_quality": null,
+      "task_cost_usd": null,
+      "limits": [
+        "No universal Microsoft per-token price reported.",
+        "Article says several evaluators/optimizer features GA later Sep and AI Gateway preview coming October; scheduled statements alone do not confirm released status as of Oct13.",
+        "Do not infer a provider-specific cloud price from direct vendor API prices."
+      ]
+    },
+    {
+      "provider": "Meta",
+      "checked_sources": [
+        "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+        "https://dev.meta.ai/resources/blog/build-with-muse-spark"
+      ],
+      "status": "Public preview, geography limitation stated in Jul8 developer page; not a new October launch.",
+      "channel_test_completed": false,
+      "task_quality": null,
+      "task_cost_usd": null,
+      "limits": [
+        "Use July date when presenting; a freshly checked old item is not new news.",
+        "Developer article uses Muse Spark while main announcement specifies Muse Spark1.1; avoid implying exact ID/pricing version mapping without current model price docs.",
+        "No latest general worldwide API availability claim verified."
+      ]
+    },
+    {
+      "provider": "NVIDIA",
+      "checked_sources": [
+        "https://developer.nvidia.com/nim",
+        "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+        "https://build.nvidia.com/"
+      ],
+      "status": "Cloud infrastructure/platform reporting; not a uniform retail model subscription.",
+      "channel_test_completed": false,
+      "task_quality": null,
+      "task_cost_usd": null,
+      "limits": [
+        "No comparable universal per-million hosted price verified.",
+        "Do not turn free prototyping access into an assertion of free commercial production access.",
+        "No local GPU setup advice needed for episode."
+      ]
+    },
+    {
+      "provider": "xAI",
+      "checked_sources": [
+        "https://x.ai/news/grok-4-7",
+        "https://docs.x.ai/developers/models"
+      ],
+      "status": "Available standard model; separate fast variant.",
+      "channel_test_completed": false,
+      "task_quality": null,
+      "task_cost_usd": null,
+      "limits": [
+        "Official current pages use SpaceXSI branding; can refer to xAI/Grok for audience familiarity without inventing company history.",
+        "No benchmark superiority asserted independently.",
+        "No subscription/token-rate equivalence."
+      ]
+    },
+    {
+      "provider": "DeepSeek",
+      "checked_sources": [
+        "https://api-docs.deepseek.com/updates/",
+        "https://api-docs.deepseek.com/quick_start/pricing/",
+        "https://api-docs.deepseek.com/news/news260910/"
+      ],
+      "status": "Available as listed in current pricing/change log.",
+      "channel_test_completed": false,
+      "task_quality": null,
+      "task_cost_usd": null,
+      "limits": [
+        "CONTRADICTION: Sep10 release article says V4-Pro routes to Flash after Sep14; current changelog explicitly says V4-Pro continues unchanged after Sep14 and current pricing lists both separately. Prefer current pricing/changelog and disclose conflict if relevant; do not claim Pro retired.",
+        "Do not compare off-peak rates to competitors standard peak without labeling."
+      ]
+    },
+    {
+      "provider": "Z.ai",
+      "checked_sources": [
+        "https://docs.z.ai/release-notes/new-released",
+        "https://docs.z.ai/guides/overview/quick-start",
+        "https://docs.z.ai/guides/overview/pricing"
+      ],
+      "status": "Available API documented; coding subscription separate.",
+      "channel_test_completed": false,
+      "task_quality": null,
+      "task_cost_usd": null,
+      "limits": [
+        "Do not present August release as new October announcement.",
+        "Cached input and cache-storage columns are distinct; current pricing table labels cache storage Limited-time Free.",
+        "Z.ai vendor benchmark superiority claims not independently checked."
+      ]
+    },
+    {
+      "provider": "Alibaba/Qwen",
+      "checked_sources": [
+        "https://www.alibabacloud.com/help/en/model-studio/models",
+        "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+      ],
+      "status": "API models listed in maintained official docs.",
+      "channel_test_completed": false,
+      "task_quality": null,
+      "task_cost_usd": null,
+      "limits": [
+        "Use International/US rates 2/6 with explicit deployment scope; avoid conflating Global/Chinese mainland prices.",
+        "Page updated date is not model release date.",
+        "Qwen blog JS page returned no body; cannot cite unread blog claim.",
+        "Current model pricing page may be date-only updated Oct13 with no exact update time; report retrieved Oct13 snapshot, not publication cutoff certainty."
+      ]
+    }
+  ],
+  "coverage_gaps": [
+    "Publication date, measurement date, retrieval date and capture date are separate fields; missing dates remain null.",
+    "Repository AA cohort is source-selected 32 configurations, not full universe.",
+    "Arena style-control selection verified from repository provenance; generic \u00b1 notation alone does not verify95% or interval method for this snapshot.",
+    "Current SWE-bench model score rows could not be extracted. No current SWE winner claimed.",
+    "LiveBench June25 CSV is historical evidence. Retrieved maintainer changelog latest listed Jan 8 does not establish monthly updates through Oct 2026.",
+    "BFCL V4 landing page updatedApr12; not fresh October standings; weighting wording inconsistent with detailed V4 blog.",
+    "GPQA/IFEval/RULER static papers support evergreen methods only; not current news feed sources.",
+    "API availability and promotional rates require first-party provider checks; independent benchmark page may contain stale generic FAQ copy.",
+    "Model test outputs, observed timing/usage and actual task cost are absent. Essential identical-prompt comparison remains a production blocker.",
+    "Default Fallback qualifiers are preserved exactly; this research did not establish the fallback policy, so do not drop the qualifier or invent its meaning."
+  ],
+  "total_cost_rule": "Published aggregate benchmark task costs and token tariffs cannot stand in for cost of the displayed channel output.",
+  "canonical_numeric_data": "numeric-data.json",
+  "record_ids": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09",
+    "N10"
+  ]
+}

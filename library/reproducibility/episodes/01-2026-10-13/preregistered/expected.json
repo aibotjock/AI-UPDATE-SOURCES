@@ -1,0 +1,52 @@
+{
+  "invoices": [
+    {
+      "invoice_id": "INV-1001",
+      "customer": "Acme Demo",
+      "amount": "125.50",
+      "currency": "USD",
+      "status": "paid",
+      "flags": []
+    },
+    {
+      "invoice_id": "INV-1002",
+      "customer": "Example Studio",
+      "amount": "240.00",
+      "currency": "USD",
+      "status": "issued",
+      "flags": []
+    },
+    {
+      "invoice_id": "INV-1004",
+      "customer": "Sample GmbH",
+      "amount": "90.25",
+      "currency": "EUR",
+      "status": "paid",
+      "flags": [
+        "non_usd_currency"
+      ]
+    },
+    {
+      "invoice_id": "INV-1005",
+      "customer": "Demo Services",
+      "amount": "50.00",
+      "currency": "USD",
+      "status": "pending?",
+      "flags": [
+        "ambiguous_status"
+      ]
+    },
+    {
+      "invoice_id": "INV-1006",
+      "customer": "Example, Inc.",
+      "amount": "10.10",
+      "currency": "USD",
+      "status": "paid",
+      "flags": []
+    }
+  ],
+  "excluded_cancelled_invoice_ids": [
+    "INV-1003"
+  ],
+  "usd_total": "375.60"
+}

@@ -1,0 +1,11 @@
+Extract this fictional invoice CSV into exactly one JSON object, with no prose or Markdown.
+Use exactly these top-level keys: invoices, excluded_cancelled_invoice_ids, usd_total.
+Keep invoices in CSV row order. Every included invoice must have exactly these keys:
+invoice_id, customer, amount, currency, status, flags.
+Preserve invoice_id and customer. Format amount as a string with two decimal places.
+Trim status whitespace and convert status to lowercase. Trim currency and uppercase it.
+Exclude rows with normalized status cancelled; list their IDs, in row order, in excluded_cancelled_invoice_ids.
+For included rows, set flags to an array: add non_usd_currency first if currency is not USD;
+add ambiguous_status second if status is neither paid nor issued.
+usd_total is a two-decimal string: sum only included USD invoices whose status is paid or issued.
+Do not infer a meaning for an ambiguous status. Do not convert currencies.

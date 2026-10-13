@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-13T02:38:21.432824-04:00",
+  "offline_unit_tests": {
+    "comparison": 19,
+    "renderer": 14,
+    "evidence_gate": 9,
+    "total": 42,
+    "all_passed": true,
+    "provider_calls": 0,
+    "fixture_note": "Unit tests are synthetic fixtures and establish code checks only."
+  },
+  "offline_smoke": {
+    "seconds": 7.6,
+    "width": 1920,
+    "height": 1080,
+    "audio_present": true,
+    "embedded_caption_times_checked": true,
+    "complete_ffmpeg_decode": true,
+    "scope": "Infrastructure smoke only; no factual episode test or full watch/listen."
+  },
+  "not_performed": [
+    "Real cloud-model comparison",
+    "Natural narration pronunciation/listening review",
+    "Full-episode video watch-and-listen",
+    "Editable PowerPoint authoring/render/animation check",
+    "Word spoken-script authoring/render",
+    "Final captions synchronization and completed comparison readability",
+    "YouTube publication"
+  ],
+  "status": "Final episode not complete. Required comparison blocked."
+}

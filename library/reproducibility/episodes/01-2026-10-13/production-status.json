@@ -1,0 +1,35 @@
+{
+  "episode_id": "01",
+  "status": "blocked",
+  "date_et": "2026-10-13",
+  "research_cutoff": "2026-10-13T02:23:34.627589-04:00",
+  "actual_script_creation_date": null,
+  "planned_runtime_seconds": 720,
+  "actual_runtime_seconds": null,
+  "required_comparison_complete": false,
+  "provider_calls": 0,
+  "spend_usd": 0,
+  "completed": [
+    "Index-first repository inspection",
+    "Primary source observations for ten core companies",
+    "Selected benchmark verification and method notes",
+    "Dated evidence/coverage/correction records",
+    "Predeclared fictional invoice task and exact model proposal",
+    "Reusable comparison and limited rendering tools",
+    "42 offline unit tests and short encode smoke"
+  ],
+  "blockers": [
+    "No authorized model API credential/connector or authentic completed provider exports",
+    "No explicit authorized comparison spending cap",
+    "No verified natural narration service or supplied recording"
+  ],
+  "remaining": [
+    "Refresh evidence for eventual finalization date",
+    "Run and review original same-prompt comparison",
+    "Finalize spoken script and editable PowerPoint",
+    "Generate/check natural narration and complete animated scenes",
+    "Render/mix/caption and perform full playback",
+    "Produce complete package and derive120second excerpt"
+  ],
+  "resource_branch": "media-library"
+}

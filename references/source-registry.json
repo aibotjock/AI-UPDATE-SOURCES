@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-13T01:33:55.656553+00:00",
+  "updated_at": "2026-10-13T02:34:16.080528-04:00",
   "policy": "Flexible verified-source coverage, not a numerical quota. Access checks do not verify all facts.",
   "sources": [
     {
@@ -15,7 +15,16 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://developers.openai.com/"
+      "resolved_url": "https://developers.openai.com/",
+      "episode_claim_reviews": [
+        {
+          "episode_id": "01",
+          "review_date_et": "2026-10-13",
+          "review_completed_at": "2026-10-13T02:34:16.080528-04:00",
+          "scope": "Selected official availability, announcement and pricing observations. No exhaustive provider-news check or superiority claim.",
+          "records": "library/reproducibility/episodes/01-2026-10-13/company-coverage.json"
+        }
+      ]
     },
     {
       "id": "anthropic-docs",
@@ -29,7 +38,16 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://platform.claude.com/docs/en/home"
+      "resolved_url": "https://platform.claude.com/docs/en/home",
+      "episode_claim_reviews": [
+        {
+          "episode_id": "01",
+          "review_date_et": "2026-10-13",
+          "review_completed_at": "2026-10-13T02:34:16.080528-04:00",
+          "scope": "Selected official availability, announcement and pricing observations. No exhaustive provider-news check or superiority claim.",
+          "records": "library/reproducibility/episodes/01-2026-10-13/company-coverage.json"
+        }
+      ]
     },
     {
       "id": "google-gemini-docs",
@@ -43,7 +61,16 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://ai.google.dev/gemini-api/docs"
+      "resolved_url": "https://ai.google.dev/gemini-api/docs",
+      "episode_claim_reviews": [
+        {
+          "episode_id": "01",
+          "review_date_et": "2026-10-13",
+          "review_completed_at": "2026-10-13T02:34:16.080528-04:00",
+          "scope": "Selected official availability, announcement and pricing observations. No exhaustive provider-news check or superiority claim.",
+          "records": "library/reproducibility/episodes/01-2026-10-13/company-coverage.json"
+        }
+      ]
     },
     {
       "id": "microsoft-ai-foundry",
@@ -57,7 +84,16 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://learn.microsoft.com/en-us/azure/foundry/"
+      "resolved_url": "https://learn.microsoft.com/en-us/azure/foundry/",
+      "episode_claim_reviews": [
+        {
+          "episode_id": "01",
+          "review_date_et": "2026-10-13",
+          "review_completed_at": "2026-10-13T02:34:16.080528-04:00",
+          "scope": "Selected official availability, announcement and pricing observations. No exhaustive provider-news check or superiority claim.",
+          "records": "library/reproducibility/episodes/01-2026-10-13/company-coverage.json"
+        }
+      ]
     },
     {
       "id": "meta-ai",
@@ -71,7 +107,16 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://ai.meta.com/"
+      "resolved_url": "https://ai.meta.com/",
+      "episode_claim_reviews": [
+        {
+          "episode_id": "01",
+          "review_date_et": "2026-10-13",
+          "review_completed_at": "2026-10-13T02:34:16.080528-04:00",
+          "scope": "Selected official availability, announcement and pricing observations. No exhaustive provider-news check or superiority claim.",
+          "records": "library/reproducibility/episodes/01-2026-10-13/company-coverage.json"
+        }
+      ]
     },
     {
       "id": "nvidia-build",
@@ -85,7 +130,16 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://build.nvidia.com/"
+      "resolved_url": "https://build.nvidia.com/",
+      "episode_claim_reviews": [
+        {
+          "episode_id": "01",
+          "review_date_et": "2026-10-13",
+          "review_completed_at": "2026-10-13T02:34:16.080528-04:00",
+          "scope": "Selected official availability, announcement and pricing observations. No exhaustive provider-news check or superiority claim.",
+          "records": "library/reproducibility/episodes/01-2026-10-13/company-coverage.json"
+        }
+      ]
     },
     {
       "id": "xai-docs",
@@ -99,7 +153,16 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://docs.x.ai/overview"
+      "resolved_url": "https://docs.x.ai/overview",
+      "episode_claim_reviews": [
+        {
+          "episode_id": "01",
+          "review_date_et": "2026-10-13",
+          "review_completed_at": "2026-10-13T02:34:16.080528-04:00",
+          "scope": "Selected official availability, announcement and pricing observations. No exhaustive provider-news check or superiority claim.",
+          "records": "library/reproducibility/episodes/01-2026-10-13/company-coverage.json"
+        }
+      ]
     },
     {
       "id": "deepseek-docs",
@@ -113,7 +176,16 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://api-docs.deepseek.com/"
+      "resolved_url": "https://api-docs.deepseek.com/",
+      "episode_claim_reviews": [
+        {
+          "episode_id": "01",
+          "review_date_et": "2026-10-13",
+          "review_completed_at": "2026-10-13T02:34:16.080528-04:00",
+          "scope": "Selected official availability, announcement and pricing observations. No exhaustive provider-news check or superiority claim.",
+          "records": "library/reproducibility/episodes/01-2026-10-13/company-coverage.json"
+        }
+      ]
     },
     {
       "id": "zai-docs",
@@ -127,7 +199,16 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://docs.z.ai/guides/overview/quick-start"
+      "resolved_url": "https://docs.z.ai/guides/overview/quick-start",
+      "episode_claim_reviews": [
+        {
+          "episode_id": "01",
+          "review_date_et": "2026-10-13",
+          "review_completed_at": "2026-10-13T02:34:16.080528-04:00",
+          "scope": "Selected official availability, announcement and pricing observations. No exhaustive provider-news check or superiority claim.",
+          "records": "library/reproducibility/episodes/01-2026-10-13/company-coverage.json"
+        }
+      ]
     },
     {
       "id": "qwen-model-studio",
@@ -141,7 +222,16 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://www.alibabacloud.com/help/en/model-studio/"
+      "resolved_url": "https://www.alibabacloud.com/help/en/model-studio/",
+      "episode_claim_reviews": [
+        {
+          "episode_id": "01",
+          "review_date_et": "2026-10-13",
+          "review_completed_at": "2026-10-13T02:34:16.080528-04:00",
+          "scope": "Selected official availability, announcement and pricing observations. No exhaustive provider-news check or superiority claim.",
+          "records": "library/reproducibility/episodes/01-2026-10-13/company-coverage.json"
+        }
+      ]
     },
     {
       "id": "artificial-analysis-index",
@@ -338,5 +428,9 @@
       "http_status": 200,
       "resolved_url": "https://github.com/lobehub/lobe-icons"
     }
-  ]
+  ],
+  "episode_evidence_records": [
+    "library/reproducibility/episodes/01-2026-10-13/source-records.json"
+  ],
+  "freshness_policy": "Use actively maintained feeds/docs/evaluations for current coverage. Static papers and archival benchmark records support dated explanations only. Source access and today retrieval do not prove recent measurement."
 }

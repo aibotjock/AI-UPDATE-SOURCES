@@ -1,0 +1,18 @@
+{
+  "plan_file_sha256": "40c8fe3c21eccfc11f1738deda1776e2a61d8f624e0be8a67ccc0885cb20aa74",
+  "provider_calls": 0,
+  "ready": false,
+  "problems": [
+    "max_spend_usd must be a finite decimal",
+    "candidate.input_ceiling_verified_for_provider must be verified true for this exact service/model",
+    "comparator.input_ceiling_verified_for_provider must be verified true for this exact service/model"
+  ],
+  "per_attempt_tariff_bound_usd": {
+    "candidate": "0.001536",
+    "comparator": "0.03072"
+  },
+  "all_authorized_attempts_tariff_bound_usd": "0.032256",
+  "cap_usd": null,
+  "actual_billing_cap_guaranteed": false,
+  "explanation": "Provider-verified input/output ceilings are required. Tariff arithmetic is a spending guard, not evidence of actual invoiced charges."
+}

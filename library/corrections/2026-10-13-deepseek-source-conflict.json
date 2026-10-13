@@ -1,0 +1,16 @@
+{
+  "id": "deepseek-doc-conflict-2026-10-13",
+  "observed_date_et": "2026-10-13",
+  "status": "Unresolved original-source inconsistency; narrow current claims to maintained pricing/changelog.",
+  "sources": [
+    "https://api-docs.deepseek.com/news/news260910/",
+    "https://api-docs.deepseek.com/updates/",
+    "https://api-docs.deepseek.com/quick_start/pricing/"
+  ],
+  "conflict": "Release article describes Pro routing to Flash after September14; current changelog states Pro continues unchanged and pricing lists separate Pro and Flash models.",
+  "editorial_action": "Do not state Pro was retired. Preserve the contradiction and verify endpoint identity before comparing results.",
+  "affected_claim_ids": [
+    "P08"
+  ],
+  "published_episode_affected": false
+}

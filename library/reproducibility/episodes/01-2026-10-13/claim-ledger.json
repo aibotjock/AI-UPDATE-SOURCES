@@ -1,0 +1,562 @@
+{
+  "schema_version": 1,
+  "status": "Preproduction observations. Final spoken claims will be split and mapped after real tests.",
+  "research_date": "2026-10-13",
+  "review_completed_at": "2026-10-13T02:23:34.627589-04:00",
+  "claims": [
+    {
+      "id": "P01",
+      "claim": "GPT-6 with Intelligent UI began rolling out to paid ChatGPT Chat tiers Oct 7, extending to Free and Go Oct 8; work and Codex models were unchanged by this specific release. Current API docs list GPT-6.1 Sol standard short-context prices at USD 2 input, 0.10 cached input, 10 output per million tokens.",
+      "source_url": "https://openai.com/index/gpt-6-for-everyone/",
+      "supporting_source_urls": [
+        "https://openai.com/index/gpt-6-for-everyone/",
+        "https://developers.openai.com/api/docs/pricing",
+        "https://openai.com/index/introducing-gpt-6-1-sol/"
+      ],
+      "source_ids": [
+        "openai-docs-episode-1",
+        "openai-docs-episode-2",
+        "openai-docs-episode-3"
+      ],
+      "evidence_type": "provider-reported",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "measurement_date": null,
+      "limits": [
+        "GPT-6.1 Sol introduction page did not expose an explicit publication date in the retrieved text; report current documentation availability, do not invent release date.",
+        "Pricing page contains Standard/Batch/Flex/Fast/Ultrafast and short/long context; choose standard short context explicitly. Long-context prices differ.",
+        "Provider's performance charts are vendor-reported, not independently tested by us."
+      ],
+      "verification_scope": "Observation with multiple named first-party supports; split into sentence-level claim IDs before final scripting",
+      "event_date": "2026-10-07",
+      "source_date": null
+    },
+    {
+      "id": "P02",
+      "claim": "Claude Haiku 5.5 announced Oct 7 and available now, with standard API USD 0.10 input/0.50 output for prompts up to 100,000 tokens. Above 100,000 prompt tokens, 0.50 input/2.50 output. Sonnet 5.5 cache reads cut to 0.10 from 0.20 USD per million on Oct 7; standard input 2 and output 10. Opus 5.5 standard input 4 and output 20.",
+      "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+      "supporting_source_urls": [
+        "https://www.anthropic.com/claude-haiku-5-5",
+        "https://platform.claude.com/docs/en/about-claude/pricing",
+        "https://www.anthropic.com/claude-sonnet-5-5"
+      ],
+      "source_ids": [
+        "anthropic-docs-episode-1",
+        "anthropic-docs-episode-2",
+        "anthropic-docs-episode-3"
+      ],
+      "evidence_type": "provider-reported",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "measurement_date": null,
+      "limits": [
+        "Do not repeat outdated Sonnet cache read price from launch article.",
+        "Higher long-prompt Haiku tier affects complete request, including cache counts.",
+        "Max/Team API credits introduced separately; do not equate subscription price with usage-token price."
+      ],
+      "verification_scope": "Observation with multiple named first-party supports; split into sentence-level claim IDs before final scripting",
+      "event_date": "2026-10-07",
+      "source_date": null
+    },
+    {
+      "id": "P03",
+      "claim": "Gemini 3.8 Flash publicly available via Gemini API/AI Studio; introductory standard API USD 0.75 input and 3.75 output per million through Dec31 2026; 1.50/7.50 starting Jan1 2027. Gemini 4 Argon Sep30 announcement is rolling out only to trusted cyber defenders via Fairwind; planned introductory 2 input/10 output, not general public availability.",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "supporting_source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+        "https://ai.google.dev/gemini-api/docs/pricing"
+      ],
+      "source_ids": [
+        "google-gemini-docs-episode-1",
+        "google-gemini-docs-episode-2",
+        "google-gemini-docs-episode-3"
+      ],
+      "evidence_type": "provider-reported",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "measurement_date": null,
+      "limits": [
+        "Do not market Argon as generally usable today.",
+        "Price output includes thinking tokens.",
+        "Vendor article says 3.8 Flash may use more tokens on difficult tasks; token price alone is not cost per task.",
+        "Argon introductory expiry not stated in retrieved extract; avoid assumption."
+      ],
+      "verification_scope": "Observation with multiple named first-party supports; split into sentence-level claim IDs before final scripting",
+      "event_date": null,
+      "source_date": null
+    },
+    {
+      "id": "P04",
+      "claim": "Microsoft Foundry Sep24 article documents GPT-6 family and Claude Opus 5.5 as available; voice agents and long-running resilience are public preview; tool search, A2A and routines generally available. Foundry catalog labels individual model entries as GA or Preview.",
+      "source_url": "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
+      "supporting_source_urls": [
+        "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
+        "https://ai.azure.com/catalog"
+      ],
+      "source_ids": [
+        "microsoft-ai-foundry-episode-1",
+        "microsoft-ai-foundry-episode-2"
+      ],
+      "evidence_type": "provider-reported",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "measurement_date": null,
+      "limits": [
+        "No universal Microsoft per-token price reported.",
+        "Article says several evaluators/optimizer features GA later Sep and AI Gateway preview coming October; scheduled statements alone do not confirm released status as of Oct13.",
+        "Do not infer a provider-specific cloud price from direct vendor API prices."
+      ],
+      "verification_scope": "Observation with multiple named first-party supports; split into sentence-level claim IDs before final scripting",
+      "event_date": "2026-09-24",
+      "source_date": null
+    },
+    {
+      "id": "P05",
+      "claim": "Meta Muse Spark 1.1 announcement Jul9 and public-preview Meta Model API. Developer announcement Jul8 says US developers; pay-as-you-go pricing starts USD1.25 input/4.25 output per million; reasoning billed as output.",
+      "source_url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+      "supporting_source_urls": [
+        "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+        "https://dev.meta.ai/resources/blog/build-with-muse-spark"
+      ],
+      "source_ids": [
+        "meta-ai-episode-1",
+        "meta-ai-episode-2"
+      ],
+      "evidence_type": "provider-reported",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "measurement_date": null,
+      "limits": [
+        "Use July date when presenting; a freshly checked old item is not new news.",
+        "Developer article uses Muse Spark while main announcement specifies Muse Spark1.1; avoid implying exact ID/pricing version mapping without current model price docs.",
+        "No latest general worldwide API availability claim verified."
+      ],
+      "verification_scope": "Observation with multiple named first-party supports; split into sentence-level claim IDs before final scripting",
+      "event_date": "2026-07-09",
+      "source_date": null
+    },
+    {
+      "id": "P06",
+      "claim": "NVIDIA NIM developer page offers NVIDIA-hosted API endpoints for prototyping backed by DGX Cloud; production path includes enterprise-grade endpoints at partners or NVIDIA AI Enterprise. Oct1 NVIDIA article documents OpenAI GPT-6 Astra Ultrafast available in OpenAI API and eligible Work/Codex users running on Blackwell.",
+      "source_url": "https://developer.nvidia.com/nim",
+      "supporting_source_urls": [
+        "https://developer.nvidia.com/nim",
+        "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+        "https://build.nvidia.com/"
+      ],
+      "source_ids": [
+        "nvidia-build-episode-1",
+        "nvidia-build-episode-2",
+        "nvidia-build-episode-3"
+      ],
+      "evidence_type": "provider-reported",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "measurement_date": null,
+      "limits": [
+        "No comparable universal per-million hosted price verified.",
+        "Do not turn free prototyping access into an assertion of free commercial production access.",
+        "No local GPU setup advice needed for episode."
+      ],
+      "verification_scope": "Observation with multiple named first-party supports; split into sentence-level claim IDs before final scripting",
+      "event_date": "2026-10-01",
+      "source_date": null
+    },
+    {
+      "id": "P07",
+      "claim": "Grok4.7 available in API, Grok Build and Cursor; standard starting prices USD2 input/6 output per million, fast variant twice price. Models docs last updated Sep21 2026.",
+      "source_url": "https://x.ai/news/grok-4-7",
+      "supporting_source_urls": [
+        "https://x.ai/news/grok-4-7",
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_ids": [
+        "xai-docs-episode-1",
+        "xai-docs-episode-2"
+      ],
+      "evidence_type": "provider-reported",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "measurement_date": null,
+      "limits": [
+        "Official current pages use SpaceXSI branding; can refer to xAI/Grok for audience familiarity without inventing company history.",
+        "No benchmark superiority asserted independently.",
+        "No subscription/token-rate equivalence."
+      ],
+      "verification_scope": "Observation with multiple named first-party supports; split into sentence-level claim IDs before final scripting",
+      "event_date": "2026-09-21",
+      "source_date": null
+    },
+    {
+      "id": "P08",
+      "claim": "Current official change log and pricing list deepseek-flash = DeepSeek-V4.1-Flash and deepseek-v4-pro = DeepSeek-V4-Pro-0813. Flash peak USD0.30 uncached input/1.20 output per million, off-peak0.15/0.60; Pro peak1.32/3.96, off-peak0.66/1.98. Legacy Flash aliases route to V4.1-Flash.",
+      "source_url": "https://api-docs.deepseek.com/updates/",
+      "supporting_source_urls": [
+        "https://api-docs.deepseek.com/updates/",
+        "https://api-docs.deepseek.com/quick_start/pricing/",
+        "https://api-docs.deepseek.com/news/news260910/"
+      ],
+      "source_ids": [
+        "deepseek-docs-episode-1",
+        "deepseek-docs-episode-2",
+        "deepseek-docs-episode-3"
+      ],
+      "evidence_type": "provider-reported",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "measurement_date": null,
+      "limits": [
+        "CONTRADICTION: Sep10 release article says V4-Pro routes to Flash after Sep14; current changelog explicitly says V4-Pro continues unchanged after Sep14 and current pricing lists both separately. Prefer current pricing/changelog and disclose conflict if relevant; do not claim Pro retired.",
+        "Do not compare off-peak rates to competitors standard peak without labeling."
+      ],
+      "verification_scope": "Observation with multiple named first-party supports; split into sentence-level claim IDs before final scripting",
+      "event_date": "2026-09-10",
+      "source_date": null
+    },
+    {
+      "id": "P09",
+      "claim": "GLM5.3 release notes Aug18, GLM5.3-Flash Aug26; quick start currently uses glm-5.3. Per-million standard pricing GLM5.3 USD1.40 input/4.40 output; GLM5.3-Flash0.15 input/0.50 output.",
+      "source_url": "https://docs.z.ai/release-notes/new-released",
+      "supporting_source_urls": [
+        "https://docs.z.ai/release-notes/new-released",
+        "https://docs.z.ai/guides/overview/quick-start",
+        "https://docs.z.ai/guides/overview/pricing"
+      ],
+      "source_ids": [
+        "zai-docs-episode-1",
+        "zai-docs-episode-2",
+        "zai-docs-episode-3"
+      ],
+      "evidence_type": "provider-reported",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "measurement_date": null,
+      "limits": [
+        "Do not present August release as new October announcement.",
+        "Cached input and cache-storage columns are distinct; current pricing table labels cache storage Limited-time Free.",
+        "Z.ai vendor benchmark superiority claims not independently checked."
+      ],
+      "verification_scope": "Observation with multiple named first-party supports; split into sentence-level claim IDs before final scripting",
+      "event_date": null,
+      "source_date": null
+    },
+    {
+      "id": "P10",
+      "claim": "Alibaba Model Studio recommended models page updated Oct11 lists qwen3.8-max, qwen3.7-plus and qwen3.8-flash. Pricing updated Oct13 lists qwen3.8-max standard International and US USD2 input/6 output per million for requests up to1M input tokens; Global USD1.65/4.951 per million, distinct deployment scope.",
+      "source_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+      "supporting_source_urls": [
+        "https://www.alibabacloud.com/help/en/model-studio/models",
+        "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+      ],
+      "source_ids": [
+        "qwen-model-studio-episode-1",
+        "qwen-model-studio-episode-2"
+      ],
+      "evidence_type": "provider-reported",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "measurement_date": null,
+      "limits": [
+        "Use International/US rates 2/6 with explicit deployment scope; avoid conflating Global/Chinese mainland prices.",
+        "Page updated date is not model release date.",
+        "Qwen blog JS page returned no body; cannot cite unread blog claim.",
+        "Current model pricing page may be date-only updated Oct13 with no exact update time; report retrieved Oct13 snapshot, not publication cutoff certainty."
+      ],
+      "verification_scope": "Observation with multiple named first-party supports; split into sentence-level claim IDs before final scripting",
+      "event_date": null,
+      "source_date": null
+    },
+    {
+      "id": "B01",
+      "claim": "Pairwise user preferences aggregated into a rating.",
+      "source_url": "https://arena.ai/leaderboard/chat/text",
+      "supporting_source_urls": [
+        "https://arena.ai/leaderboard/chat/text",
+        "https://arena.ai/blog/ranking-method",
+        "https://arena.ai/blog/arena-rank"
+      ],
+      "source_ids": [
+        "arena-text",
+        "arena-ranking",
+        "arena-rank"
+      ],
+      "evidence_type": "independent-evaluator-methodology",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "source_date": "Displayed date October 8 2026",
+      "measurement_date": null,
+      "limits": "Preference and style are distinct from factual correctness. Exact category/adjustment, dated vote cutoff, interval and votes matter.",
+      "practical_implication_interpretation": "Use for candidate assistant experience; test correctness and your tasks separately."
+    },
+    {
+      "id": "B02",
+      "claim": "Weighted combination of ten evaluations. Categories: Agents30%, Coding20%, Scientific Reasoning20%, General30%.",
+      "source_url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "supporting_source_urls": [
+        "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+        "https://artificialanalysis.ai/methodology/intelligence-benchmarking"
+      ],
+      "source_ids": [
+        "aa-index",
+        "aa-methodology"
+      ],
+      "evidence_type": "independent-evaluator-methodology",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "source_date": null,
+      "measurement_date": null,
+      "limits": "Primarily English and text; different metrics transformed for a composite, weights reflect evaluator priorities. Not universal IQ; do not compare across index versions without recomputation.",
+      "practical_implication_interpretation": "A shortlist signal, followed by task-specific evaluation and cost."
+    },
+    {
+      "id": "B03",
+      "claim": "Whether agents complete repository/terminal tasks under checked test criteria.",
+      "source_url": "https://www.swebench.com/verified.html",
+      "supporting_source_urls": [
+        "https://www.swebench.com/verified.html",
+        "https://www.swebench.com/",
+        "https://artificialanalysis.ai/evaluations/terminalbench-4-0"
+      ],
+      "source_ids": [
+        "swe-verified",
+        "swe-leaderboard",
+        "aa-terminal"
+      ],
+      "evidence_type": "independent-evaluator-methodology",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "source_date": null,
+      "measurement_date": null,
+      "limits": "Model plus agent environment; compare harness/version/tools/budget. SWE bash-only1.x vs2.x are not automatically compatible.",
+      "practical_implication_interpretation": "Closer to repair/engineering workflows than a chat coding preference score, but not a guarantee of shipping a whole app."
+    },
+    {
+      "id": "B04",
+      "claim": "Recall and calibrated refusal over 6,000 questions. Accuracy is correct/all questions; published hallucination rate is incorrect/(incorrect+partial+not-attempted), not incorrect/all answers.",
+      "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
+      "supporting_source_urls": [
+        "https://artificialanalysis.ai/evaluations/omniscience"
+      ],
+      "source_ids": [
+        "aa-omniscience"
+      ],
+      "evidence_type": "independent-evaluator-methodology",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "source_date": null,
+      "measurement_date": null,
+      "limits": "Benchmark-specific denominator and synthetic question-generation/judge dependencies; lower hallucination alone can coexist with more abstention.",
+      "practical_implication_interpretation": "Look for correct answers and appropriate admissions of uncertainty, separately."
+    },
+    {
+      "id": "B05",
+      "claim": "Find, connect and reason over100 questions with long documents(10k\u2013100k tokens).",
+      "source_url": "https://artificialanalysis.ai/evaluations/artificial-analysis-long-context-reasoning",
+      "supporting_source_urls": [
+        "https://artificialanalysis.ai/evaluations/artificial-analysis-long-context-reasoning"
+      ],
+      "source_ids": [
+        "aa-lcr"
+      ],
+      "evidence_type": "independent-evaluator-methodology",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "source_date": null,
+      "measurement_date": null,
+      "limits": "Grader uses LLM equality checking; context-window capacity alone says nothing about successful synthesis.",
+      "practical_implication_interpretation": "Evaluate actual long documents and evidence integration at your required length."
+    },
+    {
+      "id": "N01",
+      "claim": "Claude Opus 5.5 (Max, Default Fallback) published displayed result 58 on Intelligence Index v4.3.2",
+      "source_url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "source_ids": [
+        "aa-index"
+      ],
+      "evidence_type": "independent-evaluator-result",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "source_date": null,
+      "measurement_date": null,
+      "limits": "Not supplied for index",
+      "model_and_configuration": "Claude Opus 5.5 (Max, Default Fallback)"
+    },
+    {
+      "id": "N02",
+      "claim": "Claude Sonnet 5.5 (Max, Default Fallback) published displayed result 56 on Intelligence Index v4.3.2",
+      "source_url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "source_ids": [
+        "aa-index"
+      ],
+      "evidence_type": "independent-evaluator-result",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "source_date": null,
+      "measurement_date": null,
+      "limits": "Not supplied for index",
+      "model_and_configuration": "Claude Sonnet 5.5 (Max, Default Fallback)"
+    },
+    {
+      "id": "N03",
+      "claim": "Claude Opus 5.5 (Xhigh, Default Fallback) published displayed result 56 on Intelligence Index v4.3.2",
+      "source_url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "source_ids": [
+        "aa-index"
+      ],
+      "evidence_type": "independent-evaluator-result",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "source_date": null,
+      "measurement_date": null,
+      "limits": "Not supplied for index",
+      "model_and_configuration": "Claude Opus 5.5 (Xhigh, Default Fallback)"
+    },
+    {
+      "id": "N04",
+      "claim": "Gemini 4 Argon (High) published displayed result 53 on Intelligence Index v4.3.2",
+      "source_url": "https://artificialanalysis.ai/models/gemini-4-argon",
+      "source_ids": [
+        "aa-gemini"
+      ],
+      "evidence_type": "independent-evaluator-result",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "source_date": null,
+      "measurement_date": null,
+      "limits": "Not supplied for index",
+      "model_and_configuration": "Gemini 4 Argon (High)"
+    },
+    {
+      "id": "N05",
+      "claim": "GPT-6.1 Sol (Max) published displayed result 52 on Intelligence Index v4.3.2",
+      "source_url": "https://artificialanalysis.ai/models/comparisons/gpt-6-1-sol-vs-gpt-6-sol",
+      "source_ids": [
+        "aa-sol"
+      ],
+      "evidence_type": "independent-evaluator-result",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "source_date": null,
+      "measurement_date": null,
+      "limits": "Not supplied for index",
+      "model_and_configuration": "GPT-6.1 Sol (Max)"
+    },
+    {
+      "id": "N06",
+      "claim": "gemini-4-argon-high published displayed result 1525\u00b19 on Arena Text overall / style control enabled",
+      "source_url": "https://arena.ai/leaderboard/chat/text",
+      "source_ids": [
+        "arena-text"
+      ],
+      "evidence_type": "independent-evaluator-result",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "source_date": "Displayed date October 8 2026",
+      "measurement_date": "2026-10-08T14:00:00.000Z",
+      "limits": "Rank and adjustment require scope labels; use dated record",
+      "model_and_configuration": "gemini-4-argon-high"
+    },
+    {
+      "id": "N07",
+      "claim": "claude-opus-5.5-high published displayed result 1507\u00b18 on Arena Text overall / style control enabled",
+      "source_url": "https://arena.ai/leaderboard/chat/text",
+      "source_ids": [
+        "arena-text"
+      ],
+      "evidence_type": "independent-evaluator-result",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "source_date": "Displayed date October 8 2026",
+      "measurement_date": "2026-10-08T14:00:00.000Z",
+      "limits": "Rank and adjustment require scope labels; use dated record",
+      "model_and_configuration": "claude-opus-5.5-high"
+    },
+    {
+      "id": "N08",
+      "claim": "claude-opus-4-6-high published displayed result 1504\u00b13 on Arena Text overall / style control enabled",
+      "source_url": "https://arena.ai/leaderboard/chat/text",
+      "source_ids": [
+        "arena-text"
+      ],
+      "evidence_type": "independent-evaluator-result",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "source_date": "Displayed date October 8 2026",
+      "measurement_date": "2026-10-08T14:00:00.000Z",
+      "limits": "Rank and adjustment require scope labels; use dated record",
+      "model_and_configuration": "claude-opus-4-6-high"
+    },
+    {
+      "id": "N09",
+      "claim": "Claude Sonnet 5.5 (Max, Default Fallback) published displayed result 63.6% on Terminal-Bench 4.0 / mini-SWE-agent / pass@1 averaged 3 repeats",
+      "source_url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+      "source_ids": [
+        "aa-terminal"
+      ],
+      "evidence_type": "independent-evaluator-result",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "source_date": null,
+      "measurement_date": null,
+      "limits": "Not supplied for displayed AA record",
+      "model_and_configuration": "Claude Sonnet 5.5 (Max, Default Fallback)"
+    },
+    {
+      "id": "N10",
+      "claim": "Claude Opus 5.5 (Max, Default Fallback) published displayed result 59.6% on Terminal-Bench 4.0 / mini-SWE-agent / pass@1 averaged 3 repeats",
+      "source_url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+      "source_ids": [
+        "aa-terminal"
+      ],
+      "evidence_type": "independent-evaluator-result",
+      "changeable": true,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "source_date": null,
+      "measurement_date": null,
+      "limits": "Not supplied for displayed AA record",
+      "model_and_configuration": "Claude Opus 5.5 (Max, Default Fallback)"
+    },
+    {
+      "id": "M01",
+      "claim": "Multiple-choice performance on expert-written graduate-level biology, chemistry and physics questions. Main GPQA has 448 questions; Diamond is a higher-quality 198-question subset filtered using expert/non-expert validation.",
+      "source_url": "https://arxiv.org/html/2311.12022v1",
+      "source_ids": [
+        "gpqa-methodology-support"
+      ],
+      "evidence_type": "primary-methodology-historical",
+      "changeable": false,
+      "reviewed": true,
+      "verified_at": "2026-10-13T02:23:34.627589-04:00",
+      "source_date": "2023-11-20",
+      "measurement_date": null,
+      "limits": "Small and specialized; the paper disclaims representativeness of scientific questions and notes limited statistical power for small accuracy differences. Do not compare main-set and Diamond percentages as the same test.",
+      "current_news_source": false
+    }
+  ]
+}

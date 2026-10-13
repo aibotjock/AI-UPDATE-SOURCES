@@ -1,0 +1,266 @@
+{
+  "research_date": "2026-10-13",
+  "timezone": "America/New_York",
+  "provenance": "Original official webpages opened through search service. Repo registry media-library commit b8d393a1e1fc6233d829c555a8593daddc84bf6b establishes access only, not freshness or claims.",
+  "observations": [
+    {
+      "provider": "OpenAI",
+      "registry_id": "openai-docs",
+      "announcement_date": "2026-10-07",
+      "refs": [
+        "turn8view0",
+        "turn23view0",
+        "turn35view0"
+      ],
+      "urls": [
+        "https://openai.com/index/gpt-6-for-everyone/",
+        "https://developers.openai.com/api/docs/pricing",
+        "https://openai.com/index/introducing-gpt-6-1-sol/"
+      ],
+      "claim": "GPT-6 with Intelligent UI began rolling out to paid ChatGPT Chat tiers Oct 7, extending to Free and Go Oct 8; work and Codex models were unchanged by this specific release. Current API docs list GPT-6.1 Sol standard short-context prices at USD 2 input, 0.10 cached input, 10 output per million tokens.",
+      "status": "GPT-6 Chat rollout; GPT-6.1 Sol documented available in API and Work/Codex, not yet Chat on launch page.",
+      "caveats": [
+        "GPT-6.1 Sol introduction page did not expose an explicit publication date in the retrieved text; report current documentation availability, do not invent release date.",
+        "Pricing page contains Standard/Batch/Flex/Fast/Ultrafast and short/long context; choose standard short context explicitly. Long-context prices differ.",
+        "Provider's performance charts are vendor-reported, not independently tested by us."
+      ],
+      "retrieved_local_date": "2026-10-13",
+      "retrieved_timestamp": null,
+      "timestamp_note": "Exact source retrieval time was not retained; review-completed timestamp is separate."
+    },
+    {
+      "provider": "Anthropic",
+      "registry_id": "anthropic-docs",
+      "announcement_date": "2026-10-07",
+      "refs": [
+        "turn35view1",
+        "turn23view1",
+        "turn15view1"
+      ],
+      "urls": [
+        "https://www.anthropic.com/claude-haiku-5-5",
+        "https://platform.claude.com/docs/en/about-claude/pricing",
+        "https://www.anthropic.com/claude-sonnet-5-5"
+      ],
+      "claim": "Claude Haiku 5.5 announced Oct 7 and available now, with standard API USD 0.10 input/0.50 output for prompts up to 100,000 tokens. Above 100,000 prompt tokens, 0.50 input/2.50 output. Sonnet 5.5 cache reads cut to 0.10 from 0.20 USD per million on Oct 7; standard input 2 and output 10. Opus 5.5 standard input 4 and output 20.",
+      "status": "Available, distinct from Sep28 Sonnet article's then-future Haiku statement.",
+      "caveats": [
+        "Do not repeat outdated Sonnet cache read price from launch article.",
+        "Higher long-prompt Haiku tier affects complete request, including cache counts.",
+        "Max/Team API credits introduced separately; do not equate subscription price with usage-token price."
+      ],
+      "retrieved_local_date": "2026-10-13",
+      "retrieved_timestamp": null,
+      "timestamp_note": "Exact source retrieval time was not retained; review-completed timestamp is separate."
+    },
+    {
+      "provider": "Google",
+      "registry_id": "google-gemini-docs",
+      "announcement_dates": [
+        "2026-09-02",
+        "2026-09-30"
+      ],
+      "refs": [
+        "turn38view0",
+        "turn41view1",
+        "turn30view1"
+      ],
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+        "https://ai.google.dev/gemini-api/docs/pricing"
+      ],
+      "claim": "Gemini 3.8 Flash publicly available via Gemini API/AI Studio; introductory standard API USD 0.75 input and 3.75 output per million through Dec31 2026; 1.50/7.50 starting Jan1 2027. Gemini 4 Argon Sep30 announcement is rolling out only to trusted cyber defenders via Fairwind; planned introductory 2 input/10 output, not general public availability.",
+      "status": "3.8 Flash available; Argon restricted rollout, broader release prospective.",
+      "caveats": [
+        "Do not market Argon as generally usable today.",
+        "Price output includes thinking tokens.",
+        "Vendor article says 3.8 Flash may use more tokens on difficult tasks; token price alone is not cost per task.",
+        "Argon introductory expiry not stated in retrieved extract; avoid assumption."
+      ],
+      "retrieved_local_date": "2026-10-13",
+      "retrieved_timestamp": null,
+      "timestamp_note": "Exact source retrieval time was not retained; review-completed timestamp is separate."
+    },
+    {
+      "provider": "Microsoft",
+      "registry_id": "microsoft-ai-foundry",
+      "announcement_date": "2026-09-24",
+      "refs": [
+        "turn29view1",
+        "turn6view0"
+      ],
+      "urls": [
+        "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
+        "https://ai.azure.com/catalog"
+      ],
+      "claim": "Microsoft Foundry Sep24 article documents GPT-6 family and Claude Opus 5.5 as available; voice agents and long-running resilience are public preview; tool search, A2A and routines generally available. Foundry catalog labels individual model entries as GA or Preview.",
+      "status": "Platform availability depends on specific model/feature/deployment, not one global status.",
+      "caveats": [
+        "No universal Microsoft per-token price reported.",
+        "Article says several evaluators/optimizer features GA later Sep and AI Gateway preview coming October; scheduled statements alone do not confirm released status as of Oct13.",
+        "Do not infer a provider-specific cloud price from direct vendor API prices."
+      ],
+      "retrieved_local_date": "2026-10-13",
+      "retrieved_timestamp": null,
+      "timestamp_note": "Exact source retrieval time was not retained; review-completed timestamp is separate."
+    },
+    {
+      "provider": "Meta",
+      "registry_id": "meta-ai",
+      "announcement_date": "2026-07-09",
+      "refs": [
+        "turn6view3",
+        "turn29view3"
+      ],
+      "urls": [
+        "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+        "https://dev.meta.ai/resources/blog/build-with-muse-spark"
+      ],
+      "claim": "Meta Muse Spark 1.1 announcement Jul9 and public-preview Meta Model API. Developer announcement Jul8 says US developers; pay-as-you-go pricing starts USD1.25 input/4.25 output per million; reasoning billed as output.",
+      "status": "Public preview, geography limitation stated in Jul8 developer page; not a new October launch.",
+      "caveats": [
+        "Use July date when presenting; a freshly checked old item is not new news.",
+        "Developer article uses Muse Spark while main announcement specifies Muse Spark1.1; avoid implying exact ID/pricing version mapping without current model price docs.",
+        "No latest general worldwide API availability claim verified."
+      ],
+      "retrieved_local_date": "2026-10-13",
+      "retrieved_timestamp": null,
+      "timestamp_note": "Exact source retrieval time was not retained; review-completed timestamp is separate."
+    },
+    {
+      "provider": "NVIDIA",
+      "registry_id": "nvidia-build",
+      "announcement_date": "2026-10-01",
+      "refs": [
+        "turn6view1",
+        "turn6view2",
+        "turn39view0"
+      ],
+      "urls": [
+        "https://developer.nvidia.com/nim",
+        "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+        "https://build.nvidia.com/"
+      ],
+      "claim": "NVIDIA NIM developer page offers NVIDIA-hosted API endpoints for prototyping backed by DGX Cloud; production path includes enterprise-grade endpoints at partners or NVIDIA AI Enterprise. Oct1 NVIDIA article documents OpenAI GPT-6 Astra Ultrafast available in OpenAI API and eligible Work/Codex users running on Blackwell.",
+      "status": "Cloud infrastructure/platform reporting; not a uniform retail model subscription.",
+      "caveats": [
+        "No comparable universal per-million hosted price verified.",
+        "Do not turn free prototyping access into an assertion of free commercial production access.",
+        "No local GPU setup advice needed for episode."
+      ],
+      "retrieved_local_date": "2026-10-13",
+      "retrieved_timestamp": null,
+      "timestamp_note": "Exact source retrieval time was not retained; review-completed timestamp is separate."
+    },
+    {
+      "provider": "xAI",
+      "registry_id": "xai-docs",
+      "announcement_date": "2026-09-21",
+      "refs": [
+        "turn15view3",
+        "turn40view0"
+      ],
+      "urls": [
+        "https://x.ai/news/grok-4-7",
+        "https://docs.x.ai/developers/models"
+      ],
+      "claim": "Grok4.7 available in API, Grok Build and Cursor; standard starting prices USD2 input/6 output per million, fast variant twice price. Models docs last updated Sep21 2026.",
+      "status": "Available standard model; separate fast variant.",
+      "caveats": [
+        "Official current pages use SpaceXSI branding; can refer to xAI/Grok for audience familiarity without inventing company history.",
+        "No benchmark superiority asserted independently.",
+        "No subscription/token-rate equivalence."
+      ],
+      "retrieved_local_date": "2026-10-13",
+      "retrieved_timestamp": null,
+      "timestamp_note": "Exact source retrieval time was not retained; review-completed timestamp is separate."
+    },
+    {
+      "provider": "DeepSeek",
+      "registry_id": "deepseek-docs",
+      "announcement_date": "2026-09-10",
+      "refs": [
+        "turn13view1",
+        "turn23view3",
+        "turn7search1"
+      ],
+      "urls": [
+        "https://api-docs.deepseek.com/updates/",
+        "https://api-docs.deepseek.com/quick_start/pricing/",
+        "https://api-docs.deepseek.com/news/news260910/"
+      ],
+      "claim": "Current official change log and pricing list deepseek-flash = DeepSeek-V4.1-Flash and deepseek-v4-pro = DeepSeek-V4-Pro-0813. Flash peak USD0.30 uncached input/1.20 output per million, off-peak0.15/0.60; Pro peak1.32/3.96, off-peak0.66/1.98. Legacy Flash aliases route to V4.1-Flash.",
+      "status": "Available as listed in current pricing/change log.",
+      "caveats": [
+        "CONTRADICTION: Sep10 release article says V4-Pro routes to Flash after Sep14; current changelog explicitly says V4-Pro continues unchanged after Sep14 and current pricing lists both separately. Prefer current pricing/changelog and disclose conflict if relevant; do not claim Pro retired.",
+        "Do not compare off-peak rates to competitors standard peak without labeling."
+      ],
+      "retrieved_local_date": "2026-10-13",
+      "retrieved_timestamp": null,
+      "timestamp_note": "Exact source retrieval time was not retained; review-completed timestamp is separate."
+    },
+    {
+      "provider": "Z.ai",
+      "registry_id": "zai-docs",
+      "announcement_dates": [
+        "2026-08-18",
+        "2026-08-26"
+      ],
+      "refs": [
+        "turn22view0",
+        "turn13view0",
+        "turn41view0"
+      ],
+      "urls": [
+        "https://docs.z.ai/release-notes/new-released",
+        "https://docs.z.ai/guides/overview/quick-start",
+        "https://docs.z.ai/guides/overview/pricing"
+      ],
+      "claim": "GLM5.3 release notes Aug18, GLM5.3-Flash Aug26; quick start currently uses glm-5.3. Per-million standard pricing GLM5.3 USD1.40 input/4.40 output; GLM5.3-Flash0.15 input/0.50 output.",
+      "status": "Available API documented; coding subscription separate.",
+      "caveats": [
+        "Do not present August release as new October announcement.",
+        "Cached input and cache-storage columns are distinct; current pricing table labels cache storage Limited-time Free.",
+        "Z.ai vendor benchmark superiority claims not independently checked."
+      ],
+      "retrieved_local_date": "2026-10-13",
+      "retrieved_timestamp": null,
+      "timestamp_note": "Exact source retrieval time was not retained; review-completed timestamp is separate."
+    },
+    {
+      "provider": "Alibaba/Qwen",
+      "registry_id": "qwen-model-studio",
+      "source_updated_dates": [
+        "2026-10-11",
+        "2026-10-13"
+      ],
+      "refs": [
+        "turn14view0",
+        "turn41view2"
+      ],
+      "urls": [
+        "https://www.alibabacloud.com/help/en/model-studio/models",
+        "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+      ],
+      "claim": "Alibaba Model Studio recommended models page updated Oct11 lists qwen3.8-max, qwen3.7-plus and qwen3.8-flash. Pricing updated Oct13 lists qwen3.8-max standard International and US USD2 input/6 output per million for requests up to1M input tokens; Global USD1.65/4.951 per million, distinct deployment scope.",
+      "status": "API models listed in maintained official docs.",
+      "caveats": [
+        "Use International/US rates 2/6 with explicit deployment scope; avoid conflating Global/Chinese mainland prices.",
+        "Page updated date is not model release date.",
+        "Qwen blog JS page returned no body; cannot cite unread blog claim.",
+        "Current model pricing page may be date-only updated Oct13 with no exact update time; report retrieved Oct13 snapshot, not publication cutoff certainty."
+      ],
+      "retrieved_local_date": "2026-10-13",
+      "retrieved_timestamp": null,
+      "timestamp_note": "Exact source retrieval time was not retained; review-completed timestamp is separate."
+    }
+  ],
+  "quality_rules": [
+    "All model comparisons must distinguish vendor-reported from independent benchmarks.",
+    "Comparable price table uses USD per1M uncached text input and output, standard modes; must label context tiers, off-peak, previews, promotions, scopes.",
+    "No credentials or purchases attempted. No authenticated browser used. No repo modifications.",
+    "No claim of exhaustive all-news absence; only listed official sources checked."
+  ],
+  "review_completed_at": "2026-10-13T02:23:34.627589-04:00"
+}

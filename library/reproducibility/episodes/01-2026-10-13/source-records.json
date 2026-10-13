@@ -1,0 +1,715 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-13",
+  "timezone": "America/New_York",
+  "review_completed_at": "2026-10-13T02:23:34.627589-04:00",
+  "scope": "Episode-specific claim review. Does not mark the full repository registry claim-verified.",
+  "sources": [
+    {
+      "id": "aa-index",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "citation_refs": [
+        "turn0view0"
+      ],
+      "type": "Primary independent evaluator, maintained leaderboard",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "source_version": "v4.3.2",
+      "content_claims_reviewed": true,
+      "verified_scope": "Rendered headline leaders and named configurations matched repository's dated parsed numeric cohort. Not all model rows independently rechecked.",
+      "freshness": "Methodology version history says September 2026 to current. Individual score measurement dates not supplied.",
+      "word_limit": 200
+    },
+    {
+      "id": "aa-methodology",
+      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+      "citation_refs": [
+        "turn1view4",
+        "turn17view0",
+        "turn27view2"
+      ],
+      "type": "Primary evaluator, maintained methodology with version history",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": "Version 4.3.2: September 2026 to current",
+      "measurement_date": null,
+      "source_version": "v4.3.2",
+      "content_claims_reviewed": true,
+      "verified_scope": "Category weights, composition, general settings, retired benchmarks, version history, scoring details.",
+      "word_limit": 200
+    },
+    {
+      "id": "arena-text",
+      "url": "https://arena.ai/leaderboard/chat/text",
+      "citation_refs": [
+        "turn0view1",
+        "turn1view0"
+      ],
+      "type": "Primary maintainer, maintained leaderboard",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": "Displayed date October 8 2026",
+      "measurement_date": "Repository pinned cutoff 2026-10-08T14:00:00.000Z",
+      "source_version": "Text / overall / style control enabled",
+      "content_claims_reviewed": true,
+      "verified_scope": "Rendered top scores, intervals, votes, selected provider rows matched pinned repository dataset. Adjustment verified by repository selection provenance, not inferred from UI.",
+      "word_limit": 200
+    },
+    {
+      "id": "arena-ranking",
+      "url": "https://arena.ai/blog/ranking-method",
+      "citation_refs": [
+        "turn20view1"
+      ],
+      "type": "Primary methodology reference; evergreen explanation",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": "2025-11-14; last updated 2026-02-28",
+      "measurement_date": null,
+      "content_claims_reviewed": true,
+      "verified_scope": "Raw rank and rank spread definitions, dependence on confidence intervals.",
+      "word_limit": 200
+    },
+    {
+      "id": "arena-rank",
+      "url": "https://arena.ai/blog/arena-rank",
+      "citation_refs": [
+        "turn20view0"
+      ],
+      "type": "Primary methodology reference; evergreen explanation",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": "2025-12-18; last updated 2026-02-21",
+      "measurement_date": null,
+      "content_claims_reviewed": true,
+      "verified_scope": "Bradley-Terry methodology and open package. Generic 95% CI example does not establish exact interval procedure for today's style-controlled capture.",
+      "word_limit": 200
+    },
+    {
+      "id": "arena-changelog",
+      "url": "https://arena.ai/company/leaderboard-changelog",
+      "citation_refs": [
+        "turn20view2",
+        "turn27view4"
+      ],
+      "type": "Primary maintainer, actively maintained update feed",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": "Latest observed entry 2026-10-12",
+      "measurement_date": null,
+      "content_claims_reviewed": true,
+      "verified_scope": "Bash Recovery renamed Bash Reliability with judge and denominator changes; no new measured model result established by that entry.",
+      "word_limit": 200
+    },
+    {
+      "id": "swe-verified",
+      "url": "https://www.swebench.com/verified.html",
+      "citation_refs": [
+        "turn17view1"
+      ],
+      "type": "Primary benchmark maintainer methodology reference",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "content_claims_reviewed": true,
+      "verified_scope": "500 human-filtered issues; arbitrary agent systems versus bash-only model comparison; release 1.x and 2.x caveat.",
+      "word_limit": 200
+    },
+    {
+      "id": "swe-leaderboard",
+      "url": "https://www.swebench.com/",
+      "citation_refs": [
+        "turn1view1"
+      ],
+      "type": "Primary benchmark maintainer, monitored leaderboard",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "content_claims_reviewed": true,
+      "verified_scope": "Metric %Resolved and benchmark family counts. Dynamic result rows absent from text extraction; no current coding winner verified.",
+      "word_limit": 200
+    },
+    {
+      "id": "aa-terminal",
+      "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+      "citation_refs": [
+        "turn44view0"
+      ],
+      "type": "Primary evaluator, maintained evaluation leaderboard",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "source_version": "Terminal-Bench 4.0",
+      "content_claims_reviewed": true,
+      "verified_scope": "66 tasks, mini-SWE-agent, pass@1 averaged over 3 repeats; rendered leaders matched repository scores.",
+      "word_limit": 200
+    },
+    {
+      "id": "aa-omniscience",
+      "url": "https://artificialanalysis.ai/evaluations/omniscience",
+      "citation_refs": [
+        "turn44view1",
+        "turn45view0"
+      ],
+      "type": "Primary evaluator, maintained evaluation leaderboard",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "content_claims_reviewed": true,
+      "verified_scope": "Index scale/abstention, accuracy denominator, hallucination denominator; rendered point leaders.",
+      "word_limit": 200
+    },
+    {
+      "id": "aa-lcr",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-long-context-reasoning",
+      "citation_refs": [
+        "turn44view2",
+        "turn45view2"
+      ],
+      "type": "Primary evaluator, maintained evaluation leaderboard",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "source_version": "AA-LCR v1.1",
+      "content_claims_reviewed": true,
+      "verified_scope": "100 questions, 10k-100k cl100k_base tokens, synthesis not just extraction, model-judge grading.",
+      "word_limit": 200
+    },
+    {
+      "id": "aa-effort-cost",
+      "url": "https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-claude-opus-5-5-xhigh",
+      "citation_refs": [
+        "turn33view0"
+      ],
+      "type": "Primary evaluator maintained comparison page",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "source_version": "Intelligence Index v4.3.2",
+      "content_claims_reviewed": true,
+      "verified_scope": "58 vs56 Index, $4/$20 input/output token rates for both, weighted cost/task5.98 vs3.46. Do not use variable live speed fields without separate scope verification.",
+      "word_limit": 200
+    },
+    {
+      "id": "aa-gemini",
+      "url": "https://artificialanalysis.ai/models/gemini-4-argon",
+      "citation_refs": [
+        "turn33view1"
+      ],
+      "type": "Primary evaluator model page",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "source_version": "Intelligence Index v4.3.2",
+      "content_claims_reviewed": true,
+      "verified_scope": "High53 and cost/task1.99. Availability page has inconsistent generic API wording; first-party Google required before recommendation.",
+      "word_limit": 200
+    },
+    {
+      "id": "aa-sol",
+      "url": "https://artificialanalysis.ai/models/comparisons/gpt-6-1-sol-vs-gpt-6-sol",
+      "citation_refs": [
+        "turn33view2"
+      ],
+      "type": "Primary evaluator comparison page",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "source_version": "Intelligence Index v4.3.2",
+      "content_claims_reviewed": true,
+      "verified_scope": "Max configuration52 vs prior Max48; compatible same Index. Different unrelated submetric scales not merged.",
+      "word_limit": 200
+    },
+    {
+      "id": "aa-argon-analysis",
+      "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+      "citation_refs": [
+        "turn33view4"
+      ],
+      "type": "Primary independent evaluator article; advisory availability claims require first-party recheck",
+      "retrieved_local_date": "2026-10-13",
+      "publication_date": null,
+      "measurement_date": null,
+      "content_claims_reviewed": true,
+      "verified_scope": "Article says selected-user rollout and promotional pricing; contradictory generic model FAQ means first-party verification needed.",
+      "word_limit": 200
+    },
+    {
+      "id": "openai-docs-episode-1",
+      "parent_registry_id": "openai-docs",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "organization": "OpenAI",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "GPT-6.1 Sol introduction page did not expose an explicit publication date in the retrieved text; report current documentation availability, do not invent release date.",
+        "Pricing page contains Standard/Batch/Flex/Fast/Ultrafast and short/long context; choose standard short context explicitly. Long-context prices differ.",
+        "Provider's performance charts are vendor-reported, not independently tested by us."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "openai-docs-episode-2",
+      "parent_registry_id": "openai-docs",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "organization": "OpenAI",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "GPT-6.1 Sol introduction page did not expose an explicit publication date in the retrieved text; report current documentation availability, do not invent release date.",
+        "Pricing page contains Standard/Batch/Flex/Fast/Ultrafast and short/long context; choose standard short context explicitly. Long-context prices differ.",
+        "Provider's performance charts are vendor-reported, not independently tested by us."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "openai-docs-episode-3",
+      "parent_registry_id": "openai-docs",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "organization": "OpenAI",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "GPT-6.1 Sol introduction page did not expose an explicit publication date in the retrieved text; report current documentation availability, do not invent release date.",
+        "Pricing page contains Standard/Batch/Flex/Fast/Ultrafast and short/long context; choose standard short context explicitly. Long-context prices differ.",
+        "Provider's performance charts are vendor-reported, not independently tested by us."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "anthropic-docs-episode-1",
+      "parent_registry_id": "anthropic-docs",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "organization": "Anthropic",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "Do not repeat outdated Sonnet cache read price from launch article.",
+        "Higher long-prompt Haiku tier affects complete request, including cache counts.",
+        "Max/Team API credits introduced separately; do not equate subscription price with usage-token price."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "anthropic-docs-episode-2",
+      "parent_registry_id": "anthropic-docs",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "organization": "Anthropic",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "Do not repeat outdated Sonnet cache read price from launch article.",
+        "Higher long-prompt Haiku tier affects complete request, including cache counts.",
+        "Max/Team API credits introduced separately; do not equate subscription price with usage-token price."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "anthropic-docs-episode-3",
+      "parent_registry_id": "anthropic-docs",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "organization": "Anthropic",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "Do not repeat outdated Sonnet cache read price from launch article.",
+        "Higher long-prompt Haiku tier affects complete request, including cache counts.",
+        "Max/Team API credits introduced separately; do not equate subscription price with usage-token price."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "google-gemini-docs-episode-1",
+      "parent_registry_id": "google-gemini-docs",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "organization": "Google",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "Do not market Argon as generally usable today.",
+        "Price output includes thinking tokens.",
+        "Vendor article says 3.8 Flash may use more tokens on difficult tasks; token price alone is not cost per task.",
+        "Argon introductory expiry not stated in retrieved extract; avoid assumption."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "google-gemini-docs-episode-2",
+      "parent_registry_id": "google-gemini-docs",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "organization": "Google",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "Do not market Argon as generally usable today.",
+        "Price output includes thinking tokens.",
+        "Vendor article says 3.8 Flash may use more tokens on difficult tasks; token price alone is not cost per task.",
+        "Argon introductory expiry not stated in retrieved extract; avoid assumption."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "google-gemini-docs-episode-3",
+      "parent_registry_id": "google-gemini-docs",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "organization": "Google",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "Do not market Argon as generally usable today.",
+        "Price output includes thinking tokens.",
+        "Vendor article says 3.8 Flash may use more tokens on difficult tasks; token price alone is not cost per task.",
+        "Argon introductory expiry not stated in retrieved extract; avoid assumption."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "microsoft-ai-foundry-episode-1",
+      "parent_registry_id": "microsoft-ai-foundry",
+      "url": "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
+      "organization": "Microsoft",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "No universal Microsoft per-token price reported.",
+        "Article says several evaluators/optimizer features GA later Sep and AI Gateway preview coming October; scheduled statements alone do not confirm released status as of Oct13.",
+        "Do not infer a provider-specific cloud price from direct vendor API prices."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "microsoft-ai-foundry-episode-2",
+      "parent_registry_id": "microsoft-ai-foundry",
+      "url": "https://ai.azure.com/catalog",
+      "organization": "Microsoft",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "No universal Microsoft per-token price reported.",
+        "Article says several evaluators/optimizer features GA later Sep and AI Gateway preview coming October; scheduled statements alone do not confirm released status as of Oct13.",
+        "Do not infer a provider-specific cloud price from direct vendor API prices."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "meta-ai-episode-1",
+      "parent_registry_id": "meta-ai",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+      "organization": "Meta",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "Use July date when presenting; a freshly checked old item is not new news.",
+        "Developer article uses Muse Spark while main announcement specifies Muse Spark1.1; avoid implying exact ID/pricing version mapping without current model price docs.",
+        "No latest general worldwide API availability claim verified."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "meta-ai-episode-2",
+      "parent_registry_id": "meta-ai",
+      "url": "https://dev.meta.ai/resources/blog/build-with-muse-spark",
+      "organization": "Meta",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "Use July date when presenting; a freshly checked old item is not new news.",
+        "Developer article uses Muse Spark while main announcement specifies Muse Spark1.1; avoid implying exact ID/pricing version mapping without current model price docs.",
+        "No latest general worldwide API availability claim verified."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "nvidia-build-episode-1",
+      "parent_registry_id": "nvidia-build",
+      "url": "https://developer.nvidia.com/nim",
+      "organization": "NVIDIA",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "No comparable universal per-million hosted price verified.",
+        "Do not turn free prototyping access into an assertion of free commercial production access.",
+        "No local GPU setup advice needed for episode."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "nvidia-build-episode-2",
+      "parent_registry_id": "nvidia-build",
+      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+      "organization": "NVIDIA",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "No comparable universal per-million hosted price verified.",
+        "Do not turn free prototyping access into an assertion of free commercial production access.",
+        "No local GPU setup advice needed for episode."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "nvidia-build-episode-3",
+      "parent_registry_id": "nvidia-build",
+      "url": "https://build.nvidia.com/",
+      "organization": "NVIDIA",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "No comparable universal per-million hosted price verified.",
+        "Do not turn free prototyping access into an assertion of free commercial production access.",
+        "No local GPU setup advice needed for episode."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "xai-docs-episode-1",
+      "parent_registry_id": "xai-docs",
+      "url": "https://x.ai/news/grok-4-7",
+      "organization": "xAI",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "Official current pages use SpaceXSI branding; can refer to xAI/Grok for audience familiarity without inventing company history.",
+        "No benchmark superiority asserted independently.",
+        "No subscription/token-rate equivalence."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "xai-docs-episode-2",
+      "parent_registry_id": "xai-docs",
+      "url": "https://docs.x.ai/developers/models",
+      "organization": "xAI",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "Official current pages use SpaceXSI branding; can refer to xAI/Grok for audience familiarity without inventing company history.",
+        "No benchmark superiority asserted independently.",
+        "No subscription/token-rate equivalence."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "deepseek-docs-episode-1",
+      "parent_registry_id": "deepseek-docs",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "organization": "DeepSeek",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "CONTRADICTION: Sep10 release article says V4-Pro routes to Flash after Sep14; current changelog explicitly says V4-Pro continues unchanged after Sep14 and current pricing lists both separately. Prefer current pricing/changelog and disclose conflict if relevant; do not claim Pro retired.",
+        "Do not compare off-peak rates to competitors standard peak without labeling."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "deepseek-docs-episode-2",
+      "parent_registry_id": "deepseek-docs",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "organization": "DeepSeek",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "CONTRADICTION: Sep10 release article says V4-Pro routes to Flash after Sep14; current changelog explicitly says V4-Pro continues unchanged after Sep14 and current pricing lists both separately. Prefer current pricing/changelog and disclose conflict if relevant; do not claim Pro retired.",
+        "Do not compare off-peak rates to competitors standard peak without labeling."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "deepseek-docs-episode-3",
+      "parent_registry_id": "deepseek-docs",
+      "url": "https://api-docs.deepseek.com/news/news260910/",
+      "organization": "DeepSeek",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "CONTRADICTION: Sep10 release article says V4-Pro routes to Flash after Sep14; current changelog explicitly says V4-Pro continues unchanged after Sep14 and current pricing lists both separately. Prefer current pricing/changelog and disclose conflict if relevant; do not claim Pro retired.",
+        "Do not compare off-peak rates to competitors standard peak without labeling."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "zai-docs-episode-1",
+      "parent_registry_id": "zai-docs",
+      "url": "https://docs.z.ai/release-notes/new-released",
+      "organization": "Z.ai",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "Do not present August release as new October announcement.",
+        "Cached input and cache-storage columns are distinct; current pricing table labels cache storage Limited-time Free.",
+        "Z.ai vendor benchmark superiority claims not independently checked."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "zai-docs-episode-2",
+      "parent_registry_id": "zai-docs",
+      "url": "https://docs.z.ai/guides/overview/quick-start",
+      "organization": "Z.ai",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "Do not present August release as new October announcement.",
+        "Cached input and cache-storage columns are distinct; current pricing table labels cache storage Limited-time Free.",
+        "Z.ai vendor benchmark superiority claims not independently checked."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "zai-docs-episode-3",
+      "parent_registry_id": "zai-docs",
+      "url": "https://docs.z.ai/guides/overview/pricing",
+      "organization": "Z.ai",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "Do not present August release as new October announcement.",
+        "Cached input and cache-storage columns are distinct; current pricing table labels cache storage Limited-time Free.",
+        "Z.ai vendor benchmark superiority claims not independently checked."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "qwen-model-studio-episode-1",
+      "parent_registry_id": "qwen-model-studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+      "organization": "Alibaba/Qwen",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "Use International/US rates 2/6 with explicit deployment scope; avoid conflating Global/Chinese mainland prices.",
+        "Page updated date is not model release date.",
+        "Qwen blog JS page returned no body; cannot cite unread blog claim.",
+        "Current model pricing page may be date-only updated Oct13 with no exact update time; report retrieved Oct13 snapshot, not publication cutoff certainty."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "qwen-model-studio-episode-2",
+      "parent_registry_id": "qwen-model-studio",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "organization": "Alibaba/Qwen",
+      "role": "Official maintained documentation or announcement feed; individual dated article supports stated event",
+      "retrieved_local_date": "2026-10-13",
+      "source_date": null,
+      "content_claims_reviewed": true,
+      "review_scope": "Provider observation only; model recommendations and independent superiority not established",
+      "reliability_rationale": "First-party authority for own availability/pricing/announcements, not independent performance",
+      "known_limits": [
+        "Use International/US rates 2/6 with explicit deployment scope; avoid conflating Global/Chinese mainland prices.",
+        "Page updated date is not model release date.",
+        "Qwen blog JS page returned no body; cannot cite unread blog claim.",
+        "Current model pricing page may be date-only updated Oct13 with no exact update time; report retrieved Oct13 snapshot, not publication cutoff certainty."
+      ],
+      "source_date_note": "Observation event date is recorded separately in company coverage. No publication date inferred for this documentation URL."
+    },
+    {
+      "id": "gpqa-methodology-support",
+      "url": "https://arxiv.org/html/2311.12022v1",
+      "organization": "GPQA authors",
+      "role": "Static primary methodology support only",
+      "publication_date": "2023-11-20",
+      "retrieved_local_date": "2026-10-13",
+      "content_claims_reviewed": true,
+      "verified_scope": "Definition, subset distinction and limitations. No current model scores.",
+      "current_news_source": false
+    }
+  ]
+}

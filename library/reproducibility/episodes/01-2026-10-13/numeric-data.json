@@ -1,0 +1,255 @@
+{
+  "records": [
+    {
+      "benchmark": "Intelligence Index v4.3.2",
+      "model": "Claude Opus 5.5 (Max, Default Fallback)",
+      "displayed_score": 58,
+      "measurement_date": null,
+      "uncertainty": "Not supplied for index",
+      "coverage": "Repository captured 32 source-selected configurations; rendered headline identifies same leader.",
+      "source": "aa-index",
+      "raw_value_provenance": "Existing repository Oct12 Eastern capture. Rounded displayed value rechecked Oct13. Raw decimals not freshly remeasured.",
+      "retrieved_local_date": "2026-10-13",
+      "historical_raw_values": {
+        "values": {
+          "score_raw": 57.6223698102963
+        },
+        "capture_date_et": "2026-10-12",
+        "capture_date_utc": "2026-10-13",
+        "repo_commit": "b8d393a1e1fc6233d829c555a8593daddc84bf6b",
+        "record_path": "library/reproducibility/benchmarks-2026-10-13/data/artificial-analysis.json",
+        "current_raw_precision_reverified": false
+      },
+      "current_verification_scope": "Rounded displayed value and named configuration rechecked Oct13. Measurement date is unchanged or unknown.",
+      "record_id": "N01"
+    },
+    {
+      "benchmark": "Intelligence Index v4.3.2",
+      "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
+      "displayed_score": 56,
+      "measurement_date": null,
+      "uncertainty": "Not supplied for index",
+      "source": "aa-index",
+      "raw_value_provenance": "Existing repository Oct12 Eastern capture. Rounded displayed value rechecked Oct13. Raw decimals not freshly remeasured.",
+      "retrieved_local_date": "2026-10-13",
+      "historical_raw_values": {
+        "values": {
+          "score_raw": 56.0001286580794
+        },
+        "capture_date_et": "2026-10-12",
+        "capture_date_utc": "2026-10-13",
+        "repo_commit": "b8d393a1e1fc6233d829c555a8593daddc84bf6b",
+        "record_path": "library/reproducibility/benchmarks-2026-10-13/data/artificial-analysis.json",
+        "current_raw_precision_reverified": false
+      },
+      "current_verification_scope": "Rounded displayed value and named configuration rechecked Oct13. Measurement date is unchanged or unknown.",
+      "record_id": "N02"
+    },
+    {
+      "benchmark": "Intelligence Index v4.3.2",
+      "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
+      "displayed_score": 56,
+      "measurement_date": null,
+      "uncertainty": "Not supplied for index",
+      "source": "aa-index",
+      "retrieved_local_date": "2026-10-13",
+      "current_verification_scope": "Rounded displayed value and named configuration rechecked Oct13. Measurement date is unchanged or unknown.",
+      "record_id": "N03"
+    },
+    {
+      "benchmark": "Intelligence Index v4.3.2",
+      "model": "Gemini 4 Argon (High)",
+      "displayed_score": 53,
+      "measurement_date": null,
+      "uncertainty": "Not supplied for index",
+      "source": "aa-gemini",
+      "retrieved_local_date": "2026-10-13",
+      "current_verification_scope": "Rounded displayed value and named configuration rechecked Oct13. Measurement date is unchanged or unknown.",
+      "record_id": "N04"
+    },
+    {
+      "benchmark": "Intelligence Index v4.3.2",
+      "model": "GPT-6.1 Sol (Max)",
+      "displayed_score": 52,
+      "measurement_date": null,
+      "uncertainty": "Not supplied for index",
+      "source": "aa-sol",
+      "retrieved_local_date": "2026-10-13",
+      "current_verification_scope": "Rounded displayed value and named configuration rechecked Oct13. Measurement date is unchanged or unknown.",
+      "record_id": "N05"
+    },
+    {
+      "benchmark": "Arena Text overall / style control enabled",
+      "model": "gemini-4-argon-high",
+      "displayed_score": "1525\u00b19",
+      "votes": 4892,
+      "rank": 1,
+      "rank_spread": [
+        1,
+        1
+      ],
+      "status": "Preliminary",
+      "cutoff": "2026-10-08T14:00:00.000Z",
+      "source": "arena-text",
+      "raw_value_provenance": "Existing repository Oct12 Eastern capture. Rounded displayed value rechecked Oct13. Raw decimals not freshly remeasured.",
+      "retrieved_local_date": "2026-10-13",
+      "historical_raw_values": {
+        "values": {
+          "rating_raw": 1525.3956435571818,
+          "interval": [
+            1516.548029444045,
+            1534.2432576703181
+          ]
+        },
+        "capture_date_et": "2026-10-12",
+        "capture_date_utc": "2026-10-13",
+        "repo_commit": "b8d393a1e1fc6233d829c555a8593daddc84bf6b",
+        "record_path": "library/reproducibility/benchmarks-2026-10-13/data/arena.json",
+        "current_raw_precision_reverified": false
+      },
+      "current_verification_scope": "Rounded displayed value and named configuration rechecked Oct13. Measurement date is unchanged or unknown.",
+      "record_id": "N06"
+    },
+    {
+      "benchmark": "Arena Text overall / style control enabled",
+      "model": "claude-opus-5.5-high",
+      "displayed_score": "1507\u00b18",
+      "votes": 6272,
+      "rank": 2,
+      "rank_spread": [
+        2,
+        10
+      ],
+      "cutoff": "2026-10-08T14:00:00.000Z",
+      "source": "arena-text",
+      "raw_value_provenance": "Existing repository Oct12 Eastern capture. Rounded displayed value rechecked Oct13. Raw decimals not freshly remeasured.",
+      "retrieved_local_date": "2026-10-13",
+      "historical_raw_values": {
+        "values": {
+          "rating_raw": 1507.0758687407206,
+          "interval": [
+            1498.9693855369774,
+            1515.1823519444638
+          ]
+        },
+        "capture_date_et": "2026-10-12",
+        "capture_date_utc": "2026-10-13",
+        "repo_commit": "b8d393a1e1fc6233d829c555a8593daddc84bf6b",
+        "record_path": "library/reproducibility/benchmarks-2026-10-13/data/arena.json",
+        "current_raw_precision_reverified": false
+      },
+      "current_verification_scope": "Rounded displayed value and named configuration rechecked Oct13. Measurement date is unchanged or unknown.",
+      "record_id": "N07"
+    },
+    {
+      "benchmark": "Arena Text overall / style control enabled",
+      "model": "claude-opus-4-6-high",
+      "displayed_score": "1504\u00b13",
+      "votes": 79415,
+      "rank": 3,
+      "rank_spread": [
+        2,
+        8
+      ],
+      "cutoff": "2026-10-08T14:00:00.000Z",
+      "source": "arena-text",
+      "raw_value_provenance": "Existing repository Oct12 Eastern capture. Rounded displayed value rechecked Oct13. Raw decimals not freshly remeasured.",
+      "retrieved_local_date": "2026-10-13",
+      "historical_raw_values": {
+        "values": {
+          "rating_raw": 1504.355209789498,
+          "interval": [
+            1500.9746205948259,
+            1507.7357989841703
+          ]
+        },
+        "capture_date_et": "2026-10-12",
+        "capture_date_utc": "2026-10-13",
+        "repo_commit": "b8d393a1e1fc6233d829c555a8593daddc84bf6b",
+        "record_path": "library/reproducibility/benchmarks-2026-10-13/data/arena.json",
+        "current_raw_precision_reverified": false
+      },
+      "current_verification_scope": "Rounded displayed value and named configuration rechecked Oct13. Measurement date is unchanged or unknown.",
+      "record_id": "N08"
+    },
+    {
+      "benchmark": "Terminal-Bench 4.0 / mini-SWE-agent / pass@1 averaged 3 repeats",
+      "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
+      "displayed_score": "63.6%",
+      "measurement_date": null,
+      "uncertainty": "Not supplied for displayed AA record",
+      "source": "aa-terminal",
+      "raw_value_provenance": "Existing repository Oct12 Eastern capture. Rounded displayed value rechecked Oct13. Raw decimals not freshly remeasured.",
+      "retrieved_local_date": "2026-10-13",
+      "historical_raw_values": {
+        "values": {
+          "score_raw": 0.636363636363636
+        },
+        "capture_date_et": "2026-10-12",
+        "capture_date_utc": "2026-10-13",
+        "repo_commit": "b8d393a1e1fc6233d829c555a8593daddc84bf6b",
+        "record_path": "library/reproducibility/benchmarks-2026-10-13/data/artificial-analysis.json",
+        "current_raw_precision_reverified": false
+      },
+      "current_verification_scope": "Rounded displayed value and named configuration rechecked Oct13. Measurement date is unchanged or unknown.",
+      "record_id": "N09"
+    },
+    {
+      "benchmark": "Terminal-Bench 4.0 / mini-SWE-agent / pass@1 averaged 3 repeats",
+      "model": "Claude Opus 5.5 (Max, Default Fallback)",
+      "displayed_score": "59.6%",
+      "measurement_date": null,
+      "uncertainty": "Not supplied for displayed AA record",
+      "source": "aa-terminal",
+      "raw_value_provenance": "Existing repository Oct12 Eastern capture. Rounded displayed value rechecked Oct13. Raw decimals not freshly remeasured.",
+      "retrieved_local_date": "2026-10-13",
+      "historical_raw_values": {
+        "values": {
+          "score_raw": 0.595959595959596
+        },
+        "capture_date_et": "2026-10-12",
+        "capture_date_utc": "2026-10-13",
+        "repo_commit": "b8d393a1e1fc6233d829c555a8593daddc84bf6b",
+        "record_path": "library/reproducibility/benchmarks-2026-10-13/data/artificial-analysis.json",
+        "current_raw_precision_reverified": false
+      },
+      "current_verification_scope": "Rounded displayed value and named configuration rechecked Oct13. Measurement date is unchanged or unknown.",
+      "record_id": "N10"
+    }
+  ],
+  "published_cost_example": {
+    "provider": "Anthropic",
+    "benchmark": "Artificial Analysis Intelligence Index v4.3.2",
+    "settings": [
+      "Claude Opus 5.5 (Max, Default Fallback)",
+      "Claude Opus 5.5 (Xhigh, Default Fallback)"
+    ],
+    "scores": [
+      58,
+      56
+    ],
+    "input_usd_per_million": [
+      4,
+      4
+    ],
+    "output_usd_per_million": [
+      20,
+      20
+    ],
+    "weighted_usd_per_benchmark_task": [
+      5.98,
+      3.46
+    ],
+    "inference": "Equal nominal input/output token prices do not imply equal task cost; inference configuration changes usage. This is a publisher-run benchmark, not channel testing.",
+    "excluded_claims": [
+      "Statistically significant improvement",
+      "Typical cost for every user task",
+      "Channel-observed latency",
+      "Universal value winner"
+    ],
+    "source": "aa-effort-cost"
+  },
+  "measured_channel_runs": [],
+  "data_retrieval_note": "Raw precision provenance retained explicitly. No new model measurement performed.",
+  "authority": "Canonical numeric dataset for this packet. Generate dependent chart/script values from these records."
+}
