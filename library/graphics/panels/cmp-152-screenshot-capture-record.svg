@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="asset-title asset-description">
+<title id="asset-title">Screenshot capture record</title>
+<desc id="asset-description">Original editable template for citation and provenance. All displayed results, models, costs, and evidence fields are placeholders requiring verification. Not a factual comparison.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#63dcec"/></marker></defs>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#081421"/>
+<line x1="70" y1="70" x2="1850" y2="70" stroke="#294456" stroke-width="2"/>
+<text x="70" y="57" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">AI UPDATE / CITATION AND PROVENANCE</text>
+<text x="70" y="147" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="54" font-weight="700">Screenshot capture record</text>
+<text x="73" y="194" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Replace all placeholders with verified episode evidence.</text>
+<rect x="1555" y="23" width="295" height="42" rx="9" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="1569" y="51" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">TEMPLATE • VERIFY DATA</text>
+<line x1="70" y1="1018" x2="1850" y2="1018" stroke="#294456" stroke-width="2"/>
+<text x="70" y="1051" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TEMPLATE / no measured results embedded</text>
+<text x="1270" y="1051" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">CC BY 4.0 • AI Update Sources</text>
+<rect x="70" y="235" width="950" height="760" rx="12" fill="#081421" stroke="#294456" stroke-width="2"/>
+<line x1="85" y1="250" x2="1005" y2="980" stroke="#294456" stroke-width="1" stroke-dasharray="8 9"/>
+<line x1="1005" y1="250" x2="85" y2="980" stroke="#294456" stroke-width="1" stroke-dasharray="8 9"/>
+<rect x="90" y="580.0" width="910" height="76" rx="10" fill="#112637"/>
+<text x="106" y="610.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700">PRESERVED ORIGINAL CAPTURE</text>
+<rect x="1050" y="235" width="800" height="760" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="1050" y="235" width="6" height="760" rx="2" fill="#efc26d"/>
+<text x="1076" y="277" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">CAPTURE METADATA</text>
+<text x="1076" y="323" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="400">Exact URL</text>
+<text x="1076" y="362.2" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="400">Page title</text>
+<text x="1076" y="401.4" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="400">Capture timestamp + timezone</text>
+<text x="1076" y="440.6" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="400">Viewport and element selector</text>
+<text x="1076" y="479.79999999999995" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="400">Content date</text>
+<text x="1076" y="519.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="400">Original file hash</text>
+<text x="1076" y="558.1999999999999" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="400">Reuse restrictions</text>
+</svg>

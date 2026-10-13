@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="asset-title asset-description">
+<title id="asset-title">Tool-use trace comparison</title>
+<desc id="asset-description">Original editable template for comparison. All displayed results, models, costs, and evidence fields are placeholders requiring verification. Not a factual comparison.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#63dcec"/></marker></defs>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#081421"/>
+<line x1="70" y1="70" x2="1850" y2="70" stroke="#294456" stroke-width="2"/>
+<text x="70" y="57" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">AI UPDATE / COMPARISON</text>
+<text x="70" y="147" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="54" font-weight="700">Tool-use trace comparison</text>
+<text x="73" y="194" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Replace all placeholders with verified episode evidence.</text>
+<rect x="1555" y="23" width="295" height="42" rx="9" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="1569" y="51" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">TEMPLATE • VERIFY DATA</text>
+<line x1="70" y1="1018" x2="1850" y2="1018" stroke="#294456" stroke-width="2"/>
+<text x="70" y="1051" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TEMPLATE / no measured results embedded</text>
+<text x="1270" y="1051" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">CC BY 4.0 • AI Update Sources</text>
+<rect x="70" y="235" width="1780" height="112" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="70" y="235" width="6" height="112" rx="2" fill="#efc26d"/>
+<text x="96" y="277" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">IDENTICAL PROMPT / EXACT INPUTS</text>
+<text x="96" y="323" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="400">Paste the identical prompt, attached inputs, and task constraints here.</text>
+<rect x="70" y="375" width="1780" height="290" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="70" y="375" width="6" height="290" rx="2" fill="#63dcec"/>
+<text x="96" y="417" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">MODEL A / EXACT VERSION / RECORDED AGENT SETUP</text>
+<rect x="95" y="452" width="460" height="128" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="95" y="452" width="6" height="128" rx="2" fill="#efc26d"/>
+<text x="121" y="494" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">Actual tool call</text>
+<text x="121" y="540" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="400">Paste trace evidence</text>
+<rect x="585" y="452" width="460" height="128" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="585" y="452" width="6" height="128" rx="2" fill="#efc26d"/>
+<text x="611" y="494" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">Observed response</text>
+<text x="611" y="540" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="400">Paste trace evidence</text>
+<rect x="1075" y="452" width="460" height="128" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="1075" y="452" width="6" height="128" rx="2" fill="#efc26d"/>
+<text x="1101" y="494" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">Final product</text>
+<text x="1101" y="540" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="400">Paste trace evidence</text>
+<line x1="555" y1="520" x2="574" y2="520" stroke="#63dcec" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1045" y1="520" x2="1064" y2="520" stroke="#63dcec" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1580" y="492" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TASK COST</text>
+<text x="1580" y="541" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">BENCHMARK</text>
+<text x="95" y="635" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="400">Record attempts, tool availability, and evaluator checks.</text>
+<rect x="70" y="685" width="1780" height="290" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="70" y="685" width="6" height="290" rx="2" fill="#63dcec"/>
+<text x="96" y="727" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">MODEL B / EXACT VERSION / RECORDED AGENT SETUP</text>
+<rect x="95" y="762" width="460" height="128" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="95" y="762" width="6" height="128" rx="2" fill="#efc26d"/>
+<text x="121" y="804" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">Actual tool call</text>
+<text x="121" y="850" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="400">Paste trace evidence</text>
+<rect x="585" y="762" width="460" height="128" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="585" y="762" width="6" height="128" rx="2" fill="#efc26d"/>
+<text x="611" y="804" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">Observed response</text>
+<text x="611" y="850" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="400">Paste trace evidence</text>
+<rect x="1075" y="762" width="460" height="128" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="1075" y="762" width="6" height="128" rx="2" fill="#efc26d"/>
+<text x="1101" y="804" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">Final product</text>
+<text x="1101" y="850" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="400">Paste trace evidence</text>
+<line x1="555" y1="830" x2="574" y2="830" stroke="#63dcec" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1045" y1="830" x2="1064" y2="830" stroke="#63dcec" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1580" y="802" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TASK COST</text>
+<text x="1580" y="851" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">BENCHMARK</text>
+<text x="95" y="945" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="400">Record attempts, tool availability, and evaluator checks.</text>
+</svg>

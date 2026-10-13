@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="asset-title asset-description">
+<title id="asset-title">Known limitations register</title>
+<desc id="asset-description">Original editable template for benchmark explainer. All displayed results, models, costs, and evidence fields are placeholders requiring verification. Not a factual comparison.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#63dcec"/></marker></defs>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#081421"/>
+<line x1="70" y1="70" x2="1850" y2="70" stroke="#294456" stroke-width="2"/>
+<text x="70" y="57" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">AI UPDATE / BENCHMARK EXPLAINER</text>
+<text x="70" y="147" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="54" font-weight="700">Known limitations register</text>
+<text x="73" y="194" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Use a verified benchmark release and cited methodology; diagrams are explanatory templates.</text>
+<rect x="1555" y="23" width="295" height="42" rx="9" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="1569" y="51" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">TEMPLATE • VERIFY DATA</text>
+<line x1="70" y1="1018" x2="1850" y2="1018" stroke="#294456" stroke-width="2"/>
+<text x="70" y="1051" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TEMPLATE / no measured results embedded</text>
+<text x="1270" y="1051" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">CC BY 4.0 • AI Update Sources</text>
+<rect x="70" y="235" width="1780" height="135" rx="8" fill="#112637" stroke="#294456" stroke-width="1"/>
+<text x="88" y="268" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700">REPORTED LIMITATION</text>
+<text x="681.3333333333334" y="268" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700">MITIGATION</text>
+<text x="1274.6666666666667" y="268" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700">REMAINING UNCERTAINTY</text>
+<rect x="70" y="370" width="1780" height="133" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="402" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Dataset coverage</text>
+<text x="681.3333333333334" y="402" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Documented measure</text>
+<text x="1274.6666666666667" y="402" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">What is still unknown</text>
+<rect x="70" y="505" width="1780" height="133" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="537" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Answer evaluation</text>
+<text x="681.3333333333334" y="537" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Documented measure</text>
+<text x="1274.6666666666667" y="537" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">What is still unknown</text>
+<rect x="70" y="640" width="1780" height="133" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="672" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Exposure and tuning</text>
+<text x="681.3333333333334" y="672" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Documented measure</text>
+<text x="1274.6666666666667" y="672" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">What is still unknown</text>
+<rect x="70" y="775" width="1780" height="133" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="807" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Real-world transfer</text>
+<text x="681.3333333333334" y="807" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Documented measure</text>
+<text x="1274.6666666666667" y="807" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">What is still unknown</text>
+<line x1="663.3333333333334" y1="242" x2="663.3333333333334" y2="903" stroke="#294456" stroke-width="1"/>
+<line x1="1256.6666666666667" y1="242" x2="1256.6666666666667" y2="903" stroke="#294456" stroke-width="1"/>
+</svg>

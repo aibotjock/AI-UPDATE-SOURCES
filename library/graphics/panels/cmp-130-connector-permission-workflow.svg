@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="asset-title asset-description">
+<title id="asset-title">Connector permission workflow</title>
+<desc id="asset-description">Original editable template for platform how-to. All displayed results, models, costs, and evidence fields are placeholders requiring verification. Not a factual comparison.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#63dcec"/></marker></defs>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#081421"/>
+<line x1="70" y1="70" x2="1850" y2="70" stroke="#294456" stroke-width="2"/>
+<text x="70" y="57" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">AI UPDATE / PLATFORM HOW-TO</text>
+<text x="70" y="147" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="54" font-weight="700">Connector permission workflow</text>
+<text x="73" y="194" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Use current official documentation; show actual controls and note plan, region, and rollout restrictions.</text>
+<rect x="1555" y="23" width="295" height="42" rx="9" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="1569" y="51" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">TEMPLATE • VERIFY DATA</text>
+<line x1="70" y1="1018" x2="1850" y2="1018" stroke="#294456" stroke-width="2"/>
+<text x="70" y="1051" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TEMPLATE / no measured results embedded</text>
+<text x="1270" y="1051" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">CC BY 4.0 • AI Update Sources</text>
+<rect x="70" y="235" width="630" height="630" rx="12" fill="#081421" stroke="#294456" stroke-width="2"/>
+<line x1="85" y1="250" x2="685" y2="850" stroke="#294456" stroke-width="1" stroke-dasharray="8 9"/>
+<line x1="685" y1="250" x2="85" y2="850" stroke="#294456" stroke-width="1" stroke-dasharray="8 9"/>
+<rect x="90" y="515.0" width="590" height="76" rx="10" fill="#112637"/>
+<text x="106" y="545.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700">CURRENT FEATURE UI</text>
+<rect x="740" y="235" width="1110" height="200" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="740" y="235" width="6" height="200" rx="2" fill="#efc26d"/>
+<text x="766" y="277" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">PERMISSION / INPUT BOUNDARY</text>
+<text x="766" y="323" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400">Select required connector</text>
+<text x="766" y="365.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400">Grant minimal access</text>
+<rect x="740" y="475" width="1110" height="390" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="740" y="475" width="6" height="390" rx="2" fill="#63dcec"/>
+<text x="766" y="517" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">EVIDENCE AND OUTCOME</text>
+<text x="766" y="563" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="31" font-weight="400">Inspect retrieved evidence</text>
+<text x="766" y="606.4" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="31" font-weight="400"></text>
+<text x="766" y="649.8" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="31" font-weight="400">Remove unneeded permission</text>
+<text x="766" y="693.2" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="31" font-weight="400"></text>
+<text x="766" y="736.6" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="31" font-weight="400">Record access scope and unsupported behavior.</text>
+<rect x="70" y="915" width="1780" height="58" rx="10" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="88" y="951" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="400">Use official controls and sources; do not claim a feature is available to every account.</text>
+<text x="70" y="1004" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400">FEATURE DEMO / Connector permission workflow / exact platform + current documentation required</text>
+</svg>

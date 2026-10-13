@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="asset-title asset-description">
+<title id="asset-title">Source quality rubric</title>
+<desc id="asset-description">Original editable template for citation and provenance. All displayed results, models, costs, and evidence fields are placeholders requiring verification. Not a factual comparison.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#63dcec"/></marker></defs>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#081421"/>
+<line x1="70" y1="70" x2="1850" y2="70" stroke="#294456" stroke-width="2"/>
+<text x="70" y="57" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">AI UPDATE / CITATION AND PROVENANCE</text>
+<text x="70" y="147" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="54" font-weight="700">Source quality rubric</text>
+<text x="73" y="194" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Replace all placeholders with verified episode evidence.</text>
+<rect x="1555" y="23" width="295" height="42" rx="9" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="1569" y="51" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">TEMPLATE • VERIFY DATA</text>
+<line x1="70" y1="1018" x2="1850" y2="1018" stroke="#294456" stroke-width="2"/>
+<text x="70" y="1051" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TEMPLATE / no measured results embedded</text>
+<text x="1270" y="1051" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">CC BY 4.0 • AI Update Sources</text>
+<rect x="70" y="235" width="875" height="340" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="70" y="235" width="6" height="340" rx="2" fill="#63dcec"/>
+<text x="96" y="277" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">AUTHORITY</text>
+<text x="96" y="323" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="32" font-weight="400">Does this source own or directly evaluate</text>
+<text x="96" y="367.8" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="32" font-weight="400">the fact?</text>
+<rect x="975" y="235" width="875" height="340" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="975" y="235" width="6" height="340" rx="2" fill="#efc26d"/>
+<text x="1001" y="277" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">TRANSPARENCY</text>
+<text x="1001" y="323" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="32" font-weight="400">Can the method or original record be</text>
+<text x="1001" y="367.8" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="32" font-weight="400">inspected?</text>
+<rect x="70" y="610" width="875" height="340" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="70" y="610" width="6" height="340" rx="2" fill="#63dcec"/>
+<text x="96" y="652" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">INDEPENDENCE</text>
+<text x="96" y="698" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="32" font-weight="400">Are affiliations and conflicts stated?</text>
+<rect x="975" y="610" width="875" height="340" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="975" y="610" width="6" height="340" rx="2" fill="#efc26d"/>
+<text x="1001" y="652" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">CURRENCY</text>
+<text x="1001" y="698" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="32" font-weight="400">Is this the current applicable version?</text>
+</svg>

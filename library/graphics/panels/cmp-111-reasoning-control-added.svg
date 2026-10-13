@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="asset-title asset-description">
+<title id="asset-title">Reasoning control added</title>
+<desc id="asset-description">Original editable template for change report. All displayed results, models, costs, and evidence fields are placeholders requiring verification. Not a factual comparison.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#63dcec"/></marker></defs>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#081421"/>
+<line x1="70" y1="70" x2="1850" y2="70" stroke="#294456" stroke-width="2"/>
+<text x="70" y="57" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">AI UPDATE / CHANGE REPORT</text>
+<text x="70" y="147" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="54" font-weight="700">Reasoning control added</text>
+<text x="73" y="194" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Only source-backed previous/current facts are permitted; distinguish availability from testing.</text>
+<rect x="1555" y="23" width="295" height="42" rx="9" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="1569" y="51" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">TEMPLATE • VERIFY DATA</text>
+<line x1="70" y1="1018" x2="1850" y2="1018" stroke="#294456" stroke-width="2"/>
+<text x="70" y="1051" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TEMPLATE / no measured results embedded</text>
+<text x="1270" y="1051" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">CC BY 4.0 • AI Update Sources</text>
+<rect x="70" y="235" width="710" height="450" rx="12" fill="#081421" stroke="#294456" stroke-width="2"/>
+<line x1="85" y1="250" x2="765" y2="670" stroke="#294456" stroke-width="1" stroke-dasharray="8 9"/>
+<line x1="765" y1="250" x2="85" y2="670" stroke="#294456" stroke-width="1" stroke-dasharray="8 9"/>
+<rect x="90" y="425.0" width="670" height="76" rx="10" fill="#112637"/>
+<text x="106" y="455.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700">NEW REASONING CONTROL / ACTUAL UI</text>
+<rect x="820" y="235" width="1030" height="210" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="820" y="235" width="6" height="210" rx="2" fill="#efc26d"/>
+<text x="846" y="277" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">AVAILABLE SETTINGS</text>
+<text x="846" y="323" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="32" font-weight="400">Official setting names / limits / access plan</text>
+<rect x="820" y="485" width="1030" height="200" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="820" y="485" width="6" height="200" rx="2" fill="#63dcec"/>
+<text x="846" y="527" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">TESTED BEHAVIOR</text>
+<text x="846" y="573" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400">Same prompt / actual product / saved settings</text>
+<rect x="70" y="725" width="1780" height="85" rx="8" fill="#112637" stroke="#294456" stroke-width="1"/>
+<text x="88" y="758" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700">SETTING</text>
+<text x="681.3333333333334" y="758" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700">ACTUAL TASK RESULT</text>
+<text x="1274.6666666666667" y="758" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700">BILLING / TIME</text>
+<rect x="70" y="810" width="1780" height="83" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="842" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Recorded setting A</text>
+<text x="681.3333333333334" y="842" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Saved product / rubric</text>
+<text x="1274.6666666666667" y="842" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Actual usage / timing</text>
+<rect x="70" y="895" width="1780" height="83" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="927" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Recorded setting B</text>
+<text x="681.3333333333334" y="927" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Saved product / rubric</text>
+<text x="1274.6666666666667" y="927" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Actual usage / timing</text>
+<line x1="663.3333333333334" y1="732" x2="663.3333333333334" y2="973" stroke="#294456" stroke-width="1"/>
+<line x1="1256.6666666666667" y1="732" x2="1256.6666666666667" y2="973" stroke="#294456" stroke-width="1"/>
+<text x="70" y="1004" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400">CHECK: Setting names / Billing implications / Observed product</text>
+</svg>

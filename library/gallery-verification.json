@@ -1,0 +1,10 @@
+{
+  "search": "passed",
+  "category_filters": "passed",
+  "pagination": "passed",
+  "audio_controls": 60,
+  "benchmark_charts": 52,
+  "all_asset_paths_exist": true,
+  "dom_logic_verified": true,
+  "browser_layout_and_media_playback_verified": false
+}

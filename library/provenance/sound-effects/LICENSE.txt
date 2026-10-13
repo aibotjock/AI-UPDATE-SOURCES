@@ -1,0 +1,10 @@
+SPDX-License-Identifier: CC0-1.0
+
+The original sound-design definitions, generator, and procedurally generated
+sound effects in this folder are dedicated to the public domain under the
+Creative Commons CC0 1.0 Universal Public Domain Dedication.
+
+See the full legal text:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+No third-party samples, speech, or music recordings were used.

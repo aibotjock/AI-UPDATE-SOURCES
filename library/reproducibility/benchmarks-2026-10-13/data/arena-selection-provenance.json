@@ -1,0 +1,18 @@
+{
+  "source_url": "https://arena.ai/leaderboard/chat/text",
+  "source_file_sha256": "3a7177eab0c53ef5b823566f5ce2e7296328801d3e265f46c83833cdd6503eb4",
+  "serialized_source_locator": "React server-flight component 3e[3].leaderboard",
+  "adjustment_json_path": "3e[3].leaderboard.params.styleControl",
+  "adjustment_exact_value": true,
+  "category_json_path": "3e[3].leaderboard.params.category",
+  "category_exact_value": "overall",
+  "leaderboard_id": "leaderboard-sets/public/leaderboards/text-overall-style_control/leaderboard-snapshots/latest",
+  "vote_cutoff_json_path": "3e[3].leaderboard.voteCutoffISOString",
+  "vote_cutoff_exact_value": "2026-10-08T14:00:00.000Z",
+  "score_json_path": "3e[3].leaderboard.entries[*].rating",
+  "interval_lower_json_path": "3e[3].leaderboard.entries[*].ratingLower",
+  "interval_upper_json_path": "3e[3].leaderboard.entries[*].ratingUpper",
+  "interval_method": "Bootstrap model-strength intervals as labeled in visible source; confidence level not guessed.",
+  "visible_table_check": "All 414 visible table rows match leaderboard.entries model names in order.",
+  "provider_cohort_policy": "Top15, or all if fewer15, of source-listed provider variants. Includes older historical configurations; no claim to cover all available cloud models."
+}

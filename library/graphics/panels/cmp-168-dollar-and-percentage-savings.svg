@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="asset-title asset-description">
+<title id="asset-title">Dollar and percentage savings</title>
+<desc id="asset-description">Original editable template for cost explanation. All displayed results, models, costs, and evidence fields are placeholders requiring verification. Not a factual comparison.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#63dcec"/></marker></defs>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#081421"/>
+<line x1="70" y1="70" x2="1850" y2="70" stroke="#294456" stroke-width="2"/>
+<text x="70" y="57" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">AI UPDATE / COST EXPLANATION</text>
+<text x="70" y="147" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="54" font-weight="700">Dollar and percentage savings</text>
+<text x="73" y="194" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Use official rates and observed billing; mark estimates explicitly and keep currencies and units visible.</text>
+<rect x="1555" y="23" width="295" height="42" rx="9" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="1569" y="51" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">TEMPLATE • VERIFY DATA</text>
+<line x1="70" y1="1018" x2="1850" y2="1018" stroke="#294456" stroke-width="2"/>
+<text x="70" y="1051" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TEMPLATE / no measured results embedded</text>
+<text x="1270" y="1051" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">CC BY 4.0 • AI Update Sources</text>
+<rect x="70" y="235" width="875" height="270" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="70" y="235" width="6" height="270" rx="2" fill="#63dcec"/>
+<text x="96" y="277" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">NAMED BASELINE</text>
+<text x="96" y="323" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="34" font-weight="400">Exact model / task / total cost</text>
+<rect x="975" y="235" width="875" height="270" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="975" y="235" width="6" height="270" rx="2" fill="#efc26d"/>
+<text x="1001" y="277" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">CHEAPER OPTION</text>
+<text x="1001" y="323" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="31" font-weight="400">Same requirements / observed result / total</text>
+<text x="1001" y="366.4" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="31" font-weight="400">cost</text>
+<rect x="70" y="545" width="1780" height="210" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="70" y="545" width="6" height="210" rx="2" fill="#63dcec"/>
+<text x="96" y="587" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">DOLLAR SAVINGS</text>
+<text x="96" y="633" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="38" font-weight="400">Baseline cost − alternative cost</text>
+<rect x="70" y="795" width="1780" height="190" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="70" y="795" width="6" height="190" rx="2" fill="#efc26d"/>
+<text x="96" y="837" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">PERCENTAGE SAVINGS</text>
+<text x="96" y="883" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="33" font-weight="400">Dollar savings ÷ positive baseline cost × 100</text>
+</svg>

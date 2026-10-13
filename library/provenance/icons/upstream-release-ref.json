@@ -1,0 +1,10 @@
+{
+  "ref": "refs/tags/1.55.0",
+  "node_id": "MDM6UmVmMjcwNzIyOTQ5OnJlZnMvdGFncy8xLjU1LjA=",
+  "url": "https://api.github.com/repos/lucide-icons/lucide/git/refs/tags/1.55.0",
+  "object": {
+    "sha": "70562c1ee1c4fdcf736fe97bc893fb8511927934",
+    "type": "commit",
+    "url": "https://api.github.com/repos/lucide-icons/lucide/git/commits/70562c1ee1c4fdcf736fe97bc893fb8511927934"
+  }
+}

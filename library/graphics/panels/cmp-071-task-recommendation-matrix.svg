@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="asset-title asset-description">
+<title id="asset-title">Task recommendation matrix</title>
+<desc id="asset-description">Original editable template for verdict. All displayed results, models, costs, and evidence fields are placeholders requiring verification. Not a factual comparison.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#63dcec"/></marker></defs>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#081421"/>
+<line x1="70" y1="70" x2="1850" y2="70" stroke="#294456" stroke-width="2"/>
+<text x="70" y="57" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">AI UPDATE / VERDICT</text>
+<text x="70" y="147" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="54" font-weight="700">Task recommendation matrix</text>
+<text x="73" y="194" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Use saved task products, exact models, costs, and qualified evidence for the conclusion.</text>
+<rect x="1555" y="23" width="295" height="42" rx="9" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="1569" y="51" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">TEMPLATE • VERIFY DATA</text>
+<line x1="70" y1="1018" x2="1850" y2="1018" stroke="#294456" stroke-width="2"/>
+<text x="70" y="1051" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TEMPLATE / no measured results embedded</text>
+<text x="1270" y="1051" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">CC BY 4.0 • AI Update Sources</text>
+<rect x="70" y="235" width="1780" height="140" rx="8" fill="#112637" stroke="#294456" stroke-width="1"/>
+<text x="88" y="268" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700">TASK</text>
+<text x="388" y="268" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700">EXACT SERVICE</text>
+<text x="808" y="268" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700">OBSERVED PRODUCT</text>
+<text x="1308" y="268" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700">COST</text>
+<text x="1568" y="268" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700">CAVEAT</text>
+<rect x="70" y="375" width="1780" height="138" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="407" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Writing task</text>
+<text x="388" y="407" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Verified identity</text>
+<text x="808" y="407" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Saved output / rubric</text>
+<text x="1308" y="407" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Billed task</text>
+<text x="1568" y="407" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Scope</text>
+<rect x="70" y="515" width="1780" height="138" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="547" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Code task</text>
+<text x="388" y="547" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Verified identity</text>
+<text x="808" y="547" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Executed checks</text>
+<text x="1308" y="547" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Billed task</text>
+<text x="1568" y="547" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Scope</text>
+<rect x="70" y="655" width="1780" height="138" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="687" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Research task</text>
+<text x="388" y="687" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Verified identity</text>
+<text x="808" y="687" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Citations checked</text>
+<text x="1308" y="687" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Billed task</text>
+<text x="1568" y="687" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Scope</text>
+<rect x="70" y="795" width="1780" height="138" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="827" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Document task</text>
+<text x="388" y="827" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Verified identity</text>
+<text x="808" y="827" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Passages verified</text>
+<text x="1308" y="827" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Billed task</text>
+<text x="1568" y="827" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Scope</text>
+<line x1="370" y1="242" x2="370" y2="928" stroke="#294456" stroke-width="1"/>
+<line x1="790" y1="242" x2="790" y2="928" stroke="#294456" stroke-width="1"/>
+<line x1="1290" y1="242" x2="1290" y2="928" stroke="#294456" stroke-width="1"/>
+<line x1="1550" y1="242" x2="1550" y2="928" stroke="#294456" stroke-width="1"/>
+<rect x="70" y="964" width="1780" height="58" rx="10" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="88" y="1000" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="400">Every recommendation links to dated evidence; keep superseded findings visible as history.</text>
+</svg>

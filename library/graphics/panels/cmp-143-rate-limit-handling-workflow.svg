@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="asset-title asset-description">
+<title id="asset-title">Rate limit handling workflow</title>
+<desc id="asset-description">Original editable template for platform how-to. All displayed results, models, costs, and evidence fields are placeholders requiring verification. Not a factual comparison.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#63dcec"/></marker></defs>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#081421"/>
+<line x1="70" y1="70" x2="1850" y2="70" stroke="#294456" stroke-width="2"/>
+<text x="70" y="57" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">AI UPDATE / PLATFORM HOW-TO</text>
+<text x="70" y="147" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="54" font-weight="700">Rate limit handling workflow</text>
+<text x="73" y="194" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Current official controls, access conditions, actual UI captures, and verified product required.</text>
+<rect x="1555" y="23" width="295" height="42" rx="9" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="1569" y="51" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">TEMPLATE • VERIFY DATA</text>
+<line x1="70" y1="1018" x2="1850" y2="1018" stroke="#294456" stroke-width="2"/>
+<text x="70" y="1051" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TEMPLATE / no measured results embedded</text>
+<text x="1270" y="1051" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">CC BY 4.0 • AI Update Sources</text>
+<rect x="70" y="235" width="550" height="670" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="70" y="235" width="6" height="670" rx="2" fill="#efc26d"/>
+<text x="96" y="277" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">DOCUMENTED LIMITS</text>
+<text x="96" y="323" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400">Request window</text>
+<text x="96" y="365.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400">Token window</text>
+<text x="96" y="407.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400">Concurrency</text>
+<text x="96" y="449.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400">Provider headers</text>
+<text x="96" y="491.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400">Retry guidance</text>
+<rect x="660" y="235" width="1190" height="185" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="660" y="235" width="6" height="185" rx="2" fill="#63dcec"/>
+<text x="686" y="277" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">NORMAL REQUEST</text>
+<text x="686" y="323" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="32" font-weight="400">Saved cloud request and observed response.</text>
+<rect x="660" y="460" width="1190" height="185" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="660" y="460" width="6" height="185" rx="2" fill="#efc26d"/>
+<text x="686" y="502" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">LIMIT OR ERROR RESPONSE</text>
+<text x="686" y="548" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="29" font-weight="400">Actual status, headers, and error body; redact private data.</text>
+<rect x="660" y="685" width="1190" height="220" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="660" y="685" width="6" height="220" rx="2" fill="#63dcec"/>
+<text x="686" y="727" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">BOUNDED RECOVERY</text>
+<text x="686" y="773" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="29" font-weight="400">Documented backoff / attempt cap / total charges / final outcome</text>
+<text x="70" y="1004" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400">FEATURE DEMO / Rate limit handling workflow / exact platform + current documentation required</text>
+</svg>

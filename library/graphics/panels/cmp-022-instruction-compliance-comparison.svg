@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="asset-title asset-description">
+<title id="asset-title">Instruction compliance comparison</title>
+<desc id="asset-description">Original editable template for comparison. All displayed results, models, costs, and evidence fields are placeholders requiring verification. Not a factual comparison.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#63dcec"/></marker></defs>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#081421"/>
+<line x1="70" y1="70" x2="1850" y2="70" stroke="#294456" stroke-width="2"/>
+<text x="70" y="57" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">AI UPDATE / COMPARISON</text>
+<text x="70" y="147" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="54" font-weight="700">Instruction compliance comparison</text>
+<text x="73" y="194" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Replace all placeholders with verified episode evidence.</text>
+<rect x="1555" y="23" width="295" height="42" rx="9" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="1569" y="51" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">TEMPLATE • VERIFY DATA</text>
+<line x1="70" y1="1018" x2="1850" y2="1018" stroke="#294456" stroke-width="2"/>
+<text x="70" y="1051" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TEMPLATE / no measured results embedded</text>
+<text x="1270" y="1051" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">CC BY 4.0 • AI Update Sources</text>
+<rect x="70" y="235" width="1780" height="112" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="70" y="235" width="6" height="112" rx="2" fill="#efc26d"/>
+<text x="96" y="277" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">IDENTICAL PROMPT / EXACT INPUTS</text>
+<text x="96" y="323" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="400">Paste the identical prompt, attached inputs, and task constraints here.</text>
+<rect x="70" y="375" width="650" height="94" rx="8" fill="#112637" stroke="#294456" stroke-width="1"/>
+<text x="88" y="408" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700">PROMPT REQUIREMENT</text>
+<text x="528" y="408" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700">CHECK</text>
+<rect x="70" y="469" width="650" height="92" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="501" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Constraint one</text>
+<text x="528" y="501" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Recorded</text>
+<rect x="70" y="563" width="650" height="92" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="595" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Constraint two</text>
+<text x="528" y="595" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Recorded</text>
+<rect x="70" y="657" width="650" height="92" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="689" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Constraint three</text>
+<text x="528" y="689" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Recorded</text>
+<rect x="70" y="751" width="650" height="92" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="783" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Constraint four</text>
+<text x="528" y="783" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Recorded</text>
+<line x1="510" y1="382" x2="510" y2="838" stroke="#294456" stroke-width="1"/>
+<rect x="750" y="375" width="535" height="620" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="750" y="375" width="6" height="620" rx="2" fill="#63dcec"/>
+<text x="776" y="417" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">MODEL A / EXACT VERSION</text>
+<text x="776" y="467" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700">ACTUAL OUTPUT EXCERPT</text>
+<text x="776" y="507" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="400">Paste the unedited response.</text>
+<text x="776" y="542.0" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="400">Preserve errors and omissions;</text>
+<text x="776" y="577.0" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="400">link the full output.</text>
+<line x1="775" y1="880" x2="1260" y2="880" stroke="#294456" stroke-width="2"/>
+<text x="776" y="919" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="400">TASK COST / verified billed usage</text>
+<text x="776" y="960" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="400">BENCHMARK / version • score • source</text>
+<rect x="1315" y="375" width="535" height="620" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="1315" y="375" width="6" height="620" rx="2" fill="#63dcec"/>
+<text x="1341" y="417" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">MODEL B / EXACT VERSION</text>
+<text x="1341" y="467" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700">ACTUAL OUTPUT EXCERPT</text>
+<text x="1341" y="507" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="400">Paste the unedited response.</text>
+<text x="1341" y="542.0" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="400">Preserve errors and omissions;</text>
+<text x="1341" y="577.0" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="400">link the full output.</text>
+<line x1="1340" y1="880" x2="1825" y2="880" stroke="#294456" stroke-width="2"/>
+<text x="1341" y="919" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="400">TASK COST / verified billed usage</text>
+<text x="1341" y="960" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="400">BENCHMARK / version • score • source</text>
+</svg>

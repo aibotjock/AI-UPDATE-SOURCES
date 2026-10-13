@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="asset-title asset-description">
+<title id="asset-title">Evidence confidence verdict</title>
+<desc id="asset-description">Original editable template for verdict. All displayed results, models, costs, and evidence fields are placeholders requiring verification. Not a factual comparison.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#63dcec"/></marker></defs>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#081421"/>
+<line x1="70" y1="70" x2="1850" y2="70" stroke="#294456" stroke-width="2"/>
+<text x="70" y="57" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">AI UPDATE / VERDICT</text>
+<text x="70" y="147" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="54" font-weight="700">Evidence confidence verdict</text>
+<text x="73" y="194" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Use saved task products, exact models, costs, and qualified evidence for the conclusion.</text>
+<rect x="1555" y="23" width="295" height="42" rx="9" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="1569" y="51" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">TEMPLATE • VERIFY DATA</text>
+<line x1="70" y1="1018" x2="1850" y2="1018" stroke="#294456" stroke-width="2"/>
+<text x="70" y="1051" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TEMPLATE / no measured results embedded</text>
+<text x="1270" y="1051" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">CC BY 4.0 • AI Update Sources</text>
+<rect x="70" y="235" width="760" height="610" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="70" y="235" width="6" height="610" rx="2" fill="#efc26d"/>
+<text x="96" y="277" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">EVIDENCE ORIGINS</text>
+<text x="96" y="323" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="31" font-weight="400">Official source</text>
+<text x="96" y="366.4" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="31" font-weight="400">Independent evaluator</text>
+<text x="96" y="409.8" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="31" font-weight="400">Original show task</text>
+<text x="96" y="453.2" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="31" font-weight="400">Conflicting or missing evidence</text>
+<rect x="870" y="235" width="980" height="285" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="870" y="235" width="6" height="285" rx="2" fill="#63dcec"/>
+<text x="896" y="277" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">SUPPORTED CLAIM</text>
+<text x="896" y="323" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="36" font-weight="400">Record the precise conclusion that</text>
+<text x="896" y="373.4" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="36" font-weight="400">evidence supports.</text>
+<rect x="870" y="560" width="980" height="285" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="870" y="560" width="6" height="285" rx="2" fill="#efc26d"/>
+<text x="896" y="602" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">CONFIDENCE LIMIT</text>
+<text x="896" y="648" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400">Explain provenance, sample, comparability, and</text>
+<text x="896" y="690.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400">unresolved gaps without inventing a confidence</text>
+<text x="896" y="732.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400">percentage.</text>
+<rect x="70" y="910" width="1780" height="58" rx="10" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="88" y="946" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="400">Confidence describes support for the claim; it is not a model benchmark score.</text>
+</svg>

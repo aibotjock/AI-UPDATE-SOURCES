@@ -1,0 +1,24 @@
+{
+  "verified_at": "2026-10-13T01:39:09.156529+00:00",
+  "base_asset_count": 1000,
+  "total_assets": 1052,
+  "counts": {
+    "presentation-component": 180,
+    "diagram": 180,
+    "background": 100,
+    "motion": 100,
+    "icon": 320,
+    "logo": 40,
+    "sound-effect": 60,
+    "evidence-label": 20,
+    "benchmark-chart": 52
+  },
+  "all_paths_exist": true,
+  "all_hashes_match": true,
+  "unique_asset_ids": 1052,
+  "unique_asset_hashes": 1052,
+  "svg_xml_and_resource_checks": "passed",
+  "audio_format_clipping_and_silence_checks": "passed",
+  "playback_limits": "SMIL motion assets need browser/video rendering. Native PowerPoint animated SVG playback is not asserted. Voiceover mixing not tested.",
+  "benchmark_status": "See chart-specific source dates, coverage and methodology. No universal winner is inferred across incompatible metrics."
+}

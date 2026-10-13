@@ -1,0 +1,20 @@
+const {JSDOM}=require('jsdom');
+const fs=require('fs'),path=require('path');
+const repo=path.resolve(__dirname,'..');
+const dom=new JSDOM(fs.readFileSync(path.join(repo,'library/gallery.html'),'utf8'),{runScripts:'dangerously',url:'file://'+path.join(repo,'library/gallery.html')});
+const document=dom.window.document;
+const count=()=>document.querySelectorAll('.card').length;
+if(count()!==60)throw Error('Expected first page of 60 assets');
+const category=document.querySelector('#category'),search=document.querySelector('#q');
+const change=()=>category.dispatchEvent(new dom.window.Event('change'));
+category.value='logo';change();if(count()!==40)throw Error('Expected 40 logos');
+search.value='Claude';search.dispatchEvent(new dom.window.Event('input'));if(count()!==1)throw Error('Expected one Claude logo');
+search.value='';search.dispatchEvent(new dom.window.Event('input'));category.value='sound-effect';change();
+if(document.querySelectorAll('audio').length!==60)throw Error('Expected 60 sound controls');
+category.value='';change();search.value='no-matching-asset-7zY';search.dispatchEvent(new dom.window.Event('input'));if(count()!==0)throw Error('Empty search failed');
+search.value='';search.dispatchEvent(new dom.window.Event('input'));document.querySelector('#more').click();if(count()!==120)throw Error('Pagination failed');
+category.value='benchmark-chart';change();const expectedBench=JSON.parse(fs.readFileSync(path.join(repo,'library/asset-index.json'),'utf8')).counts['benchmark-chart'];if(count()!==expectedBench)throw Error('Benchmark chart count mismatch');
+const index=JSON.parse(fs.readFileSync(path.join(repo,'library/asset-index.json'),'utf8'));
+for(const asset of index.assets){if(!fs.existsSync(path.join(repo,asset.path)))throw Error('Missing gallery asset '+asset.path);}
+const report={search:'passed',category_filters:'passed',pagination:'passed',audio_controls:60,benchmark_charts:expectedBench,all_asset_paths_exist:true,dom_logic_verified:true,browser_layout_and_media_playback_verified:false};
+fs.writeFileSync(path.join(repo,'library/gallery-verification.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));

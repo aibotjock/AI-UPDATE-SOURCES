@@ -1,0 +1,30 @@
+{
+  "aa": {
+    "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+    "publisher": "Artificial Analysis",
+    "version": "Intelligence Index v4.3.2",
+    "capture_date_utc": "2026-10-13",
+    "capture_date_et": "2026-10-12",
+    "source_file_sha256": "6425d620cf56d98a6143dac68b1afbdbc2e83b3fd77eacab5f6657060ef847c5",
+    "snapshot": "Captured Oct 13, 2026 UTC / Oct 12 ET; individual evaluation dates not supplied"
+  },
+  "arena": {
+    "url": "https://arena.ai/leaderboard/chat/text",
+    "publisher": "Arena",
+    "version": "Text / overall / style control enabled",
+    "vote_cutoff_utc": "2026-10-08T14:00:00.000Z",
+    "capture_date_utc": "2026-10-13",
+    "capture_date_et": "2026-10-12",
+    "source_file_sha256": "3a7177eab0c53ef5b823566f5ce2e7296328801d3e265f46c83833cdd6503eb4",
+    "snapshot": "Vote cutoff Oct 8, 2026 14:00 UTC; captured Oct 13 UTC"
+  },
+  "livebench": {
+    "url": "https://livebench.ai/table_2026_06_25.csv",
+    "publisher": "LiveBench",
+    "version": "2026-06-25 task-score CSV",
+    "capture_date_utc": "2026-10-13",
+    "capture_date_et": "2026-10-12",
+    "source_file_sha256": "bf9ce6130134893d61157c214865de13d265a5e30790ff6cd4e3142a25113799",
+    "snapshot": "June 25, 2026 release; historical coverage, not October standings"
+  }
+}

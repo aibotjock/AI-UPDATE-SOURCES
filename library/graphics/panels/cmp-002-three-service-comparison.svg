@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="asset-title asset-description">
+<title id="asset-title">Three-service comparison</title>
+<desc id="asset-description">Original editable template for comparison. All displayed results, models, costs, and evidence fields are placeholders requiring verification. Not a factual comparison.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#63dcec"/></marker></defs>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#081421"/>
+<line x1="70" y1="70" x2="1850" y2="70" stroke="#294456" stroke-width="2"/>
+<text x="70" y="57" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">AI UPDATE / COMPARISON</text>
+<text x="70" y="147" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="54" font-weight="700">Three-service comparison</text>
+<text x="73" y="194" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Replace all placeholders with verified episode evidence.</text>
+<rect x="1555" y="23" width="295" height="42" rx="9" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="1569" y="51" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">TEMPLATE • VERIFY DATA</text>
+<line x1="70" y1="1018" x2="1850" y2="1018" stroke="#294456" stroke-width="2"/>
+<text x="70" y="1051" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TEMPLATE / no measured results embedded</text>
+<text x="1270" y="1051" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">CC BY 4.0 • AI Update Sources</text>
+<rect x="70" y="235" width="1780" height="112" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="70" y="235" width="6" height="112" rx="2" fill="#efc26d"/>
+<text x="96" y="277" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">IDENTICAL PROMPT / EXACT INPUTS</text>
+<text x="96" y="323" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="400">Paste the identical prompt, attached inputs, and task constraints here.</text>
+<rect x="70" y="375" width="580" height="560" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="70" y="375" width="6" height="560" rx="2" fill="#63dcec"/>
+<text x="96" y="417" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">MODEL A / EXACT VERSION</text>
+<circle cx="104" cy="458.0" r="4" fill="#63dcec"/>
+<text x="123" y="466.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Actual product excerpt</text>
+<circle cx="104" cy="573.5" r="4" fill="#63dcec"/>
+<text x="123" y="581.5" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Task cost / billing basis</text>
+<circle cx="104" cy="689.0" r="4" fill="#63dcec"/>
+<text x="123" y="697.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Benchmark / version / source</text>
+<circle cx="104" cy="804.5" r="4" fill="#63dcec"/>
+<text x="123" y="812.5" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Task success / rubric evidence</text>
+<rect x="670" y="375" width="580" height="560" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="670" y="375" width="6" height="560" rx="2" fill="#63dcec"/>
+<text x="696" y="417" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">MODEL B / EXACT VERSION</text>
+<circle cx="704" cy="458.0" r="4" fill="#63dcec"/>
+<text x="723" y="466.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Actual product excerpt</text>
+<circle cx="704" cy="573.5" r="4" fill="#63dcec"/>
+<text x="723" y="581.5" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Task cost / billing basis</text>
+<circle cx="704" cy="689.0" r="4" fill="#63dcec"/>
+<text x="723" y="697.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Benchmark / version / source</text>
+<circle cx="704" cy="804.5" r="4" fill="#63dcec"/>
+<text x="723" y="812.5" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Task success / rubric evidence</text>
+<rect x="1270" y="375" width="580" height="560" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="1270" y="375" width="6" height="560" rx="2" fill="#63dcec"/>
+<text x="1296" y="417" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">MODEL C / EXACT VERSION</text>
+<circle cx="1304" cy="458.0" r="4" fill="#63dcec"/>
+<text x="1323" y="466.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Actual product excerpt</text>
+<circle cx="1304" cy="573.5" r="4" fill="#63dcec"/>
+<text x="1323" y="581.5" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Task cost / billing basis</text>
+<circle cx="1304" cy="689.0" r="4" fill="#63dcec"/>
+<text x="1323" y="697.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Benchmark / version / source</text>
+<circle cx="1304" cy="804.5" r="4" fill="#63dcec"/>
+<text x="1323" y="812.5" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Task success / rubric evidence</text>
+<rect x="70" y="952" width="1780" height="58" rx="10" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="88" y="988" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="400">Use equivalent task conditions. Label differences in tools, platform defaults, and access tiers.</text>
+</svg>

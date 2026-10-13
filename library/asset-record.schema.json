@@ -4,29 +4,44 @@
   "type": "object",
   "required": [
     "id",
+    "title",
     "category",
     "path",
-    "source_url",
-    "retrieved_at",
+    "sha256",
+    "bytes",
+    "origin",
     "rights_status"
   ],
   "properties": {
     "id": {
       "type": "string"
     },
+    "title": {
+      "type": "string"
+    },
     "category": {
       "enum": [
         "logo",
-        "image",
-        "graphic",
+        "icon",
+        "background",
+        "diagram",
         "motion",
         "sound-effect",
-        "screenshot",
-        "presentation-component"
+        "presentation-component",
+        "evidence-label",
+        "benchmark-chart"
       ]
     },
     "path": {
       "type": "string"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "bytes": {
+      "type": "integer",
+      "minimum": 1
     },
     "source_url": {
       "type": [
@@ -34,31 +49,10 @@
         "null"
       ]
     },
-    "creator": {
-      "type": [
-        "string",
-        "null"
-      ]
-    },
-    "retrieved_at": {
+    "origin": {
       "type": "string"
     },
     "rights_status": {
-      "enum": [
-        "original",
-        "licensed",
-        "allowed-by-brand-guidelines",
-        "review-required",
-        "restricted"
-      ]
-    },
-    "license_or_terms_url": {
-      "type": [
-        "string",
-        "null"
-      ]
-    },
-    "attribution": {
       "type": "string"
     },
     "tags": {
@@ -67,38 +61,11 @@
         "type": "string"
       }
     },
-    "sha256": {
-      "type": [
-        "string",
-        "null"
-      ]
-    },
-    "dimensions": {
-      "type": [
-        "object",
-        "null"
-      ]
-    },
-    "duration_seconds": {
-      "type": [
-        "number",
-        "null"
-      ]
-    },
-    "episode_uses": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "version": {
+    "license": {
       "type": "string"
     },
-    "last_reviewed": {
-      "type": [
-        "string",
-        "null"
-      ]
+    "is_empirical_evidence": {
+      "type": "boolean"
     }
   },
   "additionalProperties": true

@@ -1,12 +1,13 @@
 # Reusable media and reference library
 
-This branch is the reusable asset home for the cloud AI update show. The folders below are organized for future collection and reuse; their existence does not mean they already contain harvested media.
+This branch is the reusable asset home for the cloud AI update show. It is populated with 1,000 starter assets and 52 source-cited benchmark charts. Open [INDEX.md](INDEX.md) for the searchable inventory or download the branch and open `gallery.html` locally.
 
 | Folder | Purpose |
 | --- | --- |
 | `logos/` | Official company and product logos, with brand rules and provenance |
 | `images/` | Reusable AI illustrations, photos, and backgrounds |
 | `graphics/` | Editable original charts, diagrams, icons, and components |
+| `icons/` | 320 distinct licensed Lucide workflow icons |
 | `motion/` | Reusable animation components and short clips |
 | `sound-effects/` | Original or licensed effects and animation cues |
 | `screenshots/` | Dated source captures and separate annotated derivatives |
@@ -16,3 +17,7 @@ This branch is the reusable asset home for the cloud AI update show. The folders
 | `corrections/` | Claim-level corrections and affected recommendations/assets |
 
 Every asset must have a record in `asset-index.json`. Publicly accessible assets are not automatically licensed for republication. Do not commit private information or secrets. Store small, permitted assets here; reference durable versioned locations for large media when appropriate. Do not treat time-sensitive pricing, scores, or feature availability as evergreen.
+
+The 1,000 starter assets comprise 320 icons, 40 community-maintained brand marks, 180 presentation components, 180 explanatory diagrams, 100 backgrounds, 100 animated overlays, 60 original WAV sound effects, and 20 editorial evidence labels. Charts, preview images, generators, licenses, and metadata are accounted for separately.
+
+SVG backgrounds, icons, logos, and diagrams are editable vectors. Animated SVG overlays use browser animation; render them to video or recreate their motion natively before PowerPoint export. Logos remain subject to owner guidelines. Comparison templates visibly require verified episode data; they contain no actual scores or outputs.

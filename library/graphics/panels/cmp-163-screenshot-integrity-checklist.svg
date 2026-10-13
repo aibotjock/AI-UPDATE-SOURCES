@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="asset-title asset-description">
+<title id="asset-title">Screenshot integrity checklist</title>
+<desc id="asset-description">Original editable template for citation and provenance. All displayed results, models, costs, and evidence fields are placeholders requiring verification. Not a factual comparison.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#63dcec"/></marker></defs>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#081421"/>
+<line x1="70" y1="70" x2="1850" y2="70" stroke="#294456" stroke-width="2"/>
+<text x="70" y="57" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">AI UPDATE / CITATION AND PROVENANCE</text>
+<text x="70" y="147" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="54" font-weight="700">Screenshot integrity checklist</text>
+<text x="73" y="194" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Replace all placeholders with verified episode evidence.</text>
+<rect x="1555" y="23" width="295" height="42" rx="9" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="1569" y="51" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">TEMPLATE • VERIFY DATA</text>
+<line x1="70" y1="1018" x2="1850" y2="1018" stroke="#294456" stroke-width="2"/>
+<text x="70" y="1051" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TEMPLATE / no measured results embedded</text>
+<text x="1270" y="1051" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">CC BY 4.0 • AI Update Sources</text>
+<rect x="70" y="235" width="925" height="630" rx="12" fill="#081421" stroke="#294456" stroke-width="2"/>
+<line x1="85" y1="250" x2="980" y2="850" stroke="#294456" stroke-width="1" stroke-dasharray="8 9"/>
+<line x1="980" y1="250" x2="85" y2="850" stroke="#294456" stroke-width="1" stroke-dasharray="8 9"/>
+<rect x="90" y="515.0" width="885" height="76" rx="10" fill="#112637"/>
+<text x="106" y="545.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700">EXACT PAGE OR ELEMENT CAPTURE</text>
+<rect x="1035" y="235" width="815" height="630" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="1035" y="235" width="6" height="630" rx="2" fill="#efc26d"/>
+<text x="1061" y="277" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">INTEGRITY CHECKS</text>
+<text x="1061" y="323" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="400">Correct source and page</text>
+<text x="1061" y="360.8" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="400">Visible values preserved</text>
+<text x="1061" y="398.6" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="400">Units and labels visible</text>
+<text x="1061" y="436.4" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="400">Relevant context retained</text>
+<text x="1061" y="474.2" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="400">No private credentials</text>
+<text x="1061" y="512.0" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="400">Capture date recorded</text>
+<text x="1061" y="549.8" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="400">Original saved intact</text>
+<rect x="70" y="908" width="1780" height="58" rx="10" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="88" y="944" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="400">Use a source-faithful crop; separate screenshot evidence from explanatory editorial graphics.</text>
+</svg>

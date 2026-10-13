@@ -1,0 +1,14 @@
+{
+  "rendered": 200,
+  "failed": 0,
+  "sampled_families": 40,
+  "contact_sheet": "contact-sheet.png",
+  "animation_playback_verified": false,
+  "render_engine": "sharp/libvips static SVG rasterization",
+  "notes": [
+    "All 200 SVGs rasterize successfully.",
+    "Motion contact sheet shows SVG static fallback frames, not browser animation playback.",
+    "Some transition assets begin off-canvas by design.",
+    "Static fallback frames of animated overlays are not intended as final PowerPoint animation."
+  ]
+}

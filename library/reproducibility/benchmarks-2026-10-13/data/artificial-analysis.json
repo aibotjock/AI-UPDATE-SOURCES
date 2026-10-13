@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "2f3c4dc9-a450-4303-8697-0237257cf08f",
+    "slug": "claude-opus-5-5",
+    "name": "Claude Opus 5.5 (Max, Default Fallback)",
+    "shortName": "Claude Opus 5.5 (max with fallback)",
+    "suffix": "Max, Default Fallback",
+    "release": {
+      "slug": "claude-opus-5-5",
+      "name": "Claude Opus 5.5"
+    },
+    "releaseDate": "2026-09-22",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "anthropic",
+      "name": "Anthropic"
+    },
+    "intelligenceIndex": 57.6223698102963,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": 0.5625,
+    "analystAgentPassAt1": 0.6425,
+    "analystAgentPassAtK": 0.75,
+    "automationBenchPartialScore": 0.6953868128636069,
+    "briefcaseElo": 1807.05,
+    "briefcaseBreakdown": {
+      "elo": 1807.05,
+      "lower95ci": 1796.5,
+      "upper95ci": 1819.61
+    },
+    "critpt": 0.317142857142857,
+    "gdpval": 1866.27,
+    "gdpvalBreakdown": {
+      "lower95ci": 1840.43,
+      "upper95ci": 1892.12,
+      "avgTurns": 85.7090909090909
+    },
+    "gdpPdfAllPass": 0.262,
+    "gpqa": null,
+    "hle": 0.613531047265987,
+    "lcr": 0.846666666666667,
+    "mmmuPro": 0.876878612716763,
+    "omniscience": 46.4166666666667,
+    "scicode": 0.668981481481482,
+    "terminalBench40": 0.595959595959596,
+    "frontierCode": 0.521731,
+    "terminalBenchScience": 0.59047619047619,
+    "mlcrOverall": 0.666666666666667
+  },
+  {
+    "id": "b171d979-5ec1-45de-b8b9-db1ee65e77ec",
+    "slug": "claude-sonnet-5-5",
+    "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
+    "shortName": "Claude Sonnet 5.5 (max with fallback)",
+    "suffix": "Max, Default Fallback",
+    "release": {
+      "slug": "claude-sonnet-5-5",
+      "name": "Claude Sonnet 5.5"
+    },
+    "releaseDate": "2026-09-28",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "anthropic",
+      "name": "Anthropic"
+    },
+    "intelligenceIndex": 56.0001286580794,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": 0.575,
+    "analystAgentPassAt1": 0.695,
+    "analystAgentPassAtK": 0.7875,
+    "automationBenchPartialScore": 0.7176882128193995,
+    "briefcaseElo": 1823,
+    "briefcaseBreakdown": {
+      "elo": 1823,
+      "lower95ci": 1811.94,
+      "upper95ci": 1835.93
+    },
+    "critpt": 0.314285714285714,
+    "gdpval": 1837.82,
+    "gdpvalBreakdown": {
+      "lower95ci": 1814.35,
+      "upper95ci": 1861.29,
+      "avgTurns": 92.2752293577982
+    },
+    "gdpPdfAllPass": 0.258,
+    "gpqa": null,
+    "hle": 0.549582947173309,
+    "lcr": 0.826666666666667,
+    "mmmuPro": null,
+    "omniscience": 32.3,
+    "scicode": 0.609953703703704,
+    "terminalBench40": 0.636363636363636,
+    "frontierCode": 0.458291333333333,
+    "terminalBenchScience": 0.533333333333333,
+    "mlcrOverall": 0.75
+  },
+  {
+    "id": "df5bf99d-d228-4715-b41b-19ca86118777",
+    "slug": "claude-opus-5-5-xhigh",
+    "name": "Claude Opus 5.5 (Xhigh, Default Fallback)",
+    "shortName": "Claude Opus 5.5 (xhigh with fallback)",
+    "suffix": "Xhigh, Default Fallback",
+    "release": {
+      "slug": "claude-opus-5-5",
+      "name": "Claude Opus 5.5"
+    },
+    "releaseDate": "2026-09-22",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "anthropic",
+      "name": "Anthropic"
+    },
+    "intelligenceIndex": 55.9873505840139,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.6495283516401527,
+    "briefcaseElo": 1765.85,
+    "briefcaseBreakdown": {
+      "elo": 1765.85,
+      "lower95ci": 1754.4,
+      "upper95ci": 1777.58
+    },
+    "critpt": 0.317142857142857,
+    "gdpval": 1835.8,
+    "gdpvalBreakdown": {
+      "lower95ci": 1811.21,
+      "upper95ci": 1860.38,
+      "avgTurns": 58.9227272727273
+    },
+    "gdpPdfAllPass": 0.266,
+    "gpqa": null,
+    "hle": 0.575069508804449,
+    "lcr": 0.846666666666667,
+    "mmmuPro": 0.865895953757225,
+    "omniscience": 42.65,
+    "scicode": 0.650462962962963,
+    "terminalBench40": 0.595959595959596,
+    "frontierCode": null,
+    "terminalBenchScience": 0.619047619047619,
+    "mlcrOverall": null
+  },
+  {
+    "id": "e994a6e0-d36b-4dab-8ae1-c1b469e4d9e2",
+    "slug": "muse-wonder-full",
+    "name": "Muse Wonder Full (Max)",
+    "shortName": "Muse Wonder Full (max)",
+    "suffix": "Max",
+    "release": {
+      "slug": "muse-wonder-full",
+      "name": "Muse Wonder Full"
+    },
+    "releaseDate": "2026-10-12",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "meta",
+      "name": "Meta"
+    },
+    "intelligenceIndex": 55.8021199855616,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.7133074973223975,
+    "briefcaseElo": 1729.32,
+    "briefcaseBreakdown": {
+      "elo": 1729.32,
+      "lower95ci": 1718.98,
+      "upper95ci": 1739.66
+    },
+    "critpt": 0.328571428571429,
+    "gdpval": 1857.09,
+    "gdpvalBreakdown": {
+      "lower95ci": 1832.21,
+      "upper95ci": 1881.97,
+      "avgTurns": 70.55
+    },
+    "gdpPdfAllPass": 0.326,
+    "gpqa": null,
+    "hle": 0.536144578313253,
+    "lcr": 0.836666666666667,
+    "mmmuPro": null,
+    "omniscience": 30.15,
+    "scicode": 0.626157407407407,
+    "terminalBench40": 0.570707070707071,
+    "frontierCode": null,
+    "terminalBenchScience": null,
+    "mlcrOverall": null
+  },
+  {
+    "id": "f314eade-2232-44bf-a3ab-9b326bc67de6",
+    "slug": "claude-opus-5-5-high",
+    "name": "Claude Opus 5.5 (High, Default Fallback)",
+    "shortName": "Claude Opus 5.5 (high with fallback)",
+    "suffix": "High, Default Fallback",
+    "release": {
+      "slug": "claude-opus-5-5",
+      "name": "Claude Opus 5.5"
+    },
+    "releaseDate": "2026-09-22",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "anthropic",
+      "name": "Anthropic"
+    },
+    "intelligenceIndex": 53.5831959822067,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.6320677483186213,
+    "briefcaseElo": 1689.96,
+    "briefcaseBreakdown": {
+      "elo": 1689.96,
+      "lower95ci": 1679.54,
+      "upper95ci": 1701.31
+    },
+    "critpt": 0.308571428571429,
+    "gdpval": 1705.45,
+    "gdpvalBreakdown": {
+      "lower95ci": 1682.98,
+      "upper95ci": 1727.92,
+      "avgTurns": 28.8272727272727
+    },
+    "gdpPdfAllPass": 0.288,
+    "gpqa": null,
+    "hle": 0.555607043558851,
+    "lcr": 0.826666666666667,
+    "mmmuPro": 0.858381502890173,
+    "omniscience": 40.6333333333333,
+    "scicode": 0.604166666666667,
+    "terminalBench40": 0.565656565656566,
+    "frontierCode": null,
+    "terminalBenchScience": 0.49047619047619,
+    "mlcrOverall": null
+  },
+  {
+    "id": "3e87c73e-a257-495e-9730-367a66229811",
+    "slug": "claude-fable-5-1",
+    "name": "Claude Fable 5.1 (Max, Default Fallback)",
+    "shortName": "Claude Fable 5.1 (max with fallback)",
+    "suffix": "Max, Default Fallback",
+    "release": {
+      "slug": "claude-fable-5-1",
+      "name": "Claude Fable 5.1"
+    },
+    "releaseDate": "2026-09-01",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "anthropic",
+      "name": "Anthropic"
+    },
+    "intelligenceIndex": 53.3549259623252,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": 0.575,
+    "analystAgentPassAt1": 0.6575,
+    "analystAgentPassAtK": 0.725,
+    "automationBenchPartialScore": 0.5937591715646424,
+    "briefcaseElo": 1674.62,
+    "briefcaseBreakdown": {
+      "elo": 1674.62,
+      "lower95ci": 1666.17,
+      "upper95ci": 1684.12
+    },
+    "critpt": 0.297142857142857,
+    "gdpval": 1756.22,
+    "gdpvalBreakdown": {
+      "lower95ci": 1736.4,
+      "upper95ci": 1776.04,
+      "avgTurns": 60.3926940639269
+    },
+    "gdpPdfAllPass": 0.262,
+    "gpqa": 0.937373737373737,
+    "hle": 0.591288229842447,
+    "lcr": 0.853333333333333,
+    "mmmuPro": null,
+    "omniscience": 43.45,
+    "scicode": 0.630787037037037,
+    "terminalBench40": 0.52020202020202,
+    "frontierCode": 0.489732333333333,
+    "terminalBenchScience": 0.433333333333333,
+    "mlcrOverall": 0.711111111111111
+  },
+  {
+    "id": "9b166bf3-42db-4f63-8338-1c4a1244ffe8",
+    "slug": "claude-fable-5-1-xhigh",
+    "name": "Claude Fable 5.1 (Xhigh, Default Fallback)",
+    "shortName": "Claude Fable 5.1 (xhigh with fallback)",
+    "suffix": "Xhigh, Default Fallback",
+    "release": {
+      "slug": "claude-fable-5-1",
+      "name": "Claude Fable 5.1"
+    },
+    "releaseDate": "2026-09-01",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "anthropic",
+      "name": "Anthropic"
+    },
+    "intelligenceIndex": 53.2032587538944,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.57772425084896,
+    "briefcaseElo": 1655.68,
+    "briefcaseBreakdown": {
+      "elo": 1655.68,
+      "lower95ci": 1647.36,
+      "upper95ci": 1664.53
+    },
+    "critpt": 0.311428571428571,
+    "gdpval": 1732.79,
+    "gdpvalBreakdown": {
+      "lower95ci": 1712.66,
+      "upper95ci": 1752.92,
+      "avgTurns": 50.7397260273973
+    },
+    "gdpPdfAllPass": 0.262,
+    "gpqa": 0.934343434343434,
+    "hle": 0.587117701575533,
+    "lcr": 0.83,
+    "mmmuPro": null,
+    "omniscience": 42.3833333333333,
+    "scicode": 0.608796296296296,
+    "terminalBench40": 0.55050505050505,
+    "frontierCode": null,
+    "terminalBenchScience": null,
+    "mlcrOverall": null
+  },
+  {
+    "id": "2f339a97-9a0d-499a-9cb5-e0db665bfa25",
+    "slug": "gpt-6-astra",
+    "name": "GPT-6 Astra (Max)",
+    "shortName": "GPT-6 Astra (max)",
+    "suffix": "Max",
+    "release": {
+      "slug": "gpt-6-astra",
+      "name": "GPT-6 Astra"
+    },
+    "releaseDate": "2026-09-03",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "openai",
+      "name": "OpenAI"
+    },
+    "intelligenceIndex": 52.673669395513,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": 0.5125,
+    "analystAgentPassAt1": 0.6,
+    "analystAgentPassAtK": 0.675,
+    "automationBenchPartialScore": 0.6849174806688876,
+    "briefcaseElo": 1570.1,
+    "briefcaseBreakdown": {
+      "elo": 1570.1,
+      "lower95ci": 1561.8,
+      "upper95ci": 1579.35
+    },
+    "critpt": 0.317142857142857,
+    "gdpval": 1573.9,
+    "gdpvalBreakdown": {
+      "lower95ci": 1553.62,
+      "upper95ci": 1594.18,
+      "avgTurns": 24.1863636363636
+    },
+    "gdpPdfAllPass": 0.31,
+    "gpqa": 0.960606060606061,
+    "hle": 0.546802594995366,
+    "lcr": 0.806666666666667,
+    "mmmuPro": 0.86878612716763,
+    "omniscience": 43.4,
+    "scicode": 0.564814814814815,
+    "terminalBench40": 0.590909090909091,
+    "frontierCode": 0.469827666666667,
+    "terminalBenchScience": 0.633333333333333,
+    "mlcrOverall": 0.35
+  },
+  {
+    "id": "d366dfa1-d940-4788-aa73-d298c45699b3",
+    "slug": "gemini-4-argon",
+    "name": "Gemini 4 Argon (High)",
+    "shortName": "Gemini 4 Argon (high)",
+    "suffix": "High",
+    "release": {
+      "slug": "gemini-4-argon",
+      "name": "Gemini 4 Argon"
+    },
+    "releaseDate": "2026-09-30",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "google",
+      "name": "Google"
+    },
+    "intelligenceIndex": 52.5605655745982,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.7751346945899195,
+    "briefcaseElo": 1488.47,
+    "briefcaseBreakdown": {
+      "elo": 1488.47,
+      "lower95ci": 1477.77,
+      "upper95ci": 1499.89
+    },
+    "critpt": 0.271428571428571,
+    "gdpval": 1623.83,
+    "gdpvalBreakdown": {
+      "lower95ci": 1602.35,
+      "upper95ci": 1645.31,
+      "avgTurns": 35.3681818181818
+    },
+    "gdpPdfAllPass": 0.218,
+    "gpqa": null,
+    "hle": 0.570898980537535,
+    "lcr": 0.796666666666667,
+    "mmmuPro": null,
+    "omniscience": 42.35,
+    "scicode": 0.618055555555556,
+    "terminalBench40": 0.570707070707071,
+    "frontierCode": null,
+    "terminalBenchScience": null,
+    "mlcrOverall": null
+  },
+  {
+    "id": "ff2f3f3d-783f-4e27-8a39-47237501a313",
+    "slug": "muse-wonder",
+    "name": "Muse Wonder (Max)",
+    "shortName": "Muse Wonder (max)",
+    "suffix": "Max",
+    "release": {
+      "slug": "muse-wonder",
+      "name": "Muse Wonder"
+    },
+    "releaseDate": "2026-10-12",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "meta",
+      "name": "Meta"
+    },
+    "intelligenceIndex": 52.393894697293,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.6809455131207758,
+    "briefcaseElo": 1658.65,
+    "briefcaseBreakdown": {
+      "elo": 1658.65,
+      "lower95ci": 1648.48,
+      "upper95ci": 1668.82
+    },
+    "critpt": 0.282857142857143,
+    "gdpval": 1770.34,
+    "gdpvalBreakdown": {
+      "lower95ci": 1747.21,
+      "upper95ci": 1793.47,
+      "avgTurns": 75.4909090909091
+    },
+    "gdpPdfAllPass": 0.306,
+    "gpqa": null,
+    "hle": 0.500926784059314,
+    "lcr": 0.806666666666667,
+    "mmmuPro": null,
+    "omniscience": 25.4833333333333,
+    "scicode": 0.603009259259259,
+    "terminalBench40": 0.52020202020202,
+    "frontierCode": null,
+    "terminalBenchScience": null,
+    "mlcrOverall": null
+  },
+  {
+    "id": "1f541ef3-913f-4eb2-9d07-0e93c7a9a5e3",
+    "slug": "gpt-6-astra-xhigh",
+    "name": "GPT-6 Astra (Xhigh)",
+    "shortName": "GPT-6 Astra (xhigh)",
+    "suffix": "Xhigh",
+    "release": {
+      "slug": "gpt-6-astra",
+      "name": "GPT-6 Astra"
+    },
+    "releaseDate": "2026-09-03",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "openai",
+      "name": "OpenAI"
+    },
+    "intelligenceIndex": 52.3863277108782,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.6717778020215392,
+    "briefcaseElo": 1546.42,
+    "briefcaseBreakdown": {
+      "elo": 1546.42,
+      "lower95ci": 1537.7,
+      "upper95ci": 1555.34
+    },
+    "critpt": 0.314285714285714,
+    "gdpval": 1554.47,
+    "gdpvalBreakdown": {
+      "lower95ci": 1534.07,
+      "upper95ci": 1574.88,
+      "avgTurns": 22.9045454545455
+    },
+    "gdpPdfAllPass": 0.322,
+    "gpqa": 0.962626262626263,
+    "hle": 0.545875810936052,
+    "lcr": 0.8,
+    "mmmuPro": 0.86242774566474,
+    "omniscience": 43.4166666666667,
+    "scicode": 0.556712962962963,
+    "terminalBench40": 0.595959595959596,
+    "frontierCode": null,
+    "terminalBenchScience": null,
+    "mlcrOverall": null
+  },
+  {
+    "id": "975aeaef-50bd-4a65-9c73-f1015adcd4d4",
+    "slug": "claude-sonnet-5-5-xhigh",
+    "name": "Claude Sonnet 5.5 (Xhigh, Default Fallback)",
+    "shortName": "Claude Sonnet 5.5 (xhigh with fallback)",
+    "suffix": "Xhigh, Default Fallback",
+    "release": {
+      "slug": "claude-sonnet-5-5",
+      "name": "Claude Sonnet 5.5"
+    },
+    "releaseDate": "2026-09-28",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "anthropic",
+      "name": "Anthropic"
+    },
+    "intelligenceIndex": 51.8955544183089,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.6552026949665557,
+    "briefcaseElo": 1751.77,
+    "briefcaseBreakdown": {
+      "elo": 1751.77,
+      "lower95ci": 1739.8,
+      "upper95ci": 1765.33
+    },
+    "critpt": 0.311428571428571,
+    "gdpval": 1729.54,
+    "gdpvalBreakdown": {
+      "lower95ci": 1704.4,
+      "upper95ci": 1754.68,
+      "avgTurns": 43.5681818181818
+    },
+    "gdpPdfAllPass": 0.246,
+    "gpqa": null,
+    "hle": 0.5,
+    "lcr": 0.796666666666667,
+    "mmmuPro": null,
+    "omniscience": 23.5,
+    "scicode": 0.572916666666667,
+    "terminalBench40": 0.570707070707071,
+    "frontierCode": null,
+    "terminalBenchScience": 0.523809523809524,
+    "mlcrOverall": null
+  },
+  {
+    "id": "b25ac058-1e33-4c31-bbc9-a20c3ad0717a",
+    "slug": "gpt-6-1-sol",
+    "name": "GPT-6.1 Sol (Max)",
+    "shortName": "GPT-6.1 Sol (max)",
+    "suffix": "Max",
+    "release": {
+      "slug": "gpt-6-1-sol",
+      "name": "GPT-6.1 Sol"
+    },
+    "releaseDate": "2026-09-29",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "openai",
+      "name": "OpenAI"
+    },
+    "intelligenceIndex": 51.8332597011541,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": 0.5,
+    "analystAgentPassAt1": 0.5975,
+    "analystAgentPassAtK": 0.725,
+    "automationBenchPartialScore": 0.6486844882398171,
+    "briefcaseElo": 1557.24,
+    "briefcaseBreakdown": {
+      "elo": 1557.24,
+      "lower95ci": 1548.29,
+      "upper95ci": 1568.04
+    },
+    "critpt": 0.317142857142857,
+    "gdpval": 1591.97,
+    "gdpvalBreakdown": {
+      "lower95ci": 1568.7,
+      "upper95ci": 1615.24,
+      "avgTurns": 24.8772727272727
+    },
+    "gdpPdfAllPass": 0.31,
+    "gpqa": null,
+    "hle": 0.529193697868397,
+    "lcr": 0.83,
+    "mmmuPro": 0.859537572254335,
+    "omniscience": 41.5333333333333,
+    "scicode": 0.541666666666667,
+    "terminalBench40": 0.560606060606061,
+    "frontierCode": 0.491209333333333,
+    "terminalBenchScience": 0.580952380952381,
+    "mlcrOverall": 0.338888888888889
+  },
+  {
+    "id": "9999672c-b687-4026-9c15-5cef02ff53bb",
+    "slug": "muse-spark-1-3",
+    "name": "Muse Spark 1.3 (Max)",
+    "shortName": "Muse Spark 1.3 (max)",
+    "suffix": "Max",
+    "release": {
+      "slug": "muse-spark-1-3",
+      "name": "Muse Spark 1.3"
+    },
+    "releaseDate": "2026-09-02",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "meta",
+      "name": "Meta"
+    },
+    "intelligenceIndex": 48.0923107719685,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.5785343786538614,
+    "briefcaseElo": 1581.34,
+    "briefcaseBreakdown": {
+      "elo": 1581.34,
+      "lower95ci": 1572.06,
+      "upper95ci": 1590.49
+    },
+    "critpt": 0.248571428571429,
+    "gdpval": 1680.99,
+    "gdpvalBreakdown": {
+      "lower95ci": 1661.76,
+      "upper95ci": 1700.21,
+      "avgTurns": 74.4861111111111
+    },
+    "gdpPdfAllPass": 0.266,
+    "gpqa": 0.935353535353535,
+    "hle": 0.487025023169602,
+    "lcr": 0.83,
+    "mmmuPro": null,
+    "omniscience": 25,
+    "scicode": 0.587962962962963,
+    "terminalBench40": 0.333333333333333,
+    "frontierCode": 0.406458333333333,
+    "terminalBenchScience": 0.10952380952381,
+    "mlcrOverall": 0.433333333333333
+  },
+  {
+    "id": "59627802-1546-422c-9a65-65b61c022d36",
+    "slug": "grok-4-7",
+    "name": "Grok 4.7 (Xhigh)",
+    "shortName": "Grok 4.7 (xhigh)",
+    "suffix": "Xhigh",
+    "release": {
+      "slug": "grok-4-7",
+      "name": "Grok 4.7"
+    },
+    "releaseDate": "2026-09-21",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "xai",
+      "name": "SpaceXAI"
+    },
+    "intelligenceIndex": 46.4465506302286,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.6555835148969458,
+    "briefcaseElo": 1643.78,
+    "briefcaseBreakdown": {
+      "elo": 1643.78,
+      "lower95ci": 1633.78,
+      "upper95ci": 1654.26
+    },
+    "critpt": 0.177142857142857,
+    "gdpval": 1712.45,
+    "gdpvalBreakdown": {
+      "lower95ci": 1689.84,
+      "upper95ci": 1735.06,
+      "avgTurns": 54.4227272727273
+    },
+    "gdpPdfAllPass": 0.2,
+    "gpqa": null,
+    "hle": 0.431417979610751,
+    "lcr": 0.766666666666667,
+    "mmmuPro": null,
+    "omniscience": 32.0333333333333,
+    "scicode": 0.574074074074074,
+    "terminalBench40": 0.257575757575758,
+    "frontierCode": 0.338342,
+    "terminalBenchScience": null,
+    "mlcrOverall": 0.15
+  },
+  {
+    "id": "24d8fdfe-6241-424e-b7b7-1b6efb06e4fb",
+    "slug": "mimo-v2-6-pro",
+    "name": "MiMo-V2.6-Pro",
+    "shortName": "MiMo-V2.6-Pro",
+    "suffix": null,
+    "release": {
+      "slug": "mimo-v2-6-pro",
+      "name": "MiMo-V2.6-Pro"
+    },
+    "releaseDate": "2026-09-21",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": true,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "xiaomi",
+      "name": "Xiaomi"
+    },
+    "intelligenceIndex": 46.3242065310383,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.5862340943419085,
+    "briefcaseElo": 1515.94,
+    "briefcaseBreakdown": {
+      "elo": 1515.94,
+      "lower95ci": 1506.29,
+      "upper95ci": 1526.14
+    },
+    "critpt": 0.265714285714286,
+    "gdpval": 1684.77,
+    "gdpvalBreakdown": {
+      "lower95ci": 1662.52,
+      "upper95ci": 1707.01,
+      "avgTurns": 46.05
+    },
+    "gdpPdfAllPass": 0.192,
+    "gpqa": null,
+    "hle": 0.493512511584801,
+    "lcr": 0.863333333333333,
+    "mmmuPro": null,
+    "omniscience": 8.38333333333333,
+    "scicode": 0.608796296296296,
+    "terminalBench40": 0.348484848484849,
+    "frontierCode": 0.454153333333333,
+    "terminalBenchScience": 0.0571428571428571,
+    "mlcrOverall": 0.183333333333333
+  },
+  {
+    "id": "b112af07-3bd5-4647-b09f-b23204361bb2",
+    "slug": "qwen3-8-max",
+    "name": "Qwen3.8 Max (0902)",
+    "shortName": "Qwen3.8 Max (0902)",
+    "suffix": null,
+    "release": {
+      "slug": "qwen3-8-max-0902",
+      "name": "Qwen3.8 Max (0902)"
+    },
+    "releaseDate": "2026-09-02",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "alibaba",
+      "name": "Alibaba"
+    },
+    "intelligenceIndex": 45.4152084980521,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": 0.45,
+    "analystAgentPassAt1": 0.6125,
+    "analystAgentPassAtK": 0.7625,
+    "automationBenchPartialScore": 0.561905381087678,
+    "briefcaseElo": 1616.71,
+    "briefcaseBreakdown": {
+      "elo": 1616.71,
+      "lower95ci": 1607.94,
+      "upper95ci": 1627.17
+    },
+    "critpt": 0.177142857142857,
+    "gdpval": 1667.28,
+    "gdpvalBreakdown": {
+      "lower95ci": 1646.53,
+      "upper95ci": 1688.03,
+      "avgTurns": 79.4227272727273
+    },
+    "gdpPdfAllPass": 0.228,
+    "gpqa": 0.928282828282828,
+    "hle": 0.430954587581094,
+    "lcr": 0.803333333333333,
+    "mmmuPro": 0.827745664739884,
+    "omniscience": 11.9833333333333,
+    "scicode": 0.520833333333333,
+    "terminalBench40": 0.388888888888889,
+    "frontierCode": 0.431563,
+    "terminalBenchScience": 0.119047619047619,
+    "mlcrOverall": 0.2
+  },
+  {
+    "id": "cd684ea4-b475-4269-b001-d469d06d8a7a",
+    "slug": "glm-5-3",
+    "name": "GLM-5.3 (Max)",
+    "shortName": "GLM-5.3 (max)",
+    "suffix": "Max",
+    "release": {
+      "slug": "glm-5-3",
+      "name": "GLM-5.3"
+    },
+    "releaseDate": "2026-08-18",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": true,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "zai",
+      "name": "Z AI"
+    },
+    "intelligenceIndex": 44.777392385614,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.622028649962642,
+    "briefcaseElo": 1508.74,
+    "briefcaseBreakdown": {
+      "elo": 1508.74,
+      "lower95ci": 1500.06,
+      "upper95ci": 1517.61
+    },
+    "critpt": 0.191428571428571,
+    "gdpval": 1650.73,
+    "gdpvalBreakdown": {
+      "lower95ci": 1630.99,
+      "upper95ci": 1670.46,
+      "avgTurns": 69.9862385321101
+    },
+    "gdpPdfAllPass": 0.112,
+    "gpqa": 0.917171717171717,
+    "hle": 0.422613531047266,
+    "lcr": 0.796666666666667,
+    "mmmuPro": null,
+    "omniscience": 14.3,
+    "scicode": 0.590277777777778,
+    "terminalBench40": 0.419191919191919,
+    "frontierCode": 0.400752,
+    "terminalBenchScience": 0.0952380952380952,
+    "mlcrOverall": 0.483333333333333
+  },
+  {
+    "id": "094ea3e3-ce41-419e-8bd1-723389663158",
+    "slug": "step-5",
+    "name": "Step 5 Preview",
+    "shortName": "Step 5 Preview",
+    "suffix": null,
+    "release": {
+      "slug": "step-5-preview",
+      "name": "Step 5 Preview"
+    },
+    "releaseDate": "2026-09-18",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "stepfun",
+      "name": "StepFun"
+    },
+    "intelligenceIndex": 43.7343049141614,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": 0.35,
+    "analystAgentPassAt1": 0.5425,
+    "analystAgentPassAtK": 0.7,
+    "automationBenchPartialScore": 0.5095659419096288,
+    "briefcaseElo": 1425.26,
+    "briefcaseBreakdown": {
+      "elo": 1425.26,
+      "lower95ci": 1413.75,
+      "upper95ci": 1436.87
+    },
+    "critpt": 0.208571428571429,
+    "gdpval": 1584.24,
+    "gdpvalBreakdown": {
+      "lower95ci": 1559.32,
+      "upper95ci": 1609.16,
+      "avgTurns": 63.7045454545455
+    },
+    "gdpPdfAllPass": 0.148,
+    "gpqa": null,
+    "hle": 0.464782205746061,
+    "lcr": 0.883333333333333,
+    "mmmuPro": 0.763583815028902,
+    "omniscience": 16.3833333333333,
+    "scicode": 0.58912037037037,
+    "terminalBench40": 0.333333333333333,
+    "frontierCode": 0.384270666666667,
+    "terminalBenchScience": 0.0238095238095238,
+    "mlcrOverall": 0.166666666666667
+  },
+  {
+    "id": "f7d2fc3e-1f7b-405f-818c-07952a4af78f",
+    "slug": "kimi-k3",
+    "name": "Kimi K3 (Max)",
+    "shortName": "Kimi K3 (max)",
+    "suffix": "Max",
+    "release": {
+      "slug": "kimi-k3",
+      "name": "Kimi K3"
+    },
+    "releaseDate": "2026-07-16",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": true,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "kimi",
+      "name": "Kimi"
+    },
+    "intelligenceIndex": 43.5938229518782,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": 0.3875,
+    "analystAgentPassAt1": 0.5775,
+    "analystAgentPassAtK": 0.725,
+    "automationBenchPartialScore": 0.5827297780015204,
+    "briefcaseElo": 1500.84,
+    "briefcaseBreakdown": {
+      "elo": 1500.84,
+      "lower95ci": 1493.72,
+      "upper95ci": 1508.23
+    },
+    "critpt": 0.234285714285714,
+    "gdpval": 1533.4,
+    "gdpvalBreakdown": {
+      "lower95ci": 1514.38,
+      "upper95ci": 1552.43,
+      "avgTurns": 37.5114155251142
+    },
+    "gdpPdfAllPass": 0.22,
+    "gpqa": 0.935353535353535,
+    "hle": 0.468952734012975,
+    "lcr": 0.886666666666667,
+    "mmmuPro": 0.805202312138728,
+    "omniscience": 19.7,
+    "scicode": 0.594907407407407,
+    "terminalBench40": 0.126262626262626,
+    "frontierCode": 0.436099333333333,
+    "terminalBenchScience": null,
+    "mlcrOverall": 0.383333333333333
+  },
+  {
+    "id": "7d064a11-6e78-4030-b535-cdf940615041",
+    "slug": "claude-haiku-5-5",
+    "name": "Claude Haiku 5.5 (Max)",
+    "shortName": "Claude Haiku 5.5 (max)",
+    "suffix": "Max",
+    "release": {
+      "slug": "claude-haiku-5-5",
+      "name": "Claude Haiku 5.5"
+    },
+    "releaseDate": "2026-10-07",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "anthropic",
+      "name": "Anthropic"
+    },
+    "intelligenceIndex": 43.3950199670746,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.35411015132783624,
+    "briefcaseElo": 1577.1,
+    "briefcaseBreakdown": {
+      "elo": 1577.1,
+      "lower95ci": 1566,
+      "upper95ci": 1588.23
+    },
+    "critpt": 0.188571428571429,
+    "gdpval": 1618.07,
+    "gdpvalBreakdown": {
+      "lower95ci": 1594.96,
+      "upper95ci": 1641.17,
+      "avgTurns": 41.243119266055
+    },
+    "gdpPdfAllPass": 0.208,
+    "gpqa": null,
+    "hle": 0.443929564411492,
+    "lcr": 0.826666666666667,
+    "mmmuPro": null,
+    "omniscience": 10.6666666666667,
+    "scicode": 0.549768518518518,
+    "terminalBench40": 0.328282828282828,
+    "frontierCode": 0.418067,
+    "terminalBenchScience": 0.2,
+    "mlcrOverall": 0.633333333333333
+  },
+  {
+    "id": "19496b81-9f41-4214-a77a-1df803b3c5ae",
+    "slug": "glm-5-3-flash",
+    "name": "GLM-5.3-Flash",
+    "shortName": "GLM-5.3-Flash",
+    "suffix": null,
+    "release": {
+      "slug": "glm-5-3-flash",
+      "name": "GLM-5.3-Flash"
+    },
+    "releaseDate": "2026-08-26",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": true,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "zai",
+      "name": "Z AI"
+    },
+    "intelligenceIndex": 41.807466113455,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.6036862782167782,
+    "briefcaseElo": 1454.36,
+    "briefcaseBreakdown": {
+      "elo": 1454.36,
+      "lower95ci": 1446.72,
+      "upper95ci": 1463.63
+    },
+    "critpt": 0.154285714285714,
+    "gdpval": 1644.13,
+    "gdpvalBreakdown": {
+      "lower95ci": 1626.09,
+      "upper95ci": 1662.18,
+      "avgTurns": 80.9305555555556
+    },
+    "gdpPdfAllPass": 0.154,
+    "gpqa": 0.912121212121212,
+    "hle": 0.398517145505097,
+    "lcr": 0.8,
+    "mmmuPro": null,
+    "omniscience": 7.46666666666667,
+    "scicode": 0.516203703703704,
+    "terminalBench40": 0.328282828282828,
+    "frontierCode": 0.409957333333333,
+    "terminalBenchScience": 0.0476190476190476,
+    "mlcrOverall": 0.511111111111111
+  },
+  {
+    "id": "8a999846-4c1d-4ce7-a8b7-1310a7166fd7",
+    "slug": "gemini-3-8-flash",
+    "name": "Gemini 3.8 Flash (High)",
+    "shortName": "Gemini 3.8 Flash (high)",
+    "suffix": "High",
+    "release": {
+      "slug": "gemini-3-8-flash",
+      "name": "Gemini 3.8 Flash"
+    },
+    "releaseDate": "2026-09-02",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "google",
+      "name": "Google"
+    },
+    "intelligenceIndex": 40.9262321765904,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.5993009432118243,
+    "briefcaseElo": 1202.96,
+    "briefcaseBreakdown": {
+      "elo": 1202.96,
+      "lower95ci": 1195.36,
+      "upper95ci": 1211.68
+    },
+    "critpt": 0.182857142857143,
+    "gdpval": 1435.52,
+    "gdpvalBreakdown": {
+      "lower95ci": 1415.15,
+      "upper95ci": 1455.89,
+      "avgTurns": 78.2374429223744
+    },
+    "gdpPdfAllPass": 0.21,
+    "gpqa": 0.952525252525253,
+    "hle": 0.478220574606117,
+    "lcr": 0.813333333333333,
+    "mmmuPro": 0.85606936416185,
+    "omniscience": 29.55,
+    "scicode": 0.565972222222222,
+    "terminalBench40": 0.196969696969697,
+    "frontierCode": 0.363585,
+    "terminalBenchScience": 0.1,
+    "mlcrOverall": 0.216666666666667
+  },
+  {
+    "id": "dbe7c625-3100-4463-b479-a228c41f75dd",
+    "slug": "deepseek-v4-1-flash",
+    "name": "DeepSeek V4.1 Flash (Max)",
+    "shortName": "DeepSeek V4.1 Flash (max)",
+    "suffix": "Max",
+    "release": {
+      "slug": "deepseek-v4-1-flash",
+      "name": "DeepSeek V4.1 Flash"
+    },
+    "releaseDate": "2026-09-10",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": true,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "deepseek",
+      "name": "DeepSeek"
+    },
+    "intelligenceIndex": 39.456167472527,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.6889097769674057,
+    "briefcaseElo": 1421.72,
+    "briefcaseBreakdown": {
+      "elo": 1421.72,
+      "lower95ci": 1413.14,
+      "upper95ci": 1430.91
+    },
+    "critpt": 0.142857142857143,
+    "gdpval": 1600,
+    "gdpvalBreakdown": {
+      "lower95ci": 1600,
+      "upper95ci": 1600,
+      "avgTurns": 72.1324200913242
+    },
+    "gdpPdfAllPass": 0.128,
+    "gpqa": null,
+    "hle": 0.392493049119555,
+    "lcr": 0.84,
+    "mmmuPro": 0.769942196531792,
+    "omniscience": -5.3,
+    "scicode": 0.518518518518518,
+    "terminalBench40": 0.267676767676768,
+    "frontierCode": 0.440335333333333,
+    "terminalBenchScience": 0.0904761904761905,
+    "mlcrOverall": 0.227777777777778
+  },
+  {
+    "id": "34fc646a-0174-470e-9e62-d8df452210b3",
+    "slug": "mistral-large-4",
+    "name": "Mistral Large 4 Preview",
+    "shortName": "Mistral Large 4 Preview",
+    "suffix": null,
+    "release": {
+      "slug": "mistral-large-4",
+      "name": "Mistral Large 4 Preview"
+    },
+    "releaseDate": "2026-10-06",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "mistral",
+      "name": "Mistral"
+    },
+    "intelligenceIndex": 38.3770408917494,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.5990136246808686,
+    "briefcaseElo": 1392.59,
+    "briefcaseBreakdown": {
+      "elo": 1392.59,
+      "lower95ci": 1381.68,
+      "upper95ci": 1402.35
+    },
+    "critpt": 0.105714285714286,
+    "gdpval": 1421.68,
+    "gdpvalBreakdown": {
+      "lower95ci": 1396.99,
+      "upper95ci": 1446.38,
+      "avgTurns": 34.2037037037037
+    },
+    "gdpPdfAllPass": 0.186,
+    "gpqa": null,
+    "hle": 0.35032437442076,
+    "lcr": 0.813333333333333,
+    "mmmuPro": 0.764161849710983,
+    "omniscience": -5.3,
+    "scicode": 0.541666666666667,
+    "terminalBench40": 0.267676767676768,
+    "frontierCode": null,
+    "terminalBenchScience": null,
+    "mlcrOverall": null
+  },
+  {
+    "id": "6fb13851-40ce-4bda-ad3f-6b38e0c5daa7",
+    "slug": "gpt-6-luna",
+    "name": "GPT-6 Luna (Max)",
+    "shortName": "GPT-6 Luna (max)",
+    "suffix": "Max",
+    "release": {
+      "slug": "gpt-6-luna",
+      "name": "GPT-6 Luna"
+    },
+    "releaseDate": "2026-09-22",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": false,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "openai",
+      "name": "OpenAI"
+    },
+    "intelligenceIndex": 38.1245186869738,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.5316814034483175,
+    "briefcaseElo": 1336.38,
+    "briefcaseBreakdown": {
+      "elo": 1336.38,
+      "lower95ci": 1327.35,
+      "upper95ci": 1346.71
+    },
+    "critpt": 0.194285714285714,
+    "gdpval": 1431.64,
+    "gdpvalBreakdown": {
+      "lower95ci": 1409.98,
+      "upper95ci": 1453.29,
+      "avgTurns": 35.1363636363636
+    },
+    "gdpPdfAllPass": 0.228,
+    "gpqa": null,
+    "hle": 0.385078776645042,
+    "lcr": 0.833333333333333,
+    "mmmuPro": 0.796531791907514,
+    "omniscience": 0.65,
+    "scicode": 0.546296296296296,
+    "terminalBench40": 0.126262626262626,
+    "frontierCode": 0.419269666666667,
+    "terminalBenchScience": 0.0857142857142857,
+    "mlcrOverall": 0.161111111111111
+  },
+  {
+    "id": "b01dee41-c62b-48ed-8d16-984adc405e5c",
+    "slug": "qwen3-8-27b",
+    "name": "Qwen3.8 27B (Xhigh)",
+    "shortName": "Qwen3.8 27B (xhigh)",
+    "suffix": "Xhigh",
+    "release": {
+      "slug": "qwen3-8-27b",
+      "name": "Qwen3.8 27B"
+    },
+    "releaseDate": "2026-08-14",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": true,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "alibaba",
+      "name": "Alibaba"
+    },
+    "intelligenceIndex": 33.6962858057476,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": 0.1875,
+    "analystAgentPassAt1": 0.48,
+    "analystAgentPassAtK": 0.75,
+    "automationBenchPartialScore": 0.48242443682241926,
+    "briefcaseElo": 1397.08,
+    "briefcaseBreakdown": {
+      "elo": 1397.08,
+      "lower95ci": 1390.02,
+      "upper95ci": 1404.97
+    },
+    "critpt": 0.0542857142857143,
+    "gdpval": 1419.13,
+    "gdpvalBreakdown": {
+      "lower95ci": 1398.14,
+      "upper95ci": 1440.12,
+      "avgTurns": 57.9908256880734
+    },
+    "gdpPdfAllPass": 0.166,
+    "gpqa": 0.905050505050505,
+    "hle": 0.33920296570899,
+    "lcr": 0.82,
+    "mmmuPro": 0.763005780346821,
+    "omniscience": -9.98333333333333,
+    "scicode": 0.466435185185185,
+    "terminalBench40": 0.0555555555555556,
+    "frontierCode": 0.342324,
+    "terminalBenchScience": 0.00476190476190476,
+    "mlcrOverall": 0.216666666666667
+  },
+  {
+    "id": "bb3d7e75-8e22-4082-b9d6-1db0803e042f",
+    "slug": "k2-horizon-375b-a23b",
+    "name": "K2 Horizon 375B A23B",
+    "shortName": "K2 Horizon 375B A23B",
+    "suffix": null,
+    "release": {
+      "slug": "k2-horizon-375b-a23b",
+      "name": "K2 Horizon 375B A23B"
+    },
+    "releaseDate": "2026-09-03",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": true,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "ifm",
+      "name": "Institute of Foundation Models"
+    },
+    "intelligenceIndex": 30.5015302696723,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": null,
+    "analystAgentPassAt1": null,
+    "analystAgentPassAtK": null,
+    "automationBenchPartialScore": 0.3720802754388014,
+    "briefcaseElo": 1295.58,
+    "briefcaseBreakdown": {
+      "elo": 1295.58,
+      "lower95ci": 1287.49,
+      "upper95ci": 1303.71
+    },
+    "critpt": 0.0457142857142857,
+    "gdpval": 1360.51,
+    "gdpvalBreakdown": {
+      "lower95ci": 1339.89,
+      "upper95ci": 1381.12,
+      "avgTurns": 44.9909090909091
+    },
+    "gdpPdfAllPass": 0.074,
+    "gpqa": 0.872727272727273,
+    "hle": 0.319740500463392,
+    "lcr": 0.8,
+    "mmmuPro": null,
+    "omniscience": -2.96666666666667,
+    "scicode": 0.429398148148148,
+    "terminalBench40": 0.0151515151515152,
+    "frontierCode": 0.320955,
+    "terminalBenchScience": null,
+    "mlcrOverall": null
+  },
+  {
+    "id": "277f939a-985b-4b37-859d-b3eabc7c0b26",
+    "slug": "minimax-m3",
+    "name": "MiniMax-M3",
+    "shortName": "MiniMax-M3",
+    "suffix": null,
+    "release": {
+      "slug": "minimax-m3",
+      "name": "MiniMax-M3"
+    },
+    "releaseDate": "2026-06-01",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": true,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "minimax",
+      "name": "MiniMax"
+    },
+    "intelligenceIndex": 29.2202932236316,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": 0.1,
+    "analystAgentPassAt1": 0.44,
+    "analystAgentPassAtK": 0.7375,
+    "automationBenchPartialScore": 0.21251257600749407,
+    "briefcaseElo": 1090.93,
+    "briefcaseBreakdown": {
+      "elo": 1090.93,
+      "lower95ci": 1084.01,
+      "upper95ci": 1098.24
+    },
+    "critpt": 0.0371428571428571,
+    "gdpval": 1242.26,
+    "gdpvalBreakdown": {
+      "lower95ci": 1225.33,
+      "upper95ci": 1259.19,
+      "avgTurns": 54.1590909090909
+    },
+    "gdpPdfAllPass": 0.098,
+    "gpqa": 0.929292929292929,
+    "hle": 0.389712696941613,
+    "lcr": 0.83,
+    "mmmuPro": 0.785549132947977,
+    "omniscience": 1.35,
+    "scicode": 0.471064814814815,
+    "terminalBench40": 0.0202020202020202,
+    "frontierCode": 0.230037666666667,
+    "terminalBenchScience": 0.00476190476190476,
+    "mlcrOverall": 0.172222222222222
+  },
+  {
+    "id": "0de09623-2b1a-4c8d-86ef-7f5245d4e24b",
+    "slug": "inkling",
+    "name": "Inkling (Xhigh)",
+    "shortName": "Inkling (xhigh)",
+    "suffix": "Xhigh",
+    "release": {
+      "slug": "inkling",
+      "name": "Inkling"
+    },
+    "releaseDate": "2026-07-15",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": true,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "thinking-machines",
+      "name": "Thinking Machines"
+    },
+    "intelligenceIndex": 24.9847810999384,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": 0.2375,
+    "analystAgentPassAt1": 0.5225,
+    "analystAgentPassAtK": 0.7875,
+    "automationBenchPartialScore": 0.04984889684475201,
+    "briefcaseElo": 832.32,
+    "briefcaseBreakdown": {
+      "elo": 832.32,
+      "lower95ci": 823.94,
+      "upper95ci": 840.17
+    },
+    "critpt": 0.0542857142857143,
+    "gdpval": 1075.6,
+    "gdpvalBreakdown": {
+      "lower95ci": 1052.88,
+      "upper95ci": 1098.33,
+      "avgTurns": 43.1045454545455
+    },
+    "gdpPdfAllPass": 0.128,
+    "gpqa": 0.871717171717172,
+    "hle": 0.318813716404078,
+    "lcr": 0.773333333333333,
+    "mmmuPro": 0.734682080924856,
+    "omniscience": 2,
+    "scicode": 0.469907407407407,
+    "terminalBench40": 0.0101010101010101,
+    "frontierCode": 0.158388333333333,
+    "terminalBenchScience": 0,
+    "mlcrOverall": 0.122222222222222
+  },
+  {
+    "id": "5b52def2-ac9b-4465-ad80-91ea8079e253",
+    "slug": "nvidia-nemotron-3-ultra-550b-a55b",
+    "name": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+    "shortName": "Nemotron 3 Ultra",
+    "suffix": "Reasoning",
+    "release": {
+      "slug": "nemotron-3-ultra-550b-a55b",
+      "name": "Nemotron 3 Ultra 550B A55B"
+    },
+    "releaseDate": "2026-06-04",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": true,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "nvidia",
+      "name": "NVIDIA"
+    },
+    "intelligenceIndex": 22.9279123422858,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": 0.0625,
+    "analystAgentPassAt1": 0.25,
+    "analystAgentPassAtK": 0.4375,
+    "automationBenchPartialScore": 0.02986349541593992,
+    "briefcaseElo": 876.28,
+    "briefcaseBreakdown": {
+      "elo": 876.28,
+      "lower95ci": 868.93,
+      "upper95ci": 883.46
+    },
+    "critpt": 0.0314285714285714,
+    "gdpval": 1012.79,
+    "gdpvalBreakdown": {
+      "lower95ci": 994.59,
+      "upper95ci": 1030.99,
+      "avgTurns": 21.5772727272727
+    },
+    "gdpPdfAllPass": 0.05,
+    "gpqa": 0.866666666666667,
+    "hle": 0.284059314179796,
+    "lcr": 0.793333333333333,
+    "mmmuPro": null,
+    "omniscience": -0.4,
+    "scicode": 0.402777777777778,
+    "terminalBench40": 0.00505050505050505,
+    "frontierCode": null,
+    "terminalBenchScience": null,
+    "mlcrOverall": 0.111111111111111
+  },
+  {
+    "id": "583f98fb-c4b8-4df3-8d40-60ac0ed69882",
+    "slug": "muse-glimmer",
+    "name": "Muse Glimmer (High)",
+    "shortName": "Muse Glimmer (high)",
+    "suffix": "High",
+    "release": {
+      "slug": "muse-glimmer",
+      "name": "Muse Glimmer"
+    },
+    "releaseDate": "2026-08-10",
+    "deprecated": false,
+    "isReasoning": true,
+    "isOpenWeights": true,
+    "mitigationStatus": "standard",
+    "creator": {
+      "slug": "meta",
+      "name": "Meta"
+    },
+    "intelligenceIndex": 17.4754176089465,
+    "intelligenceIndexIsEstimated": false,
+    "analystAgent": 0.2,
+    "analystAgentPassAt1": 0.3725,
+    "analystAgentPassAtK": 0.5875,
+    "automationBenchPartialScore": 0.06831776269647931,
+    "briefcaseElo": 477.33,
+    "briefcaseBreakdown": {
+      "elo": 477.33,
+      "lower95ci": 468.67,
+      "upper95ci": 486.01
+    },
+    "critpt": 0.0257142857142857,
+    "gdpval": 786.36,
+    "gdpvalBreakdown": {
+      "lower95ci": 762.07,
+      "upper95ci": 810.64,
+      "avgTurns": 25.5409090909091
+    },
+    "gdpPdfAllPass": 0.1,
+    "gpqa": 0.835353535353535,
+    "hle": 0.219647822057461,
+    "lcr": 0.833333333333333,
+    "mmmuPro": 0.743352601156069,
+    "omniscience": -32.85,
+    "scicode": 0.449074074074074,
+    "terminalBench40": 0.00505050505050505,
+    "frontierCode": 0.139178333333333,
+    "terminalBenchScience": 0,
+    "mlcrOverall": 0.2
+  }
+]

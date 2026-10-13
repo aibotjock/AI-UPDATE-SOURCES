@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="asset-title asset-description">
+<title id="asset-title">Verified price decrease</title>
+<desc id="asset-description">Original editable template for change report. All displayed results, models, costs, and evidence fields are placeholders requiring verification. Not a factual comparison.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#63dcec"/></marker></defs>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#081421"/>
+<line x1="70" y1="70" x2="1850" y2="70" stroke="#294456" stroke-width="2"/>
+<text x="70" y="57" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">AI UPDATE / CHANGE REPORT</text>
+<text x="70" y="147" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="54" font-weight="700">Verified price decrease</text>
+<text x="73" y="194" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Previous and current facts require dated source evidence; an announcement is not a completed test.</text>
+<rect x="1555" y="23" width="295" height="42" rx="9" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="1569" y="51" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">TEMPLATE • VERIFY DATA</text>
+<line x1="70" y1="1018" x2="1850" y2="1018" stroke="#294456" stroke-width="2"/>
+<text x="70" y="1051" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TEMPLATE / no measured results embedded</text>
+<text x="1270" y="1051" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">CC BY 4.0 • AI Update Sources</text>
+<rect x="70" y="235" width="1780" height="135" rx="8" fill="#112637" stroke="#294456" stroke-width="1"/>
+<text x="88" y="268" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700">FIELD</text>
+<text x="528" y="268" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700">PREVIOUS / dated</text>
+<text x="1198" y="268" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700">CURRENT / dated</text>
+<rect x="70" y="370" width="1780" height="133" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="402" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Affected product</text>
+<text x="528" y="402" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Exact identity</text>
+<text x="1198" y="402" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Exact identity</text>
+<rect x="70" y="505" width="1780" height="133" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="537" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Changed condition</text>
+<text x="528" y="537" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Saved verified fact</text>
+<text x="1198" y="537" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Current verified fact</text>
+<rect x="70" y="640" width="1780" height="133" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="672" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Price / limits</text>
+<text x="528" y="672" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Saved billing basis</text>
+<text x="1198" y="672" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Current billing basis</text>
+<rect x="70" y="775" width="1780" height="133" rx="3" fill="#081421" stroke="#294456" stroke-width="1"/>
+<text x="88" y="807" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">Source evidence</text>
+<text x="528" y="807" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">URL / date / snapshot</text>
+<text x="1198" y="807" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="400">URL / date / snapshot</text>
+<line x1="510" y1="242" x2="510" y2="903" stroke="#294456" stroke-width="1"/>
+<line x1="1180" y1="242" x2="1180" y2="903" stroke="#294456" stroke-width="1"/>
+<rect x="70" y="930" width="1780" height="58" rx="10" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="88" y="966" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="400">Recompute only affected claims; preserve earlier records as historical evidence.</text>
+<text x="70" y="1004" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400">CHECK: Previous input/output rates / Current input/output rates / Same saved workload</text>
+</svg>

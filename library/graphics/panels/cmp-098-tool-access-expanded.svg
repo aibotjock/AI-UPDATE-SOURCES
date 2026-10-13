@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="asset-title asset-description">
+<title id="asset-title">Tool access expanded</title>
+<desc id="asset-description">Original editable template for change report. All displayed results, models, costs, and evidence fields are placeholders requiring verification. Not a factual comparison.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#63dcec"/></marker></defs>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#081421"/>
+<line x1="70" y1="70" x2="1850" y2="70" stroke="#294456" stroke-width="2"/>
+<text x="70" y="57" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">AI UPDATE / CHANGE REPORT</text>
+<text x="70" y="147" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="54" font-weight="700">Tool access expanded</text>
+<text x="73" y="194" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400">Previous and current facts require dated source evidence; an announcement is not a completed test.</text>
+<rect x="1555" y="23" width="295" height="42" rx="9" fill="#081421" stroke="#efc26d" stroke-width="1"/>
+<text x="1569" y="51" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">TEMPLATE • VERIFY DATA</text>
+<line x1="70" y1="1018" x2="1850" y2="1018" stroke="#294456" stroke-width="2"/>
+<text x="70" y="1051" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">TEMPLATE / no measured results embedded</text>
+<text x="1270" y="1051" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400">CC BY 4.0 • AI Update Sources</text>
+<rect x="170" y="235" width="1680" height="175" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="170" y="235" width="6" height="175" rx="2" fill="#63dcec"/>
+<text x="196" y="277" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">PREVIOUS STATE</text>
+<text x="196" y="323" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400">Saved record / date</text>
+<circle cx="100" cy="317" r="14" fill="#63dcec"/>
+<line x1="100" y1="333" x2="100" y2="445" stroke="#63dcec" stroke-width="3"/>
+<rect x="170" y="450" width="1680" height="175" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="170" y="450" width="6" height="175" rx="2" fill="#efc26d"/>
+<text x="196" y="492" fill="#efc26d" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">CHANGE EVENT</text>
+<text x="196" y="538" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400">Official evidence / date</text>
+<circle cx="100" cy="532" r="14" fill="#63dcec"/>
+<line x1="100" y1="548" x2="100" y2="660" stroke="#63dcec" stroke-width="3"/>
+<rect x="170" y="665" width="1680" height="175" rx="16" fill="#112637" stroke="#294456" stroke-width="1"/>
+<rect x="170" y="665" width="6" height="175" rx="2" fill="#63dcec"/>
+<text x="196" y="707" fill="#63dcec" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">CURRENT STATE</text>
+<text x="196" y="753" fill="#f4f8fc" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400">Verified record / date</text>
+<circle cx="100" cy="747" r="14" fill="#63dcec"/>
+<text x="70" y="1004" fill="#abc0cf" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400">CHECK: Available tools / Permission scope / Full-system result</text>
+</svg>
