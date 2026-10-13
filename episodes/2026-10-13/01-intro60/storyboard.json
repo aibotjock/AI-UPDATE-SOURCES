@@ -1,0 +1,213 @@
+{
+  "title": "AI Update 60 Second Introductory Clip",
+  "credit": "By: Dr. Chris",
+  "production_date": "2026-10-13",
+  "timezone": "America/New_York",
+  "total_duration": 60,
+  "planned_total_words": 124,
+  "planned_words_per_minute": 124,
+  "audio": "Add voiceover in post-production. Record each segment to its allotted duration. Timing is planned until recorded narration is aligned.",
+  "deck_file": "AI_UPDATE_60s_Intro_2026-10-13.pptx",
+  "scenes": [
+    {
+      "slide": 1,
+      "start": 0,
+      "end": 7,
+      "title": "AI UPDATE",
+      "purpose": "Channel introduction",
+      "narration": "Welcome to AI Update. I’m Dr. Chris. We track cloud AI and help you choose.",
+      "cues": [
+        {
+          "time": 0,
+          "text": "Source-library chip artwork reveals with a slow zoom."
+        },
+        {
+          "time": 0.5,
+          "text": "AI UPDATE title appears."
+        },
+        {
+          "time": 2,
+          "text": "By: Dr. Chris appears."
+        }
+      ],
+      "visual": "Approved chip branding from the AI Update source library, full-screen with native editable channel credit.",
+      "sources": [],
+      "duration": 7,
+      "word_count": 15
+    },
+    {
+      "slide": 2,
+      "start": 7,
+      "end": 17,
+      "title": "Cloud models. Your task. Your budget.",
+      "purpose": "Company coverage and viewer value",
+      "narration": "From the major AI companies, we focus on the model that fits your task, and what it costs to use.",
+      "cues": [
+        {
+          "time": 7,
+          "text": "Server-room background appears."
+        },
+        {
+          "time": 7.5,
+          "text": "Eleven cloud company and model-family identities reveal in staggered groups."
+        },
+        {
+          "time": 11,
+          "text": "Your task and your budget remain the visual focus."
+        }
+      ],
+      "visual": "Distinct generated server-room technology illustration, with the eleven unaltered source-library logo marks and names.",
+      "sources": [
+        "https://github.com/aibotjock/AI-UPDATE-SOURCES/tree/channel-continuity/library/logos/community"
+      ],
+      "duration": 10,
+      "word_count": 20
+    },
+    {
+      "slide": 3,
+      "start": 17,
+      "end": 28,
+      "title": "What benchmarks measure",
+      "purpose": "Task-specific benchmark interpretation",
+      "narration": "For coding, writing, and reasoning, we explain what benchmarks measure, what they miss, and why a single score cannot answer every question.",
+      "cues": [
+        {
+          "time": 17,
+          "text": "Robot and workstation illustration establishes task context."
+        },
+        {
+          "time": 17.5,
+          "text": "Coding appears."
+        },
+        {
+          "time": 18,
+          "text": "Writing appears."
+        },
+        {
+          "time": 18.5,
+          "text": "Reasoning appears."
+        },
+        {
+          "time": 25,
+          "text": "Test and conditions statement gains emphasis."
+        }
+      ],
+      "visual": "Distinct generated robotics and workstation illustration, with editable task labels and a brief benchmark-context statement.",
+      "sources": [
+        "https://www.swebench.com/",
+        "https://arena.ai/how-it-works",
+        "https://github.com/LiveBench/LiveBench"
+      ],
+      "duration": 11,
+      "word_count": 22
+    },
+    {
+      "slide": 4,
+      "start": 28,
+      "end": 39,
+      "title": "Same prompt. Different models.",
+      "purpose": "Fair comparisons and total task cost",
+      "narration": "Then we compare models using the same prompt, showing actual responses, task success, and total cost. Our goal: useful results at a sensible price.",
+      "cues": [
+        {
+          "time": 28,
+          "text": "Genuine Rive comparison graphic establishes the comparison structure."
+        },
+        {
+          "time": 28.5,
+          "text": "Same prompt appears."
+        },
+        {
+          "time": 31,
+          "text": "Actual responses appears."
+        },
+        {
+          "time": 33.5,
+          "text": "Task success appears."
+        },
+        {
+          "time": 36,
+          "text": "Total cost receives a warm accent and emphasis."
+        }
+      ],
+      "visual": "Original Rive-rendered comparison graphic and neural core on a distinct technological scene. No model outputs, prices, or scores are fabricated.",
+      "sources": [],
+      "duration": 11,
+      "word_count": 24
+    },
+    {
+      "slide": 5,
+      "start": 39,
+      "end": 50,
+      "title": "Claude Haiku 5.5",
+      "purpose": "Verified current cloud model announcement",
+      "narration": "On October seventh, Anthropic introduced Claude Haiku five point five for high-volume tasks. We’ll examine how its results compare with its cost.",
+      "cues": [
+        {
+          "time": 39,
+          "text": "Warm inference accelerator illustration appears."
+        },
+        {
+          "time": 39.5,
+          "text": "Claude logo and Haiku 5.5 headline reveal."
+        },
+        {
+          "time": 41,
+          "text": "Announced October 7, 2026 appears."
+        },
+        {
+          "time": 44,
+          "text": "Provider positioning: high-volume work appears."
+        },
+        {
+          "time": 47,
+          "text": "Evidence and task cost remain the criteria for future assessment."
+        }
+      ],
+      "visual": "Distinct generated inference-board illustration with the original Claude source-library mark and editable dated announcement. The image is illustrative, not a photograph of Anthropic hardware.",
+      "sources": [
+        "https://www.anthropic.com/claude-haiku-5-5"
+      ],
+      "source_publication_date": "2026-10-07",
+      "source_event_date": "2026-10-07",
+      "source_verified_date": "2026-10-13",
+      "claim_note": "Launch and high-volume positioning come from Anthropic. No independent performance or value finding is claimed.",
+      "duration": 11,
+      "word_count": 22
+    },
+    {
+      "slide": 6,
+      "start": 50,
+      "end": 60,
+      "title": "Next: benchmarks",
+      "purpose": "What comes next and episode handoff",
+      "narration": "Every episode ends with what’s next. First, benchmarks: how to read them, and how they can guide your next model choice.",
+      "cues": [
+        {
+          "time": 50,
+          "text": "Distinct GPU compute illustration appears with a slow camera move."
+        },
+        {
+          "time": 50.5,
+          "text": "NEXT appears."
+        },
+        {
+          "time": 52,
+          "text": "Benchmarks title reveals."
+        },
+        {
+          "time": 55,
+          "text": "What they measure. How to read them. appears."
+        },
+        {
+          "time": 59,
+          "text": "Hold for the handoff, then the 60-second opening ends."
+        }
+      ],
+      "visual": "Distinct generated GPU compute illustration, with editable benchmark primer title and purposeful closing motion.",
+      "sources": [],
+      "duration": 10,
+      "word_count": 21
+    }
+  ]
+}
