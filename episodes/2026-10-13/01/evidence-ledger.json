@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "episode_date": "2026-10-13",
+  "research_started_at": null,
+  "research_completed_at": null,
+  "sources": [],
+  "source_record_template": {
+    "title": null,
+    "url": null,
+    "kind": null,
+    "claims": [],
+    "published_date": null,
+    "original_benchmark_date": null,
+    "verified_at": null,
+    "content_verified": false,
+    "authority_note": null,
+    "independent_validation": null,
+    "regularly_updated_verified": false,
+    "recent_maintenance_verified": false,
+    "update_cadence": null,
+    "update_history_url": null,
+    "maintenance_evidence": [],
+    "last_updated_at": null,
+    "maintenance_checked_at": null
+  }
+}

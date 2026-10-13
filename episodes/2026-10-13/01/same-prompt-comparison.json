@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "episode_date": "2026-10-13",
+  "comparison_reviewed_at": null,
+  "prompt": null,
+  "runs": [],
+  "observations": [],
+  "choice": null,
+  "run_record_template": {
+    "provider": null,
+    "model": null,
+    "version": null,
+    "mode": null,
+    "run_at": null,
+    "evidence_origin": null,
+    "evidence_reference": null,
+    "reuse_review_note": null,
+    "settings": {},
+    "result": null,
+    "usage_cost": {
+      "usage": null,
+      "cost_basis": "unavailable",
+      "total": null,
+      "currency": null,
+      "note": null
+    }
+  }
+}

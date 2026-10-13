@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "channel": "AI UPDATE",
+  "image_text": "AI UPDATE only",
+  "origin": "Original AI-generated artwork approved in this project thread; banner resized proportionally from user-supplied artwork without regenerating its content.",
+  "documentary_evidence": false,
+  "files": [
+    {
+      "path": "channel/branding/AI_UPDATE_Logo.png",
+      "sha256": "4a863778166d9a5cae2433f9e38e92fcf1ab2171356159f6cb599a7162651486",
+      "size_bytes": 2711194
+    },
+    {
+      "path": "channel/branding/AI_UPDATE_YouTube_Banner.jpg",
+      "sha256": "cc602100f162d36f957b5a4eb4e5fccc51cdce534ab0564f89fdb36b9a53c41b",
+      "size_bytes": 1133167
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-13T01:33:55.656553+00:00",
-  "policy": "Flexible verified-source coverage, not a numerical quota. Access checks do not verify all facts.",
+  "policy": "Use reputable, reliable, regularly updated sources only. Registry membership and access checks do not verify claims or maintenance; verify each selected source before use.",
   "sources": [
     {
       "id": "openai-docs",
@@ -15,7 +15,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://developers.openai.com/"
+      "resolved_url": "https://developers.openai.com/",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "anthropic-docs",
@@ -29,7 +35,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://platform.claude.com/docs/en/home"
+      "resolved_url": "https://platform.claude.com/docs/en/home",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "google-gemini-docs",
@@ -43,7 +55,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://ai.google.dev/gemini-api/docs"
+      "resolved_url": "https://ai.google.dev/gemini-api/docs",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "microsoft-ai-foundry",
@@ -57,7 +75,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://learn.microsoft.com/en-us/azure/foundry/"
+      "resolved_url": "https://learn.microsoft.com/en-us/azure/foundry/",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "meta-ai",
@@ -71,7 +95,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://ai.meta.com/"
+      "resolved_url": "https://ai.meta.com/",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "nvidia-build",
@@ -85,7 +115,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://build.nvidia.com/"
+      "resolved_url": "https://build.nvidia.com/",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "xai-docs",
@@ -99,7 +135,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://docs.x.ai/overview"
+      "resolved_url": "https://docs.x.ai/overview",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "deepseek-docs",
@@ -113,7 +155,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://api-docs.deepseek.com/"
+      "resolved_url": "https://api-docs.deepseek.com/",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "zai-docs",
@@ -127,7 +175,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://docs.z.ai/guides/overview/quick-start"
+      "resolved_url": "https://docs.z.ai/guides/overview/quick-start",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "qwen-model-studio",
@@ -141,7 +195,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://www.alibabacloud.com/help/en/model-studio/"
+      "resolved_url": "https://www.alibabacloud.com/help/en/model-studio/",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "artificial-analysis-index",
@@ -155,7 +215,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index"
+      "resolved_url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "arena-text",
@@ -168,7 +234,13 @@
       "verification_scope": "Access check only; verify claim content, exact versions and current availability before use.",
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "access-check-failed",
-      "access_error": "HTTP Error 502: Bad Gateway"
+      "access_error": "HTTP Error 502: Bad Gateway",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "livebench",
@@ -182,7 +254,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://livebench.ai/"
+      "resolved_url": "https://livebench.ai/",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "livecodebench",
@@ -196,7 +274,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://livecodebench.github.io/"
+      "resolved_url": "https://livecodebench.github.io/",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "swe-bench",
@@ -210,7 +294,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://www.swebench.com/"
+      "resolved_url": "https://www.swebench.com/",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "helm",
@@ -224,7 +314,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://crfm.stanford.edu/helm/"
+      "resolved_url": "https://crfm.stanford.edu/helm/",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "bfcl",
@@ -238,7 +334,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://gorilla.cs.berkeley.edu/leaderboard"
+      "resolved_url": "https://gorilla.cs.berkeley.edu/leaderboard",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "longbench",
@@ -252,7 +354,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://github.com/THUDM/LongBench"
+      "resolved_url": "https://github.com/THUDM/LongBench",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "ifeval",
@@ -266,7 +374,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://github.com/google-research/google-research/tree/master/instruction_following_eval"
+      "resolved_url": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "mmlu-pro",
@@ -280,7 +394,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://github.com/TIGER-AI-Lab/MMLU-Pro"
+      "resolved_url": "https://github.com/TIGER-AI-Lab/MMLU-Pro",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "gpqa",
@@ -294,7 +414,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://github.com/idavidrein/gpqa"
+      "resolved_url": "https://github.com/idavidrein/gpqa",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "vhelm",
@@ -308,7 +434,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://crfm.stanford.edu/helm/vhelm/latest/"
+      "resolved_url": "https://crfm.stanford.edu/helm/vhelm/latest/",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "lucide",
@@ -322,7 +454,13 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://github.com/lucide-icons/lucide"
+      "resolved_url": "https://github.com/lucide-icons/lucide",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     },
     {
       "id": "lobe-icons",
@@ -336,7 +474,16 @@
       "reliability_rationale": "Original owner/provider or evaluator; authority is limited to the corresponding claim.",
       "access_status": "accessible",
       "http_status": 200,
-      "resolved_url": "https://github.com/lobehub/lobe-icons"
+      "resolved_url": "https://github.com/lobehub/lobe-icons",
+      "registry_status": "candidate",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
     }
-  ]
+  ],
+  "review_policy": "channel/source-review-policy.md",
+  "registry_policy_updated_at": "2026-10-12T23:46:20.409056-04:00",
+  "source_change_log": []
 }
