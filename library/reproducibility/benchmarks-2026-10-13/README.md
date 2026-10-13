@@ -31,15 +31,15 @@ The full Arena poster is a tall reference asset rather than a single slide. Use 
 
 ## Rebuild
 
-Install/use Python 3 with `matplotlib` and `numpy`, then run:
+Install/use Python 3 with `matplotlib` and `numpy`, then from the repository root run:
 
 ```sh
-python generate_charts.py
+python library/reproducibility/benchmarks-2026-10-13/generate_charts.py
 ```
 
-The generator reads the factual datasets in `data/` and writes the SVGs, per-asset provenance manifest, leader summaries and verification counts. It does not refetch mutable webpages. The initial parser is kept as `extract_primary_data.py` for future captures; it expects raw captures in the parent directory and should be run deliberately when updating evidence.
+The generator reads the factual datasets in `data/` and writes a standalone `charts/` subdirectory and `manifest.json` next to the script, plus leader summaries and verification counts. The committed charts live in `library/graphics/benchmarks/`, indexed by `library/asset-index.json` (filter `collection: verified-benchmarks`). Regeneration does not automatically update those assembled files or their catalog hashes. Import deliberately reviewed changes and refresh the catalog before episode use. It does not refetch mutable webpages. The initial parser is kept as `extract_primary_data.py` for future captures; it expects raw captures in the parent directory and should be run deliberately when updating evidence.
 
-`manifest.json` identifies the 52 chart assets. Metadata files, scripts, numerical datasets and preview renders are not counted as media assets. Numeric rounding in visible labels does not alter the raw saved values. Full-provider poster records include exact displayed cohort counts.
+The canonical asset index identifies the 52 committed chart assets; the original standalone `manifest.json` was not copied. A new `manifest.json` is produced by the rebuild command. Metadata files, scripts, numerical datasets and preview renders are not counted as media assets. Numeric rounding in visible labels does not alter the raw saved values. Full-provider poster records include exact displayed cohort counts.
 
 ## Rights and attribution
 

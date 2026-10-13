@@ -10,6 +10,6 @@ Categories: 30 comparison panels; 30 benchmark explainers; 30 verdicts; 30 chang
 CC BY 4.0. Recommended attribution: **AI Update Sources**. This license covers original SVG artwork only. Third-party screenshots, logos, and inserted media keep their own applicable rights.
 
 ## Regenerate
-Run `python generate.py`. Metadata and SHA-256 checksums are written to `manifest.json`.
+Committed files are in `library/graphics/panels/`. Use `library/asset-index.json`, filtered by `collection: comparison-assets`, for their metadata and hashes. The original standalone manifest was not copied. Running the preserved `generate.py` produces a separate local `assets/` bundle and `manifest.json`; deliberately import reviewed changes and update the assembled catalog before episode use.
 
 SVG text, cards, arrows, and source-image slots remain editable. Use actual products and real screenshots when completing an episode.

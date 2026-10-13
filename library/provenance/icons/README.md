@@ -8,4 +8,6 @@ Retain `LICENSE-LUCIDE.txt` with copies of this collection. That upstream licens
 
 Each file is 24 × 24 SVG with transparent background, `currentColor` stroke, no external resources and no scripts. It can be recolored or scaled for an episode as a derived asset; keep the source copy and metadata.
 
-`assets.json` contains individual provenance and intended use. `verification.json` records distinct geometry checks and package integrity. Full-screen contact sheets are preview aids and not counted as individual assets.
+`library/asset-index.json` contains the individual committed provenance and intended use records; filter `collection: icons`. The SVG files are in `library/icons/lucide/`. `verification.json` records distinct geometry checks and package integrity. Full-screen contact sheets are preview aids and not counted as individual assets.
+
+From the repository root, run `python library/provenance/icons/render_contacts.py --output-dir /tmp/ai-update-icons-qa` to verify committed hashes and render four contact sheets. The helper does not claim to rerun package-integrity checks: the original tarball, package metadata, source tree and `assets.json` are not committed. Those omitted inputs are required by the preserved `curate_icons.py` acquisition script.

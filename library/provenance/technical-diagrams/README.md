@@ -7,7 +7,7 @@ tools, search, files, multimodal tasks, platform features, costs, latency,
 evaluation, uncertainty, benchmarks, comparisons, provenance, and reliability.
 They contain no invented benchmark results, empirical price data, company
 logos, or local hosting advice. Each concept is individually labeled and
-cataloged in `manifest.json` and `topics.md`.
+cataloged in `library/asset-index.json` (filter `collection: technical-diagrams`) and this directory's `topics.md`. Committed SVGs are in `library/graphics/diagrams/`; the original standalone manifest and QA derivatives were not copied.
 
 ## Use
 
@@ -18,7 +18,7 @@ schematic should be labeled as an illustration, not used as score evidence.
 
 ## Rebuild
 
-Run `python generate_diagrams.py` to regenerate all SVGs and metadata.
+The preserved standalone generator `python generate_diagrams.py` creates a separate local `assets/` bundle and its manifest. It does not automatically update the committed SVG locations or canonical catalog.
 Run `python generate_diagrams.py --qa` with Pillow and Inkscape available to
 render every asset and produce nine contact sheets. `qa/validation.json`
 records programmatic checks. The thumbnail renders are QA derivatives of

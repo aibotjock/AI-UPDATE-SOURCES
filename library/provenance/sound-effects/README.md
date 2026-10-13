@@ -1,4 +1,4 @@
-# Original sound effects for AI Update
+# Original sound effects for AI UPDATE
 
 60 original, procedural sound effects for cloud AI news, evidence screenshots,
 side-by-side prompt/output comparisons, platform feature demonstrations, and
@@ -29,7 +29,7 @@ These are 60 hand-authored cue profiles, with differing layer arrangements,
 rhythms, envelopes, noise/tone combinations, and synthesis parameters. They are
 not duplicates made by changing only pitch, file name, silence, or encoding.
 
-## Recommended starting mix with voiceover added in post
+## Recommended starting mix with narration included in production
 
 1. Start the SFX track at -6 dB gain relative to the supplied files. Use -10 dB
    for qualification/attention notes if they overlap detailed narration.
@@ -55,9 +55,9 @@ not duplicates made by changing only pitch, file name, silence, or encoding.
 
 ## Metadata, validation, and reproducibility
 
-`metadata.json` is a list with one record per WAV. It includes identity, intended
+`library/asset-index.json`, filtered by `collection: sound-effects`, is the committed catalog with one record per WAV. The original standalone `metadata.json` was not copied. It includes identity, intended
 use, tags, relative path, license, exact bytes, SHA-256, duration, format, peak,
-RMS, and mix guidance. Paths are relative to this folder.
+RMS, and mix guidance. Canonical catalog paths are relative to the repository root. Committed WAVs are in `library/sound-effects/`.
 
 `qa-report.json` records the actual decoded PCM checks for all 60 files. Those
 checks verify readable PCM, expected frame counts, correct sample rate/bit
@@ -71,7 +71,6 @@ python generate_sound_effects.py
 ```
 
 Generation uses a deterministic per-cue seed and no network or paid service.
-Regeneration overwrites only the 60 named WAV files and two JSON reports in
-this sound-effects folder.
+This preserved standalone generator writes a separate local WAV bundle and reports under this provenance directory. It does not update `library/sound-effects/` or the assembled catalog automatically. Deliberately import reviewed changes and update hashes before reuse.
 
 CC0 dedication: <https://creativecommons.org/publicdomain/zero/1.0/>

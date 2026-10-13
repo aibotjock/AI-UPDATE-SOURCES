@@ -1,10 +1,10 @@
 # Reusable media and reference library
 
-This branch is the reusable asset home for the cloud AI update show. It is populated with 1,000 starter assets and 52 source-cited benchmark charts. Open [INDEX.md](INDEX.md) for the searchable inventory or download the branch and open `gallery.html` locally.
+This branch is the reusable asset home for the cloud AI UPDATE show. It is populated with 1,000 starter assets and 52 source-cited benchmark charts. Open [INDEX.md](INDEX.md) for the searchable inventory or download the branch and open `gallery.html` locally.
 
 | Folder | Purpose |
 | --- | --- |
-| `logos/` | Official company and product logos, with brand rules and provenance |
+| `logos/` | Community-maintained company and product marks, with source and trademark-review notes |
 | `images/` | Reusable AI illustrations, photos, and backgrounds |
 | `graphics/` | Editable original charts, diagrams, icons, and components |
 | `icons/` | 320 distinct licensed Lucide workflow icons |
@@ -21,3 +21,5 @@ Every asset must have a record in `asset-index.json`. Publicly accessible assets
 The 1,000 starter assets comprise 320 icons, 40 community-maintained brand marks, 180 presentation components, 180 explanatory diagrams, 100 backgrounds, 100 animated overlays, 60 original WAV sound effects, and 20 editorial evidence labels. Charts, preview images, generators, licenses, and metadata are accounted for separately.
 
 SVG backgrounds, icons, logos, and diagrams are editable vectors. Animated SVG overlays use browser animation; render them to video or recreate their motion natively before PowerPoint export. Logos remain subject to owner guidelines. Comparison templates visibly require verified episode data; they contain no actual scores or outputs.
+
+The canonical assembled catalog is `asset-index.json`. Paths in that catalog are relative to the repository root. Supporting provenance scripts were retained from standalone asset collections; their original manifests, download archives and preview derivatives were not copied. See `provenance/README.md` before rebuilding. Full-episode completion requires narration and actual playback verification. Public host credit is **By: Dr. Chris**.

@@ -1,35 +1,45 @@
-import json, pathlib, hashlib, base64, xml.etree.ElementTree as ET, subprocess, html
-p=pathlib.Path(__file__).parent
-a=json.loads((p/'assets.json').read_text())
-m=json.loads((p/'package-metadata.json').read_text())
-actual='sha512-'+base64.b64encode(hashlib.sha512((p/'lucide-static.tgz').read_bytes()).digest()).decode()
-assert actual==m['dist']['integrity']
-v=json.loads((p/'verification.json').read_text())
-v['npm_integrity_verified']=True
-v['upstream_license_verified']=(p/'source-license.txt').read_bytes()==(p/'LICENSE-LUCIDE.txt').read_bytes()
-v['svg_script_or_external_resources']=False
-for r in a:
- raw=(p/r['path']).read_text(); assert '<script' not in raw and 'href=' not in raw; ET.fromstring(raw)
-(p/'verification.json').write_text(json.dumps(v,indent=2)+'\n')
-preview=p/'previews';preview.mkdir(exist_ok=True)
+"""Verify and preview committed icons; omitted acquisition archives are not rechecked."""
+import argparse, hashlib, html, json, pathlib, subprocess, tempfile
+import xml.etree.ElementTree as ET
+
+repo=pathlib.Path(__file__).resolve().parents[3]
+parser=argparse.ArgumentParser()
+parser.add_argument('--output-dir',type=pathlib.Path)
+args=parser.parse_args()
+output=args.output_dir or pathlib.Path(tempfile.mkdtemp(prefix='ai-update-icons-qa-'))
+output.mkdir(parents=True,exist_ok=True)
+assets=[a for a in json.loads((repo/'library/asset-index.json').read_text())['assets'] if a['collection']=='icons']
+if len(assets)!=320:raise ValueError('Expected 320 committed icon records')
+for asset in assets:
+ source=(repo/asset['path']).resolve()
+ if not source.is_relative_to(repo):raise ValueError('Asset path leaves repository')
+ raw=source.read_bytes()
+ if hashlib.sha256(raw).hexdigest()!=asset['sha256']:raise ValueError('Hash mismatch: '+asset['id'])
+ svg=ET.fromstring(raw)
+ for element in svg.iter():
+  if element.tag.split('}')[-1] in ('script','foreignObject'):raise ValueError('Active SVG content')
+  for key,value in element.attrib.items():
+   if key.split('}')[-1].lower().startswith('on'):raise ValueError('SVG event handler')
+   if key.split('}')[-1] in ('href','src') and not value.startswith('#'):raise ValueError('External SVG resource')
 for page in range(4):
- rows=a[page*80:(page+1)*80]
- parts=['<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">','<rect width="1920" height="1080" fill="#081422"/>',f'<text x="40" y="48" font-family="DejaVu Sans" font-size="28" fill="#ebf6ff">Cloud AI workflow icons — {page+1}/4 · Lucide 1.55.0</text>']
- for idx,r in enumerate(rows):
-  x=24+(idx%10)*189;y=82+(idx//10)*120
-  root=ET.fromstring((p/r['path']).read_text())
-  body=''.join(ET.tostring(e,encoding='unicode') for e in root)
+ rows=assets[page*80:(page+1)*80]
+ parts=['<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">','<rect width="1920" height="1080" fill="#081422"/>',f'<text x="40" y="48" font-family="DejaVu Sans" font-size="28" fill="#ebf6ff">AI UPDATE workflow icons — {page+1}/4 · Lucide 1.55.0</text>']
+ for index,asset in enumerate(rows):
+  x=24+(index%10)*189;y=82+(index//10)*120
+  svg=ET.fromstring((repo/asset['path']).read_text())
+  body=''.join(ET.tostring(element,encoding='unicode') for element in svg)
   parts.append(f'<rect x="{x}" y="{y}" width="181" height="112" rx="12" fill="#102437"/>')
   parts.append(f'<svg x="{x+67}" y="{y+13}" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#64d2ed" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">{body}</svg>')
-  words=r['id'].removeprefix('lucide-').split('-');lines=[];line=''
+  words=asset['id'].removeprefix('lucide-').split('-');lines=[];line=''
   for word in words:
    if len(line)+len(word)>20:lines.append(line);line=word
    else:line=(line+' '+word).strip()
   if line:lines.append(line)
-  for li,t in enumerate(lines[:2]):parts.append(f'<text x="{x+90}" y="{y+83+li*16}" text-anchor="middle" font-family="DejaVu Sans" font-size="13" fill="#ebf6ff">{html.escape(t)}</text>')
+  for offset,text in enumerate(lines[:2]):parts.append(f'<text x="{x+90}" y="{y+83+offset*16}" text-anchor="middle" font-family="DejaVu Sans" font-size="13" fill="#ebf6ff">{html.escape(text)}</text>')
  parts.append('</svg>')
- tmp=preview/f'contact-sheet-{page+1}.tmp.svg';tmp.write_text(''.join(parts))
- result=subprocess.run(['inkscape',str(tmp),'--export-type=png','--export-filename='+str(preview/f'contact-sheet-{page+1}.png')],capture_output=True,text=True)
- assert result.returncode==0,result.stderr
- tmp.unlink()
-print('320 SVGs verified; official package integrity and upstream license verified; four full HD contact sheets rendered.')
+ svg_path=output/f'contact-sheet-{page+1}.svg';svg_path.write_text(''.join(parts))
+ subprocess.run(['inkscape',str(svg_path),'--export-type=png','--export-filename='+str(output/f'contact-sheet-{page+1}.png')],check=True,capture_output=True,text=True)
+ svg_path.unlink()
+report={'assets':len(assets),'all_committed_hashes_match':True,'svg_xml_and_active_resource_checks':'passed','contact_sheets_rendered':4,'source_catalog':'library/asset-index.json','upstream_package_integrity_rechecked':False,'upstream_license_identity_rechecked':False,'limitations':'Checks committed assets; original package/archive inputs are not committed.'}
+(output/'verification.json').write_text(json.dumps(report,indent=2)+'\n')
+print(json.dumps({**report,'output_directory':str(output)}))
