@@ -1,10 +1,9 @@
 {
-  "search": "passed",
-  "category_filters": "passed",
-  "pagination": "passed",
-  "audio_controls": 60,
-  "benchmark_charts": 52,
+  "assets": 1059,
+  "embedded_catalog_matches_index": true,
   "all_asset_paths_exist": true,
-  "dom_logic_verified": true,
-  "browser_layout_and_media_playback_verified": false
+  "rive_gif_preview_path_exists": true,
+  "raw_hash_format_count_verification": "passed",
+  "browser_layout_media_playback_verified": false,
+  "limitation": "Chromium executable and jsdom are not installed; no browser playback claim."
 }

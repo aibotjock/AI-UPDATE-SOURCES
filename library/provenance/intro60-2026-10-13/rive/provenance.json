@@ -1,0 +1,95 @@
+{
+  "created": "2026-10-13",
+  "origin": "Original AI UPDATE artwork authored in RML; compiled and rendered by official Rive CLI",
+  "cli_version": "1.5.1",
+  "official_manifest": {
+    "version": "1.5.1",
+    "artifacts": {
+      "darwin-arm64": {
+        "path": "v1.5.1/rive-macos-arm64.tar.gz",
+        "sha256": "471f9d6a374c95f90eea3edb9bb8b7794c0ed6787715746d2bc3ff1900332ab3"
+      },
+      "linux-x64": {
+        "path": "v1.5.1/rive-linux-x64.tar.gz",
+        "sha256": "f1c99eadc35920f8a0a802bebe8607101e18c581c040ab0dbf98895cff368477"
+      },
+      "windows-x64": {
+        "path": "v1.5.1/rive-windows-x64.tar.gz",
+        "sha256": "dea7fed9d2307c3f867e952de5252fc774c0282f1be16fb62e676be4f288c46b"
+      }
+    }
+  },
+  "third_party_visual_assets": [],
+  "paid_actions": false,
+  "account_actions": false,
+  "native_rev_export": "Not performed: current CLI requires Rive login for .rev export",
+  "background": "#07111C",
+  "render_format": "1200x1200 opaque RGBA PNG",
+  "verify": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "inspect_problems": [],
+  "motion_evidence": {
+    "artboard": "Neural Core",
+    "frames_seconds": [
+      1,
+      3
+    ],
+    "changed_pixels": 4596,
+    "total_pixels": 1440000
+  },
+  "assets": {
+    "neural_core.png": {
+      "bytes": 296018,
+      "sha256": "cfa044c5616af0f48a52720922d2cf0611c070b67fc6c01f1fc6a2d8a2ce1133"
+    },
+    "evaluation_lens.png": {
+      "bytes": 156561,
+      "sha256": "e9bf45f5692a550909369aed84e1649cecaffc8375ff1e4f863ad8dba3b2ac02"
+    },
+    "value_balance.png": {
+      "bytes": 119089,
+      "sha256": "54e33dde5ceb456fb00f8d11999f23c1b17f51887034cc6601aa1414138542ee"
+    },
+    "neural_core_3s.png": {
+      "bytes": 296039,
+      "sha256": "5b09c2061cfefac6c765fab45cf738fc0914472b9be2936c828727c75793a47e"
+    },
+    "neural_core/scene.rml": {
+      "bytes": 141271,
+      "sha256": "edec35468de7bbd62913a938576278146d67d9a74b59499ba23af48fb963d5ed"
+    },
+    "neural_core/rive.yaml": {
+      "bytes": 78,
+      "sha256": "0b5dc70f4094ac3bb8febacbc612d4072e4857aab24912cfbe656e98d51a9024"
+    },
+    "neural_core/build/neural_core.riv": {
+      "bytes": 45765,
+      "sha256": "3f63aad957908e517d518187dbcd07d3757548c2ce47dda68c5673f15f883646"
+    }
+  },
+  "animated_gif": {
+    "gif": "neural_core_6s.gif",
+    "bytes": 579815,
+    "dimensions": [
+      720,
+      720
+    ],
+    "encoded_frames": 113,
+    "distinct_encoded_frames": 113,
+    "duration_ms": 6000,
+    "frame_delay_ms_counts": {
+      "50": 107,
+      "100": 5,
+      "150": 1
+    },
+    "loop": 0,
+    "source_capture_count": 120,
+    "source_capture_fps": 20,
+    "sha256": "d0995c9921d5022b3566054b6a939ac9bcbf5641bd3075ddf8f61e53a0fe6861",
+    "native_animation_source": "gif_scene/scene.rml",
+    "runtime_file": "gif_scene/build/ai_update_neural_loop.riv",
+    "editor_rev": "Not exported: current official CLI requires login"
+  }
+}

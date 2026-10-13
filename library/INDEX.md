@@ -1,6 +1,6 @@
 # Media library: searchable inventory
 
-**1052 distinct assets**, including 1,000 starter assets and 52 sourced benchmark charts.
+**1059 distinct assets**, including 1,000 starter assets, 52 sourced benchmark charts and 7 newly retained episode assets.
 
 Download the branch ZIP and open `library/gallery.html` for a searchable visual/audio gallery. This HTML file is an offline catalog, not a hosted website. All paths and metadata are in `asset-index.json`.
 
@@ -8,13 +8,13 @@ Templates require verified episode data. Diagrams simplify concepts. Brand marks
 
 | Category | Count |
 | --- | ---: |
-| background | 100 |
+| background | 104 |
 | benchmark-chart | 52 |
 | diagram | 180 |
 | evidence-label | 20 |
-| icon | 320 |
+| icon | 322 |
 | logo | 40 |
-| motion | 100 |
+| motion | 101 |
 | presentation-component | 180 |
 | sound-effect | 60 |
 
@@ -1114,3 +1114,24 @@ Templates require verified episode data. Diagrams simplify concepts. Brand marks
 | [Cost stack build](sound-effects/data-motion/cost-stack-build.wav) | Build input, output, tools, and retries into total task cost. |
 | [Savings link](sound-effects/data-motion/savings-link.wav) | Connect the named baseline to a lower-cost qualifying alternative. |
 | [Release nodes connect](sound-effects/data-motion/release-nodes-connect.wav) | Connect four verified developments on a release timeline. |
+
+## Episode 01 cinematic opening backgrounds — October 13, 2026
+
+Fictional generated technology artwork; see provenance/intro60-2026-10-13/image-generation.json.
+
+| Asset | Purpose |
+| --- | --- |
+| [Cinematic cloud server architecture](images/episode-01-2026-10-13/cloud_technology_illustration.png) | Distinct technology scene background with quiet left area for editable white text. Illustrative technology only; not evidence of a vendor product or announcement. |
+| [Robotic hand and work displays](images/episode-01-2026-10-13/tasks_technology_illustration.png) | Distinct technology scene background with quiet left area for editable white text. Illustrative technology only; not evidence of a vendor product or announcement. |
+| [Copper inference accelerator board](images/episode-01-2026-10-13/news_technology_illustration.png) | Distinct technology scene background with quiet left area for editable white text. Illustrative technology only; not evidence of a vendor product or announcement. |
+| [GPU compute landscape](images/episode-01-2026-10-13/next_technology_illustration.png) | Distinct technology scene background with quiet left area for editable white text. Illustrative technology only; not evidence of a vendor product or announcement. |
+
+## Original Rive assets — Episode 01, October 13, 2026
+
+Original commissioned RML artwork, rendered with official Rive CLI. Full RML, generators, .riv runtime files and evidence are in provenance/intro60-2026-10-13/rive/AI_UPDATE_Original_Rive_Assets.zip. Native .rev export was not performed; the runtime file is not an editable editor file. PNG/GIF previews are derivatives, not extra distinct assets.
+
+| Asset | Purpose |
+| --- | --- |
+| [Rive Neural Core — six-second loop](graphics/rive/intro60-2026-10-13/ai_update_neural_loop.riv) | Original Rive animation for the title/cloud scene. The .riv is a runtime file; editable RML and reproduction scripts are in the source ZIP. GIF and PNG derivatives are supplied for PowerPoint. |
+| [Rive Evaluation Lens](graphics/rive/intro60-2026-10-13/evaluation_lens.png) | Original graphic illustrating inspection of evidence and benchmark meaning; a rendered image is not benchmark evidence. |
+| [Rive Value Balance](graphics/rive/intro60-2026-10-13/value_balance.png) | Original graphic illustrating task quality and total cost; no measured score, cost or winner is encoded. |

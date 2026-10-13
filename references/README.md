@@ -1,5 +1,3 @@
-# Source and model reference indexes
+# Evidence and source references
 
-Maintain authoritative source records, benchmark definitions and score provenance, canonical numeric facts, cloud-platform feature catalogs, and a dated searchable model-comparison index here. Choose the number of sources for sufficient trustworthy coverage rather than a fixed quota.
-
-Core coverage: OpenAI, Anthropic/Claude, Google, Microsoft, Meta, NVIDIA's relevant cloud offerings, xAI/Grok, DeepSeek, Z.ai/GLM, and Alibaba/Qwen. Include additional influential cloud offerings when relevant. Local inference and hardware setup are outside the show scope.
+Use [the active production brief](../channel/production-brief.txt) for research instructions. This folder retains original source candidates, provenance, verification records, benchmark evidence and historical reviews. A registry entry is not a verified claim. Historical quality reviews describe their dated snapshot and do not supply current production rules.

@@ -1,0 +1,15 @@
+{
+  "base_commit": "e24491c8ad5fcf7a6c601e177ff63cdaf972a491",
+  "branch": "clean-slate-2026-10-13-intro60",
+  "unchanged_original_resource_files": 1106,
+  "unchanged_historical_episode_files": 13,
+  "byte_preserved_original_entrypoint_snapshots": 16,
+  "original_asset_records_preserved": 1052,
+  "new_asset_records": 7,
+  "original_source_records_preserved": 24,
+  "new_source_candidate_records": 1,
+  "deleted_tracked_files": [],
+  "meaningful_generator_checks": "2 unittest cases passed: reads only new brief, prevents overwrite, detects snapshot tamper, resolves New York date, full-episode default in target range, rejects unsafe/negative requests",
+  "canonical_instruction": "channel/production-brief.txt",
+  "failures": []
+}

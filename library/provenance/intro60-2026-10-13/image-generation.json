@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-10-13",
+  "generator": "built-in image_gen.imagegen",
+  "classification": "AI-generated fictional technology illustrations; not documentary event footage; no vendor-identifiable hardware",
+  "assets": [
+    {
+      "key": "cloud",
+      "prompt": "Use case: stylized-concept. Asset type: premium cinematic 16:9 background for an AI technology news presentation, 2048 by 1152 pixels. Scene: deep-perspective photorealistic fictional cloud AI data center. Dazzling high-end server racks and fine optical fiber connections recede to a vanishing point with genuine architectural depth, crisp physically plausible hardware detail and polished floor reflections. Composition: broad very dark midnight navy negative space throughout the LEFT HALF and center-left for large white editable text added later; the luminous server-rack subject is concentrated on the RIGHT HALF and far right edge. A diagonal glimpse of racks can recede from lower right to middle horizon. Lighting: dramatic cinematic cyan rim light, subtle warm gold pin lights, atmospheric depth without visual clutter. A photorealistic premium 3D technology illustration, not documentary footage. Wide cinematic shot, tangible machinery, beautiful precise materials. No text, numbers, branding, company logos, watermarks, typography, interface labels or charts. No generic flat gradients or indistinct geometric wallpaper. One full bleed wide image, not a contact sheet.",
+      "saved_path": "library/images/episode-01-2026-10-13/cloud_technology_illustration.png",
+      "actual_pixel_dimensions": [
+        1672,
+        941
+      ],
+      "requested_pixel_dimensions": [
+        2048,
+        1152
+      ],
+      "qa": "Visually inspected. Composition has quiet left text area and luminous tangible technology on right. No textual branding, invented benchmark values, or model claims. Fictional generated visualization; not event footage or vendor product photography."
+    },
+    {
+      "key": "tasks",
+      "prompt": "Use case: stylized-concept. Asset type: premium cinematic 16:9 background for AI benchmark/task presentation, 2048 by 1152 pixels. Scene: a beautiful precise futuristic robotic hand in a research lab, interacting with three translucent luminous glass workstation displays; the three unlabelled screens contain subtle abstract line patterns, layered text-like bars without letters, and node connections, suggesting coding, writing and reasoning without communicating any result. Composition: robotic hand and glass screens fully concentrated on the RIGHT HALF; broad quiet very dark midnight navy LEFT HALF for large white editable text added later. The hand points toward the screens, elegant curved polished metal fingers, convincing joints and reflections. Premium photorealistic fictional 3D technology illustration, not real event footage. Lighting: deep violet ambient light, controlled cyan screen glow, warm gold rim highlights on the hand. Strong depth of field and high-end product photography precision, visibly robotic subject, screens visibly distinct. No letters, words, numbers, readable code, logos, watermarks, charts, scores or interface labels. No generic gradient wallpaper. One full bleed landscape image, not a contact sheet.",
+      "saved_path": "library/images/episode-01-2026-10-13/tasks_technology_illustration.png",
+      "actual_pixel_dimensions": [
+        1672,
+        941
+      ],
+      "requested_pixel_dimensions": [
+        2048,
+        1152
+      ],
+      "qa": "Visually inspected. Composition has quiet left text area and luminous tangible technology on right. No textual branding, invented benchmark values, or model claims. Fictional generated visualization; not event footage or vendor product photography."
+    },
+    {
+      "key": "news",
+      "prompt": "Use case: stylized-concept. Asset type: premium cinematic 16:9 background for a factual cloud AI announcement presentation, 2048 by 1152 pixels. Scene: intricate fictional AI inference accelerator board and memory channels in warm copper and amber light. Extreme macro product photography, exquisitely detailed copper traces, dense capacitors, black integrated circuits, sophisticated metal heat spreader, fine gold contacts. No identifiable commercial chip design or branded hardware; this is clearly a fictional technology visualization used to illustrate cloud inference, not a photograph of a vendor's actual product. Composition: important hardware occupies the RIGHT HALF, with the heat-spreader chip at upper-right or center-right and sweeping board traces toward the lower-right; broad quiet almost black navy LEFT HALF for a large editable news title. Cinematic warm copper illumination and restrained cyan reflected fill, precise physically plausible circuit-board textures and dramatic depth. High-end photorealistic 3D illustration. No text, company names, logos, letters, numbers, scores, charts, watermarks or readable labels. No indistinct geometric gradients. One full bleed wide image, not a contact sheet.",
+      "saved_path": "library/images/episode-01-2026-10-13/news_technology_illustration.png",
+      "actual_pixel_dimensions": [
+        1672,
+        941
+      ],
+      "requested_pixel_dimensions": [
+        2048,
+        1152
+      ],
+      "qa": "Visually inspected. Composition has quiet left text area and luminous tangible technology on right. No textual branding, invented benchmark values, or model claims. Fictional generated visualization; not event footage or vendor product photography."
+    },
+    {
+      "key": "next",
+      "prompt": "Use case: stylized-concept. Asset type: premium cinematic 16:9 closing background for an AI technology news presentation, 2048 by 1152 pixels. Scene: wide tangible GPU compute server motherboard landscape, multiple unbranded GPU accelerator cards with sculpted heatsinks, fine fans, metal shielding, rich motherboard detail and fiber cables disappearing into a softly lit rack. The main GPU and heatsink architecture occupies the RIGHT HALF and lower right; LEFT HALF is deep quiet midnight navy negative space for large white editable NEXT Benchmarks text that will be added later. Low cinematic camera angle with sweeping depth across the hardware. Lighting: vivid refined violet and cyan edge light with warm gold pin lights, glamorous high-end product photography, precise technical textures and dimensional depth. Premium photorealistic fictional technology illustration rather than real event footage. No text, numbers, logos, company-identifiable cards, watermarks, labels, charts or scores. Avoid generic flat gradients and indistinct shapes. One full bleed wide landscape image, not a contact sheet.",
+      "saved_path": "library/images/episode-01-2026-10-13/next_technology_illustration.png",
+      "actual_pixel_dimensions": [
+        1672,
+        941
+      ],
+      "requested_pixel_dimensions": [
+        2048,
+        1152
+      ],
+      "qa": "Visually inspected. Composition has quiet left text area and luminous tangible technology on right. No textual branding, invented benchmark values, or model claims. Fictional generated visualization; not event footage or vendor product photography."
+    }
+  ]
+}

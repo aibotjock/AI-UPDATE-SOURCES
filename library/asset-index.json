@@ -1,18 +1,18 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-13T01:39:09.156529+00:00",
+  "updated_at": "2026-10-13",
   "base_asset_count": 1000,
-  "total_assets": 1052,
+  "total_assets": 1059,
   "counts": {
-    "presentation-component": 180,
+    "background": 104,
+    "benchmark-chart": 52,
     "diagram": 180,
-    "background": 100,
-    "motion": 100,
-    "icon": 320,
-    "logo": 40,
-    "sound-effect": 60,
     "evidence-label": 20,
-    "benchmark-chart": 52
+    "icon": 322,
+    "logo": 40,
+    "motion": 101,
+    "presentation-component": 180,
+    "sound-effect": 60
   },
   "inventory_policy": "Counts only distinct reusable assets. Previews, licenses, metadata and scripts are not asset counts.",
   "assets": [
@@ -7466,7 +7466,7 @@
         "width": 1920,
         "height": 1080
       },
-      "intended_use": "Separate the same model’s provider, region, and pricing conditions.",
+      "intended_use": "Separate the same model\u2019s provider, region, and pricing conditions.",
       "kind": "template",
       "origin": "original",
       "license": "CC-BY-4.0",
@@ -8953,7 +8953,7 @@
       "source_urls": [],
       "license": "CC-BY-4.0",
       "attribution": "AI Update Sources",
-      "description": "An additional model review can share the original model’s errors.",
+      "description": "An additional model review can share the original model\u2019s errors.",
       "caveat": "Original conceptual schematic; simplifies platform-specific behavior. Verify technical claims and current service details for each episode. Not empirical model or benchmark evidence.",
       "composition": "flow",
       "sha256": "9533df854e0500eee5f6adaa2ec8d5eeb288ec5f5be3824ba3239742eb1f7a44",
@@ -9903,7 +9903,7 @@
         "search-and-research",
         "funnel"
       ],
-      "intended_use": "Focus research on evidence that changes the viewer’s decision.",
+      "intended_use": "Focus research on evidence that changes the viewer\u2019s decision.",
       "dimensions": {
         "width": 1920,
         "height": 1080
@@ -10303,7 +10303,7 @@
         "files-and-document-tasks",
         "gate"
       ],
-      "intended_use": "Select and prepare file content according to the task’s permissions.",
+      "intended_use": "Select and prepare file content according to the task\u2019s permissions.",
       "dimensions": {
         "width": 1920,
         "height": 1080
@@ -11423,7 +11423,7 @@
         "cost-and-cloud-economics",
         "split"
       ],
-      "intended_use": "Classify cached input according to the service’s actual usage report.",
+      "intended_use": "Classify cached input according to the service\u2019s actual usage report.",
       "dimensions": {
         "width": 1920,
         "height": 1080
@@ -11823,7 +11823,7 @@
         "latency-and-user-experience",
         "gate"
       ],
-      "intended_use": "A response is useful only if it meets the task’s timing needs.",
+      "intended_use": "A response is useful only if it meets the task\u2019s timing needs.",
       "dimensions": {
         "width": 1920,
         "height": 1080
@@ -12853,7 +12853,7 @@
     },
     {
       "id": "tech-134-a-benchmark-s-measured-skill",
-      "title": "A benchmark’s measured skill",
+      "title": "A benchmark\u2019s measured skill",
       "path": "library/graphics/diagrams/tech-134-a-benchmark-s-measured-skill.svg",
       "category": "diagram",
       "tags": [
@@ -13293,7 +13293,7 @@
     },
     {
       "id": "tech-145-a-cheap-model-s-failure-boundary",
-      "title": "A cheap model’s failure boundary",
+      "title": "A cheap model\u2019s failure boundary",
       "path": "library/graphics/diagrams/tech-145-a-cheap-model-s-failure-boundary.svg",
       "category": "diagram",
       "tags": [
@@ -14623,7 +14623,7 @@
         "robustness-on-real-tasks",
         "gate"
       ],
-      "intended_use": "Test whether hostile content changes the workflow’s permitted behavior.",
+      "intended_use": "Test whether hostile content changes the workflow\u2019s permitted behavior.",
       "dimensions": {
         "width": 1920,
         "height": 1080
@@ -14733,7 +14733,7 @@
     },
     {
       "id": "bm-ba-constellation-01",
-      "title": "Perimeter constellation — Northwest balance",
+      "title": "Perimeter constellation \u2014 Northwest balance",
       "path": "library/images/backgrounds/constellation-01.svg",
       "category": "background",
       "tags": [
@@ -14779,7 +14779,7 @@
     },
     {
       "id": "bm-ba-constellation-02",
-      "title": "Perimeter constellation — Eastward sweep",
+      "title": "Perimeter constellation \u2014 Eastward sweep",
       "path": "library/images/backgrounds/constellation-02.svg",
       "category": "background",
       "tags": [
@@ -14825,7 +14825,7 @@
     },
     {
       "id": "bm-ba-constellation-03",
-      "title": "Perimeter constellation — Southern horizon",
+      "title": "Perimeter constellation \u2014 Southern horizon",
       "path": "library/images/backgrounds/constellation-03.svg",
       "category": "background",
       "tags": [
@@ -14871,7 +14871,7 @@
     },
     {
       "id": "bm-ba-constellation-04",
-      "title": "Perimeter constellation — Split perimeter",
+      "title": "Perimeter constellation \u2014 Split perimeter",
       "path": "library/images/backgrounds/constellation-04.svg",
       "category": "background",
       "tags": [
@@ -14917,7 +14917,7 @@
     },
     {
       "id": "bm-ba-constellation-05",
-      "title": "Perimeter constellation — Diagonal counterweight",
+      "title": "Perimeter constellation \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/constellation-05.svg",
       "category": "background",
       "tags": [
@@ -14963,7 +14963,7 @@
     },
     {
       "id": "bm-ba-cloud-01",
-      "title": "Cloud topology — Northwest balance",
+      "title": "Cloud topology \u2014 Northwest balance",
       "path": "library/images/backgrounds/cloud-01.svg",
       "category": "background",
       "tags": [
@@ -15009,7 +15009,7 @@
     },
     {
       "id": "bm-ba-cloud-02",
-      "title": "Cloud topology — Eastward sweep",
+      "title": "Cloud topology \u2014 Eastward sweep",
       "path": "library/images/backgrounds/cloud-02.svg",
       "category": "background",
       "tags": [
@@ -15055,7 +15055,7 @@
     },
     {
       "id": "bm-ba-cloud-03",
-      "title": "Cloud topology — Southern horizon",
+      "title": "Cloud topology \u2014 Southern horizon",
       "path": "library/images/backgrounds/cloud-03.svg",
       "category": "background",
       "tags": [
@@ -15101,7 +15101,7 @@
     },
     {
       "id": "bm-ba-cloud-04",
-      "title": "Cloud topology — Split perimeter",
+      "title": "Cloud topology \u2014 Split perimeter",
       "path": "library/images/backgrounds/cloud-04.svg",
       "category": "background",
       "tags": [
@@ -15147,7 +15147,7 @@
     },
     {
       "id": "bm-ba-cloud-05",
-      "title": "Cloud topology — Diagonal counterweight",
+      "title": "Cloud topology \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/cloud-05.svg",
       "category": "background",
       "tags": [
@@ -15193,7 +15193,7 @@
     },
     {
       "id": "bm-ba-tokenrails-01",
-      "title": "Token routing rails — Northwest balance",
+      "title": "Token routing rails \u2014 Northwest balance",
       "path": "library/images/backgrounds/tokenrails-01.svg",
       "category": "background",
       "tags": [
@@ -15239,7 +15239,7 @@
     },
     {
       "id": "bm-ba-tokenrails-02",
-      "title": "Token routing rails — Eastward sweep",
+      "title": "Token routing rails \u2014 Eastward sweep",
       "path": "library/images/backgrounds/tokenrails-02.svg",
       "category": "background",
       "tags": [
@@ -15285,7 +15285,7 @@
     },
     {
       "id": "bm-ba-tokenrails-03",
-      "title": "Token routing rails — Southern horizon",
+      "title": "Token routing rails \u2014 Southern horizon",
       "path": "library/images/backgrounds/tokenrails-03.svg",
       "category": "background",
       "tags": [
@@ -15331,7 +15331,7 @@
     },
     {
       "id": "bm-ba-tokenrails-04",
-      "title": "Token routing rails — Split perimeter",
+      "title": "Token routing rails \u2014 Split perimeter",
       "path": "library/images/backgrounds/tokenrails-04.svg",
       "category": "background",
       "tags": [
@@ -15377,7 +15377,7 @@
     },
     {
       "id": "bm-ba-tokenrails-05",
-      "title": "Token routing rails — Diagonal counterweight",
+      "title": "Token routing rails \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/tokenrails-05.svg",
       "category": "background",
       "tags": [
@@ -15423,7 +15423,7 @@
     },
     {
       "id": "bm-ba-matrix-01",
-      "title": "Matrix wave — Northwest balance",
+      "title": "Matrix wave \u2014 Northwest balance",
       "path": "library/images/backgrounds/matrix-01.svg",
       "category": "background",
       "tags": [
@@ -15469,7 +15469,7 @@
     },
     {
       "id": "bm-ba-matrix-02",
-      "title": "Matrix wave — Eastward sweep",
+      "title": "Matrix wave \u2014 Eastward sweep",
       "path": "library/images/backgrounds/matrix-02.svg",
       "category": "background",
       "tags": [
@@ -15515,7 +15515,7 @@
     },
     {
       "id": "bm-ba-matrix-03",
-      "title": "Matrix wave — Southern horizon",
+      "title": "Matrix wave \u2014 Southern horizon",
       "path": "library/images/backgrounds/matrix-03.svg",
       "category": "background",
       "tags": [
@@ -15561,7 +15561,7 @@
     },
     {
       "id": "bm-ba-matrix-04",
-      "title": "Matrix wave — Split perimeter",
+      "title": "Matrix wave \u2014 Split perimeter",
       "path": "library/images/backgrounds/matrix-04.svg",
       "category": "background",
       "tags": [
@@ -15607,7 +15607,7 @@
     },
     {
       "id": "bm-ba-matrix-05",
-      "title": "Matrix wave — Diagonal counterweight",
+      "title": "Matrix wave \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/matrix-05.svg",
       "category": "background",
       "tags": [
@@ -15653,7 +15653,7 @@
     },
     {
       "id": "bm-ba-orbits-01",
-      "title": "Offset orbital field — Northwest balance",
+      "title": "Offset orbital field \u2014 Northwest balance",
       "path": "library/images/backgrounds/orbits-01.svg",
       "category": "background",
       "tags": [
@@ -15699,7 +15699,7 @@
     },
     {
       "id": "bm-ba-orbits-02",
-      "title": "Offset orbital field — Eastward sweep",
+      "title": "Offset orbital field \u2014 Eastward sweep",
       "path": "library/images/backgrounds/orbits-02.svg",
       "category": "background",
       "tags": [
@@ -15745,7 +15745,7 @@
     },
     {
       "id": "bm-ba-orbits-03",
-      "title": "Offset orbital field — Southern horizon",
+      "title": "Offset orbital field \u2014 Southern horizon",
       "path": "library/images/backgrounds/orbits-03.svg",
       "category": "background",
       "tags": [
@@ -15791,7 +15791,7 @@
     },
     {
       "id": "bm-ba-orbits-04",
-      "title": "Offset orbital field — Split perimeter",
+      "title": "Offset orbital field \u2014 Split perimeter",
       "path": "library/images/backgrounds/orbits-04.svg",
       "category": "background",
       "tags": [
@@ -15837,7 +15837,7 @@
     },
     {
       "id": "bm-ba-orbits-05",
-      "title": "Offset orbital field — Diagonal counterweight",
+      "title": "Offset orbital field \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/orbits-05.svg",
       "category": "background",
       "tags": [
@@ -15883,7 +15883,7 @@
     },
     {
       "id": "bm-ba-contours-01",
-      "title": "Signal contour map — Northwest balance",
+      "title": "Signal contour map \u2014 Northwest balance",
       "path": "library/images/backgrounds/contours-01.svg",
       "category": "background",
       "tags": [
@@ -15929,7 +15929,7 @@
     },
     {
       "id": "bm-ba-contours-02",
-      "title": "Signal contour map — Eastward sweep",
+      "title": "Signal contour map \u2014 Eastward sweep",
       "path": "library/images/backgrounds/contours-02.svg",
       "category": "background",
       "tags": [
@@ -15975,7 +15975,7 @@
     },
     {
       "id": "bm-ba-contours-03",
-      "title": "Signal contour map — Southern horizon",
+      "title": "Signal contour map \u2014 Southern horizon",
       "path": "library/images/backgrounds/contours-03.svg",
       "category": "background",
       "tags": [
@@ -16021,7 +16021,7 @@
     },
     {
       "id": "bm-ba-contours-04",
-      "title": "Signal contour map — Split perimeter",
+      "title": "Signal contour map \u2014 Split perimeter",
       "path": "library/images/backgrounds/contours-04.svg",
       "category": "background",
       "tags": [
@@ -16067,7 +16067,7 @@
     },
     {
       "id": "bm-ba-contours-05",
-      "title": "Signal contour map — Diagonal counterweight",
+      "title": "Signal contour map \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/contours-05.svg",
       "category": "background",
       "tags": [
@@ -16113,7 +16113,7 @@
     },
     {
       "id": "bm-ba-architecture-01",
-      "title": "Architecture grid — Northwest balance",
+      "title": "Architecture grid \u2014 Northwest balance",
       "path": "library/images/backgrounds/architecture-01.svg",
       "category": "background",
       "tags": [
@@ -16159,7 +16159,7 @@
     },
     {
       "id": "bm-ba-architecture-02",
-      "title": "Architecture grid — Eastward sweep",
+      "title": "Architecture grid \u2014 Eastward sweep",
       "path": "library/images/backgrounds/architecture-02.svg",
       "category": "background",
       "tags": [
@@ -16205,7 +16205,7 @@
     },
     {
       "id": "bm-ba-architecture-03",
-      "title": "Architecture grid — Southern horizon",
+      "title": "Architecture grid \u2014 Southern horizon",
       "path": "library/images/backgrounds/architecture-03.svg",
       "category": "background",
       "tags": [
@@ -16251,7 +16251,7 @@
     },
     {
       "id": "bm-ba-architecture-04",
-      "title": "Architecture grid — Split perimeter",
+      "title": "Architecture grid \u2014 Split perimeter",
       "path": "library/images/backgrounds/architecture-04.svg",
       "category": "background",
       "tags": [
@@ -16297,7 +16297,7 @@
     },
     {
       "id": "bm-ba-architecture-05",
-      "title": "Architecture grid — Diagonal counterweight",
+      "title": "Architecture grid \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/architecture-05.svg",
       "category": "background",
       "tags": [
@@ -16343,7 +16343,7 @@
     },
     {
       "id": "bm-ba-windows-01",
-      "title": "Data window cluster — Northwest balance",
+      "title": "Data window cluster \u2014 Northwest balance",
       "path": "library/images/backgrounds/windows-01.svg",
       "category": "background",
       "tags": [
@@ -16389,7 +16389,7 @@
     },
     {
       "id": "bm-ba-windows-02",
-      "title": "Data window cluster — Eastward sweep",
+      "title": "Data window cluster \u2014 Eastward sweep",
       "path": "library/images/backgrounds/windows-02.svg",
       "category": "background",
       "tags": [
@@ -16435,7 +16435,7 @@
     },
     {
       "id": "bm-ba-windows-03",
-      "title": "Data window cluster — Southern horizon",
+      "title": "Data window cluster \u2014 Southern horizon",
       "path": "library/images/backgrounds/windows-03.svg",
       "category": "background",
       "tags": [
@@ -16481,7 +16481,7 @@
     },
     {
       "id": "bm-ba-windows-04",
-      "title": "Data window cluster — Split perimeter",
+      "title": "Data window cluster \u2014 Split perimeter",
       "path": "library/images/backgrounds/windows-04.svg",
       "category": "background",
       "tags": [
@@ -16527,7 +16527,7 @@
     },
     {
       "id": "bm-ba-windows-05",
-      "title": "Data window cluster — Diagonal counterweight",
+      "title": "Data window cluster \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/windows-05.svg",
       "category": "background",
       "tags": [
@@ -16573,7 +16573,7 @@
     },
     {
       "id": "bm-ba-paths-01",
-      "title": "Evidence pathways — Northwest balance",
+      "title": "Evidence pathways \u2014 Northwest balance",
       "path": "library/images/backgrounds/paths-01.svg",
       "category": "background",
       "tags": [
@@ -16619,7 +16619,7 @@
     },
     {
       "id": "bm-ba-paths-02",
-      "title": "Evidence pathways — Eastward sweep",
+      "title": "Evidence pathways \u2014 Eastward sweep",
       "path": "library/images/backgrounds/paths-02.svg",
       "category": "background",
       "tags": [
@@ -16665,7 +16665,7 @@
     },
     {
       "id": "bm-ba-paths-03",
-      "title": "Evidence pathways — Southern horizon",
+      "title": "Evidence pathways \u2014 Southern horizon",
       "path": "library/images/backgrounds/paths-03.svg",
       "category": "background",
       "tags": [
@@ -16711,7 +16711,7 @@
     },
     {
       "id": "bm-ba-paths-04",
-      "title": "Evidence pathways — Split perimeter",
+      "title": "Evidence pathways \u2014 Split perimeter",
       "path": "library/images/backgrounds/paths-04.svg",
       "category": "background",
       "tags": [
@@ -16757,7 +16757,7 @@
     },
     {
       "id": "bm-ba-paths-05",
-      "title": "Evidence pathways — Diagonal counterweight",
+      "title": "Evidence pathways \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/paths-05.svg",
       "category": "background",
       "tags": [
@@ -16803,7 +16803,7 @@
     },
     {
       "id": "bm-ba-ribbons-01",
-      "title": "Neural ribbon study — Northwest balance",
+      "title": "Neural ribbon study \u2014 Northwest balance",
       "path": "library/images/backgrounds/ribbons-01.svg",
       "category": "background",
       "tags": [
@@ -16849,7 +16849,7 @@
     },
     {
       "id": "bm-ba-ribbons-02",
-      "title": "Neural ribbon study — Eastward sweep",
+      "title": "Neural ribbon study \u2014 Eastward sweep",
       "path": "library/images/backgrounds/ribbons-02.svg",
       "category": "background",
       "tags": [
@@ -16895,7 +16895,7 @@
     },
     {
       "id": "bm-ba-ribbons-03",
-      "title": "Neural ribbon study — Southern horizon",
+      "title": "Neural ribbon study \u2014 Southern horizon",
       "path": "library/images/backgrounds/ribbons-03.svg",
       "category": "background",
       "tags": [
@@ -16941,7 +16941,7 @@
     },
     {
       "id": "bm-ba-ribbons-04",
-      "title": "Neural ribbon study — Split perimeter",
+      "title": "Neural ribbon study \u2014 Split perimeter",
       "path": "library/images/backgrounds/ribbons-04.svg",
       "category": "background",
       "tags": [
@@ -16987,7 +16987,7 @@
     },
     {
       "id": "bm-ba-ribbons-05",
-      "title": "Neural ribbon study — Diagonal counterweight",
+      "title": "Neural ribbon study \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/ribbons-05.svg",
       "category": "background",
       "tags": [
@@ -17033,7 +17033,7 @@
     },
     {
       "id": "bm-ba-ports-01",
-      "title": "Service port map — Northwest balance",
+      "title": "Service port map \u2014 Northwest balance",
       "path": "library/images/backgrounds/ports-01.svg",
       "category": "background",
       "tags": [
@@ -17079,7 +17079,7 @@
     },
     {
       "id": "bm-ba-ports-02",
-      "title": "Service port map — Eastward sweep",
+      "title": "Service port map \u2014 Eastward sweep",
       "path": "library/images/backgrounds/ports-02.svg",
       "category": "background",
       "tags": [
@@ -17125,7 +17125,7 @@
     },
     {
       "id": "bm-ba-ports-03",
-      "title": "Service port map — Southern horizon",
+      "title": "Service port map \u2014 Southern horizon",
       "path": "library/images/backgrounds/ports-03.svg",
       "category": "background",
       "tags": [
@@ -17171,7 +17171,7 @@
     },
     {
       "id": "bm-ba-ports-04",
-      "title": "Service port map — Split perimeter",
+      "title": "Service port map \u2014 Split perimeter",
       "path": "library/images/backgrounds/ports-04.svg",
       "category": "background",
       "tags": [
@@ -17217,7 +17217,7 @@
     },
     {
       "id": "bm-ba-ports-05",
-      "title": "Service port map — Diagonal counterweight",
+      "title": "Service port map \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/ports-05.svg",
       "category": "background",
       "tags": [
@@ -17263,7 +17263,7 @@
     },
     {
       "id": "bm-ba-pulses-01",
-      "title": "Latency pulse field — Northwest balance",
+      "title": "Latency pulse field \u2014 Northwest balance",
       "path": "library/images/backgrounds/pulses-01.svg",
       "category": "background",
       "tags": [
@@ -17309,7 +17309,7 @@
     },
     {
       "id": "bm-ba-pulses-02",
-      "title": "Latency pulse field — Eastward sweep",
+      "title": "Latency pulse field \u2014 Eastward sweep",
       "path": "library/images/backgrounds/pulses-02.svg",
       "category": "background",
       "tags": [
@@ -17355,7 +17355,7 @@
     },
     {
       "id": "bm-ba-pulses-03",
-      "title": "Latency pulse field — Southern horizon",
+      "title": "Latency pulse field \u2014 Southern horizon",
       "path": "library/images/backgrounds/pulses-03.svg",
       "category": "background",
       "tags": [
@@ -17401,7 +17401,7 @@
     },
     {
       "id": "bm-ba-pulses-04",
-      "title": "Latency pulse field — Split perimeter",
+      "title": "Latency pulse field \u2014 Split perimeter",
       "path": "library/images/backgrounds/pulses-04.svg",
       "category": "background",
       "tags": [
@@ -17447,7 +17447,7 @@
     },
     {
       "id": "bm-ba-pulses-05",
-      "title": "Latency pulse field — Diagonal counterweight",
+      "title": "Latency pulse field \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/pulses-05.svg",
       "category": "background",
       "tags": [
@@ -17493,7 +17493,7 @@
     },
     {
       "id": "bm-ba-attention-01",
-      "title": "Attention particle field — Northwest balance",
+      "title": "Attention particle field \u2014 Northwest balance",
       "path": "library/images/backgrounds/attention-01.svg",
       "category": "background",
       "tags": [
@@ -17539,7 +17539,7 @@
     },
     {
       "id": "bm-ba-attention-02",
-      "title": "Attention particle field — Eastward sweep",
+      "title": "Attention particle field \u2014 Eastward sweep",
       "path": "library/images/backgrounds/attention-02.svg",
       "category": "background",
       "tags": [
@@ -17585,7 +17585,7 @@
     },
     {
       "id": "bm-ba-attention-03",
-      "title": "Attention particle field — Southern horizon",
+      "title": "Attention particle field \u2014 Southern horizon",
       "path": "library/images/backgrounds/attention-03.svg",
       "category": "background",
       "tags": [
@@ -17631,7 +17631,7 @@
     },
     {
       "id": "bm-ba-attention-04",
-      "title": "Attention particle field — Split perimeter",
+      "title": "Attention particle field \u2014 Split perimeter",
       "path": "library/images/backgrounds/attention-04.svg",
       "category": "background",
       "tags": [
@@ -17677,7 +17677,7 @@
     },
     {
       "id": "bm-ba-attention-05",
-      "title": "Attention particle field — Diagonal counterweight",
+      "title": "Attention particle field \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/attention-05.svg",
       "category": "background",
       "tags": [
@@ -17723,7 +17723,7 @@
     },
     {
       "id": "bm-ba-documents-01",
-      "title": "Document horizon — Northwest balance",
+      "title": "Document horizon \u2014 Northwest balance",
       "path": "library/images/backgrounds/documents-01.svg",
       "category": "background",
       "tags": [
@@ -17769,7 +17769,7 @@
     },
     {
       "id": "bm-ba-documents-02",
-      "title": "Document horizon — Eastward sweep",
+      "title": "Document horizon \u2014 Eastward sweep",
       "path": "library/images/backgrounds/documents-02.svg",
       "category": "background",
       "tags": [
@@ -17815,7 +17815,7 @@
     },
     {
       "id": "bm-ba-documents-03",
-      "title": "Document horizon — Southern horizon",
+      "title": "Document horizon \u2014 Southern horizon",
       "path": "library/images/backgrounds/documents-03.svg",
       "category": "background",
       "tags": [
@@ -17861,7 +17861,7 @@
     },
     {
       "id": "bm-ba-documents-04",
-      "title": "Document horizon — Split perimeter",
+      "title": "Document horizon \u2014 Split perimeter",
       "path": "library/images/backgrounds/documents-04.svg",
       "category": "background",
       "tags": [
@@ -17907,7 +17907,7 @@
     },
     {
       "id": "bm-ba-documents-05",
-      "title": "Document horizon — Diagonal counterweight",
+      "title": "Document horizon \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/documents-05.svg",
       "category": "background",
       "tags": [
@@ -17953,7 +17953,7 @@
     },
     {
       "id": "bm-ba-prisms-01",
-      "title": "Multimodal prism field — Northwest balance",
+      "title": "Multimodal prism field \u2014 Northwest balance",
       "path": "library/images/backgrounds/prisms-01.svg",
       "category": "background",
       "tags": [
@@ -17999,7 +17999,7 @@
     },
     {
       "id": "bm-ba-prisms-02",
-      "title": "Multimodal prism field — Eastward sweep",
+      "title": "Multimodal prism field \u2014 Eastward sweep",
       "path": "library/images/backgrounds/prisms-02.svg",
       "category": "background",
       "tags": [
@@ -18045,7 +18045,7 @@
     },
     {
       "id": "bm-ba-prisms-03",
-      "title": "Multimodal prism field — Southern horizon",
+      "title": "Multimodal prism field \u2014 Southern horizon",
       "path": "library/images/backgrounds/prisms-03.svg",
       "category": "background",
       "tags": [
@@ -18091,7 +18091,7 @@
     },
     {
       "id": "bm-ba-prisms-04",
-      "title": "Multimodal prism field — Split perimeter",
+      "title": "Multimodal prism field \u2014 Split perimeter",
       "path": "library/images/backgrounds/prisms-04.svg",
       "category": "background",
       "tags": [
@@ -18137,7 +18137,7 @@
     },
     {
       "id": "bm-ba-prisms-05",
-      "title": "Multimodal prism field — Diagonal counterweight",
+      "title": "Multimodal prism field \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/prisms-05.svg",
       "category": "background",
       "tags": [
@@ -18183,7 +18183,7 @@
     },
     {
       "id": "bm-ba-landscape-01",
-      "title": "Evaluation landscape — Northwest balance",
+      "title": "Evaluation landscape \u2014 Northwest balance",
       "path": "library/images/backgrounds/landscape-01.svg",
       "category": "background",
       "tags": [
@@ -18229,7 +18229,7 @@
     },
     {
       "id": "bm-ba-landscape-02",
-      "title": "Evaluation landscape — Eastward sweep",
+      "title": "Evaluation landscape \u2014 Eastward sweep",
       "path": "library/images/backgrounds/landscape-02.svg",
       "category": "background",
       "tags": [
@@ -18275,7 +18275,7 @@
     },
     {
       "id": "bm-ba-landscape-03",
-      "title": "Evaluation landscape — Southern horizon",
+      "title": "Evaluation landscape \u2014 Southern horizon",
       "path": "library/images/backgrounds/landscape-03.svg",
       "category": "background",
       "tags": [
@@ -18321,7 +18321,7 @@
     },
     {
       "id": "bm-ba-landscape-04",
-      "title": "Evaluation landscape — Split perimeter",
+      "title": "Evaluation landscape \u2014 Split perimeter",
       "path": "library/images/backgrounds/landscape-04.svg",
       "category": "background",
       "tags": [
@@ -18367,7 +18367,7 @@
     },
     {
       "id": "bm-ba-landscape-05",
-      "title": "Evaluation landscape — Diagonal counterweight",
+      "title": "Evaluation landscape \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/landscape-05.svg",
       "category": "background",
       "tags": [
@@ -18413,7 +18413,7 @@
     },
     {
       "id": "bm-ba-ledger-01",
-      "title": "Cost ledger framework — Northwest balance",
+      "title": "Cost ledger framework \u2014 Northwest balance",
       "path": "library/images/backgrounds/ledger-01.svg",
       "category": "background",
       "tags": [
@@ -18459,7 +18459,7 @@
     },
     {
       "id": "bm-ba-ledger-02",
-      "title": "Cost ledger framework — Eastward sweep",
+      "title": "Cost ledger framework \u2014 Eastward sweep",
       "path": "library/images/backgrounds/ledger-02.svg",
       "category": "background",
       "tags": [
@@ -18505,7 +18505,7 @@
     },
     {
       "id": "bm-ba-ledger-03",
-      "title": "Cost ledger framework — Southern horizon",
+      "title": "Cost ledger framework \u2014 Southern horizon",
       "path": "library/images/backgrounds/ledger-03.svg",
       "category": "background",
       "tags": [
@@ -18551,7 +18551,7 @@
     },
     {
       "id": "bm-ba-ledger-04",
-      "title": "Cost ledger framework — Split perimeter",
+      "title": "Cost ledger framework \u2014 Split perimeter",
       "path": "library/images/backgrounds/ledger-04.svg",
       "category": "background",
       "tags": [
@@ -18597,7 +18597,7 @@
     },
     {
       "id": "bm-ba-ledger-05",
-      "title": "Cost ledger framework — Diagonal counterweight",
+      "title": "Cost ledger framework \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/ledger-05.svg",
       "category": "background",
       "tags": [
@@ -18643,7 +18643,7 @@
     },
     {
       "id": "bm-ba-audio-01",
-      "title": "Narration envelope — Northwest balance",
+      "title": "Narration envelope \u2014 Northwest balance",
       "path": "library/images/backgrounds/audio-01.svg",
       "category": "background",
       "tags": [
@@ -18689,7 +18689,7 @@
     },
     {
       "id": "bm-ba-audio-02",
-      "title": "Narration envelope — Eastward sweep",
+      "title": "Narration envelope \u2014 Eastward sweep",
       "path": "library/images/backgrounds/audio-02.svg",
       "category": "background",
       "tags": [
@@ -18735,7 +18735,7 @@
     },
     {
       "id": "bm-ba-audio-03",
-      "title": "Narration envelope — Southern horizon",
+      "title": "Narration envelope \u2014 Southern horizon",
       "path": "library/images/backgrounds/audio-03.svg",
       "category": "background",
       "tags": [
@@ -18781,7 +18781,7 @@
     },
     {
       "id": "bm-ba-audio-04",
-      "title": "Narration envelope — Split perimeter",
+      "title": "Narration envelope \u2014 Split perimeter",
       "path": "library/images/backgrounds/audio-04.svg",
       "category": "background",
       "tags": [
@@ -18827,7 +18827,7 @@
     },
     {
       "id": "bm-ba-audio-05",
-      "title": "Narration envelope — Diagonal counterweight",
+      "title": "Narration envelope \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/audio-05.svg",
       "category": "background",
       "tags": [
@@ -18873,7 +18873,7 @@
     },
     {
       "id": "bm-ba-layers-01",
-      "title": "Reasoning layer stack — Northwest balance",
+      "title": "Reasoning layer stack \u2014 Northwest balance",
       "path": "library/images/backgrounds/layers-01.svg",
       "category": "background",
       "tags": [
@@ -18919,7 +18919,7 @@
     },
     {
       "id": "bm-ba-layers-02",
-      "title": "Reasoning layer stack — Eastward sweep",
+      "title": "Reasoning layer stack \u2014 Eastward sweep",
       "path": "library/images/backgrounds/layers-02.svg",
       "category": "background",
       "tags": [
@@ -18965,7 +18965,7 @@
     },
     {
       "id": "bm-ba-layers-03",
-      "title": "Reasoning layer stack — Southern horizon",
+      "title": "Reasoning layer stack \u2014 Southern horizon",
       "path": "library/images/backgrounds/layers-03.svg",
       "category": "background",
       "tags": [
@@ -19011,7 +19011,7 @@
     },
     {
       "id": "bm-ba-layers-04",
-      "title": "Reasoning layer stack — Split perimeter",
+      "title": "Reasoning layer stack \u2014 Split perimeter",
       "path": "library/images/backgrounds/layers-04.svg",
       "category": "background",
       "tags": [
@@ -19057,7 +19057,7 @@
     },
     {
       "id": "bm-ba-layers-05",
-      "title": "Reasoning layer stack — Diagonal counterweight",
+      "title": "Reasoning layer stack \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/layers-05.svg",
       "category": "background",
       "tags": [
@@ -19103,7 +19103,7 @@
     },
     {
       "id": "bm-ba-lightpaths-01",
-      "title": "Lightpath corridors — Northwest balance",
+      "title": "Lightpath corridors \u2014 Northwest balance",
       "path": "library/images/backgrounds/lightpaths-01.svg",
       "category": "background",
       "tags": [
@@ -19149,7 +19149,7 @@
     },
     {
       "id": "bm-ba-lightpaths-02",
-      "title": "Lightpath corridors — Eastward sweep",
+      "title": "Lightpath corridors \u2014 Eastward sweep",
       "path": "library/images/backgrounds/lightpaths-02.svg",
       "category": "background",
       "tags": [
@@ -19195,7 +19195,7 @@
     },
     {
       "id": "bm-ba-lightpaths-03",
-      "title": "Lightpath corridors — Southern horizon",
+      "title": "Lightpath corridors \u2014 Southern horizon",
       "path": "library/images/backgrounds/lightpaths-03.svg",
       "category": "background",
       "tags": [
@@ -19241,7 +19241,7 @@
     },
     {
       "id": "bm-ba-lightpaths-04",
-      "title": "Lightpath corridors — Split perimeter",
+      "title": "Lightpath corridors \u2014 Split perimeter",
       "path": "library/images/backgrounds/lightpaths-04.svg",
       "category": "background",
       "tags": [
@@ -19287,7 +19287,7 @@
     },
     {
       "id": "bm-ba-lightpaths-05",
-      "title": "Lightpath corridors — Diagonal counterweight",
+      "title": "Lightpath corridors \u2014 Diagonal counterweight",
       "path": "library/images/backgrounds/lightpaths-05.svg",
       "category": "background",
       "tags": [
@@ -19333,7 +19333,7 @@
     },
     {
       "id": "bm-mo-focus-ring-01",
-      "title": "Focus-ring pulse — Center focus",
+      "title": "Focus-ring pulse \u2014 Center focus",
       "path": "library/motion/overlays/focus-ring-01.svg",
       "category": "motion",
       "tags": [
@@ -19381,7 +19381,7 @@
     },
     {
       "id": "bm-mo-focus-ring-02",
-      "title": "Focus-ring pulse — Left evidence",
+      "title": "Focus-ring pulse \u2014 Left evidence",
       "path": "library/motion/overlays/focus-ring-02.svg",
       "category": "motion",
       "tags": [
@@ -19429,7 +19429,7 @@
     },
     {
       "id": "bm-mo-focus-ring-03",
-      "title": "Focus-ring pulse — Right evidence",
+      "title": "Focus-ring pulse \u2014 Right evidence",
       "path": "library/motion/overlays/focus-ring-03.svg",
       "category": "motion",
       "tags": [
@@ -19477,7 +19477,7 @@
     },
     {
       "id": "bm-mo-focus-ring-04",
-      "title": "Focus-ring pulse — Lower detail",
+      "title": "Focus-ring pulse \u2014 Lower detail",
       "path": "library/motion/overlays/focus-ring-04.svg",
       "category": "motion",
       "tags": [
@@ -19525,7 +19525,7 @@
     },
     {
       "id": "bm-mo-focus-ring-05",
-      "title": "Focus-ring pulse — Wide comparison",
+      "title": "Focus-ring pulse \u2014 Wide comparison",
       "path": "library/motion/overlays/focus-ring-05.svg",
       "category": "motion",
       "tags": [
@@ -19573,7 +19573,7 @@
     },
     {
       "id": "bm-mo-brackets-01",
-      "title": "Evidence brackets — Center focus",
+      "title": "Evidence brackets \u2014 Center focus",
       "path": "library/motion/overlays/brackets-01.svg",
       "category": "motion",
       "tags": [
@@ -19621,7 +19621,7 @@
     },
     {
       "id": "bm-mo-brackets-02",
-      "title": "Evidence brackets — Left evidence",
+      "title": "Evidence brackets \u2014 Left evidence",
       "path": "library/motion/overlays/brackets-02.svg",
       "category": "motion",
       "tags": [
@@ -19669,7 +19669,7 @@
     },
     {
       "id": "bm-mo-brackets-03",
-      "title": "Evidence brackets — Right evidence",
+      "title": "Evidence brackets \u2014 Right evidence",
       "path": "library/motion/overlays/brackets-03.svg",
       "category": "motion",
       "tags": [
@@ -19717,7 +19717,7 @@
     },
     {
       "id": "bm-mo-brackets-04",
-      "title": "Evidence brackets — Lower detail",
+      "title": "Evidence brackets \u2014 Lower detail",
       "path": "library/motion/overlays/brackets-04.svg",
       "category": "motion",
       "tags": [
@@ -19765,7 +19765,7 @@
     },
     {
       "id": "bm-mo-brackets-05",
-      "title": "Evidence brackets — Wide comparison",
+      "title": "Evidence brackets \u2014 Wide comparison",
       "path": "library/motion/overlays/brackets-05.svg",
       "category": "motion",
       "tags": [
@@ -19813,7 +19813,7 @@
     },
     {
       "id": "bm-mo-panel-wipe-01",
-      "title": "Source-panel wipe — Center focus",
+      "title": "Source-panel wipe \u2014 Center focus",
       "path": "library/motion/overlays/panel-wipe-01.svg",
       "category": "motion",
       "tags": [
@@ -19861,7 +19861,7 @@
     },
     {
       "id": "bm-mo-panel-wipe-02",
-      "title": "Source-panel wipe — Left evidence",
+      "title": "Source-panel wipe \u2014 Left evidence",
       "path": "library/motion/overlays/panel-wipe-02.svg",
       "category": "motion",
       "tags": [
@@ -19909,7 +19909,7 @@
     },
     {
       "id": "bm-mo-panel-wipe-03",
-      "title": "Source-panel wipe — Right evidence",
+      "title": "Source-panel wipe \u2014 Right evidence",
       "path": "library/motion/overlays/panel-wipe-03.svg",
       "category": "motion",
       "tags": [
@@ -19957,7 +19957,7 @@
     },
     {
       "id": "bm-mo-panel-wipe-04",
-      "title": "Source-panel wipe — Lower detail",
+      "title": "Source-panel wipe \u2014 Lower detail",
       "path": "library/motion/overlays/panel-wipe-04.svg",
       "category": "motion",
       "tags": [
@@ -20005,7 +20005,7 @@
     },
     {
       "id": "bm-mo-panel-wipe-05",
-      "title": "Source-panel wipe — Wide comparison",
+      "title": "Source-panel wipe \u2014 Wide comparison",
       "path": "library/motion/overlays/panel-wipe-05.svg",
       "category": "motion",
       "tags": [
@@ -20053,7 +20053,7 @@
     },
     {
       "id": "bm-mo-scan-01",
-      "title": "Evidence scanline — Center focus",
+      "title": "Evidence scanline \u2014 Center focus",
       "path": "library/motion/overlays/scan-01.svg",
       "category": "motion",
       "tags": [
@@ -20101,7 +20101,7 @@
     },
     {
       "id": "bm-mo-scan-02",
-      "title": "Evidence scanline — Left evidence",
+      "title": "Evidence scanline \u2014 Left evidence",
       "path": "library/motion/overlays/scan-02.svg",
       "category": "motion",
       "tags": [
@@ -20149,7 +20149,7 @@
     },
     {
       "id": "bm-mo-scan-03",
-      "title": "Evidence scanline — Right evidence",
+      "title": "Evidence scanline \u2014 Right evidence",
       "path": "library/motion/overlays/scan-03.svg",
       "category": "motion",
       "tags": [
@@ -20197,7 +20197,7 @@
     },
     {
       "id": "bm-mo-scan-04",
-      "title": "Evidence scanline — Lower detail",
+      "title": "Evidence scanline \u2014 Lower detail",
       "path": "library/motion/overlays/scan-04.svg",
       "category": "motion",
       "tags": [
@@ -20245,7 +20245,7 @@
     },
     {
       "id": "bm-mo-scan-05",
-      "title": "Evidence scanline — Wide comparison",
+      "title": "Evidence scanline \u2014 Wide comparison",
       "path": "library/motion/overlays/scan-05.svg",
       "category": "motion",
       "tags": [
@@ -20293,7 +20293,7 @@
     },
     {
       "id": "bm-mo-token-trail-01",
-      "title": "Token trail — Center focus",
+      "title": "Token trail \u2014 Center focus",
       "path": "library/motion/overlays/token-trail-01.svg",
       "category": "motion",
       "tags": [
@@ -20341,7 +20341,7 @@
     },
     {
       "id": "bm-mo-token-trail-02",
-      "title": "Token trail — Left evidence",
+      "title": "Token trail \u2014 Left evidence",
       "path": "library/motion/overlays/token-trail-02.svg",
       "category": "motion",
       "tags": [
@@ -20389,7 +20389,7 @@
     },
     {
       "id": "bm-mo-token-trail-03",
-      "title": "Token trail — Right evidence",
+      "title": "Token trail \u2014 Right evidence",
       "path": "library/motion/overlays/token-trail-03.svg",
       "category": "motion",
       "tags": [
@@ -20437,7 +20437,7 @@
     },
     {
       "id": "bm-mo-token-trail-04",
-      "title": "Token trail — Lower detail",
+      "title": "Token trail \u2014 Lower detail",
       "path": "library/motion/overlays/token-trail-04.svg",
       "category": "motion",
       "tags": [
@@ -20485,7 +20485,7 @@
     },
     {
       "id": "bm-mo-token-trail-05",
-      "title": "Token trail — Wide comparison",
+      "title": "Token trail \u2014 Wide comparison",
       "path": "library/motion/overlays/token-trail-05.svg",
       "category": "motion",
       "tags": [
@@ -20533,7 +20533,7 @@
     },
     {
       "id": "bm-mo-divider-01",
-      "title": "Comparison divider — Center focus",
+      "title": "Comparison divider \u2014 Center focus",
       "path": "library/motion/overlays/divider-01.svg",
       "category": "motion",
       "tags": [
@@ -20581,7 +20581,7 @@
     },
     {
       "id": "bm-mo-divider-02",
-      "title": "Comparison divider — Left evidence",
+      "title": "Comparison divider \u2014 Left evidence",
       "path": "library/motion/overlays/divider-02.svg",
       "category": "motion",
       "tags": [
@@ -20629,7 +20629,7 @@
     },
     {
       "id": "bm-mo-divider-03",
-      "title": "Comparison divider — Right evidence",
+      "title": "Comparison divider \u2014 Right evidence",
       "path": "library/motion/overlays/divider-03.svg",
       "category": "motion",
       "tags": [
@@ -20677,7 +20677,7 @@
     },
     {
       "id": "bm-mo-divider-04",
-      "title": "Comparison divider — Lower detail",
+      "title": "Comparison divider \u2014 Lower detail",
       "path": "library/motion/overlays/divider-04.svg",
       "category": "motion",
       "tags": [
@@ -20725,7 +20725,7 @@
     },
     {
       "id": "bm-mo-divider-05",
-      "title": "Comparison divider — Wide comparison",
+      "title": "Comparison divider \u2014 Wide comparison",
       "path": "library/motion/overlays/divider-05.svg",
       "category": "motion",
       "tags": [
@@ -20773,7 +20773,7 @@
     },
     {
       "id": "bm-mo-curtain-01",
-      "title": "Transition curtain — Center focus",
+      "title": "Transition curtain \u2014 Center focus",
       "path": "library/motion/overlays/curtain-01.svg",
       "category": "motion",
       "tags": [
@@ -20821,7 +20821,7 @@
     },
     {
       "id": "bm-mo-curtain-02",
-      "title": "Transition curtain — Left evidence",
+      "title": "Transition curtain \u2014 Left evidence",
       "path": "library/motion/overlays/curtain-02.svg",
       "category": "motion",
       "tags": [
@@ -20869,7 +20869,7 @@
     },
     {
       "id": "bm-mo-curtain-03",
-      "title": "Transition curtain — Right evidence",
+      "title": "Transition curtain \u2014 Right evidence",
       "path": "library/motion/overlays/curtain-03.svg",
       "category": "motion",
       "tags": [
@@ -20917,7 +20917,7 @@
     },
     {
       "id": "bm-mo-curtain-04",
-      "title": "Transition curtain — Lower detail",
+      "title": "Transition curtain \u2014 Lower detail",
       "path": "library/motion/overlays/curtain-04.svg",
       "category": "motion",
       "tags": [
@@ -20965,7 +20965,7 @@
     },
     {
       "id": "bm-mo-curtain-05",
-      "title": "Transition curtain — Wide comparison",
+      "title": "Transition curtain \u2014 Wide comparison",
       "path": "library/motion/overlays/curtain-05.svg",
       "category": "motion",
       "tags": [
@@ -21013,7 +21013,7 @@
     },
     {
       "id": "bm-mo-constellation-build-01",
-      "title": "Network connections — Center focus",
+      "title": "Network connections \u2014 Center focus",
       "path": "library/motion/overlays/constellation-build-01.svg",
       "category": "motion",
       "tags": [
@@ -21061,7 +21061,7 @@
     },
     {
       "id": "bm-mo-constellation-build-02",
-      "title": "Network connections — Left evidence",
+      "title": "Network connections \u2014 Left evidence",
       "path": "library/motion/overlays/constellation-build-02.svg",
       "category": "motion",
       "tags": [
@@ -21109,7 +21109,7 @@
     },
     {
       "id": "bm-mo-constellation-build-03",
-      "title": "Network connections — Right evidence",
+      "title": "Network connections \u2014 Right evidence",
       "path": "library/motion/overlays/constellation-build-03.svg",
       "category": "motion",
       "tags": [
@@ -21157,7 +21157,7 @@
     },
     {
       "id": "bm-mo-constellation-build-04",
-      "title": "Network connections — Lower detail",
+      "title": "Network connections \u2014 Lower detail",
       "path": "library/motion/overlays/constellation-build-04.svg",
       "category": "motion",
       "tags": [
@@ -21205,7 +21205,7 @@
     },
     {
       "id": "bm-mo-constellation-build-05",
-      "title": "Network connections — Wide comparison",
+      "title": "Network connections \u2014 Wide comparison",
       "path": "library/motion/overlays/constellation-build-05.svg",
       "category": "motion",
       "tags": [
@@ -21253,7 +21253,7 @@
     },
     {
       "id": "bm-mo-pointer-01",
-      "title": "Annotation path — Center focus",
+      "title": "Annotation path \u2014 Center focus",
       "path": "library/motion/overlays/pointer-01.svg",
       "category": "motion",
       "tags": [
@@ -21301,7 +21301,7 @@
     },
     {
       "id": "bm-mo-pointer-02",
-      "title": "Annotation path — Left evidence",
+      "title": "Annotation path \u2014 Left evidence",
       "path": "library/motion/overlays/pointer-02.svg",
       "category": "motion",
       "tags": [
@@ -21349,7 +21349,7 @@
     },
     {
       "id": "bm-mo-pointer-03",
-      "title": "Annotation path — Right evidence",
+      "title": "Annotation path \u2014 Right evidence",
       "path": "library/motion/overlays/pointer-03.svg",
       "category": "motion",
       "tags": [
@@ -21397,7 +21397,7 @@
     },
     {
       "id": "bm-mo-pointer-04",
-      "title": "Annotation path — Lower detail",
+      "title": "Annotation path \u2014 Lower detail",
       "path": "library/motion/overlays/pointer-04.svg",
       "category": "motion",
       "tags": [
@@ -21445,7 +21445,7 @@
     },
     {
       "id": "bm-mo-pointer-05",
-      "title": "Annotation path — Wide comparison",
+      "title": "Annotation path \u2014 Wide comparison",
       "path": "library/motion/overlays/pointer-05.svg",
       "category": "motion",
       "tags": [
@@ -21493,7 +21493,7 @@
     },
     {
       "id": "bm-mo-focus-frame-01",
-      "title": "Focus frame — Center focus",
+      "title": "Focus frame \u2014 Center focus",
       "path": "library/motion/overlays/focus-frame-01.svg",
       "category": "motion",
       "tags": [
@@ -21541,7 +21541,7 @@
     },
     {
       "id": "bm-mo-focus-frame-02",
-      "title": "Focus frame — Left evidence",
+      "title": "Focus frame \u2014 Left evidence",
       "path": "library/motion/overlays/focus-frame-02.svg",
       "category": "motion",
       "tags": [
@@ -21589,7 +21589,7 @@
     },
     {
       "id": "bm-mo-focus-frame-03",
-      "title": "Focus frame — Right evidence",
+      "title": "Focus frame \u2014 Right evidence",
       "path": "library/motion/overlays/focus-frame-03.svg",
       "category": "motion",
       "tags": [
@@ -21637,7 +21637,7 @@
     },
     {
       "id": "bm-mo-focus-frame-04",
-      "title": "Focus frame — Lower detail",
+      "title": "Focus frame \u2014 Lower detail",
       "path": "library/motion/overlays/focus-frame-04.svg",
       "category": "motion",
       "tags": [
@@ -21685,7 +21685,7 @@
     },
     {
       "id": "bm-mo-focus-frame-05",
-      "title": "Focus frame — Wide comparison",
+      "title": "Focus frame \u2014 Wide comparison",
       "path": "library/motion/overlays/focus-frame-05.svg",
       "category": "motion",
       "tags": [
@@ -21733,7 +21733,7 @@
     },
     {
       "id": "bm-mo-pin-01",
-      "title": "Source pin — Center focus",
+      "title": "Source pin \u2014 Center focus",
       "path": "library/motion/overlays/pin-01.svg",
       "category": "motion",
       "tags": [
@@ -21781,7 +21781,7 @@
     },
     {
       "id": "bm-mo-pin-02",
-      "title": "Source pin — Left evidence",
+      "title": "Source pin \u2014 Left evidence",
       "path": "library/motion/overlays/pin-02.svg",
       "category": "motion",
       "tags": [
@@ -21829,7 +21829,7 @@
     },
     {
       "id": "bm-mo-pin-03",
-      "title": "Source pin — Right evidence",
+      "title": "Source pin \u2014 Right evidence",
       "path": "library/motion/overlays/pin-03.svg",
       "category": "motion",
       "tags": [
@@ -21877,7 +21877,7 @@
     },
     {
       "id": "bm-mo-pin-04",
-      "title": "Source pin — Lower detail",
+      "title": "Source pin \u2014 Lower detail",
       "path": "library/motion/overlays/pin-04.svg",
       "category": "motion",
       "tags": [
@@ -21925,7 +21925,7 @@
     },
     {
       "id": "bm-mo-pin-05",
-      "title": "Source pin — Wide comparison",
+      "title": "Source pin \u2014 Wide comparison",
       "path": "library/motion/overlays/pin-05.svg",
       "category": "motion",
       "tags": [
@@ -21973,7 +21973,7 @@
     },
     {
       "id": "bm-mo-timeline-01",
-      "title": "Timeline sweep — Center focus",
+      "title": "Timeline sweep \u2014 Center focus",
       "path": "library/motion/overlays/timeline-01.svg",
       "category": "motion",
       "tags": [
@@ -22021,7 +22021,7 @@
     },
     {
       "id": "bm-mo-timeline-02",
-      "title": "Timeline sweep — Left evidence",
+      "title": "Timeline sweep \u2014 Left evidence",
       "path": "library/motion/overlays/timeline-02.svg",
       "category": "motion",
       "tags": [
@@ -22069,7 +22069,7 @@
     },
     {
       "id": "bm-mo-timeline-03",
-      "title": "Timeline sweep — Right evidence",
+      "title": "Timeline sweep \u2014 Right evidence",
       "path": "library/motion/overlays/timeline-03.svg",
       "category": "motion",
       "tags": [
@@ -22117,7 +22117,7 @@
     },
     {
       "id": "bm-mo-timeline-04",
-      "title": "Timeline sweep — Lower detail",
+      "title": "Timeline sweep \u2014 Lower detail",
       "path": "library/motion/overlays/timeline-04.svg",
       "category": "motion",
       "tags": [
@@ -22165,7 +22165,7 @@
     },
     {
       "id": "bm-mo-timeline-05",
-      "title": "Timeline sweep — Wide comparison",
+      "title": "Timeline sweep \u2014 Wide comparison",
       "path": "library/motion/overlays/timeline-05.svg",
       "category": "motion",
       "tags": [
@@ -22213,7 +22213,7 @@
     },
     {
       "id": "bm-mo-underline-01",
-      "title": "Emphasis underline — Center focus",
+      "title": "Emphasis underline \u2014 Center focus",
       "path": "library/motion/overlays/underline-01.svg",
       "category": "motion",
       "tags": [
@@ -22261,7 +22261,7 @@
     },
     {
       "id": "bm-mo-underline-02",
-      "title": "Emphasis underline — Left evidence",
+      "title": "Emphasis underline \u2014 Left evidence",
       "path": "library/motion/overlays/underline-02.svg",
       "category": "motion",
       "tags": [
@@ -22309,7 +22309,7 @@
     },
     {
       "id": "bm-mo-underline-03",
-      "title": "Emphasis underline — Right evidence",
+      "title": "Emphasis underline \u2014 Right evidence",
       "path": "library/motion/overlays/underline-03.svg",
       "category": "motion",
       "tags": [
@@ -22357,7 +22357,7 @@
     },
     {
       "id": "bm-mo-underline-04",
-      "title": "Emphasis underline — Lower detail",
+      "title": "Emphasis underline \u2014 Lower detail",
       "path": "library/motion/overlays/underline-04.svg",
       "category": "motion",
       "tags": [
@@ -22405,7 +22405,7 @@
     },
     {
       "id": "bm-mo-underline-05",
-      "title": "Emphasis underline — Wide comparison",
+      "title": "Emphasis underline \u2014 Wide comparison",
       "path": "library/motion/overlays/underline-05.svg",
       "category": "motion",
       "tags": [
@@ -22453,7 +22453,7 @@
     },
     {
       "id": "bm-mo-connection-01",
-      "title": "Connection trace — Center focus",
+      "title": "Connection trace \u2014 Center focus",
       "path": "library/motion/overlays/connection-01.svg",
       "category": "motion",
       "tags": [
@@ -22501,7 +22501,7 @@
     },
     {
       "id": "bm-mo-connection-02",
-      "title": "Connection trace — Left evidence",
+      "title": "Connection trace \u2014 Left evidence",
       "path": "library/motion/overlays/connection-02.svg",
       "category": "motion",
       "tags": [
@@ -22549,7 +22549,7 @@
     },
     {
       "id": "bm-mo-connection-03",
-      "title": "Connection trace — Right evidence",
+      "title": "Connection trace \u2014 Right evidence",
       "path": "library/motion/overlays/connection-03.svg",
       "category": "motion",
       "tags": [
@@ -22597,7 +22597,7 @@
     },
     {
       "id": "bm-mo-connection-04",
-      "title": "Connection trace — Lower detail",
+      "title": "Connection trace \u2014 Lower detail",
       "path": "library/motion/overlays/connection-04.svg",
       "category": "motion",
       "tags": [
@@ -22645,7 +22645,7 @@
     },
     {
       "id": "bm-mo-connection-05",
-      "title": "Connection trace — Wide comparison",
+      "title": "Connection trace \u2014 Wide comparison",
       "path": "library/motion/overlays/connection-05.svg",
       "category": "motion",
       "tags": [
@@ -22693,7 +22693,7 @@
     },
     {
       "id": "bm-mo-orbit-01",
-      "title": "Orbital transition — Center focus",
+      "title": "Orbital transition \u2014 Center focus",
       "path": "library/motion/overlays/orbit-01.svg",
       "category": "motion",
       "tags": [
@@ -22741,7 +22741,7 @@
     },
     {
       "id": "bm-mo-orbit-02",
-      "title": "Orbital transition — Left evidence",
+      "title": "Orbital transition \u2014 Left evidence",
       "path": "library/motion/overlays/orbit-02.svg",
       "category": "motion",
       "tags": [
@@ -22789,7 +22789,7 @@
     },
     {
       "id": "bm-mo-orbit-03",
-      "title": "Orbital transition — Right evidence",
+      "title": "Orbital transition \u2014 Right evidence",
       "path": "library/motion/overlays/orbit-03.svg",
       "category": "motion",
       "tags": [
@@ -22837,7 +22837,7 @@
     },
     {
       "id": "bm-mo-orbit-04",
-      "title": "Orbital transition — Lower detail",
+      "title": "Orbital transition \u2014 Lower detail",
       "path": "library/motion/overlays/orbit-04.svg",
       "category": "motion",
       "tags": [
@@ -22885,7 +22885,7 @@
     },
     {
       "id": "bm-mo-orbit-05",
-      "title": "Orbital transition — Wide comparison",
+      "title": "Orbital transition \u2014 Wide comparison",
       "path": "library/motion/overlays/orbit-05.svg",
       "category": "motion",
       "tags": [
@@ -22933,7 +22933,7 @@
     },
     {
       "id": "bm-mo-waveform-01",
-      "title": "Narration ambience — Center focus",
+      "title": "Narration ambience \u2014 Center focus",
       "path": "library/motion/overlays/waveform-01.svg",
       "category": "motion",
       "tags": [
@@ -22981,7 +22981,7 @@
     },
     {
       "id": "bm-mo-waveform-02",
-      "title": "Narration ambience — Left evidence",
+      "title": "Narration ambience \u2014 Left evidence",
       "path": "library/motion/overlays/waveform-02.svg",
       "category": "motion",
       "tags": [
@@ -23029,7 +23029,7 @@
     },
     {
       "id": "bm-mo-waveform-03",
-      "title": "Narration ambience — Right evidence",
+      "title": "Narration ambience \u2014 Right evidence",
       "path": "library/motion/overlays/waveform-03.svg",
       "category": "motion",
       "tags": [
@@ -23077,7 +23077,7 @@
     },
     {
       "id": "bm-mo-waveform-04",
-      "title": "Narration ambience — Lower detail",
+      "title": "Narration ambience \u2014 Lower detail",
       "path": "library/motion/overlays/waveform-04.svg",
       "category": "motion",
       "tags": [
@@ -23125,7 +23125,7 @@
     },
     {
       "id": "bm-mo-waveform-05",
-      "title": "Narration ambience — Wide comparison",
+      "title": "Narration ambience \u2014 Wide comparison",
       "path": "library/motion/overlays/waveform-05.svg",
       "category": "motion",
       "tags": [
@@ -23173,7 +23173,7 @@
     },
     {
       "id": "bm-mo-grid-01",
-      "title": "Grid drift — Center focus",
+      "title": "Grid drift \u2014 Center focus",
       "path": "library/motion/overlays/grid-01.svg",
       "category": "motion",
       "tags": [
@@ -23221,7 +23221,7 @@
     },
     {
       "id": "bm-mo-grid-02",
-      "title": "Grid drift — Left evidence",
+      "title": "Grid drift \u2014 Left evidence",
       "path": "library/motion/overlays/grid-02.svg",
       "category": "motion",
       "tags": [
@@ -23269,7 +23269,7 @@
     },
     {
       "id": "bm-mo-grid-03",
-      "title": "Grid drift — Right evidence",
+      "title": "Grid drift \u2014 Right evidence",
       "path": "library/motion/overlays/grid-03.svg",
       "category": "motion",
       "tags": [
@@ -23317,7 +23317,7 @@
     },
     {
       "id": "bm-mo-grid-04",
-      "title": "Grid drift — Lower detail",
+      "title": "Grid drift \u2014 Lower detail",
       "path": "library/motion/overlays/grid-04.svg",
       "category": "motion",
       "tags": [
@@ -23365,7 +23365,7 @@
     },
     {
       "id": "bm-mo-grid-05",
-      "title": "Grid drift — Wide comparison",
+      "title": "Grid drift \u2014 Wide comparison",
       "path": "library/motion/overlays/grid-05.svg",
       "category": "motion",
       "tags": [
@@ -23413,7 +23413,7 @@
     },
     {
       "id": "bm-mo-corner-01",
-      "title": "Corner attention cue — Center focus",
+      "title": "Corner attention cue \u2014 Center focus",
       "path": "library/motion/overlays/corner-01.svg",
       "category": "motion",
       "tags": [
@@ -23461,7 +23461,7 @@
     },
     {
       "id": "bm-mo-corner-02",
-      "title": "Corner attention cue — Left evidence",
+      "title": "Corner attention cue \u2014 Left evidence",
       "path": "library/motion/overlays/corner-02.svg",
       "category": "motion",
       "tags": [
@@ -23509,7 +23509,7 @@
     },
     {
       "id": "bm-mo-corner-03",
-      "title": "Corner attention cue — Right evidence",
+      "title": "Corner attention cue \u2014 Right evidence",
       "path": "library/motion/overlays/corner-03.svg",
       "category": "motion",
       "tags": [
@@ -23557,7 +23557,7 @@
     },
     {
       "id": "bm-mo-corner-04",
-      "title": "Corner attention cue — Lower detail",
+      "title": "Corner attention cue \u2014 Lower detail",
       "path": "library/motion/overlays/corner-04.svg",
       "category": "motion",
       "tags": [
@@ -23605,7 +23605,7 @@
     },
     {
       "id": "bm-mo-corner-05",
-      "title": "Corner attention cue — Wide comparison",
+      "title": "Corner attention cue \u2014 Wide comparison",
       "path": "library/motion/overlays/corner-05.svg",
       "category": "motion",
       "tags": [
@@ -23653,7 +23653,7 @@
     },
     {
       "id": "bm-mo-completion-01",
-      "title": "Completion marker — Center focus",
+      "title": "Completion marker \u2014 Center focus",
       "path": "library/motion/overlays/completion-01.svg",
       "category": "motion",
       "tags": [
@@ -23701,7 +23701,7 @@
     },
     {
       "id": "bm-mo-completion-02",
-      "title": "Completion marker — Left evidence",
+      "title": "Completion marker \u2014 Left evidence",
       "path": "library/motion/overlays/completion-02.svg",
       "category": "motion",
       "tags": [
@@ -23749,7 +23749,7 @@
     },
     {
       "id": "bm-mo-completion-03",
-      "title": "Completion marker — Right evidence",
+      "title": "Completion marker \u2014 Right evidence",
       "path": "library/motion/overlays/completion-03.svg",
       "category": "motion",
       "tags": [
@@ -23797,7 +23797,7 @@
     },
     {
       "id": "bm-mo-completion-04",
-      "title": "Completion marker — Lower detail",
+      "title": "Completion marker \u2014 Lower detail",
       "path": "library/motion/overlays/completion-04.svg",
       "category": "motion",
       "tags": [
@@ -23845,7 +23845,7 @@
     },
     {
       "id": "bm-mo-completion-05",
-      "title": "Completion marker — Wide comparison",
+      "title": "Completion marker \u2014 Wide comparison",
       "path": "library/motion/overlays/completion-05.svg",
       "category": "motion",
       "tags": [
@@ -23893,7 +23893,7 @@
     },
     {
       "id": "bm-mo-ribbon-01",
-      "title": "Evidence ribbon — Center focus",
+      "title": "Evidence ribbon \u2014 Center focus",
       "path": "library/motion/overlays/ribbon-01.svg",
       "category": "motion",
       "tags": [
@@ -23941,7 +23941,7 @@
     },
     {
       "id": "bm-mo-ribbon-02",
-      "title": "Evidence ribbon — Left evidence",
+      "title": "Evidence ribbon \u2014 Left evidence",
       "path": "library/motion/overlays/ribbon-02.svg",
       "category": "motion",
       "tags": [
@@ -23989,7 +23989,7 @@
     },
     {
       "id": "bm-mo-ribbon-03",
-      "title": "Evidence ribbon — Right evidence",
+      "title": "Evidence ribbon \u2014 Right evidence",
       "path": "library/motion/overlays/ribbon-03.svg",
       "category": "motion",
       "tags": [
@@ -24037,7 +24037,7 @@
     },
     {
       "id": "bm-mo-ribbon-04",
-      "title": "Evidence ribbon — Lower detail",
+      "title": "Evidence ribbon \u2014 Lower detail",
       "path": "library/motion/overlays/ribbon-04.svg",
       "category": "motion",
       "tags": [
@@ -24085,7 +24085,7 @@
     },
     {
       "id": "bm-mo-ribbon-05",
-      "title": "Evidence ribbon — Wide comparison",
+      "title": "Evidence ribbon \u2014 Wide comparison",
       "path": "library/motion/overlays/ribbon-05.svg",
       "category": "motion",
       "tags": [
@@ -32396,7 +32396,7 @@
         "dollar",
         "usd",
         "$",
-        "¢"
+        "\u00a2"
       ],
       "intended_use": "Pricing, subscriptions, billing, savings and usage-limit explanations",
       "dimensions": {
@@ -46491,7 +46491,7 @@
     },
     {
       "id": "aa-hle-top15",
-      "title": "Humanity’s Last Exam | top 15",
+      "title": "Humanity\u2019s Last Exam | top 15",
       "path": "library/graphics/benchmarks/aa-hle-top15.svg",
       "kind": "benchmark-chart",
       "origin": "original-data-visualization",
@@ -48136,6 +48136,259 @@
       "is_empirical_evidence": true,
       "retrieved_at": "2026-10-13T01:39:09.156529+00:00",
       "rights_status": "original-factual-data-chart"
+    },
+    {
+      "id": "intro60-2026-10-13-background-cloud",
+      "title": "Cinematic cloud server architecture",
+      "path": "library/images/episode-01-2026-10-13/cloud_technology_illustration.png",
+      "category": "background",
+      "tags": [
+        "cloud-ai",
+        "technology",
+        "intro60",
+        "fictional",
+        "ai-generated",
+        "cloud"
+      ],
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "intended_use": "Distinct technology scene background with quiet left area for editable white text. Illustrative technology only; not evidence of a vendor product or announcement.",
+      "kind": "illustration",
+      "origin": "AI-generated original project artwork",
+      "license": "Generated project illustration; retain provenance and avoid documentary or vendor-product claims.",
+      "recommended_attribution": "AI UPDATE \u2014 generated technology illustration",
+      "creator": "AI UPDATE using built-in image_gen.imagegen",
+      "source_url": null,
+      "sha256": "90b25ab6a19f4bc066b7d7c16b31ac7da77b1b9e9bc2c4a16fbf7e5b32b476c9",
+      "bytes": 2042111,
+      "collection": "episode-01-intro60-2026-10-13",
+      "retrieved_at": "2026-10-13",
+      "episode_uses": [
+        "Episode 01 60-second opening, 2026-10-13"
+      ],
+      "rights_status": "generated project illustration",
+      "is_empirical_evidence": false,
+      "provenance_path": "library/provenance/intro60-2026-10-13/image-generation.json"
+    },
+    {
+      "id": "intro60-2026-10-13-background-tasks",
+      "title": "Robotic hand and work displays",
+      "path": "library/images/episode-01-2026-10-13/tasks_technology_illustration.png",
+      "category": "background",
+      "tags": [
+        "cloud-ai",
+        "technology",
+        "intro60",
+        "fictional",
+        "ai-generated",
+        "tasks"
+      ],
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "intended_use": "Distinct technology scene background with quiet left area for editable white text. Illustrative technology only; not evidence of a vendor product or announcement.",
+      "kind": "illustration",
+      "origin": "AI-generated original project artwork",
+      "license": "Generated project illustration; retain provenance and avoid documentary or vendor-product claims.",
+      "recommended_attribution": "AI UPDATE \u2014 generated technology illustration",
+      "creator": "AI UPDATE using built-in image_gen.imagegen",
+      "source_url": null,
+      "sha256": "0c92d8062735008fae2bb4d085dd5914df7f8d72ddbb4bf66f4c7137b37e2e2a",
+      "bytes": 1927631,
+      "collection": "episode-01-intro60-2026-10-13",
+      "retrieved_at": "2026-10-13",
+      "episode_uses": [
+        "Episode 01 60-second opening, 2026-10-13"
+      ],
+      "rights_status": "generated project illustration",
+      "is_empirical_evidence": false,
+      "provenance_path": "library/provenance/intro60-2026-10-13/image-generation.json"
+    },
+    {
+      "id": "intro60-2026-10-13-background-news",
+      "title": "Copper inference accelerator board",
+      "path": "library/images/episode-01-2026-10-13/news_technology_illustration.png",
+      "category": "background",
+      "tags": [
+        "cloud-ai",
+        "technology",
+        "intro60",
+        "fictional",
+        "ai-generated",
+        "news"
+      ],
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "intended_use": "Distinct technology scene background with quiet left area for editable white text. Illustrative technology only; not evidence of a vendor product or announcement.",
+      "kind": "illustration",
+      "origin": "AI-generated original project artwork",
+      "license": "Generated project illustration; retain provenance and avoid documentary or vendor-product claims.",
+      "recommended_attribution": "AI UPDATE \u2014 generated technology illustration",
+      "creator": "AI UPDATE using built-in image_gen.imagegen",
+      "source_url": null,
+      "sha256": "37144181dd3ffdad25c9df727dfdb147bc654dc2da42063040087ff0652a7dde",
+      "bytes": 2186635,
+      "collection": "episode-01-intro60-2026-10-13",
+      "retrieved_at": "2026-10-13",
+      "episode_uses": [
+        "Episode 01 60-second opening, 2026-10-13"
+      ],
+      "rights_status": "generated project illustration",
+      "is_empirical_evidence": false,
+      "provenance_path": "library/provenance/intro60-2026-10-13/image-generation.json"
+    },
+    {
+      "id": "intro60-2026-10-13-background-next",
+      "title": "GPU compute landscape",
+      "path": "library/images/episode-01-2026-10-13/next_technology_illustration.png",
+      "category": "background",
+      "tags": [
+        "cloud-ai",
+        "technology",
+        "intro60",
+        "fictional",
+        "ai-generated",
+        "next"
+      ],
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "intended_use": "Distinct technology scene background with quiet left area for editable white text. Illustrative technology only; not evidence of a vendor product or announcement.",
+      "kind": "illustration",
+      "origin": "AI-generated original project artwork",
+      "license": "Generated project illustration; retain provenance and avoid documentary or vendor-product claims.",
+      "recommended_attribution": "AI UPDATE \u2014 generated technology illustration",
+      "creator": "AI UPDATE using built-in image_gen.imagegen",
+      "source_url": null,
+      "sha256": "cc32c26c39080f9b9f97bad114d1ac1212161d051015239c8b13bf79da1a437f",
+      "bytes": 2134154,
+      "collection": "episode-01-intro60-2026-10-13",
+      "retrieved_at": "2026-10-13",
+      "episode_uses": [
+        "Episode 01 60-second opening, 2026-10-13"
+      ],
+      "rights_status": "generated project illustration",
+      "is_empirical_evidence": false,
+      "provenance_path": "library/provenance/intro60-2026-10-13/image-generation.json"
+    },
+    {
+      "id": "intro60-2026-10-13-rive-neural-core",
+      "title": "Rive Neural Core \u2014 six-second loop",
+      "path": "library/graphics/rive/intro60-2026-10-13/ai_update_neural_loop.riv",
+      "category": "motion",
+      "tags": [
+        "cloud-ai",
+        "rive",
+        "original-artwork",
+        "intro60",
+        "neural-core"
+      ],
+      "dimensions": {
+        "width": 720,
+        "height": 720
+      },
+      "intended_use": "Original Rive animation for the title/cloud scene. The .riv is a runtime file; editable RML and reproduction scripts are in the source ZIP. GIF and PNG derivatives are supplied for PowerPoint.",
+      "kind": "illustration",
+      "origin": "Original project artwork authored in RML, compiled and rendered with official Rive CLI 1.5.1",
+      "license": "Original commissioned AI UPDATE artwork; no third-party visual assets reused.",
+      "recommended_attribution": "AI UPDATE \u2014 original Rive artwork",
+      "creator": "AI UPDATE using Rive CLI",
+      "source_url": null,
+      "creation_method_url": "https://rive.app/docs/cli/overview",
+      "sha256": "18feaf0d9f3900bd76c179637d506438b9130a03a7171d5668aa0e15aa5614b7",
+      "bytes": 45765,
+      "collection": "episode-01-intro60-2026-10-13",
+      "retrieved_at": "2026-10-13",
+      "episode_uses": [
+        "Episode 01 60-second opening, 2026-10-13"
+      ],
+      "rights_status": "original commissioned project artwork",
+      "is_empirical_evidence": false,
+      "provenance_path": "library/provenance/intro60-2026-10-13/rive/provenance.json",
+      "editable_source_pack": "library/provenance/intro60-2026-10-13/rive/AI_UPDATE_Original_Rive_Assets.zip",
+      "preview_path": "library/graphics/rive/intro60-2026-10-13/neural_core_6s.gif",
+      "poster_path": "library/graphics/rive/intro60-2026-10-13/neural_core.png",
+      "duration_seconds": 6,
+      "native_editor_rev_exported": false,
+      "editability_note": "RML source editable; native .rev editor export not performed because official CLI requires account login. The .riv is for playback, not the editable editor source."
+    },
+    {
+      "id": "intro60-2026-10-13-rive-evaluation-lens",
+      "title": "Rive Evaluation Lens",
+      "path": "library/graphics/rive/intro60-2026-10-13/evaluation_lens.png",
+      "category": "icon",
+      "tags": [
+        "cloud-ai",
+        "rive",
+        "original-artwork",
+        "intro60",
+        "evaluation-lens"
+      ],
+      "dimensions": {
+        "width": 1200,
+        "height": 1200
+      },
+      "intended_use": "Original graphic illustrating inspection of evidence and benchmark meaning; a rendered image is not benchmark evidence.",
+      "kind": "illustration",
+      "origin": "Original project artwork authored in RML, compiled and rendered with official Rive CLI 1.5.1",
+      "license": "Original commissioned AI UPDATE artwork; no third-party visual assets reused.",
+      "recommended_attribution": "AI UPDATE \u2014 original Rive artwork",
+      "creator": "AI UPDATE using Rive CLI",
+      "source_url": null,
+      "creation_method_url": "https://rive.app/docs/cli/overview",
+      "sha256": "e9bf45f5692a550909369aed84e1649cecaffc8375ff1e4f863ad8dba3b2ac02",
+      "bytes": 156561,
+      "collection": "episode-01-intro60-2026-10-13",
+      "retrieved_at": "2026-10-13",
+      "episode_uses": [
+        "Episode 01 60-second opening, 2026-10-13"
+      ],
+      "rights_status": "original commissioned project artwork",
+      "is_empirical_evidence": false,
+      "provenance_path": "library/provenance/intro60-2026-10-13/rive/provenance.json",
+      "editable_source_pack": "library/provenance/intro60-2026-10-13/rive/AI_UPDATE_Original_Rive_Assets.zip"
+    },
+    {
+      "id": "intro60-2026-10-13-rive-value-balance",
+      "title": "Rive Value Balance",
+      "path": "library/graphics/rive/intro60-2026-10-13/value_balance.png",
+      "category": "icon",
+      "tags": [
+        "cloud-ai",
+        "rive",
+        "original-artwork",
+        "intro60",
+        "value-balance"
+      ],
+      "dimensions": {
+        "width": 1200,
+        "height": 1200
+      },
+      "intended_use": "Original graphic illustrating task quality and total cost; no measured score, cost or winner is encoded.",
+      "kind": "illustration",
+      "origin": "Original project artwork authored in RML, compiled and rendered with official Rive CLI 1.5.1",
+      "license": "Original commissioned AI UPDATE artwork; no third-party visual assets reused.",
+      "recommended_attribution": "AI UPDATE \u2014 original Rive artwork",
+      "creator": "AI UPDATE using Rive CLI",
+      "source_url": null,
+      "creation_method_url": "https://rive.app/docs/cli/overview",
+      "sha256": "54e33dde5ceb456fb00f8d11999f23c1b17f51887034cc6601aa1414138542ee",
+      "bytes": 119089,
+      "collection": "episode-01-intro60-2026-10-13",
+      "retrieved_at": "2026-10-13",
+      "episode_uses": [
+        "Episode 01 60-second opening, 2026-10-13"
+      ],
+      "rights_status": "original commissioned project artwork",
+      "is_empirical_evidence": false,
+      "provenance_path": "library/provenance/intro60-2026-10-13/rive/provenance.json",
+      "editable_source_pack": "library/provenance/intro60-2026-10-13/rive/AI_UPDATE_Original_Rive_Assets.zip"
     }
   ]
 }
