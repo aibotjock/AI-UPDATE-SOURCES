@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Update reusable asset record",
+  "type": "object",
+  "required": [
+    "id",
+    "category",
+    "path",
+    "source_url",
+    "retrieved_at",
+    "rights_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "category": {
+      "enum": [
+        "logo",
+        "image",
+        "graphic",
+        "motion",
+        "sound-effect",
+        "screenshot",
+        "presentation-component"
+      ]
+    },
+    "path": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "creator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "retrieved_at": {
+      "type": "string"
+    },
+    "rights_status": {
+      "enum": [
+        "original",
+        "licensed",
+        "allowed-by-brand-guidelines",
+        "review-required",
+        "restricted"
+      ]
+    },
+    "license_or_terms_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "attribution": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sha256": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dimensions": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "duration_seconds": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "episode_uses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "version": {
+      "type": "string"
+    },
+    "last_reviewed": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}
