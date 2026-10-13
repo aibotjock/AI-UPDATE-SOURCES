@@ -1,0 +1,1590 @@
+{
+  "origin": "Actual Rive CLI 1.5.1 headless captures of original Neural Core RML timeline",
+  "frames": 120,
+  "fps": 20,
+  "planned_duration_seconds": 6,
+  "gif_dimensions": [
+    720,
+    720
+  ],
+  "encoding": "ffmpeg GIF palette generation and paletteuse; no video intermediate",
+  "commands": [
+    {
+      "frame": 0,
+      "advance_60fps_frames": 1,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_000.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_000.png",
+        "--artboard=Neural Core",
+        "--advance=1"
+      ],
+      "sha256": "677eb7a28ae85b1da9ce83b5c587a6c883ffa1ad7c6e1031bfc48dfbb94d0b4d"
+    },
+    {
+      "frame": 1,
+      "advance_60fps_frames": 4,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_001.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_001.png",
+        "--artboard=Neural Core",
+        "--advance=4"
+      ],
+      "sha256": "760ceb4b68cb745108305b535ca40a0bec8d3a4319e9f4e088544536a2509d15"
+    },
+    {
+      "frame": 2,
+      "advance_60fps_frames": 7,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_002.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_002.png",
+        "--artboard=Neural Core",
+        "--advance=7"
+      ],
+      "sha256": "a6966a93a303bbcc9192a423f5972d8d1287c6baa1c8921a9f57f6e7076ddefa"
+    },
+    {
+      "frame": 3,
+      "advance_60fps_frames": 10,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_003.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_003.png",
+        "--artboard=Neural Core",
+        "--advance=10"
+      ],
+      "sha256": "8f0cc81e3b2d0703792449bf682d3ec4e200aa4ae58f413b0d561f60ad61e769"
+    },
+    {
+      "frame": 4,
+      "advance_60fps_frames": 13,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_004.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_004.png",
+        "--artboard=Neural Core",
+        "--advance=13"
+      ],
+      "sha256": "e88e4c070c5a60097748133af5f9886b000c571e64a400718a88be0e68f396a1"
+    },
+    {
+      "frame": 5,
+      "advance_60fps_frames": 16,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_005.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_005.png",
+        "--artboard=Neural Core",
+        "--advance=16"
+      ],
+      "sha256": "0c0c5e3e007779d4ec94ee6ffd0fbf164d021f2e4bca6546df7058cb995e2d9e"
+    },
+    {
+      "frame": 6,
+      "advance_60fps_frames": 19,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_006.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_006.png",
+        "--artboard=Neural Core",
+        "--advance=19"
+      ],
+      "sha256": "19d8b2d4745116cf639f0af90262bb122246092e5da7c43d809fe503116aded6"
+    },
+    {
+      "frame": 7,
+      "advance_60fps_frames": 22,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_007.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_007.png",
+        "--artboard=Neural Core",
+        "--advance=22"
+      ],
+      "sha256": "b1378a80b10cb16c48f8f66b3f091e42d3e631afed48119b610a027bb3c93906"
+    },
+    {
+      "frame": 8,
+      "advance_60fps_frames": 25,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_008.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_008.png",
+        "--artboard=Neural Core",
+        "--advance=25"
+      ],
+      "sha256": "5097ac4dbcf9f40fa79e3409341cdc6e067ed7f26adc032c620dd79a1ff29a21"
+    },
+    {
+      "frame": 9,
+      "advance_60fps_frames": 28,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_009.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_009.png",
+        "--artboard=Neural Core",
+        "--advance=28"
+      ],
+      "sha256": "879aa835e9feaa209c76acd9720a09fc25283a5f7ba6ca27c9f6106f249ff6f6"
+    },
+    {
+      "frame": 10,
+      "advance_60fps_frames": 31,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_010.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_010.png",
+        "--artboard=Neural Core",
+        "--advance=31"
+      ],
+      "sha256": "e99973b1c7f6ce13eb0511a4a206809ade8e1f91933847e08e0642422d83b701"
+    },
+    {
+      "frame": 11,
+      "advance_60fps_frames": 34,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_011.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_011.png",
+        "--artboard=Neural Core",
+        "--advance=34"
+      ],
+      "sha256": "8bab07b25e127b1bb9cc66745856041b0a0a2b598ec673ea0522bbf49a9a64e8"
+    },
+    {
+      "frame": 12,
+      "advance_60fps_frames": 37,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_012.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_012.png",
+        "--artboard=Neural Core",
+        "--advance=37"
+      ],
+      "sha256": "b17af09d321dba84e867dc437e213f5e45e6b90f02a71f6b68ec17f7c2502df3"
+    },
+    {
+      "frame": 13,
+      "advance_60fps_frames": 40,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_013.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_013.png",
+        "--artboard=Neural Core",
+        "--advance=40"
+      ],
+      "sha256": "f2bec6f046d01d552ef61bbcb7ff1d7d128bfb8013742d4267a97faa4904c83c"
+    },
+    {
+      "frame": 14,
+      "advance_60fps_frames": 43,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_014.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_014.png",
+        "--artboard=Neural Core",
+        "--advance=43"
+      ],
+      "sha256": "7c8c36531aa4fc0e13b9f2f65fa953ad31e20d142fc5f750bd5b1684fd1c0a15"
+    },
+    {
+      "frame": 15,
+      "advance_60fps_frames": 46,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_015.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_015.png",
+        "--artboard=Neural Core",
+        "--advance=46"
+      ],
+      "sha256": "64965967a71874e270e2056c117438e232c4de42465467118aa4e80cf769434b"
+    },
+    {
+      "frame": 16,
+      "advance_60fps_frames": 49,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_016.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_016.png",
+        "--artboard=Neural Core",
+        "--advance=49"
+      ],
+      "sha256": "7660223badd9347ef4dc2da9a088d68202c2f966be3d32db04e0d199b58396b6"
+    },
+    {
+      "frame": 17,
+      "advance_60fps_frames": 52,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_017.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_017.png",
+        "--artboard=Neural Core",
+        "--advance=52"
+      ],
+      "sha256": "3c46edf7e8a76a4d646c3cee18c4722b929c2ffaf52d488e742983cad6e194f7"
+    },
+    {
+      "frame": 18,
+      "advance_60fps_frames": 55,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_018.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_018.png",
+        "--artboard=Neural Core",
+        "--advance=55"
+      ],
+      "sha256": "73fc589b857779c43dd4d653494fb14e267589dde6a70f1f68ee22c098776f37"
+    },
+    {
+      "frame": 19,
+      "advance_60fps_frames": 58,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_019.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_019.png",
+        "--artboard=Neural Core",
+        "--advance=58"
+      ],
+      "sha256": "4cdd7bf7f285cffb44c3f30d73d8d221b3a6b86afe0b57080348ad76b5494def"
+    },
+    {
+      "frame": 20,
+      "advance_60fps_frames": 61,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_020.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_020.png",
+        "--artboard=Neural Core",
+        "--advance=61"
+      ],
+      "sha256": "7263908c61d4c1dd7b2470fc6579a3a0b0fac361fdafab58e873b390b0b8abd4"
+    },
+    {
+      "frame": 21,
+      "advance_60fps_frames": 64,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_021.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_021.png",
+        "--artboard=Neural Core",
+        "--advance=64"
+      ],
+      "sha256": "faf08bad9806a1bb1defca7439adcc2a742538fe9bfc265d266c6cc3a4846ff0"
+    },
+    {
+      "frame": 22,
+      "advance_60fps_frames": 67,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_022.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_022.png",
+        "--artboard=Neural Core",
+        "--advance=67"
+      ],
+      "sha256": "ca33e100825dcd8f1dcc82bb75d7c0b758ad8a5f9e8fd23293955454abe80ed5"
+    },
+    {
+      "frame": 23,
+      "advance_60fps_frames": 70,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_023.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_023.png",
+        "--artboard=Neural Core",
+        "--advance=70"
+      ],
+      "sha256": "5b686feaab5535517caa0781ae07c634e366f1b2258660586e04d3a91457a5a3"
+    },
+    {
+      "frame": 24,
+      "advance_60fps_frames": 73,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_024.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_024.png",
+        "--artboard=Neural Core",
+        "--advance=73"
+      ],
+      "sha256": "c0b23e8d0d6b77b6ad6be9d169c89929a813d8644a8434d3319ebcb9f7c7fb1f"
+    },
+    {
+      "frame": 25,
+      "advance_60fps_frames": 76,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_025.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_025.png",
+        "--artboard=Neural Core",
+        "--advance=76"
+      ],
+      "sha256": "1158d4b483eea6200dfd2ca6091ed7d28159a584814b1352ccc0ea143fd98e2b"
+    },
+    {
+      "frame": 26,
+      "advance_60fps_frames": 79,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_026.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_026.png",
+        "--artboard=Neural Core",
+        "--advance=79"
+      ],
+      "sha256": "b87da064f7a0fe43c5caeda1a314c1349c44e590918013af49427a3317804676"
+    },
+    {
+      "frame": 27,
+      "advance_60fps_frames": 82,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_027.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_027.png",
+        "--artboard=Neural Core",
+        "--advance=82"
+      ],
+      "sha256": "effe442f0576b305439147c48ddfe0c2a7c862da9b442873426e1aa80282595b"
+    },
+    {
+      "frame": 28,
+      "advance_60fps_frames": 85,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_028.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_028.png",
+        "--artboard=Neural Core",
+        "--advance=85"
+      ],
+      "sha256": "7e6b30e8314e009e3ed4520d65656ed420955853f70b62e1f3d3f76e26de3f16"
+    },
+    {
+      "frame": 29,
+      "advance_60fps_frames": 88,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_029.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_029.png",
+        "--artboard=Neural Core",
+        "--advance=88"
+      ],
+      "sha256": "6f6bc6c3cf5ffb02e9764e65e3ebf82d9b3505f5e5bc14dbb17bd6d387996ea4"
+    },
+    {
+      "frame": 30,
+      "advance_60fps_frames": 91,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_030.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_030.png",
+        "--artboard=Neural Core",
+        "--advance=91"
+      ],
+      "sha256": "82d2e746c4511c2456a150ad87873f5967d95ffdac3d3a08cd7ad5dd799b9678"
+    },
+    {
+      "frame": 31,
+      "advance_60fps_frames": 94,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_031.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_031.png",
+        "--artboard=Neural Core",
+        "--advance=94"
+      ],
+      "sha256": "9a08f398395ea3ae66962504a05b06e7982942b3035f59887f9a9cc054baa3cf"
+    },
+    {
+      "frame": 32,
+      "advance_60fps_frames": 97,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_032.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_032.png",
+        "--artboard=Neural Core",
+        "--advance=97"
+      ],
+      "sha256": "2fac88d1dbe600604f854cb2840fa552a6cf8d1283924e4ddf95843b6d3a3b57"
+    },
+    {
+      "frame": 33,
+      "advance_60fps_frames": 100,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_033.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_033.png",
+        "--artboard=Neural Core",
+        "--advance=100"
+      ],
+      "sha256": "be39f20e304a248fa7713a5fdffb2388c3021837214cd604779e113a9502195d"
+    },
+    {
+      "frame": 34,
+      "advance_60fps_frames": 103,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_034.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_034.png",
+        "--artboard=Neural Core",
+        "--advance=103"
+      ],
+      "sha256": "89467022a366ad72bc54a05c1c9bcd1d883960b957df919dcac42395e3fb8a00"
+    },
+    {
+      "frame": 35,
+      "advance_60fps_frames": 106,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_035.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_035.png",
+        "--artboard=Neural Core",
+        "--advance=106"
+      ],
+      "sha256": "39c9547ffff19b119cb4c771df401a939e3efc0068fad5ad76a67b9cb01eb930"
+    },
+    {
+      "frame": 36,
+      "advance_60fps_frames": 109,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_036.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_036.png",
+        "--artboard=Neural Core",
+        "--advance=109"
+      ],
+      "sha256": "d3a64b2ca8898eb99527e01bd866f005569d617520717734af92ab3031309934"
+    },
+    {
+      "frame": 37,
+      "advance_60fps_frames": 112,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_037.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_037.png",
+        "--artboard=Neural Core",
+        "--advance=112"
+      ],
+      "sha256": "372658369e4f46fb2fc0fa62dda2b26e53ba8bc7165f4b140ae761a141c74659"
+    },
+    {
+      "frame": 38,
+      "advance_60fps_frames": 115,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_038.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_038.png",
+        "--artboard=Neural Core",
+        "--advance=115"
+      ],
+      "sha256": "f5e51fb6dd24561390b5e6ced12d4516e13e7e6250d5155e8541603111ff221b"
+    },
+    {
+      "frame": 39,
+      "advance_60fps_frames": 118,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_039.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_039.png",
+        "--artboard=Neural Core",
+        "--advance=118"
+      ],
+      "sha256": "8dedc574dd3a842bef94d7948539b14c12756bf729ebd096eb46a65e62fddb2f"
+    },
+    {
+      "frame": 40,
+      "advance_60fps_frames": 121,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_040.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_040.png",
+        "--artboard=Neural Core",
+        "--advance=121"
+      ],
+      "sha256": "25f77a2bf8d0787736075d62c51da1b60d3f464e448c955fda2c988c74173312"
+    },
+    {
+      "frame": 41,
+      "advance_60fps_frames": 124,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_041.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_041.png",
+        "--artboard=Neural Core",
+        "--advance=124"
+      ],
+      "sha256": "692b00f3a031a94d29c5a4ffd06ea994355d2dc77b087b02889ad9196169ed1c"
+    },
+    {
+      "frame": 42,
+      "advance_60fps_frames": 127,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_042.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_042.png",
+        "--artboard=Neural Core",
+        "--advance=127"
+      ],
+      "sha256": "499f7e16b7a7adc20c75512b4b9c01cb53fe119c0c2fdb3b1efb86884bb7de1c"
+    },
+    {
+      "frame": 43,
+      "advance_60fps_frames": 130,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_043.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_043.png",
+        "--artboard=Neural Core",
+        "--advance=130"
+      ],
+      "sha256": "2b3f5015744924c2f46b8174801fb559dbb08421de4bf141c3115ae8cd98117a"
+    },
+    {
+      "frame": 44,
+      "advance_60fps_frames": 133,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_044.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_044.png",
+        "--artboard=Neural Core",
+        "--advance=133"
+      ],
+      "sha256": "341574608cdd8bd8edf3281f1c63cac41c90ded41d3388714bcc366270596f29"
+    },
+    {
+      "frame": 45,
+      "advance_60fps_frames": 136,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_045.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_045.png",
+        "--artboard=Neural Core",
+        "--advance=136"
+      ],
+      "sha256": "63939ca9295905a581c2146865ab1f2d1b1254bf84ea76fd1b08655ea036942a"
+    },
+    {
+      "frame": 46,
+      "advance_60fps_frames": 139,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_046.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_046.png",
+        "--artboard=Neural Core",
+        "--advance=139"
+      ],
+      "sha256": "a56198a85b6920fde8aecb5c4798c67949064abe9550d5bae71eb968dd1ef328"
+    },
+    {
+      "frame": 47,
+      "advance_60fps_frames": 142,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_047.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_047.png",
+        "--artboard=Neural Core",
+        "--advance=142"
+      ],
+      "sha256": "78a706dbb8a58a6ceaf72069a81fa31df7d7e4f5672887497a79b9442ca0815e"
+    },
+    {
+      "frame": 48,
+      "advance_60fps_frames": 145,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_048.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_048.png",
+        "--artboard=Neural Core",
+        "--advance=145"
+      ],
+      "sha256": "4cec79741b3e233fd817a7b31e1b6f1ce945ee106afa68fe09e42278810170e6"
+    },
+    {
+      "frame": 49,
+      "advance_60fps_frames": 148,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_049.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_049.png",
+        "--artboard=Neural Core",
+        "--advance=148"
+      ],
+      "sha256": "56e4e3206c20dc0b590fe63436f8a733be19866e8b2acc8348e2ffb8bc29cf46"
+    },
+    {
+      "frame": 50,
+      "advance_60fps_frames": 151,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_050.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_050.png",
+        "--artboard=Neural Core",
+        "--advance=151"
+      ],
+      "sha256": "bb1227649f17ada502a78dab8d39b5864219b53fe016f3522fbfad1cd2a75145"
+    },
+    {
+      "frame": 51,
+      "advance_60fps_frames": 154,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_051.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_051.png",
+        "--artboard=Neural Core",
+        "--advance=154"
+      ],
+      "sha256": "67ea9af5359518c698c123031ba3e8a48c7adaedc60cb9a3017d85e21466dfee"
+    },
+    {
+      "frame": 52,
+      "advance_60fps_frames": 157,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_052.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_052.png",
+        "--artboard=Neural Core",
+        "--advance=157"
+      ],
+      "sha256": "d103e2cc5192fcb29533382421eeaf792dc5013f726af76ee0f89dc03d078be6"
+    },
+    {
+      "frame": 53,
+      "advance_60fps_frames": 160,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_053.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_053.png",
+        "--artboard=Neural Core",
+        "--advance=160"
+      ],
+      "sha256": "d00504bc45179bc48a6ad6782ac7479180ef7b5134e0fdae577d8943da251aad"
+    },
+    {
+      "frame": 54,
+      "advance_60fps_frames": 163,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_054.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_054.png",
+        "--artboard=Neural Core",
+        "--advance=163"
+      ],
+      "sha256": "1184b9eb9163bc34ccdebc82b372fa5e3ac371cef92db9d88ce7070b9a5510cb"
+    },
+    {
+      "frame": 55,
+      "advance_60fps_frames": 166,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_055.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_055.png",
+        "--artboard=Neural Core",
+        "--advance=166"
+      ],
+      "sha256": "a7b3a55a844703689210a629ed40fd3c83a5e799da9ac6cd1cd623aab7fd0b62"
+    },
+    {
+      "frame": 56,
+      "advance_60fps_frames": 169,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_056.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_056.png",
+        "--artboard=Neural Core",
+        "--advance=169"
+      ],
+      "sha256": "313ac2c5ebb937f513536260dcbbfc2932a24eb94ac692ad547a3d9783d48739"
+    },
+    {
+      "frame": 57,
+      "advance_60fps_frames": 172,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_057.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_057.png",
+        "--artboard=Neural Core",
+        "--advance=172"
+      ],
+      "sha256": "5f02def646f3ad5137dda7c5704ca5e4eb8414f0f231a85e34974a38fc059aed"
+    },
+    {
+      "frame": 58,
+      "advance_60fps_frames": 175,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_058.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_058.png",
+        "--artboard=Neural Core",
+        "--advance=175"
+      ],
+      "sha256": "4bd17a1bb683176aa0806a4150150a63b7b8abf8408915919ad96b0549de1948"
+    },
+    {
+      "frame": 59,
+      "advance_60fps_frames": 178,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_059.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_059.png",
+        "--artboard=Neural Core",
+        "--advance=178"
+      ],
+      "sha256": "9337ce11fa5689dee49352504611e4c8e26dd5d66906f0bb2d08e50d3a8a38c5"
+    },
+    {
+      "frame": 60,
+      "advance_60fps_frames": 181,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_060.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_060.png",
+        "--artboard=Neural Core",
+        "--advance=181"
+      ],
+      "sha256": "ef5bd331b3dae081273c3a3d30f09f58dce55b081b83aa8f0a1123d2b5476bbc"
+    },
+    {
+      "frame": 61,
+      "advance_60fps_frames": 184,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_061.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_061.png",
+        "--artboard=Neural Core",
+        "--advance=184"
+      ],
+      "sha256": "ba1bd7a548df2b8a83347940f0bb8a1db1bb92bf455b99f1927acf21366554f7"
+    },
+    {
+      "frame": 62,
+      "advance_60fps_frames": 187,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_062.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_062.png",
+        "--artboard=Neural Core",
+        "--advance=187"
+      ],
+      "sha256": "d052fb3677ebfec9aed76f66806440c7443cd88c239a5f7a40dea02a54714970"
+    },
+    {
+      "frame": 63,
+      "advance_60fps_frames": 190,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_063.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_063.png",
+        "--artboard=Neural Core",
+        "--advance=190"
+      ],
+      "sha256": "9b32b5c2329d83848c8934e55bc42c26cea88da23daea6a484d2861bcda35ec7"
+    },
+    {
+      "frame": 64,
+      "advance_60fps_frames": 193,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_064.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_064.png",
+        "--artboard=Neural Core",
+        "--advance=193"
+      ],
+      "sha256": "2699b19e05b86f6138f0e2952132ccf353f5e240b3ede95025b1f69c9687b607"
+    },
+    {
+      "frame": 65,
+      "advance_60fps_frames": 196,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_065.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_065.png",
+        "--artboard=Neural Core",
+        "--advance=196"
+      ],
+      "sha256": "52d82b2035042ca1db55ac244c09afb79b8d87de371a40b5d7d1994d8d05c796"
+    },
+    {
+      "frame": 66,
+      "advance_60fps_frames": 199,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_066.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_066.png",
+        "--artboard=Neural Core",
+        "--advance=199"
+      ],
+      "sha256": "142d549cd6a4e147862b118a5a5c1425ccef4798f24309aabe1a1c2eaa0c12ae"
+    },
+    {
+      "frame": 67,
+      "advance_60fps_frames": 202,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_067.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_067.png",
+        "--artboard=Neural Core",
+        "--advance=202"
+      ],
+      "sha256": "8a6dd4d9b80049a2c0f7cb5483e40c2d29aa985a054648cd9b132a43fe49c599"
+    },
+    {
+      "frame": 68,
+      "advance_60fps_frames": 205,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_068.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_068.png",
+        "--artboard=Neural Core",
+        "--advance=205"
+      ],
+      "sha256": "1b09d1504f8b663998ad52bd4ca24434646d3a9eec205f525fbf92063fdf1b8f"
+    },
+    {
+      "frame": 69,
+      "advance_60fps_frames": 208,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_069.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_069.png",
+        "--artboard=Neural Core",
+        "--advance=208"
+      ],
+      "sha256": "732bd26365d12c169a5944ff0aeb621535755d0e6fe676cb28783eb10f1700ee"
+    },
+    {
+      "frame": 70,
+      "advance_60fps_frames": 211,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_070.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_070.png",
+        "--artboard=Neural Core",
+        "--advance=211"
+      ],
+      "sha256": "b51f8dddafea912c33834c52e39f28fc653a50f941e44a39aa9c22cfacd4453f"
+    },
+    {
+      "frame": 71,
+      "advance_60fps_frames": 214,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_071.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_071.png",
+        "--artboard=Neural Core",
+        "--advance=214"
+      ],
+      "sha256": "5e747b48fd21a60951e6688f76f5b23b8e65d5cfc779fe143c66b46400f395c2"
+    },
+    {
+      "frame": 72,
+      "advance_60fps_frames": 217,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_072.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_072.png",
+        "--artboard=Neural Core",
+        "--advance=217"
+      ],
+      "sha256": "e0ddaedf9033cfa748be74f2924d6807c2b79f7f3c7daada6205a60972a2c868"
+    },
+    {
+      "frame": 73,
+      "advance_60fps_frames": 220,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_073.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_073.png",
+        "--artboard=Neural Core",
+        "--advance=220"
+      ],
+      "sha256": "3be7fb646c7996aaf0e99862a81f91ef0f77bb129f068b66508264eb9e24dd11"
+    },
+    {
+      "frame": 74,
+      "advance_60fps_frames": 223,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_074.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_074.png",
+        "--artboard=Neural Core",
+        "--advance=223"
+      ],
+      "sha256": "ef7dd8fa43751ea6c4498fffb873bac73df79d307788bea1b678796f376800c4"
+    },
+    {
+      "frame": 75,
+      "advance_60fps_frames": 226,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_075.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_075.png",
+        "--artboard=Neural Core",
+        "--advance=226"
+      ],
+      "sha256": "ce5baa24479d2e01cdadec417818d04291b03298bc3c50f482654d77137027f4"
+    },
+    {
+      "frame": 76,
+      "advance_60fps_frames": 229,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_076.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_076.png",
+        "--artboard=Neural Core",
+        "--advance=229"
+      ],
+      "sha256": "0b4fd5ca5274f6fc093666a9ae4de6f76fda3f2df27df56268bd98501c9897b1"
+    },
+    {
+      "frame": 77,
+      "advance_60fps_frames": 232,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_077.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_077.png",
+        "--artboard=Neural Core",
+        "--advance=232"
+      ],
+      "sha256": "0f444a2a33cb3778dfd7a685ebd722f6262985f3fd667e9953bab763cf18b95e"
+    },
+    {
+      "frame": 78,
+      "advance_60fps_frames": 235,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_078.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_078.png",
+        "--artboard=Neural Core",
+        "--advance=235"
+      ],
+      "sha256": "9e1d8bdffe3500dd0709bfc83b95ea90decd0fa703b47a2c39ec0f61063542ac"
+    },
+    {
+      "frame": 79,
+      "advance_60fps_frames": 238,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_079.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_079.png",
+        "--artboard=Neural Core",
+        "--advance=238"
+      ],
+      "sha256": "851aea0d81625d0e42ef10152c085a7db45cc9a40dbe7158330a51667d56b5fb"
+    },
+    {
+      "frame": 80,
+      "advance_60fps_frames": 241,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_080.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_080.png",
+        "--artboard=Neural Core",
+        "--advance=241"
+      ],
+      "sha256": "795d70efee3651bf8dd282d65182b75aab4a29b2596b31439d6fd52a819b490b"
+    },
+    {
+      "frame": 81,
+      "advance_60fps_frames": 244,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_081.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_081.png",
+        "--artboard=Neural Core",
+        "--advance=244"
+      ],
+      "sha256": "eef12e9c459cde1b3bba105f395e0a1264f672527551a94d374afd18c50b88ea"
+    },
+    {
+      "frame": 82,
+      "advance_60fps_frames": 247,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_082.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_082.png",
+        "--artboard=Neural Core",
+        "--advance=247"
+      ],
+      "sha256": "06dfc767e5ef2ae242a0318d561f6edeaa5e995d521d315f43d489892b53e808"
+    },
+    {
+      "frame": 83,
+      "advance_60fps_frames": 250,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_083.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_083.png",
+        "--artboard=Neural Core",
+        "--advance=250"
+      ],
+      "sha256": "33c464079207c3285e1e5a9d734547c82b6ee207a51cef46e4a3dfcf1c2c34c4"
+    },
+    {
+      "frame": 84,
+      "advance_60fps_frames": 253,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_084.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_084.png",
+        "--artboard=Neural Core",
+        "--advance=253"
+      ],
+      "sha256": "9d0c179ebf1617fd0fc83f77251b834e2f67281353627c92cc0a1698f2fcca9f"
+    },
+    {
+      "frame": 85,
+      "advance_60fps_frames": 256,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_085.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_085.png",
+        "--artboard=Neural Core",
+        "--advance=256"
+      ],
+      "sha256": "f3384a57d963c6102d5ce4cf6bf5a5a300541ae8686ba06c591dfb782784749f"
+    },
+    {
+      "frame": 86,
+      "advance_60fps_frames": 259,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_086.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_086.png",
+        "--artboard=Neural Core",
+        "--advance=259"
+      ],
+      "sha256": "e2e76995e45119e0f16e9a851e630723d7e70d22e360b64f4a6e7995bb848b45"
+    },
+    {
+      "frame": 87,
+      "advance_60fps_frames": 262,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_087.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_087.png",
+        "--artboard=Neural Core",
+        "--advance=262"
+      ],
+      "sha256": "6da5d6ef560c4ba3d9336d70474c12eb3556a582b651a4e61a1149fcf8324772"
+    },
+    {
+      "frame": 88,
+      "advance_60fps_frames": 265,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_088.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_088.png",
+        "--artboard=Neural Core",
+        "--advance=265"
+      ],
+      "sha256": "279ddab054dbccc950beb01696cb56b63c3a70eaa25dc1b3063ffd6a706fb56f"
+    },
+    {
+      "frame": 89,
+      "advance_60fps_frames": 268,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_089.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_089.png",
+        "--artboard=Neural Core",
+        "--advance=268"
+      ],
+      "sha256": "5be3eca6659e6f5c1ed2509a573bd38900e1572785ee1fe6725ed8d4223100b4"
+    },
+    {
+      "frame": 90,
+      "advance_60fps_frames": 271,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_090.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_090.png",
+        "--artboard=Neural Core",
+        "--advance=271"
+      ],
+      "sha256": "15da747af65786d91d838275330bb7928d313c36d6decb632c587829fe1dfdbc"
+    },
+    {
+      "frame": 91,
+      "advance_60fps_frames": 274,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_091.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_091.png",
+        "--artboard=Neural Core",
+        "--advance=274"
+      ],
+      "sha256": "95e2f7af6010fd806982e44ad2795f6450051603c9bdf48745034dfb0ed9a806"
+    },
+    {
+      "frame": 92,
+      "advance_60fps_frames": 277,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_092.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_092.png",
+        "--artboard=Neural Core",
+        "--advance=277"
+      ],
+      "sha256": "d55a8697351d7fce162e2156ae752153cd8195f44e79682d683b19518039aecd"
+    },
+    {
+      "frame": 93,
+      "advance_60fps_frames": 280,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_093.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_093.png",
+        "--artboard=Neural Core",
+        "--advance=280"
+      ],
+      "sha256": "56081b1b03ccf9880c5ebf2f1f21fab4f275d2b1880b3a638a1eaefc0ba6bb8d"
+    },
+    {
+      "frame": 94,
+      "advance_60fps_frames": 283,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_094.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_094.png",
+        "--artboard=Neural Core",
+        "--advance=283"
+      ],
+      "sha256": "90fef4c6984990bc04fe4a6ad274ae7f12e076ef5430d8174bc6ace56adc2ca7"
+    },
+    {
+      "frame": 95,
+      "advance_60fps_frames": 286,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_095.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_095.png",
+        "--artboard=Neural Core",
+        "--advance=286"
+      ],
+      "sha256": "210858b91e297758dd083eae2e7a80fb7aab30d5c5d2e240da7dd63687f00eb6"
+    },
+    {
+      "frame": 96,
+      "advance_60fps_frames": 289,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_096.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_096.png",
+        "--artboard=Neural Core",
+        "--advance=289"
+      ],
+      "sha256": "0e60159eafcfe35f2d04d421406074874dc1012c33e53233ea426813a9ac6d26"
+    },
+    {
+      "frame": 97,
+      "advance_60fps_frames": 292,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_097.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_097.png",
+        "--artboard=Neural Core",
+        "--advance=292"
+      ],
+      "sha256": "7be5b3fc6dc1c4fb00865b7b7d380220c875ca46803b523cd40f5d36e03f351a"
+    },
+    {
+      "frame": 98,
+      "advance_60fps_frames": 295,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_098.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_098.png",
+        "--artboard=Neural Core",
+        "--advance=295"
+      ],
+      "sha256": "24013c62ccd1560532568fee00a64173b4fdbcdb127fe9990a749f8b17dee012"
+    },
+    {
+      "frame": 99,
+      "advance_60fps_frames": 298,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_099.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_099.png",
+        "--artboard=Neural Core",
+        "--advance=298"
+      ],
+      "sha256": "929a825bdabb6d2548e7ce20c90d25df495bace291751f1475a68ff38ebec4a0"
+    },
+    {
+      "frame": 100,
+      "advance_60fps_frames": 301,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_100.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_100.png",
+        "--artboard=Neural Core",
+        "--advance=301"
+      ],
+      "sha256": "5f499aff487de27910f66dad3e54883f711a3f58ef722ee87f51c33d33cc4704"
+    },
+    {
+      "frame": 101,
+      "advance_60fps_frames": 304,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_101.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_101.png",
+        "--artboard=Neural Core",
+        "--advance=304"
+      ],
+      "sha256": "7df5b0fa8cce6401197242e4626884b720637e13041b98b64135ccde0bb5f3e6"
+    },
+    {
+      "frame": 102,
+      "advance_60fps_frames": 307,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_102.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_102.png",
+        "--artboard=Neural Core",
+        "--advance=307"
+      ],
+      "sha256": "00c57ad1fcf2dbe0791392e76440a07d06c57b3dd2ede6a1f45c09001f9c145b"
+    },
+    {
+      "frame": 103,
+      "advance_60fps_frames": 310,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_103.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_103.png",
+        "--artboard=Neural Core",
+        "--advance=310"
+      ],
+      "sha256": "5add4cc80718b66a5a7ba232c876a6cbb44dd54e3f83b4f8f4122f139071163a"
+    },
+    {
+      "frame": 104,
+      "advance_60fps_frames": 313,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_104.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_104.png",
+        "--artboard=Neural Core",
+        "--advance=313"
+      ],
+      "sha256": "df03812615d1af58cbf42d019c720495dbecf1b3cae225871920ff695241b35e"
+    },
+    {
+      "frame": 105,
+      "advance_60fps_frames": 316,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_105.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_105.png",
+        "--artboard=Neural Core",
+        "--advance=316"
+      ],
+      "sha256": "34666419f3804c8cf714d50372f70d6f4cfa6417e4b072ddc4a4ea9931df5283"
+    },
+    {
+      "frame": 106,
+      "advance_60fps_frames": 319,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_106.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_106.png",
+        "--artboard=Neural Core",
+        "--advance=319"
+      ],
+      "sha256": "6582cdd19010926da3120b86065966fa1add4d66b4752dcf876cfb4f2214d863"
+    },
+    {
+      "frame": 107,
+      "advance_60fps_frames": 322,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_107.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_107.png",
+        "--artboard=Neural Core",
+        "--advance=322"
+      ],
+      "sha256": "e58815448c0b15f5a86341659c9c736a95a86a410fd072985aad3e8e4c819d52"
+    },
+    {
+      "frame": 108,
+      "advance_60fps_frames": 325,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_108.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_108.png",
+        "--artboard=Neural Core",
+        "--advance=325"
+      ],
+      "sha256": "ba356429caa2d36f461054fe7a04491bac00c6b4049ed086f20fe234eaab3c56"
+    },
+    {
+      "frame": 109,
+      "advance_60fps_frames": 328,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_109.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_109.png",
+        "--artboard=Neural Core",
+        "--advance=328"
+      ],
+      "sha256": "9067971787d9bde7d93d479ba79785abe30f07fbb33c1dfa3d0ada48d37f1362"
+    },
+    {
+      "frame": 110,
+      "advance_60fps_frames": 331,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_110.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_110.png",
+        "--artboard=Neural Core",
+        "--advance=331"
+      ],
+      "sha256": "849131af24b42c3ac62d4ecfbce76b434cd4f30d33e06ea84b91b260ee7e27c3"
+    },
+    {
+      "frame": 111,
+      "advance_60fps_frames": 334,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_111.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_111.png",
+        "--artboard=Neural Core",
+        "--advance=334"
+      ],
+      "sha256": "8642e45f8678a981b2f72e51d9a2ee9bfa1af9cc71fa23df32ace0e894ef6af9"
+    },
+    {
+      "frame": 112,
+      "advance_60fps_frames": 337,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_112.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_112.png",
+        "--artboard=Neural Core",
+        "--advance=337"
+      ],
+      "sha256": "eb4ed60577c179f0efbb52c4ecacb1ad7444fe35ab55263b148d59c829564667"
+    },
+    {
+      "frame": 113,
+      "advance_60fps_frames": 340,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_113.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_113.png",
+        "--artboard=Neural Core",
+        "--advance=340"
+      ],
+      "sha256": "2401ffd3efbc83e33b5d74f31dca0f7c3f6039f9845d957aa4e20ed5f0039cf1"
+    },
+    {
+      "frame": 114,
+      "advance_60fps_frames": 343,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_114.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_114.png",
+        "--artboard=Neural Core",
+        "--advance=343"
+      ],
+      "sha256": "ce6fd632f1c9a39bf1cd9374fb522f4a6e2d52ae2746ca175a39b99ecac78a02"
+    },
+    {
+      "frame": 115,
+      "advance_60fps_frames": 346,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_115.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_115.png",
+        "--artboard=Neural Core",
+        "--advance=346"
+      ],
+      "sha256": "accb96c7c9a1ca43571f22a88059bdba34f1a089aff816e1e186a01c69904bba"
+    },
+    {
+      "frame": 116,
+      "advance_60fps_frames": 349,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_116.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_116.png",
+        "--artboard=Neural Core",
+        "--advance=349"
+      ],
+      "sha256": "16e80ee16bcec5abbea98005fed6713ff41fe2a561d3f091ce225b99201d1a7c"
+    },
+    {
+      "frame": 117,
+      "advance_60fps_frames": 352,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_117.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker0",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_117.png",
+        "--artboard=Neural Core",
+        "--advance=352"
+      ],
+      "sha256": "f4196e99664f3064519d50fc7cbf0788b809b154872b8fc0ba6a2c9f594d709d"
+    },
+    {
+      "frame": 118,
+      "advance_60fps_frames": 355,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_118.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker1",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_118.png",
+        "--artboard=Neural Core",
+        "--advance=355"
+      ],
+      "sha256": "4831782c86bc51fae4362cec07252b41e8d0996295456c036314f8e5febccd02"
+    },
+    {
+      "frame": 119,
+      "advance_60fps_frames": 358,
+      "file": "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_119.png",
+      "command": [
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/cli/bin/rive",
+        "/workspace/scratch/b42466ca88b1/intro60/assets/rive/capture_projects/worker2",
+        "--screenshot=/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_119.png",
+        "--artboard=Neural Core",
+        "--advance=358"
+      ],
+      "sha256": "d83c3535471d7c382bdf62e1f724f3c73037830a456d1c6843bdd4e19bcaf8d9"
+    }
+  ],
+  "ffmpeg_command": [
+    "ffmpeg",
+    "-y",
+    "-framerate",
+    "20",
+    "-i",
+    "/workspace/scratch/b42466ca88b1/intro60/assets/rive/gif_frames/frame_%03d.png",
+    "-filter_complex",
+    "[0:v]scale=720:720:flags=lanczos,split[a][b];[a]palettegen=stats_mode=full[p];[b][p]paletteuse=dither=bayer:bayer_scale=3",
+    "-loop",
+    "0",
+    "/workspace/scratch/b42466ca88b1/intro60/assets/rive/neural_core_6s.gif"
+  ],
+  "loop_animation": {
+    "duration_60fps_frames": 360,
+    "orbit_rotation_radians": 6.2831855
+  }
+}

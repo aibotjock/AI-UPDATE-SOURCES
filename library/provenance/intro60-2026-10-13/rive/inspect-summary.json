@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "summary": true,
+  "problems": [],
+  "artboards": [
+    {"name": "Neural Core", "objects": 2033, "types": {"AnimationState": 1, "AnyState": 1, "Artboard": 1, "Ellipse": 129, "EntryState": 1, "ExitState": 1, "Feather": 22, "Fill": 109, "KeyFrameDouble": 2, "KeyedObject": 1, "KeyedProperty": 1, "LayoutComponentStyle": 1, "LinearAnimation": 1, "Node": 1, "PointsPath": 146, "Rectangle": 9, "Shape": 284, "SolidColor": 286, "StateMachine": 1, "StateMachineLayer": 1, "StateTransition": 1, "StraightVertex": 856, "Stroke": 177}},
+    {"name": "Evaluation Lens", "objects": 420, "types": {"AnimationState": 1, "AnyState": 1, "Artboard": 1, "Ellipse": 4, "EntryState": 1, "ExitState": 1, "Feather": 1, "Fill": 6, "KeyFrameDouble": 2, "KeyedObject": 1, "KeyedProperty": 1, "LayoutComponentStyle": 1, "LinearAnimation": 1, "Node": 1, "PointsPath": 26, "Rectangle": 4, "Shape": 34, "SolidColor": 37, "StateMachine": 1, "StateMachineLayer": 1, "StateTransition": 1, "StraightVertex": 262, "Stroke": 31}},
+    {"name": "Value Balance", "objects": 267, "types": {"AnimationState": 1, "AnyState": 1, "Artboard": 1, "Ellipse": 6, "EntryState": 1, "ExitState": 1, "Fill": 6, "KeyFrameDouble": 5, "KeyedObject": 1, "KeyedProperty": 1, "LayoutComponentStyle": 1, "LinearAnimation": 1, "Node": 1, "PointsPath": 34, "Rectangle": 1, "Shape": 41, "SolidColor": 47, "StateMachine": 1, "StateMachineLayer": 1, "StateTransition": 1, "StraightVertex": 73, "Stroke": 41}}
+  ],
+  "roots": {"objects": 1, "types": {"Backboard": 1}}
+}

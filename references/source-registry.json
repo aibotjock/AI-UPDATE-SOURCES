@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-13T01:33:55.656553+00:00",
-  "policy": "Use reputable, reliable, regularly updated sources only. Registry membership and access checks do not verify claims or maintenance; verify each selected source before use.",
+  "policy": "Reference source candidates only. Current research and eligibility instructions are in channel/production-brief.txt.",
   "sources": [
     {
       "id": "openai-docs",
@@ -481,9 +481,30 @@
       "update_history_url": null,
       "last_maintenance_review_at": null,
       "maintenance_review_scope": "Not checked in this registry record; verify regular update history before using the source for episode claims."
+    },
+    {
+      "id": "moonshot-kimi",
+      "name": "Moonshot / Kimi official site",
+      "organization": "Moonshot/Kimi",
+      "canonical_url": "https://www.moonshot.ai/en",
+      "role": "provider-announcements",
+      "registry_status": "candidate",
+      "added_at": "2026-10-13",
+      "content_claims_reviewed": false,
+      "verification_scope": "Official identity URL reviewed by the current episode researcher; no pricing, model specification or announcement claim approved by registry membership. Read the original evidence for each episode claim.",
+      "regular_updates_verified": false,
+      "update_cadence": null,
+      "update_history_url": null,
+      "last_maintenance_review_at": null,
+      "reliability_rationale": "Provider-owned source; claim authority depends on the original evidence inspected."
     }
   ],
-  "review_policy": "channel/source-review-policy.md",
-  "registry_policy_updated_at": "2026-10-12T23:46:20.409056-04:00",
-  "source_change_log": []
+  "review_policy": "channel/production-brief.txt",
+  "registry_policy_updated_at": "2026-10-13",
+  "source_change_log": [
+    {
+      "date": "2026-10-13",
+      "change": "Added Moonshot/Kimi official site as a candidate for the expanded cloud coverage; preserved all prior source records. Research rules now resolve to channel/production-brief.txt."
+    }
+  ]
 }

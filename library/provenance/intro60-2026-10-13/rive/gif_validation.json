@@ -1,0 +1,23 @@
+{
+  "gif": "neural_core_6s.gif",
+  "bytes": 579815,
+  "dimensions": [
+    720,
+    720
+  ],
+  "encoded_frames": 113,
+  "distinct_encoded_frames": 113,
+  "duration_ms": 6000,
+  "frame_delay_ms_counts": {
+    "50": 107,
+    "100": 5,
+    "150": 1
+  },
+  "loop": 0,
+  "source_capture_count": 120,
+  "source_capture_fps": 20,
+  "sha256": "d0995c9921d5022b3566054b6a939ac9bcbf5641bd3075ddf8f61e53a0fe6861",
+  "native_animation_source": "gif_scene/scene.rml",
+  "runtime_file": "gif_scene/build/ai_update_neural_loop.riv",
+  "editor_rev": "Not exported: current official CLI requires login"
+}

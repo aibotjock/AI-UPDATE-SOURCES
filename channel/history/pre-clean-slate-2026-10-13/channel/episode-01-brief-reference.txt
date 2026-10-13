@@ -1,0 +1,83 @@
+AI UPDATE — EPISODE 01 PRODUCTION PROMPT
+Prepared October 12, 2026 | America/New_York
+Public host credit when needed: By: Dr. Chris
+Logo and banner artwork: AI UPDATE only, no host name
+
+Use the current channel/series-master-prompt.txt as the authoritative series specification. This brief adds the first episode's editorial decisions and acceptance criteria; it does not repeat the series rules. Apply later explicit user corrections first. Complete authorized production autonomously through internal quality checks. Report any missing access, evidence, narration, or export capability precisely rather than treating an unfinished deliverable as complete.
+
+DATE AND FORMAT
+
+Show/channel: AI UPDATE
+Episode: 01
+Working title: AI Benchmarks Explained: How to Choose a Cloud AI Model
+Intended script date: October 12, 2026
+Actual script creation/finalization date, same-day research/verification date, cutoff timestamp and timezone: resolve and record at execution.
+Timezone: America/New_York.
+Target: 10–15 minutes, never below 10; document any rare justified extension.
+
+Do not backdate. If execution occurs after October 12, use the actual local date and reverify changeable claims that day. Older publications and benchmark measurement dates remain separate from retrieval dates. If finalization crosses midnight, refresh relevant changeable claims for the new day before delivery.
+
+EDITORIAL QUESTION AND VIEWER BENEFIT
+
+Help viewers answer: “What does a leaderboard result actually tell me about choosing a model for my work and budget?” Teach a reusable decision sequence:
+1. Match the evaluation to the task.
+2. Identify the exact model and complete tested configuration, including tools, effort, and attempts.
+3. Check measurement date, benchmark version, coverage, and evidence type.
+4. Consider uncertainty and whether a difference matters.
+5. Compare actual task success and total cost.
+
+Explain the sequence through a concrete example rather than reciting a catalog of acronyms. Distinguish capability, human preference, factual reliability, system/tool performance, speed, and value. Published scores and channel-run demonstrations are different evidence.
+
+CHANNEL INTRODUCTION
+
+Open with a useful question or verified finding, a brief AI UPDATE title reveal, and “I'm Dr. Chris.” Within 35–45 seconds, explain the intended every-other-day 10–15-minute format, practical model/feature/value focus, source transparency, and this episode's learning promise. The exact on-screen credit is “By: Dr. Chris.” Omit the host's surname from images, narration, notes, descriptions and metadata. Do not invent AI credentials, sponsorship status, publication history, or completed tests.
+
+Suggested opening:
+“When an AI model tops a leaderboard, how do you know whether it is right for your work? Welcome to AI UPDATE. I'm Dr. Chris. Every other day, this channel will bring you a ten-to-fifteen-minute look at verified AI developments, useful features, and model performance and cost. We'll provide sources and test conditions, and disclose uncertainty. Today, we'll explain what benchmarks measure and how to interpret the rankings when choosing a model.”
+
+RESEARCH AND RESOURCE USE
+
+Only reputable, reliable sources with verified regular updates qualify. Confirm update history/cadence and claim content; follow channel/source-review-policy.md and retain maintenance evidence. Do not treat access-checked source candidates as approved.
+
+Work on AI-UPDATE-SOURCES channel-continuity, using its incorporated media-library collection and the master's index-first workflow. Treat repository source-access checks as access checks; they do not establish claim-level verification. Historical charts remain dated evidence. Select original sources appropriate to the claims, retain an evidence ledger and canonical numeric dataset, and finish the essential comparison evidence and any selected special-lesson evidence before narrating them.
+
+Check all core companies listed in the master. Maintain comprehensive company, category and within-platform records, but allocate on-screen depth to consequential findings and this episode's teaching purpose. A company with no verified change need not receive an artificial news story. Disclose relevant coverage gaps in the accompanying index. Do not impose a fixed model/task/story cap or cram every benchmark family onto the screen.
+
+BENCHMARK LESSON
+
+Select benchmark examples that explain meaningfully different capabilities using inspected current methodology. Examples to investigate include GPQA, Arena, LiveBench, coding/software evaluations, instruction following, tool use, documents and multimodal work. For each featured evaluation explain “Measures / Limits / Practical implication,” and then apply the viewer decision sequence.
+
+Show current compatible cross-company/category/within-platform evidence where it informs the lesson. Attribute point leaders to named evaluations; explain ties, coverage gaps and disagreement. A single figure never establishes a universal winner. Keep broad supporting tables in the evidence packet when screen density would obscure the explanation.
+
+Necessary recurring material may repeat in later episodes, including the latest benchmark results until replacements become available. Preserve its original measurement date, check that it remains the latest relevant comparable evidence, and label it as unchanged when appropriate. Reuse verified charts, definitions and suitable narration segments without pretending they are new measurements.
+
+REAL COMPARISON AND OPTIONAL SPECIAL LESSON
+
+Choose a useful cloud task, success criteria, example-selection rule, relevant lower-cost option and competitor before examining outputs. Run actual tests only through authorized access. Retain shared inputs, exact configurations, raw outputs, failures/retries, usage, cost calculations and observed timing. Do not display an answer key as model output.
+
+Teach the prompt and criteria, then outputs and costs in successive readable scenes. Finish with one compact, held summary showing the shared prompt, actual output excerpts/products, exact models/providers, total task costs, compatible cited benchmark evidence, and a narrow conclusion with its limitation. Retain full inputs/outputs off-screen.
+
+There is no practical lesson in the standard episode plan. Add one only for a special occasion featuring a verified new item and/or an item supported as among the best for a relevant task. If selected, demonstrate it with genuine input/result, access/plan/region conditions, steps, limits and relevant permission choices. Redistribute other segment minutes to keep the full episode within its runtime. Missing lesson access may lead to omitting the optional lesson; missing essential comparison evidence remains a production blocker. Never invent a claimed demonstration.
+
+PRODUCTION ORDER AND PACE
+
+Apply the master's efficient order: feasibility/sample, verified research and tests, script/storyboard review, checked narration, measured scene timing, visuals, assembly, full playback and packaging. Reuse scene-level assets and regenerate only affected material. Internal quality checks are autonomous, not approval checkpoints.
+
+Suggested 12-minute structure, adapted to actual evidence and narration:
+00:00–00:45 — Channel introduction and concrete viewer question.
+00:45–03:15 — Consequential verified developments and what is available versus announced.
+03:15–05:45 — Benchmark meaning, current scoreboard and viewer decision sequence.
+05:45–09:45 — Real identical-prompt comparison and held combined summary.
+09:45–12:00 — Task/value recommendations, limitations, confirmed developments to watch and closing takeaway.
+
+Episode 01 may shift time toward its benchmark primer. Later episodes use the five-part baseline in channel/episode-formula.txt. A special lesson for a best/new item may replace part of another segment; it is never required just to satisfy the format.
+
+Plan all supported animation options, including charts/diagrams/timelines, pans/zooms/highlights, authentic logo reveals, demonstrations/recordings, useful B-roll and restrained sound cues. Use each where it improves explanation. Narration is included in the finished video; measure it before finalizing motion, scene cuts and captions. Generate exact factual graphics deterministically from verified records.
+
+DELIVERY AND ACCEPTANCE
+
+Deliver the complete narrated 1080p MP4, editable PowerPoint, timestamped Word/plain-text spoken script, synchronized SRT/VTT, narration/SFX stems and final mix, scene manifest, claim ledger/data/references, actual test artifacts/costs, special-lesson evidence if included, comparison index and prepared description/chapters. Retain editable render/project files or reproducible assembly instructions.
+
+After the full episode is settled, extract a separate 120-second demonstration excerpt. The existing two-minute channel-introduction preview is useful branding material but is not this full episode, its completed test, or any optional special demonstration. Do not rebuild a second conflicting factual story just to create an excerpt.
+
+Verify actual final runtime, full-frame readability, citations, correct graphics/calculations, exact branding, intelligible pronunciation, audio levels, captions, media permissions, synchronized motion and complete playback. Identify checks actually performed. No full episode is complete with provisional timing, missing narration, invented outputs or an unperformed required comparison. Optional practical lessons must be omitted or truthfully marked incomplete when their claimed demonstration was not performed. Publishing or modifying YouTube content requires separate authorization.
