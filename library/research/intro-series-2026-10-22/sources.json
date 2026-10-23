@@ -1,0 +1,359 @@
+{
+  "openai61": {
+    "publisher": "OpenAI",
+    "title": "Introducing GPT-6.1 Sol",
+    "publication": "2026-09-29",
+    "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "openai6": {
+    "publisher": "OpenAI",
+    "title": "Introducing GPT-6 Sol and Luna",
+    "publication": "2026-09-22",
+    "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "hfopenai": {
+    "publisher": "OpenAI",
+    "title": "The Hugging Face incident and the road ahead",
+    "publication": "2026-08-26",
+    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "opus": {
+    "publisher": "Anthropic",
+    "title": "Claude Opus 5.5",
+    "publication": "2026-09-22",
+    "url": "https://www.anthropic.com/claude-opus-5-5",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "sonnet": {
+    "publisher": "Anthropic",
+    "title": "Claude Sonnet 5.5",
+    "publication": "2026-09-28",
+    "url": "https://www.anthropic.com/claude-sonnet-5-5",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "haiku": {
+    "publisher": "Anthropic",
+    "title": "Claude Haiku 5.5",
+    "publication": "2026-10-07",
+    "url": "https://www.anthropic.com/claude-haiku-5-5",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "clauderelease": {
+    "publisher": "Anthropic",
+    "title": "Claude app release notes",
+    "publication": "live documentation",
+    "url": "https://docs.anthropic.com/en/release-notes/claude-apps",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "argon": {
+    "publisher": "Google",
+    "title": "Gemini 4 Argon availability",
+    "publication": "2026-10-13",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "flash": {
+    "publisher": "Google",
+    "title": "Gemini 3.8 Flash and Flash Cyber",
+    "publication": "2026-09-02",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "maia": {
+    "publisher": "Microsoft",
+    "title": "Azure Maia expansion",
+    "publication": "2026-10-12",
+    "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "msbuild": {
+    "publisher": "Microsoft",
+    "title": "Build 2026",
+    "publication": "2026-06-02",
+    "url": "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "muse": {
+    "publisher": "Meta",
+    "title": "Muse Wonder and Muse Wonder Full",
+    "publication": "2026-10-12; page also displays Oct 13",
+    "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "spark": {
+    "publisher": "Meta",
+    "title": "Muse Spark",
+    "publication": "2026-04-08",
+    "url": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "museagent": {
+    "publisher": "Meta",
+    "title": "Muse personal agent",
+    "publication": "2026-09-08",
+    "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "rubin": {
+    "publisher": "NVIDIA",
+    "title": "Rubin platform",
+    "publication": "2026-01-05",
+    "url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "robotics": {
+    "publisher": "NVIDIA",
+    "title": "Physical AI and robotics platforms",
+    "publication": "2026-03-16",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "spacecompute": {
+    "publisher": "NVIDIA",
+    "title": "Space computing platforms",
+    "publication": "2026-03-16",
+    "url": "https://nvidianews.nvidia.com/news/space-computing",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "grok": {
+    "publisher": "xAI / SpaceXSI",
+    "title": "Grok models and pricing",
+    "publication": "live documentation",
+    "url": "https://docs.x.ai/developers/models",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "grok46": {
+    "publisher": "xAI / SpaceXSI",
+    "title": "Introducing Grok 4.6",
+    "publication": "2026-08-12",
+    "url": "https://x.ai/news/grok-4-6",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "xainews": {
+    "publisher": "xAI / SpaceXSI",
+    "title": "News incl. Grok Voice 3.0",
+    "publication": "2026-10-14 voice announcement",
+    "url": "https://x.ai/news",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "spacex": {
+    "publisher": "SpaceX",
+    "title": "Updates incl. xAI acquisition and mobile satellites",
+    "publication": "2026-02-02 acquisition entry; live updates",
+    "url": "https://www.spacex.com/updates",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "starmind": {
+    "publisher": "SpaceX",
+    "title": "AI satellites / Starmind",
+    "publication": "undated live page",
+    "url": "https://www.spacex.com/spacexai/starmind",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "qwen": {
+    "publisher": "Qwen",
+    "title": "Qwen3.8-Max",
+    "publication": "2026-08-02",
+    "url": "https://qwen.ai/blog?id=qwen3.8",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "deepseek": {
+    "publisher": "DeepSeek",
+    "title": "V4.1 Flash 1017",
+    "publication": "2026-10-17",
+    "url": "https://api-docs.deepseek.com/news/news261017/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "deepseekv4": {
+    "publisher": "DeepSeek",
+    "title": "V4 Preview",
+    "publication": "2026-04-24",
+    "url": "https://api-docs.deepseek.com/news/news260424",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "kimi": {
+    "publisher": "Moonshot / Kimi",
+    "title": "Kimi K3 quickstart",
+    "publication": "live documentation",
+    "url": "https://platform.moonshot.ai/docs/guide/kimi-k3-quickstart",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "kimihome": {
+    "publisher": "Moonshot",
+    "title": "Research and models",
+    "publication": "K3 research entry 2026-07-16",
+    "url": "https://www.moonshot.ai/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "glm": {
+    "publisher": "Z.ai / AutoClaw",
+    "title": "GLM-5.3-Flash",
+    "publication": "2026-08-27",
+    "url": "https://autoclaw.z.ai/blog/model/glm-5.3-flash/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "glmplan": {
+    "publisher": "Z.ai",
+    "title": "GLM Coding Plan",
+    "publication": "live documentation",
+    "url": "https://docs.z.ai/devpack/overview",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "hf": {
+    "publisher": "Hugging Face",
+    "title": "Security incident disclosure",
+    "publication": "2026-07-16",
+    "url": "https://huggingface.co/blog/security-incident-july-2026",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "hftimeline": {
+    "publisher": "Hugging Face",
+    "title": "Anatomy of a frontier lab agent intrusion",
+    "publication": "2026-07-27",
+    "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "metr": {
+    "publisher": "METR / Redwood Research",
+    "title": "Independent investigation of agent behavior",
+    "publication": "2026-08-26",
+    "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "netflix": {
+    "publisher": "Netflix",
+    "title": "AI Gone Wild production context",
+    "publication": "2026-10-12",
+    "url": "https://www.netflix.com/tudum/articles/instadocs-ai-gone-wild-release-date-news",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "php": {
+    "publisher": "PHP project",
+    "title": "Critical security advisory and releases",
+    "publication": "2026-10-21",
+    "url": "https://www.php.net/archive/2026.php",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "phpnotice": {
+    "publisher": "PHP security team",
+    "title": "Upcoming critical release",
+    "publication": "2026-10-20",
+    "url": "https://news-web.php.net/php.announce/509",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "ibm": {
+    "publisher": "IBM",
+    "title": "Quantum hardware and roadmap",
+    "publication": "live documentation",
+    "url": "https://www.ibm.com/quantum/hardware",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "ibmnews": {
+    "publisher": "IBM",
+    "title": "Modular cryogenic systems",
+    "publication": "2026-08-19",
+    "url": "https://newsroom.ibm.com/2026-08-19-ibm-connects-its-first-modular-cryogenic-systems-in-milestone-toward-fault-tolerant-quantum-computing",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "quantum": {
+    "publisher": "IBM",
+    "title": "Quantum computing explanation",
+    "publication": "live explainer",
+    "url": "https://www.ibm.com/think/topics/quantum-computing?lnk=thinkhpvidc1us",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "aa": {
+    "publisher": "Artificial Analysis",
+    "title": "Intelligence Index v4.3.2",
+    "publication": "live leaderboard retrieved Oct 22",
+    "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "aamodels": {
+    "publisher": "Artificial Analysis",
+    "title": "Model comparison",
+    "publication": "live leaderboard retrieved Oct 22",
+    "url": "https://artificialanalysis.ai/models",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "terminal": {
+    "publisher": "Artificial Analysis",
+    "title": "Terminal-Bench 4.0",
+    "publication": "live leaderboard retrieved Oct 22",
+    "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "hle": {
+    "publisher": "Artificial Analysis",
+    "title": "Humanity's Last Exam",
+    "publication": "live leaderboard retrieved Oct 22",
+    "url": "https://artificialanalysis.ai/evaluations/humanitys-last-exam",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "gdp": {
+    "publisher": "Artificial Analysis",
+    "title": "GDP.pdf",
+    "publication": "live leaderboard retrieved Oct 22",
+    "url": "https://artificialanalysis.ai/evaluations/gdp-pdf",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "arena": {
+    "publisher": "Arena",
+    "title": "Text overall leaderboard",
+    "publication": "2026-10-22 displayed date",
+    "url": "https://arena.ai/leaderboard/chat/text",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "history": {
+    "publisher": "Computer History Museum",
+    "title": "Computers timeline",
+    "publication": "historical reference",
+    "url": "https://www.computerhistory.org/timeline/computers/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "electric": {
+    "publisher": "US DOE",
+    "title": "History of the light bulb and electric systems",
+    "publication": "historical reference",
+    "url": "https://www.energy.gov/articles/history-light-bulb",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "radio": {
+    "publisher": "NASA",
+    "title": "Radio vs optical spectrum",
+    "publication": "science explainer",
+    "url": "https://www.nasa.gov/directorates/somd/space-communications-navigation-program/radio-vs-optical-spectrum/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "internet": {
+    "publisher": "Internet Society",
+    "title": "Brief history of the internet",
+    "publication": "historical reference",
+    "url": "https://www.internetsociety.org/internet/history-internet/brief-history-internet-related-networks/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "impress": {
+    "publisher": "LibreOffice",
+    "title": "Slide show settings",
+    "publication": "live documentation",
+    "url": "https://help.libreoffice.org/latest/en-US/text/simpress/01/06080000.html",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "obs": {
+    "publisher": "OBS",
+    "title": "Sources guide",
+    "publication": "live documentation",
+    "url": "https://obsproject.com/kb/sources-guide",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "openaigcp": {
+    "publisher": "OpenAI",
+    "title": "OpenAI models are coming to Google Cloud",
+    "publication": "2026-10-21",
+    "url": "https://openai.com/index/openai-models-google-cloud/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  }
+}
