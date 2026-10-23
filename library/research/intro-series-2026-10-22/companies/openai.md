@@ -9,6 +9,8 @@ Core model and agent platform. ChatGPT, Codex, and API access are distinct surfa
 
 ## 02. Background and milestones
 
+OpenAI introduced ChatGPT in November 2022. That public research release is a useful earlier milestone for understanding the shift from conversational assistance toward today’s broader work systems. [chatgpt2022]
+
 The GPT-6 family expanded with Sol and Luna on September 22, followed by GPT-6.1 Sol on September 29. Earlier GPT-5.6 products form relevant context. [openai6, openai61]
 
 ## 03. Current models and availability
@@ -48,3 +50,5 @@ INFERENCE, medium confidence: by April 22, 2027, more announcements will emphasi
 - [openaigcp] OpenAI. [OpenAI models are coming to Google Cloud](https://openai.com/index/openai-models-google-cloud/). Publication/update: 2026-10-21. Retrieved for cutoff: October 22, 2026, America/New_York.
 
 Update log: 2026-10-22 initial research. Applied news-only editorial scope: retain material deals and pertinent valuations, omit routine pricing and investment/profitability analysis. Refresh mutable claims before reuse.
+
+Historical source: https://openai.com/index/chatgpt/ (retrieved for October 22 cutoff).

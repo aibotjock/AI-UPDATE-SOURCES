@@ -9,6 +9,8 @@ Core coverage of distribution, infrastructure, Copilot and the MAI model family.
 
 ## 02. Background and milestones
 
+Microsoft introduced Microsoft 365 Copilot in March 2023, connecting language models with workplace applications and data. That earlier product direction helps explain the integration story we see today. [copilot2023]
+
 June Build coverage introduced MAI-Code-1 for GitHub Copilot/VS Code. October 12 infrastructure update describes Maia 200 production use and Maia 300 plans. [msbuild, maia]
 
 ## 03. Current models and availability
@@ -45,3 +47,5 @@ ANNOUNCED-PLAN CHECK: by January 31, 2027, verify whether the promised year-end 
 - [maia] Microsoft. [Azure Maia expansion](https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/). Publication/update: 2026-10-12. Retrieved for cutoff: October 22, 2026, America/New_York.
 
 Update log: 2026-10-22 initial research. Applied news-only editorial scope: retain material deals and pertinent valuations, omit routine pricing and investment/profitability analysis. Refresh mutable claims before reuse.
+
+Historical source: https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/ (retrieved for October 22 cutoff).

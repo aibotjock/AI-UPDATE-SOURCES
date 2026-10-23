@@ -1122,3 +1122,9 @@ Templates require verified episode data. Diagrams simplify concepts. Brand marks
 
 These entries are research and production tools. No completed episode or channel-run comparison is claimed.
 
+
+
+## Dated research
+
+- [Research index](research/README.md)
+- [Introductory series, October 22, 2026](research/intro-series-2026-10-22/README.md)

@@ -9,6 +9,8 @@ Core Grok model and product coverage. Current pages use SpaceXSI branding. Space
 
 ## 02. Background and milestones
 
+xAI announced the company in July 2023 and released Grok on X later that year. The subsequent model and product sequence gives us a dated way to follow its development. [grokhistory]
+
 Grok 4.6 August 12 emphasized longer-running agents. Current model documentation lists Grok 4.7; news lists Voice 3.0 on October 14. [grok46, grok, xainews]
 
 ## 03. Current models and availability
@@ -47,3 +49,5 @@ INFERENCE, medium confidence: by April 22, 2027, more announcements will emphasi
 - [spacex] SpaceX. [Updates incl. xAI acquisition and mobile satellites](https://www.spacex.com/updates). Publication/update: 2026-02-02 acquisition entry; live updates. Retrieved for cutoff: October 22, 2026, America/New_York.
 
 Update log: 2026-10-22 initial research. Applied news-only editorial scope: retain material deals and pertinent valuations, omit routine pricing and investment/profitability analysis. Refresh mutable claims before reuse.
+
+Historical source: https://x.ai/news/series-b (retrieved for October 22 cutoff).

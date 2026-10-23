@@ -9,6 +9,8 @@ Core GLM cloud and agent-product coverage.
 
 ## 02. Background and milestones
 
+Z.ai’s timeline traces ZhipuAI’s founding to 2019 and the GLM research line to 2021. The current multimodal and agent products are a later stage of that development. [zaihistory]
+
 GLM-5.3-Flash announcement August 27 follows earlier GLM families. Hugging Face's July technical report describes using GLM-5.2 in incident analysis. [glm, hftimeline]
 
 ## 03. Current models and availability
@@ -47,3 +49,5 @@ INFERENCE, medium confidence: by April 22, 2027, more announcements will emphasi
 - [aamodels] Artificial Analysis. [Model comparison](https://artificialanalysis.ai/models). Publication/update: live leaderboard retrieved Oct 22. Retrieved for cutoff: October 22, 2026, America/New_York.
 
 Update log: 2026-10-22 initial research. Applied news-only editorial scope: retain material deals and pertinent valuations, omit routine pricing and investment/profitability analysis. Refresh mutable claims before reuse.
+
+Historical source: https://z.ai/company (retrieved for October 22 cutoff).

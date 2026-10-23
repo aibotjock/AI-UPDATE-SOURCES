@@ -9,6 +9,8 @@ Core infrastructure, model/software platforms and physical AI coverage.
 
 ## 02. Background and milestones
 
+NVIDIA began in 1993 with a focus on three-dimensional graphics. Its timeline marks CUDA in 2006. That path from graphics toward programmable accelerated computing helps explain its present AI role. [nvidiahistory]
+
 Rubin January 5 announcement sets out a rack-scale compute/network platform. March announcements add physical AI and space computing context. [rubin, robotics, spacecompute]
 
 ## 03. Current models and availability
@@ -46,3 +48,5 @@ INFERENCE, medium confidence: by April 22, 2027, more announcements will emphasi
 - [spacecompute] NVIDIA. [Space computing platforms](https://nvidianews.nvidia.com/news/space-computing). Publication/update: 2026-03-16. Retrieved for cutoff: October 22, 2026, America/New_York.
 
 Update log: 2026-10-22 initial research. Applied news-only editorial scope: retain material deals and pertinent valuations, omit routine pricing and investment/profitability analysis. Refresh mutable claims before reuse.
+
+Historical source: https://www.nvidia.com/en-us/about-nvidia/corporate-timeline/ (retrieved for October 22 cutoff).

@@ -9,6 +9,8 @@ Core Gemini model ecosystem, search/cloud distribution and related research.
 
 ## 02. Background and milestones
 
+DeepMind began in 2010. In 2023, Google brought DeepMind and its Brain research team together as Google DeepMind. The present Gemini story grows out of that research history. [deepmind2023]
+
 Gemini 3.8 Flash and Flash Cyber announcement September 2 precedes the Argon announcement September 30 and public availability October 13. [flash, argonprice, argon]
 
 ## 03. Current models and availability
@@ -47,3 +49,5 @@ INFERENCE, medium confidence: by April 22, 2027, more announcements will emphasi
 - [openaigcp] OpenAI. [OpenAI models are coming to Google Cloud](https://openai.com/index/openai-models-google-cloud/). Publication/update: 2026-10-21. Retrieved for cutoff: October 22, 2026, America/New_York.
 
 Update log: 2026-10-22 initial research. Applied news-only editorial scope: retain material deals and pertinent valuations, omit routine pricing and investment/profitability analysis. Refresh mutable claims before reuse.
+
+Historical source: https://deepmind.google/blog/announcing-google-deepmind/ (retrieved for October 22 cutoff).

@@ -9,6 +9,8 @@ Core model family and Claude work/coding products.
 
 ## 02. Background and milestones
 
+Anthropic’s 2021 company announcement emphasized reliability and understanding AI systems. That early framing provides context for a product family now used for increasingly broad work. [anthropic2021]
+
 Claude 5.5 rollout: Opus September 22, Sonnet September 28, Haiku October 7. These are dated releases, not a promise of identical availability across plans. [opus, sonnet, haiku]
 
 ## 03. Current models and availability
@@ -50,3 +52,5 @@ INFERENCE, medium confidence: by April 22, 2027, more announcements will emphasi
 - [terminal] Artificial Analysis. [Terminal-Bench 4.0](https://artificialanalysis.ai/evaluations/terminalbench-4-0). Publication/update: live leaderboard retrieved Oct 22. Retrieved for cutoff: October 22, 2026, America/New_York.
 
 Update log: 2026-10-22 initial research. Applied news-only editorial scope: retain material deals and pertinent valuations, omit routine pricing and investment/profitability analysis. Refresh mutable claims before reuse.
+
+Historical source: https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems (retrieved for October 22 cutoff).

@@ -9,6 +9,8 @@ Core model coverage, personal-agent distribution and consumer platforms.
 
 ## 02. Background and milestones
 
+Meta’s Llama 2 release in 2023 was an important earlier model milestone. The newer Muse announcements show why we have to update the company map as product strategies change. [llama2023]
+
 Muse Spark April 8 preceded the Muse agent September 8 and Muse Wonder family October 12. Do not present the prior Llama era as the whole current portfolio. [spark, museagent, muse]
 
 ## 03. Current models and availability
@@ -47,3 +49,5 @@ INFERENCE, medium confidence: by April 22, 2027, more announcements will emphasi
 - [gdp] Artificial Analysis. [GDP.pdf](https://artificialanalysis.ai/evaluations/gdp-pdf). Publication/update: live leaderboard retrieved Oct 22. Retrieved for cutoff: October 22, 2026, America/New_York.
 
 Update log: 2026-10-22 initial research. Applied news-only editorial scope: retain material deals and pertinent valuations, omit routine pricing and investment/profitability analysis. Refresh mutable claims before reuse.
+
+Historical source: https://about.fb.com/news/2023/07/llama-2/ (retrieved for October 22 cutoff).

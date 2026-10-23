@@ -355,5 +355,75 @@
     "publication": "2026-10-21",
     "url": "https://openai.com/index/openai-models-google-cloud/",
     "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "chatgpt2022": {
+    "publisher": "OpenAI",
+    "title": "Introducing ChatGPT",
+    "publication": "2022-11-30",
+    "url": "https://openai.com/index/chatgpt/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "anthropic2021": {
+    "publisher": "Anthropic",
+    "title": "Early company announcement",
+    "publication": "2021-05-28",
+    "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "deepmind2023": {
+    "publisher": "Google DeepMind",
+    "title": "Announcing Google DeepMind",
+    "publication": "2023-04-20",
+    "url": "https://deepmind.google/blog/announcing-google-deepmind/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "nvidiahistory": {
+    "publisher": "NVIDIA",
+    "title": "Corporate timeline",
+    "publication": "historical reference",
+    "url": "https://www.nvidia.com/en-us/about-nvidia/corporate-timeline/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "copilot2023": {
+    "publisher": "Microsoft",
+    "title": "Introducing Microsoft 365 Copilot",
+    "publication": "2023-03-16",
+    "url": "https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "llama2023": {
+    "publisher": "Meta",
+    "title": "Llama 2 introduction",
+    "publication": "2023-07-18",
+    "url": "https://about.fb.com/news/2023/07/llama-2/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "grokhistory": {
+    "publisher": "xAI",
+    "title": "Company and Grok history",
+    "publication": "2024-05-26",
+    "url": "https://x.ai/news/series-b",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "qwenhistory": {
+    "publisher": "Qwen",
+    "title": "Introducing Qwen",
+    "publication": "2024-01-23",
+    "url": "https://qwenlm.github.io/blog/qwen/",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "deepseekr1": {
+    "publisher": "DeepSeek",
+    "title": "R1 release",
+    "publication": "2025-01-20",
+    "url": "https://api-docs.deepseek.com/news/news250120",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
+  },
+  "zaihistory": {
+    "publisher": "Z.ai",
+    "title": "Company timeline",
+    "publication": "historical reference",
+    "url": "https://z.ai/company",
+    "retrieved_for_cutoff": "2026-10-22 America/New_York"
   }
 }

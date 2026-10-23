@@ -9,6 +9,8 @@ Core cloud model coverage with open-weight releases as competitive context.
 
 ## 02. Background and milestones
 
+DeepSeek’s R1 release in January 2025 is an earlier reasoning-model milestone, preceding the V4 and V4.1 updates we are covering now. [deepseekr1]
+
 V4 preview April 24 introduced Pro and Flash variants. October 17 V4.1-Flash-1017 is the more recent verified update. [deepseekv4, deepseek]
 
 ## 03. Current models and availability
@@ -46,3 +48,5 @@ INFERENCE, medium confidence: by April 22, 2027, more announcements will emphasi
 - [aamodels] Artificial Analysis. [Model comparison](https://artificialanalysis.ai/models). Publication/update: live leaderboard retrieved Oct 22. Retrieved for cutoff: October 22, 2026, America/New_York.
 
 Update log: 2026-10-22 initial research. Applied news-only editorial scope: retain material deals and pertinent valuations, omit routine pricing and investment/profitability analysis. Refresh mutable claims before reuse.
+
+Historical source: https://api-docs.deepseek.com/news/news250120 (retrieved for October 22 cutoff).

@@ -19,5 +19,6 @@ The eight-video public outlier sample included explainers by Nana Janashia, Sean
 | AI Is Becoming an Agent. Here’s What That Changes. | 89 |
 | Which AI Is Best? The Answer Changes With the Task | 89 |
 | ChatGPT, Claude or Gemini? Which AI Is Worth Your Money? | 88 |
+| The AI Race Explained: The Companies Building What Comes Next | 92 |
 
 The finance/buying-guide candidates are superseded by the user's news-only direction. The 97 and 96 are title-only directional scores from the actual scorer. They are not scores for a script, deck, thumbnail or finished video and do not predict CTR. No script-scoring endpoint was exposed. Separate thumbnail scoring requires a suitable published video, which was unavailable. The connected vidIQ account returned no linked YouTube channels. No video was published or modified.
