@@ -1,56 +1,53 @@
 {
-  "schema_version": 1,
-  "series_version": "1.0.0",
-  "approved_reference_date": "2026-10-12",
-  "channel_name": "AI UPDATE",
+  "schema_version": 2,
+  "series_version": "2.0.0",
+  "approved_reference_date": "2026-10-24",
+  "channel_name": "AI Update with Chris Gawad M.D., M.Sc.",
   "timezone": "America/New_York",
   "context_scope": "This project and this thread only; no unrelated conversations or personal history.",
-  "channel_description_policy": "Preserve channel/channel-description.txt exactly as supplied and approved.",
+  "channel_description_policy": "Preserve previously approved description verbatim pending replacement; current explicit user directions supersede outdated wording for production. No external channel description changes are authorized.",
   "branding": {
-    "image_text": "AI UPDATE only",
-    "spoken_host": "Dr. Chris",
-    "optional_host_credit": "By: Dr. Chris",
-    "surname_allowed": false
+    "public_channel_name": "AI Update with Chris Gawad M.D., M.Sc.",
+    "surname_allowed": true,
+    "rule": "Use exact public name; adapt typography to available space without reverting to old credits."
   },
   "format": {
-    "minimum_seconds": 600,
-    "target_maximum_seconds": 900,
-    "default_seconds": 720,
-    "rare_longer_episode_requires_reason": true,
-    "standard_segments": [
-      {
-        "id": "main-takeaway",
-        "label": "The main takeaway",
-        "default_seconds": 30
-      },
-      {
-        "id": "what-changed",
-        "label": "What changed",
-        "default_seconds": 165
-      },
-      {
-        "id": "benchmark-scoreboard",
-        "label": "The benchmark scoreboard",
-        "default_seconds": 150
-      },
-      {
-        "id": "same-prompt-comparison",
-        "label": "The same-prompt comparison",
-        "default_seconds": 240
-      },
-      {
-        "id": "choice-and-next",
-        "label": "Your choice and what is next",
-        "default_seconds": 135
-      }
-    ]
+    "introductory_series": {
+      "minimum_episodes": 3,
+      "maximum_episodes": 5,
+      "minimum_seconds": 900,
+      "maximum_seconds": 1800,
+      "planning_target_seconds": [
+        1320,
+        1680
+      ]
+    },
+    "regular_updates": {
+      "minimum_seconds": 600,
+      "target_maximum_seconds": 900,
+      "default_seconds": 720
+    },
+    "segment_selection": "Choose, combine or omit based on episode question and evidence; no mandatory comparison.",
+    "segment_menu": [
+      "The Download",
+      "Under the Hood",
+      "Benchmark Breakdown",
+      "Prompt vs. Prompt",
+      "The Takeaway",
+      "Next on the Radar"
+    ],
+    "learning_requirements": {
+      "central_question": 1,
+      "learning_outcomes": 3,
+      "meaningful_closing_takeaway": true
+    }
   },
   "optional_lesson": {
     "standard": false,
     "selection": "best_and_or_new_items_on_special_occasions",
-    "timing": "Redistribute minutes without removing standard roles."
+    "timing": "Use only when warranted; fit the selected episode type and runtime."
   },
-  "publication_cadence": "Intended every other day; no automation or actual publication is asserted.",
+  "publication_cadence": "Earlier intended every-other-day cadence retained as historical planning; no automatic schedule or publication commitment created.",
   "freshness": {
     "research_before_script": true,
     "research_and_script_same_local_calendar_day": true,
@@ -61,7 +58,7 @@
   },
   "repo_resources": {
     "repository": "https://github.com/aibotjock/AI-UPDATE-SOURCES",
-    "canonical_branch": "channel-continuity",
+    "canonical_branch": "channel/production-standard-2026-10-24",
     "shared_media_source_branch": "media-library",
     "source_registry": "references/source-registry.json",
     "asset_catalog": "library/asset-index.json",
@@ -79,14 +76,28 @@
     "master": "channel/series-master-prompt.txt",
     "formula": "channel/episode-formula.txt",
     "description": "channel/channel-description.txt",
-    "history": "channel/history/"
+    "history": "channel/history/",
+    "research_method": "channel/research-method.txt",
+    "episode_brief": "channel/episode-brief-template.txt",
+    "quality_checklist": "channel/production-checklist.md",
+    "visual_direction": "channel/visual-direction.md"
   },
   "production": {
-    "actual_outputs_required": true,
-    "narration_in_finished_video": true,
-    "full_playback_required": true,
+    "primary_workflow": "Custom Browser Scene Player plus OBS",
+    "visible_fullscreen_button_required": true,
+    "source_pages_and_timed_highlights_required": true,
+    "distinct_scene_compositions_required": true,
+    "actual_outputs_required_when_comparison_included": true,
+    "host_narration_recorded_in_recording_or_post": true,
+    "real_browser_check_required_for_verified_player": true,
+    "full_audiovisual_playback_required_for_finished_video": true,
     "publication_requires_separate_authorization": true,
-    "paid_commitments_require_separate_authorization": true
+    "paid_commitments_require_separate_authorization": true,
+    "vidiq_requires_explicit_task_permission_for_every_operation": true
   },
-  "generation_status": "Generates production prompts and pending records; not an implemented research, narration, or MP4 engine."
+  "generation_status": "Version-2 documents and manual brief template. Legacy executable generator and validator are incompatible; do not use for version-2 episode production until separately updated. No claim of implemented new visuals/fullscreen button or verified browser playback.",
+  "editorial": {
+    "focus": "AI news, major companies, developments, capabilities, progress and public understanding",
+    "finance": "Only pertinent current major deals/valuations; no routine investment or profitability coverage."
+  }
 }
