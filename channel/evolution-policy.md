@@ -1,18 +1,16 @@
-# Evolving AI UPDATE with changing technology
+# Evolving the show without losing continuity
 
-Keep the audience promise and recognizable five-part episode structure while updating the evidence, model roster, benchmark relevance, selected stories, source registry and production techniques. Active sources must remain reputable, reliable and regularly updated, with observable maintenance records; replace or retire sources that no longer qualify.
+Use the current series-master-prompt.txt and continuity.json. Keep evidence current, segment selection flexible, explanations valuable and scenes visually distinct.
 
-For each episode, assess what changed and whether it matters to viewers choosing cloud AI for a task and budget. Consider new releases, capability/cost/access changes, retired models, emerging tools, changed evaluations, outdated sources and corrections. Do not fabricate novelty or force a practical lesson.
+Each episode reviews changes across relevant companies and sources, retains dated evidence, records corrections and saves useful reusable assets. Maintain the source-review-policy.md eligibility and claim-verification requirements. Preserve original dates and distinguish reused observations from new tests.
 
-Record observations in the dated episode folder. Reuse still-relevant benchmark charts, explanations, comparison results and assets with their original measurement dates and renewed verification. Rerun comparisons when models, tools, settings or task conditions invalidate them. When pricing changes, distinguish original observed bills from current estimates.
+Track meaningful production issues and actual audience feedback where available. Do not invent retention, efficiency or quality gains. Improvements may proceed within authorized episode scope; paid operations, publishing and VidIQ retain their explicit authorization requirements.
 
-Measure production time, cost, rework and actual audience feedback when available; do not invent analytics, savings or retention gains. Improvements to source quality, evidence coverage, explanatory clarity and efficient production can proceed within authorized episode work.
+When user instructions change the specification:
+1. Preserve prior documents and episode snapshots; use a separate branch and version bump.
+2. Update master, formula, machine-readable decisions and instructions consistently.
+3. Review executable generators/validators. If incompatible and outside the current documentation scope, explicitly block their use for new episodes and provide the current manual template/checklist. Do not claim executable compatibility.
+4. Record the user's instruction and change rationale. Do not treat old description wording as authority over newer instructions; retain the approved description until replaced.
+5. Verify new documentation and future production against current requirements, including actual browser and audiovisual checks where applicable.
 
-Preserve the approved brand, description, fixed roles and editorial boundaries until the user explicitly changes them. For an approved specification change:
-1. Retain a versioned snapshot of affected canonical files under channel/history.
-2. Increase continuity.json's series_version, recording the reason and instruction.
-3. Update the master, formula, generation instructions and relevant validation together.
-4. Keep old episode snapshots unchanged; identify any correction separately.
-5. Log the change and evaluate the next episode against the updated rules.
-
-Keep this thread's decisions separate from unrelated projects and personal context. This policy creates no unattended automation or publishing authority.
+This policy creates no unattended automation, new paid service or publication authority.
