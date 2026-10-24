@@ -1,48 +1,37 @@
-# AI UPDATE channel continuity and episode generation
+# Channel production standard — version 2
 
-This branch is the project's versioned reference and episode-generation base. It retains the repository's populated media collection and reviewed resource repairs and adds the approved channel decisions from this thread.
+**AI Update with Chris Gawad M.D., M.Sc.**
 
-## Start here
+Updated October 24, 2026 on `channel/production-standard-2026-10-24`, based on `channel-continuity`. Previous branches and archived specifications are preserved. No merge to main or external publication is performed.
 
-Read these canonical references before generating any episode:
+## Production references
 
-| File | Purpose |
+| File | Role |
 | --- | --- |
-| continuity.json | Current approved machine-readable decisions and series version |
-| series-master-prompt.txt | Production, evidence, narration and completion rules |
-| episode-formula.txt | Five regular segments and flexible timing |
-| channel-description.txt | Exact approved channel description |
-| source-review-policy.md | Reputable sources, claim verification and source changes |
-| history/CHANGELOG.md | Changes and retained previous versions |
+| series-master-prompt.txt | Reusable editorial, research, visual and production instructions |
+| continuity.json | Machine-readable current decisions |
+| episode-formula.txt | Optional segment menu, episode types and timing |
+| research-method.txt | Investigative research with relevant history and precise evidence |
+| episode-brief-template.txt | Fresh dated research/production brief for each episode |
+| visual-direction.md | Supplied thumbnail and AI Revolution reference interpretation |
+| production-checklist.md | Accuracy, learning, visuals and real playback acceptance |
+| source-review-policy.md | Source eligibility, maintenance and claim review |
+| history/ | Prior versions and change log |
 
-The standard 12-minute formula is: main takeaway 0:30, what changed 2:45, benchmark scoreboard 2:30, same-prompt comparison 4:00, and your choice/what is next 2:15. Keep these roles recognizable and move minutes according to meaningful verified changes. A practical lesson is optional for special occasions featuring best and/or new items. Episode 01 may allocate more time to its benchmark primer and 35–45-second introduction.
+## Working order
 
-## Mandatory repository use
+Master instructions → fresh research/evidence packet → newly authored dated episode brief → storyboard and full script → populated browser scenes with source highlights → real browser rehearsal → OBS recording/post when requested → final audiovisual QA.
 
-Read references/source-registry.json, library/asset-index.json and library/INDEX.md first. Then select relevant benchmark data, media, source/provenance records, evergreen definitions, prior outputs/costs and corrections. Do not rebuild the collection or assume a listed source or saved chart is current. Record selected source IDs, asset IDs, versions, dates, attribution and conditions in the episode records. Use only suitable permitted assets.
+Introductory series: three to five episodes, each 15–30 minutes. Select only segments that serve each episode. Regular updates retain the earlier 10–15-minute target unless changed. No mandatory paid comparison or routine financial section.
 
-The source registry is adaptable rather than a permanently trusted list. Only reputable, reliable and regularly updated sources qualify. Access-checked candidates require verified maintenance history and claim-level content verification before their facts enter narration. See source-review-policy.md for additions, replacements, disputes and retirement. Capture original evidence where permitted, keep numeric data, and preserve history.
+Use the source registry and media indexes, then suitable dated research and asset provenance. Do not blindly reuse old charts, weak visuals or unverified claims. The existing gallery remains available in library/gallery.html; collection counts and earlier audit results are historical, not a new audit.
 
-## Generate today's production prompt
+## Important implementation boundary
 
-From the repository root, run:
+The legacy `generate_episode.py` generator and validator still encode version 1's fixed roles and other old requirements. **Do not use them to produce or certify a version-2 episode.** Author briefs using the new template and perform the checklist. Updating executable tooling is separate work; no code, player interface, media playback or recording upgrade is claimed by this revision.
 
-```bash
-python3 channel/generate_episode.py generate --episode 01
-```
+The previous approved channel-description.txt is retained verbatim pending an updated replacement. Do not let its old brand/financial wording override the current instructions, and do not change the external channel description from this work.
 
-The generator resolves the actual America/New_York date. It writes a dated prompt and pending evidence/comparison/status records, snapshots the canonical references, source/evolution policies and source/media indexes, and retains their hashes. The prompt references the large indexes instead of embedding their entire content. It never claims to have researched, tested models, written a finished script, generated narration or rendered video. A completed or already generated episode folder is not silently overwritten. Use the next appropriate episode ID; keep old episodes. To request an exceptional best/new-item lesson, add --include-practical-lesson; that selects an optional plan and does not verify its evidence.
+## Authorization
 
-Read the generated prompt and perform its evidence-first production steps through authorized tools. Complete same-day verification before script creation. If production moves to a new local calendar day, update the date and reverify material changeable claims rather than backdating. Keep original benchmark measurement/publication dates separate from fresh retrieval/verification. The comparison records separate today's review from each original run date. Reused results need retained evidence references and a review of whether the model, settings and task still support their use; do not relabel an old test as a new run.
-
-```bash
-python3 channel/generate_episode.py validate episodes/ACTUAL-DATE/EPISODE-ID
-```
-
-Use the actual path printed by the generator. Validation checks date/stage records, source-maintenance fields, matching reference/script/video hashes and required files; it cannot independently establish truthful claims or actual media playback. Do not mark gates completed without doing and documenting the work.
-
-## Evolve without losing continuity
-
-After each episode, record changed/unchanged/superseded findings, corrections, useful new assets and production issues in its dated records. Use evolution-policy.md to assess new models, benchmarks, technology and source quality. Update mutable evidence with dates and provenance while preserving the approved series roles. Preserve approved prior templates under history when the series specification changes.
-
-There is no scheduled research, paid API integration, narration service, video assembly engine, YouTube publishing or analytics connection created by this branch. Those capabilities must be supplied and verified during production. The branch supports honest prompt generation and reproducible continuity; it does not represent a finished episode.
+Every VidIQ task, including free calls and status checks, needs explicit permission. Reference links alone do not grant it. No paid commitments or video publication are authorized by prompt generation.
