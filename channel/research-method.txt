@@ -1,0 +1,45 @@
+SOURCE-LED INVESTIGATIVE EXPLAINER RESEARCH
+Version 2.0 · October 24, 2026
+
+Reference: AI Revolution, https://www.youtube.com/watch?v=cFTWtg2ELcI
+Visible title: It's Happening... AI Just Started the Biggest Internet Nightmare in History
+Publication date displayed: October 23, 2026. Duration displayed: 14:05.
+Inspection performed: directly opened the YouTube page, expanded the chapter/source description, read the visible full transcript, and inspected selected linked primary sources. This was not a full audiovisual review or a fact-check of every assertion. No VidIQ used. Auto-transcription spelling/numbers are not authoritative; verify against original documents.
+
+STYLE
+A source-led investigative explainer combining historical reconstruction, technical explanation and cross-story synthesis. This is a description of the visible research structure, not knowledge of the creator's actual prompt or workflow.
+
+OBSERVED RESEARCH STRUCTURE
+The episode groups multiple current security developments under a larger question, explains the relevant software layers, gives specific names/dates/figures, reconstructs earlier findings and audit history, and contrasts offensive risks with defensive techniques. Its chapters cite release notes, original security research, disclosures and reporting.
+Transfer the depth and evidence structure, not its title's superlatives or every asserted relationship. Multiple incidents occurring near one another do not prove a common cause.
+
+REUSABLE RESEARCH INSTRUCTION
+Act as an investigative AI research editor, technical historian and educator. Investigate [topic] for AI Update with Chris Gawad M.D., M.Sc., as of [actual cutoff, America/New_York].
+Produce an evidence packet before narration. Establish what happened, the recent developments that led to it, the technical mechanism, the parties and their distinct roles, the measurable scope, the actual contribution of AI, the unresolved questions and why the public should care.
+Research backward from the current development to relevant earlier reports, audits, papers, releases and architectural decisions; research forward to patches, responses, deployment status and implications. Follow source links to originals. Do not make every topic into a long company biography.
+For each proposed story provide:
+1. The new development and exact event/publication/measurement dates.
+2. A sourced timeline of the earlier events needed to understand it.
+3. Named actors, products/models/versions and who discovered, assisted, validated, disclosed and responded.
+4. A plain-language technical explanation, with an accurate analogy and its limits.
+5. Quantified scope with units, denominator, population, method, date and uncertainty.
+6. Direct source passages/data supporting each claim; maintain a claim ledger.
+7. Corroboration, source dependence, competing accounts, corrections and important unknowns.
+8. A narrowly supported conclusion about what changed and its significance.
+9. The exact source page/excerpt, highlight region and diagram/chart suitable for screen presentation.
+Distinguish prevalence from affected systems, affected from exploited, access from harm, patch counts from successful attacks, discovery from exploit development, researchers' affiliations from model assistance, AI assistance from autonomy, and sequence from causality.
+Do not turn reporting dates into incident dates. Treat model names and transcript numbers as candidates until verified. Attribute company findings as company-reported rather than independent confirmation.
+Build one coherent explanatory narrative from supported relationships. Label synthesis and forecasts; do not imply unrelated events share an actor or cause.
+Select only background that changes the viewer's understanding of the present story. Stop when additional research merely repeats established facts. Do not pad with source quotas or unrelated finance.
+Return the source inventory, timeline, claim ledger, contradictions/unknowns, audience learning outcomes, proposed story structure and source-highlight plan. Then produce the dated episode brief and narration only after evidence review.
+
+PRIMARY-SOURCE SPOT CHECKS
+- https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html
+  Release notes distinguish named reporters, affiliations and explicit assistance credits. Do not infer that every finding from an AI-company employee was autonomously discovered by a model.
+- https://www.wiz.io/blog/php2shell-php-rce
+  Research source includes mechanism, earlier architectural context, coordination and AI-assistance claims. Attribute to the researchers and independently verify consequential conclusions. Headline prevalence does not count confirmed compromises.
+- https://www.anthropic.com/research/formal-verification
+  Original research provides methods, bounded properties/conditions and a limitations section. Do not expand verified properties into a guarantee that all software is secure.
+
+USE WITH
+series-master-prompt.txt, source-review-policy.md, episode-brief-template.txt and production-checklist.md. Source selection and verification must be performed anew for each episode. The reference video is a style guide and discovery aid, not the authority for our factual narration.
