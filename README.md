@@ -1,23 +1,15 @@
-# AI UPDATE Sources
+# AI Update Sources
 
-Public channel and show name: **AI UPDATE**. Logo and banner text contain only the channel name. Optional host credit elsewhere: **By: Dr. Chris**.
+Research and production resources for **AI Update with Chris Gawad M.D., M.Sc.**
 
-This **channel-continuity** branch is the approved reference and dated episode-prompt generation base. Start with [channel/README.md](channel/README.md), the [episode formula](channel/episode-formula.txt), and the [source-review policy](channel/source-review-policy.md).
+This branch, `channel/production-standard-2026-10-24`, revises the channel specification while preserving `channel-continuity`, historical episodes and the existing media collection. Start with [channel/README.md](channel/README.md), the [master production prompt](channel/series-master-prompt.txt), [episode formula](channel/episode-formula.txt), [research method](channel/research-method.txt) and [quality checklist](channel/production-checklist.md).
 
-Evidence and reusable production resources for an every-other-day cloud AI UPDATE show.
+Report major AI companies, developments, capabilities and progress with verifiable evidence and valuable explanations. Include relevant major deals and valuations; omit routine investment/profitability coverage. Important source pages and passages appear and are highlighted while discussed.
 
-Primary purpose: identify the latest model leaders overall, by relevant category, and within each major cloud platform; explain task results, costs, value, useful platform features, uncertainty, and gaps in the evidence. Overall results are tied to named published benchmarks rather than an invented universal ranking.
+The introductory series comprises three to five videos of 15–30 minutes. Choose only useful segments from the menu. The primary production workflow is Custom Browser Scene Player plus OBS, with a visible Fullscreen button, distinct visual compositions, source zoom/highlights, annotations and matching teleprompter.
 
-The show combines real prompts and model outputs with task costs, accurately cited benchmark comparisons, company updates, and optional practical lessons for special occasions featuring the best and/or new items.
+Use [source eligibility](channel/source-review-policy.md), [asset inventory](library/INDEX.md) and the existing catalog and provenance records. Resources are candidates, not proof of current claims or reuse rights. The existing gallery is library/gallery.html. Earlier collection counts/benchmark snapshots are historical and have not been re-audited by this revision.
 
-The `media-library` branch holds reusable assets, evergreen references, and reproducibility/correction records. Asset-specific provenance and reuse terms apply; this repository does not grant rights to third-party branding or media.
+This is a documentation and prompt-standard update, not a completed episode or player upgrade. The old executable generator/validator is incompatible with version 2 and must not certify new episodes; use [the episode brief template](channel/episode-brief-template.txt) until executable tooling is separately updated. Browser and OBS playback must be demonstrated before being called verified.
 
-## Populated collection
-
-See [the searchable inventory](library/INDEX.md) and [benchmark source records](library/reproducibility/benchmarks-2026-10-13/README.md). The branch contains **1,000 starter assets plus 52 sourced benchmark charts**, with hashes, categories, intended uses, and origin/reuse metadata.
-
-Download this branch as a ZIP, extract it, and open `library/gallery.html` for visual browsing, keyword/category search, downloads, and audio auditions. The gallery is a local HTML file and needs no account or build step.
-
-Benchmark charts are dated source snapshots. Recent AA and Arena data and explicitly historical June LiveBench charts are labeled separately. Source coverage does not prove current cloud availability or a universal winner. See each chart's data and reproduction records.
-
-This branch provides reusable resources, versioned channel references and a dated production-prompt generator. It is not a completed research, narration or video-production engine or a finished episode. No show-run model comparison, feature-demo capture, complete narration, or 10–15-minute rendered episode is committed here. See [the quality review](references/QUALITY_REVIEW_2026-10-12.md) for checked capabilities and remaining production work.
+Previous specifications are archived under channel/history/2026-10-24-v1. The earlier approved description remains preserved; no external channel metadata is changed. VidIQ requires explicit task-specific permission for every operation. No publication or paid commitments are performed.
