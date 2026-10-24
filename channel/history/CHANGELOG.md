@@ -18,3 +18,17 @@ Initial canonical continuity branch assembled from this project's approved threa
 - channel-continuity is the canonical working branch, retaining the populated media-library resources and dated reference/policy snapshots.
 
 The existing two-minute introduction preview and earlier audit reports are historical work, not a completed full episode. Earlier practical-lesson defaults are superseded by the current optional policy.
+
+## 2.0.0 — October 24, 2026
+
+- Exact name changed by user to AI Update with Chris Gawad M.D., M.Sc.; prior surname restriction superseded.
+- Introductory series: three to five 15–30-minute videos with progressive learning. Regular-update runtime remains separately scoped.
+- Segment names retained as a menu; not all segments or comparisons required in every episode.
+- News and education focus; only pertinent major deals/valuations, no routine financial analysis.
+- Important source pages shown, zoomed and highlighted alongside narration, with exact dates and claim/source mapping.
+- Source-led investigative research method added after direct transcript/source-list review of cFTWtg2ELcI and selected primary-source checks. Not a full audiovisual or comprehensive factual audit.
+- Browser Scene Player plus OBS specification includes a visible Fullscreen button, annotations, source controls, distinct scenes and matching teleprompter.
+- Supplied thumbnail reference reviewed and stronger visual requirements recorded; this revision does not implement new artwork or player features.
+- Explicit task-specific permission required for all VidIQ calls, including free/status calls.
+- Historical specifications archived and original branch preserved. Legacy executable generator/validator explicitly blocked for version-2 production pending separate updates; new manual brief/checklist supplied.
+- Previous approved channel description preserved. No main merge, external metadata change, video publication or paid commitment performed.
