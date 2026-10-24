@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "series_version": "1.0.0",
+  "approved_reference_date": "2026-10-12",
+  "channel_name": "AI UPDATE",
+  "timezone": "America/New_York",
+  "context_scope": "This project and this thread only; no unrelated conversations or personal history.",
+  "channel_description_policy": "Preserve channel/channel-description.txt exactly as supplied and approved.",
+  "branding": {
+    "image_text": "AI UPDATE only",
+    "spoken_host": "Dr. Chris",
+    "optional_host_credit": "By: Dr. Chris",
+    "surname_allowed": false
+  },
+  "format": {
+    "minimum_seconds": 600,
+    "target_maximum_seconds": 900,
+    "default_seconds": 720,
+    "rare_longer_episode_requires_reason": true,
+    "standard_segments": [
+      {
+        "id": "main-takeaway",
+        "label": "The main takeaway",
+        "default_seconds": 30
+      },
+      {
+        "id": "what-changed",
+        "label": "What changed",
+        "default_seconds": 165
+      },
+      {
+        "id": "benchmark-scoreboard",
+        "label": "The benchmark scoreboard",
+        "default_seconds": 150
+      },
+      {
+        "id": "same-prompt-comparison",
+        "label": "The same-prompt comparison",
+        "default_seconds": 240
+      },
+      {
+        "id": "choice-and-next",
+        "label": "Your choice and what is next",
+        "default_seconds": 135
+      }
+    ]
+  },
+  "optional_lesson": {
+    "standard": false,
+    "selection": "best_and_or_new_items_on_special_occasions",
+    "timing": "Redistribute minutes without removing standard roles."
+  },
+  "publication_cadence": "Intended every other day; no automation or actual publication is asserted.",
+  "freshness": {
+    "research_before_script": true,
+    "research_and_script_same_local_calendar_day": true,
+    "record_exact_cutoff": true,
+    "preserve_original_measurement_dates": true,
+    "recurring_latest_benchmarks_allowed": true,
+    "rerun_tests_when_material_configuration_changes": true
+  },
+  "repo_resources": {
+    "repository": "https://github.com/aibotjock/AI-UPDATE-SOURCES",
+    "canonical_branch": "channel-continuity",
+    "shared_media_source_branch": "media-library",
+    "source_registry": "references/source-registry.json",
+    "asset_catalog": "library/asset-index.json",
+    "readable_inventory": "library/INDEX.md",
+    "source_policy": "channel/source-review-policy.md",
+    "mandatory_episode_use": true,
+    "access_check_is_content_review": false,
+    "reliability_is_claim_specific": true,
+    "sources_may_evolve": true,
+    "only_regularly_updated_sources": true,
+    "maintenance_evidence_required": true,
+    "unverified_update_cadence_is_eligible": false
+  },
+  "canonical_files": {
+    "master": "channel/series-master-prompt.txt",
+    "formula": "channel/episode-formula.txt",
+    "description": "channel/channel-description.txt",
+    "history": "channel/history/"
+  },
+  "production": {
+    "actual_outputs_required": true,
+    "narration_in_finished_video": true,
+    "full_playback_required": true,
+    "publication_requires_separate_authorization": true,
+    "paid_commitments_require_separate_authorization": true
+  },
+  "generation_status": "Generates production prompts and pending records; not an implemented research, narration, or MP4 engine."
+}
