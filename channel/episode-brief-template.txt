@@ -1,0 +1,50 @@
+DATED EPISODE RESEARCH BRIEF AND EXECUTION PROMPT — VERSION 2
+Use with channel/series-master-prompt.txt. Fill from actual research; pending fields are not facts.
+
+CHANNEL: AI Update with Chris Gawad M.D., M.Sc.
+MASTER VERSION / BRANCH / COMMIT:
+EPISODE ID / WORKING TITLE:
+TYPE: introductory series or regular update
+ACTUAL PROMPT DATE:
+RESEARCH / SCRIPT CREATION / FINALIZATION DATES:
+EXACT RESEARCH CUTOFF / TIMEZONE: America/New_York
+EVENT / PUBLICATION / MEASUREMENT DATES: retained separately per claim
+REQUESTED DELIVERY STAGE: research / prompt / ready-to-record player / finished video
+TARGET RUNTIME: 15–30 minutes for introductory series; regular target 10–15 unless changed
+
+CENTRAL VIEWER QUESTION:
+THREE LEARNING OUTCOMES:
+PREREQUISITES / BRIEF EXPLANATIONS:
+RELATION TO PREVIOUS / NEXT EPISODE:
+COMPANIES REVIEWED / SELECTED / DEFERRED AND WHY:
+NEW / UNCHANGED / SUPERSEDED DEVELOPMENTS:
+
+RESEARCH PACKET
+Apply research-method.txt. Include relevant recent/historical timeline, mechanism, actors and distinct AI contribution, quantitative denominators, corroboration and unresolved questions.
+Source IDs; publisher/title/URL; original publication/measurement dates; maintenance review; exact evidence passage/data location; claim IDs; evidence category; model/version/settings where relevant; verification timestamp; conflicts/limitations.
+Complete research before factual narration. Record access blockers precisely. Redundant reporting from one original source is not independent confirmation.
+
+SEGMENTS SELECTED / COMBINED / OMITTED AND RATIONALE:
+PLAN WITH ESTIMATED DURATIONS:
+Intro, selected menu items, closing learning takeaway, outro.
+No compulsory comparison, benchmark, financial section or how-to lesson.
+
+FEATURED SOURCE DISPLAY PLAN
+Scene ID → source/claim IDs → pristine capture or attributed excerpt → publisher/title/date → exact highlight/zoom region and cue → reading hold → full URL → fallback and reuse restrictions.
+
+SCENE MANIFEST
+For every scene: learning purpose; complete narration block; distinct composition/background; visuals/media/asset IDs; motion states; reveal order; source-display actions; hold/replay/pause behavior; presenter framing; annotations; audio cues; planned duration; actual duration when measured.
+Use the repository media/source indexes and suitable dated company research. Document imported branch/ref. Do not invent captures or use empty placeholders in a purported ready-to-record player.
+
+OPTIONAL BENCHMARK / DIRECT COMPARISON
+Include only when it serves the question. Exact models/provider/settings, compatible metric/version, dates, real inputs/outputs, criteria, failures and limitations. Confirm authorization before paid runs.
+
+THUMBNAIL BRIEF
+Truthful promise; focal subject; short readable text; relevant imagery/marks; contrast/lighting; distinct composition; title relationship; reduced-size review.
+
+PLAYER / RECORDING
+Visible Fullscreen button plus shortcut and tested exit; clean capture; rundown; scene/reveal navigation; media replay/pause; source zoom/highlights; pen/highlighter/arrow/box/eraser/laser; scene ink; undo/redo; backup/import; matching teleprompter; OBS instructions.
+
+ACCEPTANCE / STATUS
+Apply production-checklist.md. Separate research, static render checks, real browser playback and actual OBS capture. Include environment, actual test evidence and unresolved issues. Do not call a prompt, screenshot or simulated DOM check a played-back episode.
+Record VidIQ authorization per task if requested; otherwise make no calls.
